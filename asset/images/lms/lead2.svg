@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-rule="nonzero" d="M0 0h67v67H0z" opacity=".01"/>
+        <path fill="#DFE7EB" fill-rule="nonzero" stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M46.17 17.08L30.1 1v16.08z"/>
+        <path fill="#FFF" fill-rule="nonzero" stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M46.17 30.68v-13.6H35.1a5 5 0 0 1-5-5V1H7a5 5 0 0 0-5 5v48.28a5 5 0 0 0 5 5h34.17a5 5 0 0 0 5-5v-23.6z"/>
+        <g fill="#FFEDCC" fill-rule="nonzero" stroke="#FFA800" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="translate(8 16)">
+            <ellipse cx="7.01" cy="3.75" rx="3.66" ry="3.73"/>
+            <path d="M7 14.92a9 9 0 0 0 6.46-2.72 6.78 6.78 0 0 0-12.92 0A9 9 0 0 0 7 14.92z"/>
+        </g>
+        <ellipse cx="15.01" cy="21.61" stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" rx="9.15" ry="9.31"/>
+        <path stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.55 38h12.92M8.55 42.99h17.47M8.55 47.98h17.47"/>
+        <circle cx="47.04" cy="48" r="18" fill="#FFEDCC" fill-rule="nonzero" stroke="#FFA800" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path fill="#FFF" fill-rule="nonzero" stroke="#FFA800" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M53.21 57.5l-6.17-4.49-6.18 4.49 2.36-7.26-6.17-4.48h7.63l2.36-7.26 2.35 7.26h7.63l-6.17 4.48z"/>
+    </g>
+</svg>

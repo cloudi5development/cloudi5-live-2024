@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-rule="nonzero" d="M0 0h67v67H0z" opacity=".01"/>
+        <circle cx="21" cy="46" r="20" fill="#FFF" fill-rule="nonzero" stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path fill="#DFE7EB" fill-rule="nonzero" stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M28.64 55.09a2 2 0 0 0 1.9-2.65 10.28 10.28 0 0 0-19.07 0 2 2 0 0 0 1.9 2.65h15.27z"/>
+        <circle cx="21" cy="41.45" r="4.55" fill="#FFF" fill-rule="nonzero" stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M46 1C34.954 1 26 9.954 26 21s8.954 20 20 20 20-8.954 20-20A20 20 0 0 0 46 1z"/>
+        <path stroke="#A3B0BF" stroke-dasharray="2.29" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.39 28.99V9.39h20.4M57.61 38.05v19.56H37.02"/>
+        <circle cx="46" cy="35.56" r="1.18" fill="#FFEDCC" fill-rule="nonzero" stroke="#F9A61A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path fill="#FFEDCC" fill-rule="nonzero" d="M36 18.16a16.87 16.87 0 0 1 .76-6.26 8.74 8.74 0 0 1 7.34-5.68c4.2-.58 4.88.7 4.88.7a.94.94 0 0 1 0 .94 6.22 6.22 0 0 1 3.16.84 6.83 6.83 0 0 1 2.58 4.22c.16 1.42.16 5 .16 5a4.25 4.25 0 0 1-2.36-1.18c-.82-1-2.3-2.46-2.36-4.72 0 0-.83 2.15-10.61 2.36a14 14 0 0 1-1.18 4.72 1.18 1.18 0 0 1-1.18-1.18 1.24 1.24 0 0 0-1.15.92l-.04-.68z"/>
+        <path fill="#FFEDCC" fill-rule="nonzero" stroke="#F9A61A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M41.87 20.23a2.64 2.64 0 0 1 2.36 0M47.77 20.23a2.56 2.56 0 0 1 2.29 0h.07"/>
+        <circle cx="46" cy="35.56" r="1.18" fill="#FFEDCC" fill-rule="nonzero" stroke="#F9A61A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path fill="#FFEDCC" fill-rule="nonzero" stroke="#F9A61A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M46 40.28v-3.54"/>
+        <path stroke="#F9A61A" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M52.49 16.69s-2.36-2.35-2.36-4.69c-1.2 2-8.26 2.36-10.61 2.36a13.88 13.88 0 0 1-1.18 4.72 1.16 1.16 0 0 1-1.18-1.18A1.18 1.18 0 0 0 36 19.05v2.36c0 .652.528 1.18 1.18 1.18a47.19 47.19 0 0 0 2.95 6.49C40.83 30.17 41.87 32 46 32s5.17-1.85 5.9-2.95a47.19 47.19 0 0 0 2.95-6.49A1.18 1.18 0 0 0 56 21.41v-2.36a1.18 1.18 0 0 0-1.18-1.18v-3.53s0-6.49-5.9-6.49c.59-1.18-.8-1.77-2.95-1.77-10 0-10 9.43-10 9.43M50.13 34.41L49 40a19.18 19.18 0 0 0 9.91-4.73 32.48 32.48 0 0 0-8.78-.86zM33.06 35.27A19.18 19.18 0 0 0 43 40l-1.13-5.64a33.15 33.15 0 0 0-8.81.91z"/>
+        <path stroke="#A3B0BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M46 1C34.954 1 26 9.954 26 21s8.954 20 20 20 20-8.954 20-20A20 20 0 0 0 46 1z"/>
+    </g>
+</svg>

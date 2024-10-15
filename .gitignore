@@ -1,0 +1,7 @@
+uploads
+application/logs/
+application/config/database.php
+*.zip
+*.htaccess
+system/cache/*
+

@@ -1,0 +1,115 @@
+/* banner-section-start */
+
+.align-items-center {
+    align-items: center!important;
+}
+.banner-section
+{
+    /*background: #011a52;*/
+    background: #000;
+    position: relative;
+    padding: 80px 0;
+}
+.banner-background-overlay {
+    background-image: url(../images/home/front-hero-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+/*.resp-banner*/
+/*{*/
+/*    padding-top: 120px;*/
+/*    padding-bottom: 90px;*/
+/*}*/
+
+.home-pagebanner
+{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    animation: gotopdown 6s infinite linear;
+}
+@keyframes gotopdown {
+    0% {
+      transform: rotateX(0deg) translateY(0px);
+    }
+    25% {
+      transform: rotateX(0deg) translateY(-10px);
+    }
+    50% {
+      transform: rotateX(0deg) translateY(10px);
+    }
+    75% {
+        transform: rotateX(0deg) translateY(-10px);
+    }
+    100% {
+      transform: rotateX(0deg) translateY(0px);
+    }
+  }
+@media screen and (max-width:767px){
+.home-pagebanner
+    {
+        width: 100%;
+        padding-bottom: 0;
+        padding-top: 120px;
+    }
+}
+/* banner-section-end */
+
+/* feature-area-start */
+
+.features-area .has-feature-top-bg {
+    position: relative;
+}
+.pt-120 {
+    padding-top: 120px !important;
+}
+.features-area .has-feature-top-bg::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, #F3F8FF 0%, rgba(248, 251, 255, 0.2) 100%);
+    content: "";
+}
+.features-area  .mb-70 {
+    margin-bottom: 70px;
+}
+.features-area  .mb-30
+{
+    margin-bottom: 30px;
+}
+.text-center {
+    text-align: center !important;
+}
+.features-area  .sasup-section-badge-4 {
+    font-weight: 700;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 17px;
+}
+.features-area  .bg-default {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.features-area  .sasup-features-box-4 {
+    border-radius: 10px;
+    padding: 43px 50px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.features-area  .mb-15 {
+    margin-bottom: 15px;
+}
+
+/* feature-area-end */
