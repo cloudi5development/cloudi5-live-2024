@@ -443,17 +443,6 @@
                         </div>
                      </div>
                   </div>
-
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/deena-profile-web-designer.png"
-                           alt="Deena Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Deenadhayalan S</h3>
-                           <p class="team-designation">Web Designer</p>
-                        </div>
-                     </div>
-                  </div>
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/rashika-profile-web-designer.png"
@@ -483,19 +472,7 @@
                            <p class="team-designation">Web Designer</p>
                         </div>
                      </div>
-                  </div>
-                 
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/karthikeyan-profile-mern-stack.png"
-                           alt="Karthikeyan-R Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Karthikeyan R</h3>
-                           <p class="team-designation">MERN Stack Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                 
+                  </div>                 
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/ramya-profile-digital-marketing.png"
