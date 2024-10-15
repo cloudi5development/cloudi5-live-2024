@@ -783,4 +783,13 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'Hire Developers';
 		$this->load->view('frontend/hire-developers',$data);
 	}
+
+	#writeforus
+	public function write_for_us()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'write_for_us')->get('meta_tags')->row();
+		$data['page_title'] = 'Write for Us';
+		$this->load->view('frontend/write-for-us',$data);
+	}
 }
