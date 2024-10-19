@@ -59,7 +59,7 @@ $header_setting = $this->db->from('settings')->get()->row();
                      <div class="navbar-brand navbar-header">
                         <div class="logo">
                            <a href="<?php echo base_url();?>">
-                              <img src="<?php echo base_url();?>asset/images/logo.png" class="img-responsive img-mob-resp" alt="Cloudi5 Technologies Logo">
+                              <img src="<?php echo base_url();?>asset/blog/images/logo.png" class="img-responsive img-mob-resp" alt="Cloudi5 Technologies Logo">
                            </a>
                         </div>
                      </div>

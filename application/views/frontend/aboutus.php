@@ -36,8 +36,15 @@
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
    <?php $this->load->view('frontend/fb-pixel-code'); ?>
 </head>
+
+<style>
+   body{
+      font-family: "Plus Jakarta Sans", sans-serif !important;
+   }
+</style>
 
 <body>
 
@@ -45,7 +52,7 @@
 
       <?php include 'header.php' ?>
 
-      <div class="banner-area about-banner resp-banner" id="banner-area"
+      <div class="banner-area resp-banner" id="banner-area"
          alt="Web Development, ERP, CRM & Web Design Company in India" title="About Us">
          <div class="container">
             <div class="row justify-content-center">
@@ -53,10 +60,10 @@
                   <div class="banner-heading">
                      <h1 class="banner-title2">Intelligent Web Design, Responsive Websites and Strategic Digital
                         Marketing Solutions</h1>
-                     <ol class="breadcrumb">
+                     <!-- <ol class="breadcrumb">
                         <li><a href="<?php echo base_url(); ?>">Home</a></li>
                         <li>About Us</li>
-                     </ol>
+                     </ol> -->
                   </div>
                </div>
             </div>

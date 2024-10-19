@@ -529,7 +529,7 @@ section .title-white {
 }
 
 .column-title.title-small {
-  font-size: 36px
+  font-size: 40px
 }
 
 .embed-responsive {
@@ -1050,7 +1050,7 @@ ul.top-menu li a:hover {
 
 .topbar-transparent {
   color: #fff;
-  background: rgb(255 255 255 / 8%);
+  background: #030e4a;
   backdrop-filter: blur(10px);
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1278,9 +1278,9 @@ ul.top-menu li a:hover {
 }
 
 .header-standard {
-  background: #fff;
-  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
-  box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+  background: #fff !important;
+  -webkit-box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%);
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%) !important;
   z-index: 2
 }
 
@@ -1289,7 +1289,7 @@ ul.top-menu li a:hover {
 }
 
 .header-standard.header-transparent ul.navbar-nav>li>a {
-  color: #fff
+  color: #000
 }
 
 @media screen and (min-width:767px) {
@@ -4602,7 +4602,10 @@ p.panel-title a.collapsed {
   color: #fff;
   background-repeat: no-repeat;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden
+  backface-visibility: hidden;
+  background: rgb(203,27,91);
+  background: radial-gradient(circle, rgba(203,27,91,0.10127801120448177) 0%, rgba(255,255,255,1) 40%);
+  /* background: linear-gradient(180deg, #ffe6e7 0%, rgba(0, 155, 176, 0) 100%); */
 }
 
 .banner-area .container {
@@ -4617,11 +4620,14 @@ p.panel-title a.collapsed {
 }
 
 .banner-title2 {
-  color: #fff;
-  font-size: 40px;
-  font-weight: 500;
+  color: #000;
+  font-size: 60px;
+  font-weight: 600;
   margin-top: 40px;
-  line-height: 48px
+  line-height: 1.2;
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
 }
 
 .banner-title3 {
@@ -4632,9 +4638,10 @@ p.panel-title a.collapsed {
 }
 
 .banner-heading {
-  padding: 150px;
+  padding: 150px 0;
   width: 100%;
   color: #fff;
+  text-align: center;
   -moz-box-orient: vertical;
   -moz-box-direction: normal;
   -ms-flex-direction: column;
@@ -13846,7 +13853,8 @@ round-circle {
 }
 
 .img_banner_section {
-  background-color: #f5f2eb;
+  /* background-color: #f5f2eb; */
+  background: linear-gradient(90deg, rgba(34, 193, 195, 0.06), rgba(253, 187, 45, 0.1));
   z-index: 1
 }
 
