@@ -113,6 +113,7 @@ $route['website-design-company-in-ooty']			    = 'frontend/website_design_compan
 $route['web-development']			                    = 'frontend/web_development';
 $route['hire-developers']			                    = 'frontend/hire_developers';
 $route['write-for-us']			                        = 'frontend/write_for_us';
+$route['home-new']			                        = 'frontend/home_new';
 $route['crm']			    = 'frontend/crm';
 $route['404_override']				    = 'custom404';
 $route['translate_uri_dashes']		    = FALSE;

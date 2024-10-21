@@ -187,6 +187,7 @@
 .write-for-us-home .banner-contents {
   /* position: relative; */
   text-align: center;
+  padding-top: 130px;
 }
 .write-for-us-home .banner-contents .highlight {
   position: relative;
@@ -347,7 +348,7 @@
 }
 .write-for-us-home .circle-shape {
   position: absolute;
-  top: 45px;
+  top: 24%;
   left: -22px;
   animation: cir36 10s linear infinite;
 }
@@ -375,7 +376,7 @@
 }
 .write-for-us-home .ball-pulse-effect {
   position: absolute;
-  top: 50px;
+  top: 30%;
   right: 45px;
   z-index: 1;
 }
@@ -418,24 +419,77 @@
 }
 
 /* about css start */
-.about-us-section {
+.categories-section {
   padding-top: 60px;
-  padding-bottom: 100px;
-  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 60px;
+  background: url(../images/write-for-us/categories-bg.png);
 }
-.about-us-section .sub-heading {
+.categories-section .sub-heading {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
 }
-.about-us-section .sub-heading span {
+.categories-section .sub-heading span {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 18px;
 }
-.about-us-section .about-us-contents {
+.categories-section .categories-contents {
   margin-top: 70px;
+}
+.categories-section .categories-contents .categories-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
+.categories-section
+  .categories-contents
+  .categories-container
+  .categories-list {
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 5px 50px rgba(13, 21, 55, 0.06);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  min-height: 189px;
+}
+.categories-section
+  .categories-contents
+  .categories-container
+  .categories-list:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.categories-section .categories-container .categories-list::before,
+.categories-section .categories-container .categories-list::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0b2359;
+  transition: width 0.3s ease;
+}
+
+.categories-section .categories-container .categories-list::before {
+  left: 50%;
+}
+
+.categories-section .categories-container .categories-list::after {
+  right: 50%;
+}
+
+.categories-section .categories-container .categories-list:hover::before,
+.categories-section .categories-container .categories-list:hover::after {
+  width: 50%;
+}
+.categories-section .categories-container .categories-list img {
+  padding-bottom: 15px;
 }
 .about-us-section h2 {
   font-size: 40px;
@@ -463,7 +517,7 @@
 /* cta css start */
 .cta-section {
   margin-top: -100px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 .cta-section .cta-details {
   padding: 20px 30px;
@@ -551,7 +605,7 @@
 /* what we offer css start */
 
 .our-service {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 60px;
   position: relative;
   background: url(../images/write-for-us/service-img-bg.png);
@@ -1022,7 +1076,8 @@
 
 /* writing-guide css start */
 .writing-guide {
-  padding: 80px 0;
+  padding-top: 60px;
+  padding-bottom: 100px;
   background-color: #f8f9fa;
 }
 
@@ -1181,6 +1236,19 @@
   cursor: pointer;
 }
 
+/* tag sec css start */
+.write-for-tag-section {
+  margin-top: 60px;
+  padding-bottom: 30px;
+  background: #02357512;
+}
+.write-for-tag-section .tag-contents {
+  line-height: 1.8;
+}
+#footer-hide {
+  display: none;
+}
+
 /* responsive start */
 
 @media screen and (max-width: 479px) {
@@ -1305,8 +1373,8 @@
     text-align: center;
   }
   .cta-section {
-    margin-top: -120px;
-    padding-bottom: 40px;
+    margin-top: -60px;
+    padding-bottom: 10px;
   }
   .our-process .process-contents .process-title {
     font-size: 35px;
@@ -1325,6 +1393,27 @@
   }
   .write-for-contact .contact-title {
     font-size: 35px;
+  }
+  .categories-section .categories-contents .categories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 40px;
+    justify-content: start;
+  }
+  .categories-section {
+    padding-bottom: 0px;
+  }
+  .write-for-tag-section .tag-details {
+    padding: 20px;
+  }
+  .categories-section .categories-contents {
+    margin-top: 20px;
+  }
+  .categories-section .heading-content {
+    text-align: center;
+  }
+  .about-desc p {
+    text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1385,7 +1474,16 @@
   }
   .write-for-faq {
     padding: 30px 0;
-}
+  }
+  .categories-section .categories-contents .categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 20px;
+    justify-content: start;
+  }
+  .cta-section {
+    margin-top: -50px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 }

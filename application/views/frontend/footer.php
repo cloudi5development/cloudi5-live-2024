@@ -2,7 +2,7 @@
 $footer_setting = $this->db->from('settings')->get()->row();
 ?>
 <div id="getstarted"></div>
-<footer class="footer">
+<footer class="footer" id="footer-hide">
     <section class="lets_talksection">
         <div class="container">
             <div class="row">

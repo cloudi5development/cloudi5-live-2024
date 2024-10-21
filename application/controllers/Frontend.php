@@ -792,4 +792,13 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'Write for Us';
 		$this->load->view('frontend/write-for-us',$data);
 	}
+
+	#home-new
+	public function home_new()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'home_new')->get('meta_tags')->row();
+		$data['page_title'] = 'Home new';
+		$this->load->view('frontend/home-new',$data);
+	}
 }
