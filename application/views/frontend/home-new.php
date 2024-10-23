@@ -177,8 +177,7 @@
         <!--<a href="#getstarted" class="btn-gradient scrolling">Let's Discuss your Project</a></div>-->
         <!--</div>-->
 
-        <div class="banner-section">
-            <!--<div class="banner-background-overlay"></div>-->
+        <!-- <div class="banner-section">
             <div class="bannerpattern-1"></div>
             <div class="container">
                 <div class="row align-items-center">
@@ -187,11 +186,8 @@
                             <div class="banner-first-line">
                                 <img class="hand-waving" src="<?php echo base_url(); ?>asset/images/3d/waving-hand.svg"
                                     alt="svg"> Leading Digital Solutions Provider in Coimbatore
-                                <!--<p>Leading Digital Solutions Provider in Coimbatore</p>-->
                             </div>
                             <div class="css-typing">
-                                <!--<p>EMPOWER YOUR BUSINESS</p>-->
-                                <!--<p>WITH CLOUDI5ðŸ‘‹</p>-->
                                 <p>Cloudi5, Bringing Visionary</p>
                                 <p>Ideas to Life💡 </p>
                             </div>
@@ -224,8 +220,123 @@
                 <img src="<?php echo base_url(); ?>asset/images/home/slider_shape06.png"
                     alt="seo services in coimbatore">
             </div>
-
-        </div>
+        </div> -->
+        <section class="banner-new-section banner-new-landing">
+            <div class="banner-blur-pattern banner-blur"></div>
+            <div class="clouds">
+                <div class="cloud cloud1"></div>
+                <div class="cloud cloud2"></div>
+                <div class="cloud cloud3"></div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="pb-5 pb-lg-7 text-center">
+                            <span class="label" data-aos="fade-up"><img class="hand-waving"
+                                    src="<?php echo base_url(); ?>asset/images/3d/waving-hand.svg" alt="svg"> Leading
+                                Digital Solutions Provider in Coimbatore</span>
+                            <div class="mb-30">
+                                <h1 class="banner-title">Cloudi5, Bringing <span class="text-highlight"> Visionary <img class="left-arrow"
+                                src="<?php echo base_url(); ?>asset/images/home-new/left-arrow.png" alt="left-arrow"></span> <br> Ideas to Life💡</h1>
+                            </div>
+                            <div class="mb-30">
+                                <p class="banner-description">Web Design, Web Development, Mobile App Development,
+                                    Digital Marketing ✏️</p>
+                            </div>
+                            <a class="banner-new-btn animation-cloud-btn" href="javascript:void(0);">
+                                <span class="cloud-button-content">Let's Discuss your Project</span>
+                                <span class="hover-content">Let's Discuss your Project</span>
+                                <!-- <span class="hover-content">Get Started Now!</span> -->
+                                <span class="animation-cloud-btn-inner">
+                                    <span class="animation-cloud-parts">
+                                        <span class="animation-cloud-part"></span>
+                                        <span class="animation-cloud-part"></span>
+                                        <span class="animation-cloud-part"></span>
+                                        <span class="animation-cloud-part"></span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="img-frames text-center">
+                            <img src="<?php echo base_url(); ?>asset/images/home-new/banner-cover-1.png"
+                                alt="thumb-cover" class="banner-frame-one">
+                            <div class="banner-frame-children banner-frame-children-one">
+                                <img src="<?php echo base_url(); ?>asset/images/home-new/banner-cover-2.png"
+                                    alt="thumb-cover">
+                            </div>
+                            <div class="banner-frame-children banner-frame-children-two">
+                                <img src="<?php echo base_url(); ?>asset/images/home-new/banner-cover-3.png"
+                                    alt="thumb-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-shape-wrap">
+                <img src="<?php echo base_url(); ?>asset/images/home/h3_newsletter_shape01.png"
+                    alt="web design company in coimbatore">
+                <img src="<?php echo base_url(); ?>asset/images/home/banner_shape03.png" alt="web development company">
+                <img src="<?php echo base_url(); ?>asset/images/home/slider_shape03.png"
+                    alt="mobile app development company">
+                <img src="<?php echo base_url(); ?>asset/images/home/banner_shape02.png"
+                    alt="ios app development company">
+                <img src="<?php echo base_url(); ?>asset/images/home/hero-light-2.png" alt="digital marketing company">
+                <img src="<?php echo base_url(); ?>asset/images/home/slider_shape06.png"
+                    alt="seo services in coimbatore">
+            </div>
+        </section>
+        
+        <section class="clients-logo">
+            <div class="container">
+                <div class="client-logo-details">
+                    <div class="clients-title">
+                        <h6>Our Trusted Partner</h6>
+                    </div>
+                    <div class="marquee">
+                        <div class="marquee-content">
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                            </div>
+                            <!-- Duplicate items for seamless looping -->
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients-title-2">
+                        <h6>Almost 20+ Partner we have</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="about-company-sec py-5">
             <div class="container">
