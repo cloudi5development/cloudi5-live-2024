@@ -808,4 +808,11 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'portfolio New';
 		$this->load->view('frontend/portfolio-new',$data);
 	}
+	public function smm()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'smm')->get('meta_tags')->row();
+		$data['page_title'] = 'smm';
+		$this->load->view('frontend/smm',$data);
+	}
 }
