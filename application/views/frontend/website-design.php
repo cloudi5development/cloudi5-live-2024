@@ -71,13 +71,13 @@
         <section class="img_banner_section img_banner_section_height">
             <div class="container">
                 <div class="sketch-1">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-pattern-1.png" alt="pattern" class="banner-pattern-1" />
+                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-pattern-2.png" height="80" width="80" alt="pattern" class="banner-pattern-1" />
                 </div>
                 <div class="sketch-2">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-multi-up-arrow.png" alt="pattern" class="" />
+                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-bottom-pattern.png" height="80" width="80" alt="pattern" class="" />
                 </div>
                 <div class="sketch-3">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-single-Star.webp" alt="pattern" class="single-star-pattern" />
+                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-pattern-3.png" alt="pattern" height="80" width="80" class="single-star-pattern" />
                 </div>
 
                 <div class="row justify-content-center align-items-center">
@@ -92,9 +92,17 @@
                             <p class="wow fadeInLeft" data-wow-delay=".5s">We build sites that deserve applause, not yawns.
                                 Professional, Polished, and Positively enchanting sites.
                             </p>
-                            <div class="banner_btn">
+
+                            <a href="javascript:void(0);" class="contact-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Build Your Dream Site
+                            </a>
+                            <!-- <div class="banner_btn">
                                 <a href="<?php echo base_url(); ?>contactus" class="btn grdnt-purple ecom-ban-btn-txt ecom-btn-pd wd-b-btn" data-wow-delay=".5s"><span class="btn-pulso"></span>Build Your Dream Site</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInDown" data-wow-delay=".5s">
@@ -284,9 +292,38 @@
                 </div>
         </section> -->
 
-        <section class="principle-sec ">
+        <section class="principle-sec  ">
+            <!-- <div class="shape-image-animation p-0">
+                <svg xmlns="http://www.w3.org/2000/svg" widht="auto" height="100" viewBox="0 150 3000 100">
+                    <path class="st1" d="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" fill="#f7e9ea">
+                        <animate attributeName="d" dur="8s" values="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 400 50 400 400 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" repeatCount="indefinite"></animate>
+                    </path>
+                    <path class="st1" d="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" fill="#f7e9ea">
+                        <animate attributeName="d" dur="5s" values="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 400 50 400 400 3000 190 L 3000 350 L 0 350 L 0 190;
+                    M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" repeatCount="indefinite"></animate>
+                    </path>
+                </svg>
+            </div> -->
             <div class="principle-company-section pt-120 mt-100">
+
                 <div class="container">
+
+
+                    <div class="principle-sketch-1">
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ring-pattern.png" height="80" width="80" alt="pattern" class="banner-pattern-1" />
+                    </div>
+                    <div class="principle-sketch-2">
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/solid-pattern.png" height="80" width="80" alt="pattern" class="" />
+                    </div>
+                    <div>
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-1 move-horizontal" height="80" width="80" alt="priciple-img">
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-2 move-horizontal" height="80" width="80" alt="priciple-img">
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-3 move-horizontal " height="80" width="80" alt="priciple-img">
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-4 move-horizontal" height="80" width="80" alt="priciple-img">
+                    </div>
 
                     <div class="row justify-content-between">
                         <div class="col-lg-6">
@@ -300,8 +337,15 @@
                         </div>
                         <div class="col-lg-auto align-self-start">
                             <div class="principle-button-wrapper">
-                                <a href="" class="btn btn-wrapper"> Know more
+                                <!-- <a href="" class="btn btn-wrapper"> Know more
                                     <i class="icon-btn fi fi-rr-arrow-right"></i>
+                                </a> -->
+                                <a href="javascript:void(0);" class="contact-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    View More Details
                                 </a>
                             </div>
 
@@ -329,10 +373,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-3 col-md-6 card-section-col">
-                                    <div class="corner top-left"></div>
-                                    <div class="corner top-right"></div>
-                                    <div class="corner bottom-left"></div>
-                                    <div class="corner bottom-right"></div>
+
                                     <div class="principle-card style3">
                                         <div class="principle-card-icon-item">
                                             <div class="principle-card-icon">
@@ -350,10 +391,7 @@
 
 
                                 <div class="col-xl-3 col-md-6 card-section-col">
-                                    <div class="corner top-left"></div>
-                                    <div class="corner top-right"></div>
-                                    <div class="corner bottom-left"></div>
-                                    <div class="corner bottom-right"></div>
+
                                     <div class="principle-card style3">
                                         <div class="principle-card-icon-item">
                                             <div class="principle-card-icon">
@@ -370,10 +408,7 @@
                                 </div>
 
                                 <div class="col-xl-3 col-md-6 card-section-col">
-                                    <div class="corner top-left"></div>
-                                    <div class="corner top-right"></div>
-                                    <div class="corner bottom-left"></div>
-                                    <div class="corner bottom-right"></div>
+
                                     <div class="principle-card style3">
                                         <div class="principle-card-icon-item">
                                             <div class="principle-card-icon">
@@ -405,19 +440,26 @@
                 <div class="container">
                     <div class="row leading-webdesign-content-wrapper">
                         <div class="col-lg-4 p-0">
-                            <div class="image-box">
-                                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-icon-1.png" class="priciple-img" alt="priciple-img">
+                            <div class="leading-img-wrapper">
+                                <div class="image-box-1">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/leading-company-bg-image-1.webp" class="leading-img-pattern" alt="priciple-img">
+                                </div>
+                                <div class="image-box">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-icon-1.png" class="priciple-img move-y" alt="priciple-img">
+                                </div>
                             </div>
 
                         </div>
                         <div class="col-lg-6 p-0">
                             <div>
                                 <h1 class="leading-webdesign-content-title">
-                                    Leading Web Design <i class="fi fi-rr-arrow-small-right arrow-up-right"></i>
-                                </h1>
-                                <h1 class="leading-webdesign-content-title">
-                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/spin.svg" class="spin" alt="spin-img">
-                                    Company in Coimbatore
+                                    <span class="leading-content-wrapper">
+                                        Leading Web Design <i class="fi fi-rr-arrow-small-right arrow-up-right"></i></span>
+
+                                    <span class="leading-content-wrapper">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/spin.svg" class="spin" alt="spin-img">
+                                        Company in Coimbatore
+                                    </span>
                                 </h1>
                                 <p class="mb-35">
                                     Welcome to Cloudi5 Technologies, your best website designing company in Coimbatore.
@@ -498,10 +540,14 @@
                             </div>
                         </div>
                         <div class="col-lg-4 p-0">
-                            <div class="image-box">
-                                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-potential.png" class="priciple-img-2" alt="priciple-img">
+                            <div class="leading-img-wrapper">
+                                <div class="image-box">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-potential.png" class="priciple-img-2 move-y" alt="priciple-img">
+                                </div>
+                                <div class="image-box-1">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/leading-company-bg-image-1.webp" class="leading-img-pattern-1" alt="priciple-img">
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -539,6 +585,7 @@
                 <div class="process-section-wrapper">
                     <div class="row" id="scroll-progress">
                         <div class="col-lg-6">
+
                             <div class="fixed-column">
                                 <div class="progress-container">
                                     <svg class="progress-ring" width="100%" height="auto" viewBox="0 0 200 200">
@@ -778,7 +825,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-1.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-1.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Custom Web Design</h3>
@@ -794,7 +841,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/wordpress.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/wordpress.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>WordPress Design</h3>
@@ -810,7 +857,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ui-design.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ui-design.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Web UI/UX Design</h3>
@@ -826,7 +873,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/landing_page-img.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/landing_page-img.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Landing Page Design</h3>
@@ -844,7 +891,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/amp_icon.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/amp_icon.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>AMP Web Design</h3>
@@ -862,7 +909,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ecommerce-icon.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ecommerce-icon.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>E-commerce Website Design</h3>
@@ -879,7 +926,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/redesign-image.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/redesign-image-1.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Website Redesign</h3>
@@ -897,7 +944,7 @@
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/web-maintenance.png" class="custom-webdesign" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/web-maintenance.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Website Maintenance</h3>
@@ -905,6 +952,24 @@
                                             and performing at its best. We'll handle tasks like software updates, security checks,
                                             and performance optimization,
                                             allowing you to focus on running your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 p-0">
+                            <div class="techno-card card-eight">
+                                <div class="circle"></div>
+                                <div class="techno-card-content">
+                                    <div class="techno-icon">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cms-webdesign.png" class="custom-webdesign tech-icon " alt="E-Commerce Website Design">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>CMS Web Design</h3>
+                                        <p>Custom CMS web pages that are visually appealing and optimized for SEO.
+                                            allowing you to focus on running your business.
+                                            Easy website management system.
+                                            Improved online presence with CMS web designing services.</p>
                                     </div>
                                 </div>
                             </div>
@@ -927,10 +992,15 @@
 
         <section>
             <div class="container cta-container">
+
                 <div class="pattern-img-curve">
                     <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-section-highlighting.png" class="cta-pattern-1" alt="priciple-img">
                 </div>
                 <div class="call-to-action-sec mb-50">
+                    <div>
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern-1.webp" class="cta-pattern-1-wrapper spin" width="100" height="100" alt="priciple-img">
+                    </div>
+
 
                     <div class="pattern-img-curve">
 
@@ -946,7 +1016,13 @@
                                         your new project today?
                                     </h2>
 
-                                    <a href="" class="btn btn-cta">Contact Us</a>
+                                    <a href="javascript:void(0);" class="contact-btn btn-cta">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        Contact Us
+                                    </a>
 
                                 </div>
                             </div>
@@ -966,22 +1042,145 @@
         <section id="feature" class="feature_area feature_area_bg section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+                    <div class="col-lg-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
                         <div class="single_feature mt_60">
-                            <h2>Our Web Design and Development Technologies</h2>
+                            <h2 class="text-center">Our Web Design and Development Technologies</h2>
                             <p>You can spread your wings worldwide and build a powerful brand with updated web designing skills that complement the advancing business expansion trends. Our expert team designs your websites using the latest technologies like HTML 4 & 5, Bootstrap, Angular and Vue.js and Content Management System (CMS) - WordPress, Shopify, Magento and Joomla. We deploy PHP frameworks like Laravel and CodeIgniter for <a href="<?php echo base_url('web-development'); ?>"><strong>Web Development.</strong></a></p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+                    <!-- <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
                         <div class="feature_img">
                             <img data-animate="fadeInLeftBig" src="<?php echo base_url(); ?>asset/images/wd-page/icon.png" class="img-fluid fadeInLeftBig animated" alt="Web Design Frameworks" />
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="wd-section tech-web-dev pt-60 pb-60 mt-20 mb-20">
+                <div class="container">
+                    <!-- <h2 class="section-title-wd">The Technologies We use at Cloudi5 Technologies</h2> -->
+
+                    <div class="d-flex justify-content-center">
+                        <div class="css-masonry">
+                            <!-- Bootstrap -->
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/html.webp" alt="Html">
+                                    <div class="tech-name">HTML</div>
+                                </div>
+                            </div>
+
+                            <!-- Magento -->
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/laravel.png" alt="Laravel">
+                                    <div class="tech-name">Laravel</div>
+                                </div>
+                            </div>
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/css.webp" alt="Css">
+                                    <div class="tech-name">CSS</div>
+                                </div>
+                            </div>
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/php.webp" alt="PHP">
+                                    <div class="tech-name">PHP</div>
+                                </div>
+                            </div>
+
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/js.webp" alt="JavaScript">
+                                    <div class="tech-name">JavaScript</div>
+                                </div>
+                            </div>
+
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/react.webp" alt="ReactJs">
+                                    <div class="tech-name">React JS</div>
+                                </div>
+                            </div>
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/bootstrap.png"
+                                        alt="Bootstrap">
+                                    <div class="tech-name">Bootstrap</div>
+                                </div>
+                            </div>
+
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/typescript.webp" alt="Jquery">
+                                    <div class="tech-name">Typescript</div>
+                                </div>
+                            </div>
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/jquery.webp" alt="Jquery">
+                                    <div class="tech-name">Jquery</div>
+                                </div>
+                            </div>
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/vue.webp" alt="Vue">
+                                    <div class="tech-name">Vue JS</div>
+                                </div>
+                            </div>
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/photoshop.webp"
+                                        alt="Photoshop">
+                                    <div class="tech-name">Photoshop</div>
+                                </div>
+                            </div>
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/sql.webp" alt="SQL">
+                                    <div class="tech-name">MySQL</div>
+                                </div>
+                            </div>
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/angular.png" alt="Angular">
+                                    <div class="tech-name">Angular</div>
+                                </div>
+                            </div>
+
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/node.webp" alt="Node">
+                                    <div class="tech-name">Node JS</div>
+                                </div>
+                            </div>
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/wordpress.webp"
+                                        alt="Wordpress">
+                                    <div class="tech-name">Wordpress</div>
+                                </div>
+                            </div>
+                            <div class="tech-card size-2">
+                                <div class="tech-item">
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/mongo.webp" alt="MongoDB">
+                                    <div class="tech-name">MongoDB</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Portfolio -->
-        <section class="projects-page-section pt-50">
+        <!-- <section class="projects-page-section pt-50">
             <div class="container">
                 <div class="h4 lrg text-center"> Our <span class="red-text">Portfolio </div><span class="red-border-line">&nbsp;</span>
                 <div class="mixitup-gallery pt-30">
@@ -1021,11 +1220,22 @@
                     <div class="text-center"><a class="btn btn-primary" href="<?php echo base_url(); ?>portfolio"> View More Portfolio</a></div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- FAQ-section-starts -->
         <section>
             <div class="faq-section">
+                <div>
+
+                </div>
+                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-pattern-1.webp" class="faq-pattern-1-wrapper spin" alt="priciple-img">
+                <div>
+
+                </div>
+                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-pattern-2.webp" class="faq-pattern-2-wrapper spin" alt="priciple-img">
+                <div>
+                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/text-shape-pattern.webp" class="text-shape-pattern" alt="priciple-img">
+                </div>
                 <div class="container position-relative">
                     <div class="faq-container">
                         <div class="faq-title">
