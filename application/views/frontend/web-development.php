@@ -34,13 +34,13 @@
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
    <?php $this->load->view('frontend/fb-pixel-code'); ?>
    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"> -->
-   
+
 </head>
 
 <body>
    <div class="body-inner">
       <?php include 'header.php' ?>
-      <div class="banner-area overlay about-banner resp-banner" id="banner-area"
+      <!-- <div class="banner-area overlay about-banner resp-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="Website Development">
          <div class="container">
             <div class="row justify-content-center">
@@ -56,7 +56,21 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
+      <section class="wd-section wd-section-banner">
+         <div class="container banner-content">
+            <div class="row justify-content-center">
+               <div class="col-md-10">
+                  <div class="banner-tagline">
+                     <span> Transform Your Vision into Digital Success!</span>
+                  </div>
+                  <h2 class="title">Gear up your business returns with top-performing <span>Web Development</span>
+                     Company in Coimbatore!</h2>
+               </div>
+            </div>
+         </div>
+      </section>
+
       <section class="wd-section pt-60 pb-60 section-sure">
          <div class="row">
             <div class="img-wrapper">
@@ -125,47 +139,60 @@
                   unique needs and goals, ensuring that the final product exceeds your expectations. Plus, our
                   commitment to delivering projects on time and within budget means you can trust us to get the job done
                   right, every time</p>
-               <a class="banner-new-btn animation-cloud-btn mt-20" href="javascript:void(0);">
-                  <span class="cloud-button-content">Start the project</span>
-                  <span class="hover-content">Start the project</span>
-                  <!-- <span class="hover-content">Get Started Now!</span> -->
-                  <span class="animation-cloud-btn-inner">
-                     <span class="animation-cloud-parts">
-                        <span class="animation-cloud-part"></span>
-                        <span class="animation-cloud-part"></span>
-                        <span class="animation-cloud-part"></span>
-                        <span class="animation-cloud-part"></span>
-                     </span>
-                  </span>
+               <a href="javascript:void(0);" class="contact-btn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Start the project
                </a>
-
-
             </div>
          </div>
       </section>
       <section class="mCommerce padd50 ">
          <div class="container">
+            <p class="aos-animate aos-init" data-aos="fade-up">
+               <span class="tagline">We Build What You Need</spa>
+            </p>
             <h2 class="newTitle aos-animate aos-init aos-h2" data-aos="fade-up">Why Partner with Cloudi5?</h2>
-            <p class="aos-animate aos-init" data-aos="fade-up">We Build What You Need</p>
-            <ul class="boxes clearfix aos-animate aos-init" data-aos="flip-right">
-               <li><a> <img src="<?php echo base_url(); ?>asset/images/web-development/analytics.png"
-                        alt="Understand Client Requirements"><br>
+
+            <ul class="boxes clearfix aos-animate aos-init service-list" data-aos="flip-right">
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/team.png"
+                           alt="Understand Client Requirements"><br>
+                     </div>
                      <h3>Dedicated Team</h3>
                   </a></li>
-               <li><a> <img src="<?php echo base_url(); ?>asset/images/web-development/custom-software.png"
-                        alt="Convert into Mockups"><br>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/time.png" alt="On-time"><br>
+                     </div>
                      <h3>On-time Delivery</h3>
                   </a></li>
-               <li><a> <img src="<?php echo base_url(); ?>asset/images/web-development/customer-experience.png"
-                        alt="Share Prototype with Clients"><br>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/c-satisfaction.png"
+                           alt="Review"><br>
+
+                     </div>
                      <h3>100% Client Satisfaction</h3>
-                  </a></li>
-               <li><a> <img src="<?php echo base_url(); ?>asset/images/web-development/client-feedback.png"
-                        alt="Take Feedback"><br>
+                  </a>
+
+               </li>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/idea.png" alt="Innovation"><br>
+
+                     </div>
                      <h3>Innovative Solutions</h3>
                   </a></li>
-               <li><a> <img src="<?php echo base_url(); ?>asset/images/web-development/digital-strategy.png"
-                        alt="Start the Project"><br>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/maintenance.png"
+                           alt="Support"><br>
+
+                     </div>
                      <h3>Continuous Support</h3>
                   </a></li>
             </ul>
@@ -254,9 +281,11 @@
       </div>
       <section class="adds_value madcValue howAnd_why iotBg gcv padd50 p-relative">
          <div class="text-dev container">
+            <p class="text-center aos-animate aos-init" data-aos="fade-up"><span class="tagline">Our Artistic Web
+                  Development Journey</span></p>
+
             <h2 class="text-center newTitle aos-animate aos-init aos-h2" data-aos="fade-up">Designing Digital Destinies
             </h2>
-            <p class="text-center aos-animate aos-init" data-aos="fade-up">Our Artistic Web Development Journey</p>
             <div class="downArrow">
                <i class="fa fa-angle-down down-arrow"></i>
             </div>
@@ -508,6 +537,209 @@
          </div>
       </section>
 
+      <!-- hiring-developers-start -->
+      <section class="wd-section wd-section-hiring">
+         <div class="container">
+
+            <div class="row justify-content-center">
+               <div class="col-md-8">
+                  <h2 class="section-title-wd text-center">Why Hiring Cloudi5 Web Developers is the Smart Move?</h2>
+               </div>
+               <div class="col-md-6">
+                  <p>When you choose Cloudi5's web developers, you're not just hiring a team; you're partnering with a
+                     group of digital experts who will create a website that's both stunning and high-performing.
+                     Cloudi5 Web Developers are passionate experts who build websites that get results. We combine top
+                     skills with a smart approach to create websites that people love and that help your business grow.
+                     We build secure and reliable websites using the latest tools. They'll grow with your business too!
+                     Plus, we're here for the long haul, offering ongoing support to keep your website running smoothly.
+                  </p>
+                  <p>Partner with Cloudi5, the best web developers in Coimbatore, and get more website traffic, more
+                     leads, and a stronger brand. Because of our efficient way of working, we can potentially offer
+                     competitive development costs too.</p>
+               </div>
+               <div class="col-md-6 section-hiring-right">
+                  <!-- <div class="image-hire">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/letse.jpg" alt="Shape-Dot">
+                  </div> -->
+                  <div class="image-hire-content-card">
+                     <p><span class="quote">Ready to start your success story?</span></p>
+                     <p>We're here to work with you,
+                        not just for now, but for the long term. Let's talk about your goals and how we can help you
+                        succeed. No secret handshake required, just a genuine desire to achieve something extraordinary
+                        together.</p>
+                  </div>
+                  <div class="image-hire-content-card-2">
+                     <p><span class="quote">Ready to start your success story?</span></p>
+                  </div>
+                  <div class="shpdez2 shpdzz"></div>
+                  <div class="shpdez1 shpdzz"></div>
+                  <div class="shape-arrow shpdzz">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/arrow.png" alt="Review"><br>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </section>
+
+      <!-- faq start -->
+
+
+      <!-- faq end -->
+      <section class="faq-section-wd pt-60 pb-60">
+         <div class="faq-section container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="faq-header">
+                     <p><span class="tagline">FAQ</span></p>
+                     <h2 class="section-title-wd">
+                        Everything You Need to Know!
+                     </h2>
+                     <p class="faq-description">Stop Wasting Time Scrolling Here! The Good Stuff Happens After You Sign
+                        Up with Cloudi5. Don't Miss Out!</p>
+                     <a href="javascript:void(0);" class="contact-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Join the Cloudi5 Fam!
+                     </a>
+                  </div>
+               </div>
+
+               <div class="col-md-8">
+                  <div class="accordion d-flex flex-col" id="faqAccordion">
+                     <!-- FAQ Item 1 -->
+                     <div class="card">
+                        <div class="card-header" id="headingOne">
+                           <h2 data-toggle="collapse" data-target="#collapseOne">
+                              1. Do you offer any free consultations or website audits?
+                           </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse" data-parent="#faqAccordion">
+                           <div class="card-body">
+                              Absolutely! We believe in open communication and understanding your needs. We offer
+                              free consultations to discuss your vision and goals for your website. We can also
+                              perform a free website audit to identify areas for improvement.
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- FAQ Item 2 -->
+                     <div class="card">
+                        <div class="card-header" id="headingTwo">
+                           <h2 data-toggle="collapse" data-target="#collapseTwo">
+                              2. Do you offer website maintenance and support services?
+                           </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#faqAccordion">
+                           <div class="card-body">
+                              Yes, we do! We understand that your website is an ongoing asset. We offer website
+                              maintenance and support plans to ensure your website stays up-to-date, secure, and
+                              functioning smoothly.
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- FAQ Item 3 -->
+                     <div class="card">
+                        <div class="card-header" id="headingThree">
+                           <h2 data-toggle="collapse" data-target="#collapseThree">
+                              3. Are your web developers experienced in working with my industry?
+                           </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#faqAccordion">
+                           <div class="card-body">
+                              We have a team of experienced web developers with expertise in a wide range of industries.
+                              We'll take the time to understand your specific industry needs and challenges to create a
+                              website that resonates with your target audience.
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- FAQ Item 4 -->
+                     <div class="card">
+                        <div class="card-header" id="headingFour">
+                           <h2 data-toggle="collapse" data-target="#collapseFour">
+                              4. How do you ensure my website will be mobile-friendly?
+                           </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-parent="#faqAccordion">
+                           <div class="card-body">
+                              We prioritize responsive design in all our projects. This means your website will
+                              automatically adjust to fit any screen size, ensuring a seamless user experience on
+                              desktops, tablets, and mobile phones.
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- FAQ Item 5 -->
+                     <div class="card">
+                        <div class="card-header" id="headingFive">
+                           <h2 data-toggle="collapse" data-target="#collapseFive">
+                              5. Will my website be secure and protect my visitors' information?
+                           </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" data-parent="#faqAccordion">
+                           <div class="card-body">
+                              Security is a top priority for us. We use the latest security measures and best practices
+                              to protect your website and your visitors' information.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="card">
+                        <div class="card-header" id="headingSix">
+                           <h2 data-toggle="collapse" data-target="#collapseSix">
+                              6. Do you offer search engine optimization (SEO) services?
+                           </h2>
+                        </div>
+                        <div id="collapseSix" class="collapse" data-parent="#faqAccordion">
+                           <div class="card-body">
+                              We can help optimize your website for search engines to improve your website's visibility
+                              and organic traffic. We can incorporate SEO best practices into the website development
+                              process and offer ongoing SEO services.
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <!-- web-dev cta -->
+      <section class="wd-section wd-section-cta">
+         <div class="container">
+            <div class="shape-wrapper">
+               <div class="shape-cta-1">
+                  <img src="<?php echo base_url(); ?>asset/images/web-development/shape-1.png" alt="Shape-Dot">
+               </div>
+               <div class="shape-cta-2">
+                  <img src="<?php echo base_url(); ?>asset/images/web-development/shape-2.png" alt="Shape-Dot">
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-10">
+                  <div class="cta-content">
+                     <h3>
+                        Our Developers Are So Good, They Can Code in Their Sleep<br />(Probably Shouldn't, But Still!)
+                     </h3>
+                     <a href="javascript:void(0);" class="contact-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Sign Up Today!
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
       <!-- <section class="wd-section wd-section-faq">
          <div class="faq-section container">
             <div class="row d-flex">
@@ -612,7 +844,49 @@
       <?php include 'footer.php' ?>
       <?php $this->load->view('frontend/common-js'); ?>
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
+      <!-- <script>
+         $(document).ready(function () {
+            $('.accordion-single:first-child .accordion-btn').addClass('active');
+            $('.accordion-single:first-child .content-area').show();
+
+            $('.accordion-btn').on('click', function () {
+               var $this = $(this);
+               var $parent = $this.closest('.accordion-single');
+               var $content = $parent.find('.content-area');
+
+               if ($this.hasClass('active')) {
+                  $this.removeClass('active');
+                  $content.slideUp();
+               } else {
+                  $('.accordion-btn').removeClass('active');
+                  $('.content-area').slideUp();
+                  $this.addClass('active');
+                  $content.slideDown();
+               }
+            });
+         });
+      </script> -->
+      <script>
+         $(document).ready(function () {
+            // Add click handler for card headers
+            $('.card-header').click(function () {
+               // Remove active class from all headers
+               $('.card-header').removeClass('active');
+               // Add active class to clicked header if its collapse is opening
+               if (!$(this).next('.collapse').hasClass('show')) {
+                  $(this).addClass('active');
+               }
+            });
+
+            // Remove active class when a collapse is hidden
+            $('.collapse').on('hide.bs.collapse', function () {
+               $(this).prev('.card-header').removeClass('active');
+            });
+         });
+      </script>
    </div>
 </body>
+
+
 
 </html>
