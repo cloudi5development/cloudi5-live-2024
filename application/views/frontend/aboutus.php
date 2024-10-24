@@ -41,9 +41,9 @@
 </head>
 
 <style>
-   body{
+   /* body{
       font-family: "Plus Jakarta Sans", sans-serif !important;
-   }
+   } */
 </style>
 
 <body>
@@ -52,7 +52,7 @@
 
       <?php include 'header.php' ?>
 
-      <div class="banner-area resp-banner" id="banner-area"
+      <div class="banner-area about-banner resp-banner" id="banner-area"
          alt="Web Development, ERP, CRM & Web Design Company in India" title="About Us">
          <div class="container">
             <div class="row justify-content-center">
@@ -60,10 +60,10 @@
                   <div class="banner-heading">
                      <h1 class="banner-title2">Intelligent Web Design, Responsive Websites and Strategic Digital
                         Marketing Solutions</h1>
-                     <!-- <ol class="breadcrumb">
+                     <ol class="breadcrumb">
                         <li><a href="<?php echo base_url(); ?>">Home</a></li>
                         <li>About Us</li>
-                     </ol> -->
+                     </ol>
                   </div>
                </div>
             </div>

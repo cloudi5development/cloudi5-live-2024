@@ -1050,12 +1050,13 @@ ul.top-menu li a:hover {
 
 .topbar-transparent {
   color: #fff;
-  background: #030e4a;
+  background: rgb(255 255 255 / 8%);
   backdrop-filter: blur(10px);
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 12px 0;
   line-height: normal;
+
   -webkit-transition: 350ms;
   transition: 350ms
 }
@@ -1278,9 +1279,9 @@ ul.top-menu li a:hover {
 }
 
 .header-standard {
-  background: #fff !important;
+  /* background: #fff !important; */
   -webkit-box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%);
-  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%) !important;
+  /* box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%) !important; */
   z-index: 2
 }
 
@@ -1289,7 +1290,7 @@ ul.top-menu li a:hover {
 }
 
 .header-standard.header-transparent ul.navbar-nav>li>a {
-  color: #000
+  color: #ffffff
 }
 
 @media screen and (min-width:767px) {
@@ -4620,14 +4621,11 @@ p.panel-title a.collapsed {
 }
 
 .banner-title2 {
-  color: #000;
-  font-size: 60px;
-  font-weight: 600;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
   margin-top: 40px;
-  line-height: 1.2;
-  width: 100%;
-  margin: auto;
-  padding-top: 50px;
+  line-height: 48px;
 }
 
 .banner-title3 {
@@ -4641,7 +4639,7 @@ p.panel-title a.collapsed {
   padding: 150px 0;
   width: 100%;
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
   -moz-box-orient: vertical;
   -moz-box-direction: normal;
   -ms-flex-direction: column;

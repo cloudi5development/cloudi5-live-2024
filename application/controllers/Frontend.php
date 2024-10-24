@@ -801,4 +801,11 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'Home new';
 		$this->load->view('frontend/home-new',$data);
 	}
+	public function portfolio_new()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'portfolio_new')->get('meta_tags')->row();
+		$data['page_title'] = 'portfolio New';
+		$this->load->view('frontend/portfolio-new',$data);
+	}
 }
