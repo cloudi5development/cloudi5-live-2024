@@ -149,6 +149,7 @@
             }]
         }
     </script>
+
     <?php $this->load->view('frontend/fb-pixel-code'); ?>
 </head>
 
@@ -177,7 +178,7 @@
         <!--<a href="#getstarted" class="btn-gradient scrolling">Let's Discuss your Project</a></div>-->
         <!--</div>-->
 
-        <!-- <div class="banner-section">
+        <div class="banner-section">
             <div class="bannerpattern-1"></div>
             <div class="container">
                 <div class="row align-items-center">
@@ -220,8 +221,9 @@
                 <img src="<?php echo base_url(); ?>asset/images/home/slider_shape06.png"
                     alt="seo services in coimbatore">
             </div>
-        </div> -->
-        <section class="banner-new-section banner-new-landing">
+        </div>
+
+        <!-- <section class="banner-new-section banner-new-landing">
             <div class="banner-blur-pattern banner-blur"></div>
             <div class="clouds">
                 <div class="cloud cloud1"></div>
@@ -246,7 +248,6 @@
                             <a class="banner-new-btn animation-cloud-btn" href="javascript:void(0);">
                                 <span class="cloud-button-content">Let's Discuss your Project</span>
                                 <span class="hover-content">Let's Discuss your Project</span>
-                                <!-- <span class="hover-content">Get Started Now!</span> -->
                                 <span class="animation-cloud-btn-inner">
                                     <span class="animation-cloud-parts">
                                         <span class="animation-cloud-part"></span>
@@ -288,8 +289,8 @@
                 <img src="<?php echo base_url(); ?>asset/images/home/slider_shape06.png"
                     alt="seo services in coimbatore">
             </div>
-        </section>
-        
+        </section> -->
+
         <section class="clients-logo">
             <div class="container">
                 <div class="client-logo-details">
