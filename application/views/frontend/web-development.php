@@ -38,9 +38,9 @@
 </head>
 
 <body>
-   <div class="body-inner">
+   <div class="body-inner web-dev-page">
       <?php include 'header.php' ?>
-      <!-- <div class="banner-area overlay about-banner resp-banner" id="banner-area"
+      <div class="banner-area overlay about-banner resp-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="Website Development">
          <div class="container">
             <div class="row justify-content-center">
@@ -56,7 +56,7 @@
                </div>
             </div>
          </div>
-      </div> -->
+      </div>
       <section class="wd-section wd-section-banner">
          <div class="container banner-content">
             <div class="row justify-content-center">
@@ -117,7 +117,7 @@
          </div>
       </section>
       <section class="main-container wd-section web-dev-section pb-60" id="main-container">
-         <div class="container">
+         <div class="container web-dev-section-content">
             <div class="text-center">
                <h3 class="text-center common_h4">We help build a remarkable online presence</span></h3>
                <p class="title-content">Don't just take our word for it. Look at the countless businesses just like
@@ -138,7 +138,7 @@
                   delivering excellence in every project we undertake. We work closely with you to understand your
                   unique needs and goals, ensuring that the final product exceeds your expectations. Plus, our
                   commitment to delivering projects on time and within budget means you can trust us to get the job done
-                  right, every time</p>
+                  right, every time.</p>
                <a href="javascript:void(0);" class="contact-btn">
                   <span></span>
                   <span></span>
@@ -159,21 +159,20 @@
             <ul class="boxes clearfix aos-animate aos-init service-list" data-aos="flip-right">
                <li><a>
                      <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/team.png"
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/team.webp"
                            alt="Understand Client Requirements"><br>
                      </div>
                      <h3>Dedicated Team</h3>
                   </a></li>
                <li><a>
                      <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/time.png" alt="On-time"><br>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/ontime.webp" alt="On-time"><br>
                      </div>
                      <h3>On-time Delivery</h3>
                   </a></li>
                <li><a>
                      <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/c-satisfaction.png"
-                           alt="Review"><br>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/client.png" alt="Review"><br>
 
                      </div>
                      <h3>100% Client Satisfaction</h3>
@@ -182,15 +181,15 @@
                </li>
                <li><a>
                      <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/idea.png" alt="Innovation"><br>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/innovation.png"
+                           alt="Innovation"><br>
 
                      </div>
                      <h3>Innovative Solutions</h3>
                   </a></li>
                <li><a>
                      <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/maintenance.png"
-                           alt="Support"><br>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/support.png" alt="Support"><br>
 
                      </div>
                      <h3>Continuous Support</h3>
@@ -202,14 +201,14 @@
       </section>
       <div class="web_process_banner hide-mob">
          <div class="table">
-            <div class="table-cell width50">
+            <div class="table-cell width50 hid-tab">
                <img id="p_lt_ctl01_pageplaceholder_p_lt_ctl04_EI_SolutionBanner_ucEditableImage_imgImage"
                   src="<?php echo base_url(); ?>asset/images/web-development/custom-website-development-service-cloudi5.png"
                   alt="Custom Website Development Service | Cloudi5" class="width100">
             </div>
             <div class="table-cell width50">
                <h2 class="font-web"><span>Our Spectrum of Development Services</span></h2>
-               <div class="row">
+               <div class="row table-cell-content">
                   <div class="">
                      <div class="ts-feature-box">
                         <div class="ts-feature-info icon-left">
@@ -270,10 +269,11 @@
                            </div>
                         </div>
                      </div>
-                     <a class="btn call-us btn-warning aos-animate contact-opener aos-init dev-talk-btn mt-20"
-                        href="tel:+919159913344" data-aos="fade-up">Call Us: +91 91599 13344</a>
-                     <a class="btn btn-warning yellowBtn aos-animate contact-opener aos-init dev-talk-btn mt-20"
-                        href="#getstarted" data-aos="fade-up">Get Started</a>
+                     <div class="table-cell-button"><a class="btn call-us btn-warning aos-animate contact-opener aos-init dev-talk-btn mt-20"
+                           href="tel:+919159913344" data-aos="fade-up">Call Us: +91 91599 13344</a>
+                        <a class="btn btn-warning yellowBtn aos-animate contact-opener aos-init dev-talk-btn mt-20"
+                           href="#getstarted" data-aos="fade-up">Get Started</a>
+                     </div>
                   </div>
                </div>
             </div>
@@ -293,7 +293,7 @@
       </section>
       <section class="adds_value madcValue howAnd_why appMaintenance cs_software padd50">
          <div class="container">
-            <div class="row">
+            <div class="row r-and-d">
                <div class="mar-de col-sm-5 col-xs-12"><img class="img-responsive cirle_process rdTop"
                      src="<?php echo base_url(); ?>asset/images/web-development/research-and-development.png"
                      alt="R&amp;D"></div>
@@ -317,7 +317,7 @@
       <hr>
       <section class="wd-section adds_value madcValue howAnd_why appMaintenance cs_software white padd50">
          <div class="container">
-            <div class="row">
+            <div class="row ui-ux">
                <div class="col-sm-7 col-xs-12 text-left">
                   <h3 class="top aos-animatee aos-init" data-aos="fade-up">Designing UI and UX:</h3>
                   <p class="aos-animate aos-init" data-aos="fade-up">We will help you build an engaging product easily
@@ -339,7 +339,7 @@
       <hr>
       <section class="wd-section adds_value madcValue howAnd_why appMaintenance cs_software padd50">
          <div class="container">
-            <div class="row">
+            <div class="row dev-test-debug">
                <div class="col-sm-5 col-xs-12"><img class="img-responsive cirle_process"
                      src="<?php echo base_url(); ?>asset/images/web-development/development-testing-debugging.png"
                      alt="Development, Testing and Debugging"></div>
@@ -417,7 +417,6 @@
       <section class="wd-section tech-web-dev pt-60 pb-60">
          <div class="container">
             <h2 class="section-title-wd">The Technologies We use at Cloudi5 Technologies</h2>
-
             <div class="d-flex justify-content-center">
                <div class="css-masonry">
                   <!-- Bootstrap -->
@@ -445,9 +444,8 @@
 
                   <div class="tech-card size-2">
                      <div class="tech-item">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/bootstrap.png"
-                           alt="Bootstrap">
-                        <div class="tech-name">Bootstrap</div>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/php.webp" alt="PHP">
+                        <div class="tech-name">PHP</div>
                      </div>
                   </div>
 
@@ -466,24 +464,27 @@
                         <div class="tech-name">React JS</div>
                      </div>
                   </div>
+                  <div class="tech-card size-2">
+                     <div class="tech-item">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/bootstrap.png"
+                           alt="Bootstrap">
+                        <div class="tech-name">Bootstrap</div>
+                     </div>
+                  </div>
+
 
                   <div class="tech-card size-2">
                      <div class="tech-item">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/node.webp" alt="Node">
-                        <div class="tech-name">Node JS</div>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/typescript.webp"
+                           alt="Jquery">
+                        <div class="tech-name">Typescript</div>
                      </div>
                   </div>
+
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/jquery.webp" alt="Jquery">
                         <div class="tech-name">Jquery</div>
-                     </div>
-                  </div>
-
-                  <div class="tech-card size-2">
-                     <div class="tech-item">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/php.webp" alt="PHP">
-                        <div class="tech-name">PHP</div>
                      </div>
                   </div>
 
@@ -509,14 +510,14 @@
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/angular.png" alt="Angular">
-                        <div class="tech-name">Angular JS</div>
+                        <div class="tech-name">Angular</div>
                      </div>
                   </div>
 
                   <div class="tech-card size-2">
                      <div class="tech-item">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/php.webp" alt="PHP">
-                        <div class="tech-name">PHP</div>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/node.webp" alt="Node">
+                        <div class="tech-name">Node JS</div>
                      </div>
                   </div>
                   <div class="tech-card size-2">
@@ -534,6 +535,7 @@
                   </div>
                </div>
             </div>
+
          </div>
       </section>
 
@@ -569,7 +571,7 @@
                         together.</p>
                   </div>
                   <div class="image-hire-content-card-2">
-                     <p><span class="quote">Ready to start your success story?</span></p>
+                     <p><span class="quote">What Are You Waiting For?</span></p>
                   </div>
                   <div class="shpdez2 shpdzz"></div>
                   <div class="shpdez1 shpdzz"></div>
@@ -583,7 +585,136 @@
       </section>
 
       <!-- faq start -->
+      <section class="write-for-faq position-relative">
+         <!-- <div class="faq-shape">
+            <img src="<?php echo base_url(); ?>asset/images/write-for-us/faq-shape.svg" alt="img" class="">
+         </div> -->
+         <div class="container position-relative">
+            <div class="faqs-title text-center">
 
+               <h2 class="faq-title">
+                  Everything You Need to Know!
+               </h2>
+               <div class="description">
+                  <p>Stop Wasting Time Scrolling Here! The Good Stuff Happens After You Sign Up with Cloudi5. Don't Miss
+                     Out!.</p>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-8">
+                  <div class="faq">
+                     <div class="accordion-section">
+                        <div class="accordion-single">
+                           <h5 class="header-area">
+                              <button
+                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
+                                 type="button">
+                                 1. Do you offer any free consultations or website audits?
+                              </button>
+                           </h5>
+                           <div class="content-area">
+                              <div class="content-body pt-4">
+                                 <p class="desc">
+                                    Absolutely! We believe in open communication and understanding your needs. We offer
+                                    free consultations to discuss your vision and goals for your website. We can also
+                                    perform a free website audit to identify areas for improvement.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-single">
+                           <h5 class="header-area ">
+                              <button
+                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
+                                 type="button">
+                                 2. Do you offer website maintenance and support services?
+                              </button>
+                           </h5>
+                           <div class="content-area">
+                              <div class="content-body pt-4">
+                                 <p class="desc">Yes, we do! We understand that your website is an ongoing asset. We
+                                    offer website maintenance and support plans to ensure your website stays up-to-date,
+                                    secure, and functioning smoothly.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-single">
+                           <h5 class="header-area ">
+                              <button
+                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
+                                 type="button">
+                                 3. Are your web developers experienced in working with my industry?
+                              </button>
+                           </h5>
+                           <div class="content-area">
+                              <div class="content-body pt-4">
+                                 <p class="desc">
+                                    We have a team of experienced web developers with expertise in a wide range of
+                                    industries. We'll take the time to understand your specific industry needs and
+                                    challenges to create a website that resonates with your target audience.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-single">
+                           <h5 class="header-area ">
+                              <button
+                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
+                                 type="button">
+                                 4. How do you ensure my website will be mobile-friendly?
+                              </button>
+                           </h5>
+                           <div class="content-area">
+                              <div class="content-body pt-4">
+                                 <p class="desc">
+                                    We prioritize responsive design in all our projects. This means your website will
+                                    automatically adjust to fit any screen size, ensuring a seamless user experience on
+                                    desktops, tablets, and mobile phones.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-single">
+                           <h5 class="header-area ">
+                              <button
+                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
+                                 type="button">
+                                 5. Will my website be secure and protect my visitors' information?
+                              </button>
+                           </h5>
+                           <div class="content-area">
+                              <div class="content-body pt-4">
+                                 <p class="desc">
+                                    Security is a top priority for us. We use the latest security measures and best
+                                    practices to protect your website and your visitors' information.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-single">
+                           <h5 class="header-area ">
+                              <button
+                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
+                                 type="button">
+                                 6. Do you offer search engine optimization (SEO) services?
+                              </button>
+                           </h5>
+                           <div class="content-area">
+                              <div class="content-body pt-4">
+                                 <p class="desc">
+                                    We can help optimize your website for search engines to improve your website's
+                                    visibility and organic traffic. We can incorporate SEO best practices into the
+                                    website development process and offer ongoing SEO services.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
 
       <!-- faq end -->
       <section class="faq-section-wd pt-60 pb-60">
@@ -844,7 +975,7 @@
       <?php include 'footer.php' ?>
       <?php $this->load->view('frontend/common-js'); ?>
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
-      <!-- <script>
+      <script>
          $(document).ready(function () {
             $('.accordion-single:first-child .accordion-btn').addClass('active');
             $('.accordion-single:first-child .content-area').show();
@@ -865,7 +996,7 @@
                }
             });
          });
-      </script> -->
+      </script>
       <script>
          $(document).ready(function () {
             // Add click handler for card headers

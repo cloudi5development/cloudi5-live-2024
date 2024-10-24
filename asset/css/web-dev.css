@@ -139,19 +139,22 @@
   box-sizing: border-box;
   break-inside: avoid;
   box-shadow: 0 0 10px #00000019;
-  transition: transform 0.2s;
 }
 
 .tech-card:hover {
-  transform: translateY(-3px);
   box-shadow: 0 0 10px #00000019;
 }
-
+.tech-card:hover .tech-item img {
+  transform: translateY(-5px);
+}
 .tech-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+.tech-item img {
+  transition: transform 0.2s;
 }
 
 /* Varying height classes */
@@ -246,12 +249,12 @@
   bottom: 45%;
   left: 3px;
 }
-body {
+/* body {
   font-family: "Plus Jakarta Sans", sans-serif !important;
 }
 .tagline {
   font-family: "Plus Jakarta Sans", sans-serif !important;
-}
+} */
 .section-sure {
   position: relative;
 }
@@ -347,7 +350,7 @@ body {
   transition: transform 0.3s ease;
   width: 25px;
   height: 25px;
-  line-height: 15px;
+  line-height: 22px;
   text-align: center;
   border: 1px solid;
   border-radius: 50%;
@@ -660,15 +663,15 @@ body {
   left: 0;
   bottom: 20px;
 }
-.shape-arrow img{
+.shape-arrow img {
   width: 135px;
-  transform: rotate(123deg);
+  transform: rotate(160deg);
 }
-.shape-arrow{
-  right: 12%;
-  bottom: 30px;
+.shape-arrow {
+  right: 16%;
+  bottom: 23px
 }
-.adds_value.gcv{
+.adds_value.gcv {
   padding-bottom: 20px;
 }
 /* banner-web dev */
@@ -793,7 +796,7 @@ body {
   border: none !important;
   color: #434141;
   line-height: 1.6;
-  letter-spacing: 0.1px;
+  /* letter-spacing: 0.1px; */
   font-size: 16px;
 }
 
@@ -803,7 +806,7 @@ body {
 }
 #faqAccordion .card-header h2[aria-expanded="true"],
 #faqAccordion .collapse.show + .card-header h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 .mCommerce .boxes li img {
   position: relative;
@@ -848,7 +851,7 @@ body {
   border-radius: 50%;
 }
 
-.mcommerce-icon::before {
+/* .mcommerce-icon::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -859,18 +862,18 @@ body {
   transition: all 0.3s ease-out;
   transform-origin: top center;
   transform: rotate(45deg);
-}
+} */
 
-.mCommerce .boxes li:hover .mcommerce-icon::before {
+/* .mCommerce .boxes li:hover .mcommerce-icon::before {
   top: 0;
   left: 50%;
-}
+} */
 
 .mcommerce-icon img {
   position: relative;
   z-index: 1;
-  top: 20px;
-  width: 60px !important;
+  top: 10px;
+  width: 90px !important;
 }
 
 .service-list h3 {
@@ -887,4 +890,151 @@ body {
 }
 .mCommerce .boxes li:nth-child(3) {
   width: 250px !important;
+}
+.mCommerce .boxes li:nth-child(3) img {
+  top: 0;
+  width: 105px !important;
+}
+.mCommerce .boxes li:nth-child(3) .mcommerce-icon {
+  border-radius: unset !important;
+}
+/* responsive */
+@media (max-width: 767px) {
+  .wd-section.section-sure .section-intro {
+    flex-direction: column;
+  }
+  .web-dev-section .web-dev-section-content {
+    padding-left: 20px;
+  }
+  .wd-section.section-sure .section-content {
+    border: none !important;
+  }
+  .tech-web-dev .section-title-wd {
+    font-size: 32px;
+  }
+  .wd-section-hiring .section-title-wd {
+    line-height: 1.2;
+    font-size: 32px;
+    padding: 0px !important;
+  }
+  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software .container {
+    padding: 00px 20px;
+  }
+  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software .r-and-d,
+  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software .dev-test-debug {
+    flex-direction: column-reverse;
+  }
+  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software .r-and-d {
+    margin-top: 40px;
+  }
+  .wd-section-hiring .container {
+    padding: 0px 20px !important;
+  }
+  .wd-section-hiring .image-hire-content-card {
+    position: unset !important;
+    transform: translate(0px);
+  }
+  .wd-section-hiring .image-hire-content-card-2 span {
+    bottom: -58px;
+    left: 15%;
+  }
+  .wd-section-hiring .section-hiring-right {
+    display: flex;
+    justify-content: center;
+  }
+  .shpdez1 {
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    bottom: -35px;
+    animation: swipe 4s linear infinite;
+  }
+  .shape-arrow {
+    right: 0;
+    bottom: -50px;
+  }
+  .shape-arrow img {
+    width: 100px;
+    transform: rotate(152deg);
+  }
+  .wd-section-hiring {
+    padding-bottom: 100px !important;
+    padding-top: 20px;
+  }
+  .write-for-faq .faq-title {
+    font-size: 32px;
+  }
+  .faq-section-wd .faq-section {
+    padding: 00px 20px;
+  }
+  .faq-section-wd .card-header h2 {
+    line-height: 1.5;
+    align-items: start;
+  }
+  .faq-section-wd .card-header h2:after {
+    line-height: 1;
+  }
+  .faq-section-wd .card {
+    padding: 10px;
+  }
+  .faq-section-wd .faq-section .accordion {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px;
+    border-radius: 20px;
+  }
+  .faq-section-wd .card:nth-child(1) {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .faq-section-wd .card:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .wd-section-cta {
+    padding: 0px;
+  }
+  .wd-section-cta .cta-content {
+    padding: 20px;
+  }
+  .wd-section-cta .cta-content h3 {
+    font-size: 24px;
+  }
+  .wd-section-cta .shape-wrapper .shape-cta-1 img {
+    left: 20px;
+    width: 65px;
+    bottom: 0;
+  }
+  .wd-section-cta .shape-wrapper .shape-cta-2 img {
+    right: -10px;
+  }
+  .web-dev-page .footer .lets_talksection {
+    margin-top: 130px;
+  }
+  .wd-section-banner .title {
+    font-size: 25px;
+  }
+  .wd-section-banner .banner-tagline {
+    margin: 20px 00px;
+  }
+  .wd-section-banner .banner-content {
+    height: fit-content;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .hid-tab {
+    display: none !important;
+  }
+  .table-cell-content {
+    justify-content: center;
+  }
+  .web_process_banner .table .table-cell:last-child {
+    padding: 0px;
+  }
+  .web_process_banner .table .table-cell .font-web {
+    text-align: center;
+  }
+  .table-cell-button{
+    text-align: center;
+  }
 }
