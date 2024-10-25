@@ -40,24 +40,22 @@
 <body>
    <div class="body-inner web-dev-page">
       <?php include 'header.php' ?>
-      <div class="banner-area overlay about-banner resp-banner" id="banner-area"
+      <div class="banner-area overlay about-banner resp-banner wd-section-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="Website Development">
-         <div class="container">
+         <div class="container banner-content">
             <div class="row justify-content-center">
-               <div class="col">
-                  <div class="banner-heading">
-                     <h1 class="banner-title2">Gear up your business returns with top-performing Web Development Company
-                        in Coimbatore</h1>
-                     <ol class="breadcrumb">
-                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                        <li>Web&nbsp;Development</li>
-                     </ol>
+               <div class="col-md-10">
+                  <div class="banner-tagline">
+                     <span> <img src="<?php echo base_url(); ?>asset/images/web-development/star.png"
+                           alt="Convert into Mockups"> Transform Your Vision into Digital Success!</span>
                   </div>
+                  <h2 class="title">Gear up your business returns with top-performing <span>Web Development</span>
+                     Company in Coimbatore!</h2>
                </div>
             </div>
          </div>
       </div>
-      <section class="wd-section wd-section-banner">
+      <!-- <section class="wd-section wd-section-banner">
          <div class="container banner-content">
             <div class="row justify-content-center">
                <div class="col-md-10">
@@ -69,9 +67,9 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
 
-      <section class="wd-section pt-60 pb-60 section-sure">
+      <section class="wd-section pt-80 pb-80 section-sure">
          <div class="row">
             <div class="img-wrapper">
                <div class="shape-1">
@@ -85,32 +83,37 @@
             </div>
             <div class="container d-flex section-intro">
 
-               <div class="col-md-5">
+               <div class="col-md-6">
                   <div class="tagline">Who Are We, Really?</div>
                   <div class="title">
                      <h3 class="common_h4">The Best Website Development Company in Coimbatore</h3>
                   </div>
-
+                  <div class="section-content">
+                     <p class="title-content">
+                        Sure, we could call ourselves the <strong>'Best'</strong> but at Cloudi5, we're more interested
+                        in
+                        proving it. Cloudi5
+                        is
+                        <span>the top web development company in Coimbatore</span>. Our team isn't just about writing
+                        code;
+                        we're
+                        visionaries
+                        who create websites that wow audiences and turn clicks into customers. We mix smart ideas, cool
+                        designs,
+                        and tech skills to make websites that stand out online.
+                     </p>
+                     <p class="title-content">
+                        Our websites don't just look good; they
+                        work
+                        great on phones, tablets, and computers. We're always aiming for the best, and we make sure our
+                        websites
+                        help businesses grow and shine online.
+                     </p>
+                  </div>
                </div>
-               <div class="col-md-7 section-content">
-                  <p class="title-content">
-                     Sure, we could call ourselves the <strong>'Best'</strong> but at Cloudi5, we're more interested in
-                     proving it. Cloudi5
-                     is
-                     <span>the top web development company in Coimbatore</span>. Our team isn't just about writing code;
-                     we're
-                     visionaries
-                     who create websites that wow audiences and turn clicks into customers. We mix smart ideas, cool
-                     designs,
-                     and tech skills to make websites that stand out online.
-                  </p>
-                  <p class="title-content">
-                     Our websites don't just look good; they
-                     work
-                     great on phones, tablets, and computers. We're always aiming for the best, and we make sure our
-                     websites
-                     help businesses grow and shine online.
-                  </p>
+               <div class="col-md-6 section-content-image">
+                  <img src="<?php echo base_url(); ?>asset/images/web-development/web-dev.png"
+                     alt="Web Development"><br>
                </div>
 
             </div>
@@ -119,6 +122,23 @@
       <section class="main-container wd-section web-dev-section pb-60" id="main-container">
          <div class="container web-dev-section-content">
             <div class="text-center">
+               <div class="shape-wrapper">
+                  <div class="shape-tri-1">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/tri-shape-1.webp" alt="Shape-1">
+                  </div>
+                  <div class="shape-tri-2">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/tri-shape-2.png" alt="Shape-2">
+                  </div>
+                  <div class="shape-tri-3">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
+                  </div>
+                  <div class="shape-tri-4">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
+                  </div>
+                  <div class="shape-tri-5">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/blob-1.webp" alt="Shape-4">
+                  </div>
+               </div>
                <h3 class="text-center common_h4">We help build a remarkable online presence</span></h3>
                <p class="title-content">Don't just take our word for it. Look at the countless businesses just like
                   yours who've transformed
@@ -269,10 +289,12 @@
                            </div>
                         </div>
                      </div>
-                     <div class="table-cell-button"><a class="btn call-us btn-warning aos-animate contact-opener aos-init dev-talk-btn mt-20"
-                           href="tel:+919159913344" data-aos="fade-up">Call Us: +91 91599 13344</a>
+                     <div class="table-cell-button">
                         <a class="btn btn-warning yellowBtn aos-animate contact-opener aos-init dev-talk-btn mt-20"
-                           href="#getstarted" data-aos="fade-up">Get Started</a>
+                           href="#getstarted" data-aos="fade-up">Get Started</a><a
+                           class="btn call-us btn-warning aos-animate contact-opener aos-init dev-talk-btn mt-20"
+                           href="tel:+919159913344" data-aos="fade-up">Call Us: +91 91599 13344</a>
+
                      </div>
                   </div>
                </div>
@@ -331,13 +353,13 @@
                   </ul>
                </div>
                <div class="col-sm-5 col-xs-12"><img class="img-responsive cirle_process uiUx"
-                     src="<?php echo base_url(); ?>asset/images/web-development/ui-and-ux-development-company.png"
+                     src="<?php echo base_url(); ?>asset/images/web-development/ui-and-ux-development-company.webp"
                      alt="Designing UI and UX"></div>
             </div>
          </div>
       </section>
       <hr>
-      <section class="wd-section adds_value madcValue howAnd_why appMaintenance cs_software padd50">
+      <section class="wd-section adds_value madcValue howAnd_why appMaintenance cs_software development-testing padd50">
          <div class="container">
             <div class="row dev-test-debug">
                <div class="col-sm-5 col-xs-12"><img class="img-responsive cirle_process"
@@ -362,8 +384,31 @@
       <!--Testimonial-->
       <section class="quote-area bg-overlay overlay-color" id="quote-area">
          <div class="container">
-            <div class="row">
-               <div class="col-lg-3"></div>
+            <div class="row justify-content-center align-items-center">
+               <!-- <div class="col-lg-3"></div> -->
+               <div class="shape-wrapper">
+                  <div class="shape-review-1">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/review-star.png" alt="Review">
+                  </div>
+               </div>
+               <div class="col-lg-5 d-flex flex-col align-items-center">
+                  <div class="feedback-title">
+                     <h3>Discover how our commitment to excellence has impacted businesses just like yours!!!</h3>
+                  </div>
+                  <div class="w-100">
+                     <a href="javascript:void(0);" class="contact-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Start the project
+                     </a>
+                  </div>
+                  <!-- <div class="feedback-image">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/girl-review.png" alt="Review">
+                  </div> -->
+               </div>
+               <div class="col-lg-1"></div>
                <div class="col-lg-6 align-self-center">
                   <div class="owl-carousel owl-theme testimonial-slide owl-dark" id="testimonial-slide">
                      <div class="item">
@@ -371,7 +416,8 @@
                               existing portal. They have developers who are up to date with technology. They are
                               creative and work to bring products to life on the web.</span>
                            <div class="quote-item-footer">
-                              <img class="testimonial-thumb" src="<?php echo base_url(); ?>asset/images/avatar.jpg"
+                              <img class="testimonial-thumb"
+                                 src="<?php echo base_url(); ?>asset/images/web-development/user-review.webp"
                                  alt="testimonial">
                               <div class="quote-item-info">
                                  <p class="quote-author">Mr. Bala</p>
@@ -384,7 +430,8 @@
                         <div class="quote-item quote-square"><span class="quote-text">Great work. I have already
                               recommended them to some of my friends and will definitely continue to do so.</span>
                            <div class="quote-item-footer">
-                              <img class="testimonial-thumb" src="<?php echo base_url(); ?>asset/images/avatar.jpg"
+                              <img class="testimonial-thumb"
+                                 src="<?php echo base_url(); ?>asset/images/web-development/user-review.webp"
                                  alt="testimonial">
                               <div class="quote-item-info">
                                  <h3 class="quote-author">Mr. Maheshraja Chinnasamy</h3>
@@ -399,7 +446,8 @@
                               impressed with the quality of their coding. If quality service is what you’re looking for,
                               I would strongly recommend you to go with Cloudi5.</span>
                            <div class="quote-item-footer">
-                              <img class="testimonial-thumb" src="<?php echo base_url(); ?>asset/images/avatar.jpg"
+                              <img class="testimonial-thumb"
+                                 src="<?php echo base_url(); ?>asset/images/web-development/user-review.webp"
                                  alt="testimonial">
                               <div class="quote-item-info">
                                  <h3 class="quote-author">Mr. Satheesh</h3>
@@ -410,11 +458,10 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3"></div>
             </div>
          </div>
       </section>
-      <section class="wd-section tech-web-dev pt-60 pb-60">
+      <section class="wd-section tech-web-dev pt-80 pb-80">
          <div class="container">
             <h2 class="section-title-wd">The Technologies We use at Cloudi5 Technologies</h2>
             <div class="d-flex justify-content-center">
@@ -538,9 +585,110 @@
 
          </div>
       </section>
+      <div class="wd-section pt-60 pb-60 section-hiring-timeline">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-md-8">
+                  <h2 class="section-title-wd text-center">Why Hiring <span class="text-gradient">Cloudi5 Web
+                        Developers</span> is the Smart Move?</h2>
+               </div>
+            </div>
+            <div class="timeline">
+               <!-- Item 1 -->
+               <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                     <div class="timeline-content-border"></div>
+                     <div class="timeline-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/handhsake.png" alt="team">
+                     </div>
+                     <p class="timeline-title">More Than Just a Team.</p>
+                     <p class="timeline-text">
+                        When you choose Cloudi5's web developers, you're not just hiring a team; you're partnering with
+                        a group of digital experts who will create a website that's both stunning and high-performing.
+                     </p>
+                  </div>
+                  <div class="arrow">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
 
+               <!-- Item 2 -->
+               <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                     <div class="timeline-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/trophy.png" alt="trophy">
+                     </div>
+                     <p class="timeline-title">Passionate Experts, Proven Results.</p>
+                     <p class="timeline-text">
+                        Cloudi5 Web Developers are passionate experts who build websites that get results. We combine
+                        top skills with a smart approach to create websites that people love and that help your business
+                        grow. We build secure and reliable websites using the latest tools. They'll grow with your
+                        business too! Plus, we're here for the long haul, offering ongoing support to keep your website
+                        running smoothly.
+                     </p>
+                  </div>
+                  <div class="arrow-2">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+
+               <!-- Item 3 -->
+               <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                     <div class="timeline-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/medal.png" alt="medal">
+                     </div>
+                     <p class="timeline-title">Partner with the Best.</p>
+                     <p class="timeline-text">
+                        Partner with Cloudi5, the best web developers in Coimbatore, and get more website traffic, more
+                        leads, and a stronger brand. Because of our efficient way of working, we can potentially offer
+                        competitive development costs too.
+                     </p>
+                  </div>
+                  <div class="arrow">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+
+               <!-- Item 4 -->
+               <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                     <div class="timeline-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/communication.png"
+                           alt="communication">
+                     </div>
+                     <p class="timeline-title">Let's Talk About Your Success.</p>
+                     <p class="timeline-text">
+                        Ready to start your success story? We're here to work with you, not just for now, but for the
+                        long term. Let's talk about your goals and how we can help you succeed. No secret handshake
+                        required, just a genuine desire to achieve something extraordinary together.
+                     </p>
+
+                  </div>
+                  <div class="arrow-2">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
       <!-- hiring-developers-start -->
-      <section class="wd-section wd-section-hiring">
+      <!-- <section class="wd-section wd-section-hiring">
          <div class="container">
 
             <div class="row justify-content-center">
@@ -560,9 +708,7 @@
                      competitive development costs too.</p>
                </div>
                <div class="col-md-6 section-hiring-right">
-                  <!-- <div class="image-hire">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/letse.jpg" alt="Shape-Dot">
-                  </div> -->
+                  
                   <div class="image-hire-content-card">
                      <p><span class="quote">Ready to start your success story?</span></p>
                      <p>We're here to work with you,
@@ -582,8 +728,11 @@
             </div>
          </div>
 
-      </section>
+      </section> -->
 
+      
+      <section class="blog-web-dev pt-80 pb-80"></section>
+      
       <!-- faq start -->
       <section class="write-for-faq position-relative">
          <!-- <div class="faq-shape">
@@ -591,7 +740,6 @@
          </div> -->
          <div class="container position-relative">
             <div class="faqs-title text-center">
-
                <h2 class="faq-title">
                   Everything You Need to Know!
                </h2>
@@ -856,14 +1004,15 @@
                <div class="col-md-10">
                   <div class="cta-content">
                      <h3>
-                        Our Developers Are So Good, They Can Code in Their Sleep<br />(Probably Shouldn't, But Still!)
+                        Creating Websites with Precision & Passion,
+                        Let’s make a website that’s as unique as you!!
                      </h3>
                      <a href="javascript:void(0);" class="contact-btn">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        Sign Up Today!
+                        Design My Future!
                      </a>
                   </div>
                </div>
