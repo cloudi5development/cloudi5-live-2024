@@ -711,48 +711,6 @@
 
       </div>
       <!-- hiring-developers-start -->
-      <!-- <section class="wd-section wd-section-hiring">
-         <div class="container">
-
-            <div class="row justify-content-center">
-               <div class="col-md-8">
-                  <h2 class="section-title-wd text-center">Why Hiring Cloudi5 Web Developers is the Smart Move?</h2>
-               </div>
-               <div class="col-md-6">
-                  <p>When you choose Cloudi5's web developers, you're not just hiring a team; you're partnering with a
-                     group of digital experts who will create a website that's both stunning and high-performing.
-                     Cloudi5 Web Developers are passionate experts who build websites that get results. We combine top
-                     skills with a smart approach to create websites that people love and that help your business grow.
-                     We build secure and reliable websites using the latest tools. They'll grow with your business too!
-                     Plus, we're here for the long haul, offering ongoing support to keep your website running smoothly.
-                  </p>
-                  <p>Partner with Cloudi5, the best web developers in Coimbatore, and get more website traffic, more
-                     leads, and a stronger brand. Because of our efficient way of working, we can potentially offer
-                     competitive development costs too.</p>
-               </div>
-               <div class="col-md-6 section-hiring-right">
-                  
-                  <div class="image-hire-content-card">
-                     <p><span class="quote">Ready to start your success story?</span></p>
-                     <p>We're here to work with you,
-                        not just for now, but for the long term. Let's talk about your goals and how we can help you
-                        succeed. No secret handshake required, just a genuine desire to achieve something extraordinary
-                        together.</p>
-                  </div>
-                  <div class="image-hire-content-card-2">
-                     <p><span class="quote">What Are You Waiting For?</span></p>
-                  </div>
-                  <div class="shpdez2 shpdzz"></div>
-                  <div class="shpdez1 shpdzz"></div>
-                  <div class="shape-arrow shpdzz">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/arrow.png" alt="Review"><br>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-      </section> -->
-
 
       <!-- <section class="blog-web-dev pt-80 pb-80">
          <div class="container mt-5">
@@ -1062,19 +1020,23 @@
                </div>
 
                <div class="col-md-11 col-lg-8">
-                  <div class="accordion d-flex flex-col" id="faqAccordion">
+                  <div class="accordion" id="faqAccordion">
                      <!-- FAQ Item 1 -->
                      <div class="card">
                         <div class="card-header" id="headingOne">
-                           <h2 data-toggle="collapse" data-target="#collapseOne">
-                              1. Do you offer any free consultations or website audits?
+                           <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                 data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 1. Do you offer any free consultations or website audits?
+                              </button>
                            </h2>
                         </div>
-                        <div id="collapseOne" class="collapse" data-parent="#faqAccordion">
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
                            <div class="card-body">
-                              Absolutely! We believe in open communication and understanding your needs. We offer
-                              free consultations to discuss your vision and goals for your website. We can also
-                              perform a free website audit to identify areas for improvement.
+                              Absolutely! We believe in open communication and understanding your needs. We offer free
+                              consultations to discuss your vision and goals for your website. We can also perform a
+                              free website audit to identify areas for improvement.
                            </div>
                         </div>
                      </div>
@@ -1082,11 +1044,15 @@
                      <!-- FAQ Item 2 -->
                      <div class="card">
                         <div class="card-header" id="headingTwo">
-                           <h2 data-toggle="collapse" data-target="#collapseTwo">
-                              2. Do you offer website maintenance and support services?
+                           <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                 data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                 aria-controls="collapseTwo">
+                                 2. Do you offer website maintenance and support services?
+                              </button>
                            </h2>
                         </div>
-                        <div id="collapseTwo" class="collapse" data-parent="#faqAccordion">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
                            <div class="card-body">
                               Yes, we do! We understand that your website is an ongoing asset. We offer website
                               maintenance and support plans to ensure your website stays up-to-date, secure, and
@@ -1098,11 +1064,16 @@
                      <!-- FAQ Item 3 -->
                      <div class="card">
                         <div class="card-header" id="headingThree">
-                           <h2 data-toggle="collapse" data-target="#collapseThree">
-                              3. Are your web developers experienced in working with my industry?
+                           <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                 data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                 aria-controls="collapseThree">
+                                 3. Are your web developers experienced in working with my industry?
+                              </button>
                            </h2>
                         </div>
-                        <div id="collapseThree" class="collapse" data-parent="#faqAccordion">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                           data-parent="#faqAccordion">
                            <div class="card-body">
                               We have a team of experienced web developers with expertise in a wide range of industries.
                               We'll take the time to understand your specific industry needs and challenges to create a
@@ -1110,15 +1081,18 @@
                            </div>
                         </div>
                      </div>
-
-                     <!-- FAQ Item 4 -->
                      <div class="card">
                         <div class="card-header" id="headingFour">
-                           <h2 data-toggle="collapse" data-target="#collapseFour">
-                              4. How do you ensure my website will be mobile-friendly?
+                           <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                 data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                 aria-controls="collapseFour">
+                                 4. How do you ensure my website will be mobile-friendly?
+                              </button>
                            </h2>
                         </div>
-                        <div id="collapseFour" class="collapse" data-parent="#faqAccordion">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                           data-parent="#faqAccordion">
                            <div class="card-body">
                               We prioritize responsive design in all our projects. This means your website will
                               automatically adjust to fit any screen size, ensuring a seamless user experience on
@@ -1126,33 +1100,21 @@
                            </div>
                         </div>
                      </div>
-
-                     <!-- FAQ Item 5 -->
                      <div class="card">
                         <div class="card-header" id="headingFive">
-                           <h2 data-toggle="collapse" data-target="#collapseFive">
-                              5. Will my website be secure and protect my visitors' information?
+                           <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                 data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                 aria-controls="collapseFive">
+                                 5. Will my website be secure and protect my visitors' information?
+                              </button>
                            </h2>
                         </div>
-                        <div id="collapseFive" class="collapse" data-parent="#faqAccordion">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                           data-parent="#faqAccordion">
                            <div class="card-body">
                               Security is a top priority for us. We use the latest security measures and best practices
                               to protect your website and your visitors' information.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="card">
-                        <div class="card-header" id="headingSix">
-                           <h2 data-toggle="collapse" data-target="#collapseSix">
-                              6. Do you offer search engine optimization (SEO) services?
-                           </h2>
-                        </div>
-                        <div id="collapseSix" class="collapse" data-parent="#faqAccordion">
-                           <div class="card-body">
-                              We can help optimize your website for search engines to improve your website's visibility
-                              and organic traffic. We can incorporate SEO best practices into the website development
-                              process and offer ongoing SEO services.
                            </div>
                         </div>
                      </div>
@@ -1301,40 +1263,30 @@
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
       <script>
          $(document).ready(function () {
-            $('.accordion-single:first-child .accordion-btn').addClass('active');
-            $('.accordion-single:first-child .content-area').show();
+            // Add click event to the entire card
+            $('.card').click(function (e) {
+               // Prevent default behavior only if clicking on card but not on the collapse itself
+               if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
+                  e.preventDefault();
 
-            $('.accordion-btn').on('click', function () {
-               var $this = $(this);
-               var $parent = $this.closest('.accordion-single');
-               var $content = $parent.find('.content-area');
+                  // Find the collapse element within this card
+                  const collapseElement = $(this).find('.collapse');
 
-               if ($this.hasClass('active')) {
-                  $this.removeClass('active');
-                  $content.slideUp();
-               } else {
-                  $('.accordion-btn').removeClass('active');
-                  $('.content-area').slideUp();
-                  $this.addClass('active');
-                  $content.slideDown();
-               }
-            });
-         });
-      </script>
-      <script>
-         $(document).ready(function () {
-            // Add click handler for card headers
-            $('.card-header').click(function () {
-               // Remove active class from all headers
-               $('.card-header').removeClass('active');
-               // Add active class to clicked header if its collapse is opening
-               if (!$(this).next('.collapse').hasClass('show')) {
-                  $(this).addClass('active');
+                  // Find the button within this card
+                  const button = $(this).find('.card-header button');
+
+                  // Toggle the collapse
+                  collapseElement.collapse('toggle');
+
+                  // Toggle aria-expanded
+                  button.attr('aria-expanded', button.attr('aria-expanded') === 'true' ? 'false' : 'true');
                }
             });
 
-            // Remove active class when a collapse is hidden
-            $('.collapse').on('hide.bs.collapse', function () {
+            // Handle the show/hide events to manage the +/- icons
+            $('.collapse').on('show.bs.collapse', function () {
+               $(this).prev('.card-header').addClass('active');
+            }).on('hide.bs.collapse', function () {
                $(this).prev('.card-header').removeClass('active');
             });
          });

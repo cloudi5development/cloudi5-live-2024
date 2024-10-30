@@ -1,0 +1,83 @@
+.mob-app-section-banner .banner-content h6 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.flutter-intro-section .title-content {
+  line-height: 1.6;
+}
+.flutter-intro-section .title-content span {
+  color: #da0e17;
+}
+.flutter-intro-section .section-content-image img {
+  width: 500px;
+}
+.flutter-intro-section .img-wrapper .shape-1 img {
+  visibility: hidden;
+}
+.flutter-intro-section {
+  padding-top: 40px !important;
+}
+.flutter-intro-section .section-content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.flutter-intro-section .section-content-image img {
+  width: 550px;
+}
+@keyframes rotateme {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.flutter-intro-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.flutter-intro-section .img-wrapper .shape-1 img {
+  position: absolute;
+  width: 127px;
+  left: -60px;
+  top: -26px;
+  /* transform: rotate(33deg); */
+  opacity: 0.6;
+}
+.flutter-intro-section .img-wrapper .shape-2 img {
+  position: absolute;
+  animation: rotateme 20s linear infinite;
+  right: -40px;
+  top: 10px;
+  overflow: hidden;
+}
+.flutter-intro-contact-btn .contact-btn {
+  margin: 10px 0px 0px 0px !important;
+}
+.flutter-services .title {
+  line-height: 1.3;
+}
+.flutter-services .flutter-service-intro {
+  padding: 15px 0px;
+  border-top: 4px solid blue;
+}
+.flutter-services .flutter-service-intro .content {
+  line-height: 1.5;
+}
+.flutter-services-contact-btn .contact-btn {
+  margin: 0px;
+}
+.flutter-services .btn-col {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.flutter-services .row {
+  justify-content: space-between;
+}

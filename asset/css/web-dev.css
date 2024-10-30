@@ -871,8 +871,15 @@
   border-bottom: 1px solid #e0e0e0;
   /* margin-bottom: 1rem; */
   border-radius: 0px;
+  width: 100%;
 }
-
+.faq-section-wd .card-header h2 .btn-link{
+  font-size: 17px !important;
+  color: #000 !important;
+}
+.faq-section-wd .card-header.active .btn-link{
+  font-weight: 700;
+}
 .faq-section-wd .card-header {
   background: none;
   border: none;
@@ -906,7 +913,7 @@
 
 .faq-section-wd .card-body {
   border: none !important;
-  color: #434141;
+  /* color: #434141; */
   line-height: 1.6;
   /* letter-spacing: 0.1px; */
   font-size: 16px;
@@ -1130,7 +1137,7 @@
   margin-left: -10px;
 }
 
-.timeline-icon {
+.section-hiring-timeline .timeline-icon {
   width: 40px;
   height: 40px;
   background: #ff9800;
@@ -1140,7 +1147,7 @@
   justify-content: center;
   margin-bottom: 15px;
 }
-.timeline-icon img {
+.section-hiring-timeline .timeline-icon img {
   animation: rotate-icon 2s linear infinite;
 }
 
@@ -1158,12 +1165,12 @@
     transform: rotateY(360deg);
   }
 }
-.timeline-icon img {
+.section-hiring-timeline .timeline-icon img {
   width: 25px;
   height: 25px;
 }
 
-.timeline-title {
+.section-hiring-timeline .timeline-title {
   /* font-size: 1.5rem; */
   margin-bottom: 15px;
   color: #ff9800;
@@ -1252,8 +1259,8 @@
   position: absolute;
   top: 0;
   right: -80px;
-  opacity: 0.5;
-  z-index: -1;
+  /* opacity: 0.5; */
+  z-index: 1;
 }
 .shape-review-1 img {
   width: 150px;
@@ -1412,23 +1419,23 @@
   background: rgba(0, 0, 0, 0.8);
   transform: scale(1.1);
 }
-.banner-content .shape-tri-3{
+.banner-content .shape-tri-3 {
   position: absolute;
   right: 0;
   bottom: 25%;
 }
-.banner-content .shape-tri-4{
+.banner-content .shape-tri-4 {
   position: absolute;
   left: 0;
   bottom: 0;
 }
-.banner-content .shape-tri-1{
+.banner-content .shape-tri-1 {
   position: absolute;
-    width: 15px;
-    animation: animationFramesOne 25s infinite linear;
-    left: 0;
+  width: 15px;
+  animation: animationFramesOne 25s infinite linear;
+  left: 0;
 }
-.banner-content .shape-tri-1 img{
+.banner-content .shape-tri-1 img {
   width: 13px;
 }
 
@@ -1497,7 +1504,7 @@
     right: 50%;
     bottom: -15px;
   }
-  .r-and-d img{
+  .r-and-d img {
     position: unset !important;
   }
   .quote-author {
@@ -1531,9 +1538,15 @@
     line-height: 1.2;
     margin-bottom: 40px;
   }
-  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software .r-and-d .col-sm-5,
-  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software .dev-test-debug .col-sm-5,
-  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software.white .ui-ux .col-sm-5 {
+  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software
+    .r-and-d
+    .col-sm-5,
+  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software
+    .dev-test-debug
+    .col-sm-5,
+  .adds_value.madcValue.howAnd_why.appMaintenance.cs_software.white
+    .ui-ux
+    .col-sm-5 {
     text-align: center;
   }
 }
@@ -1673,14 +1686,31 @@
   .faq-section-wd .faq-description {
     color: #fff;
   }
-  .faq-section-wd .card-header h2 {
-    color: #fff;
+  .faq-section-mob .card-header h2:after {
+    content: "+";
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ffffff;
+    transition: transform 0.3s ease;
   }
-  .faq-section-wd .card-body {
-    color: #fff;
+
+  .faq-section-mob .card-header.active h2:after {
+    content: "−";
+    transform: rotate(0deg);
   }
-  .faq-section-wd .card-header h2:after {
-    color: #fff;
+
+  /* Add transition for smooth animation */
+  .faq-section-mob .collapse {
+    transition: max-height 0.3s ease-out;
+  }
+
+  .faq-section-mob .collapse:not(.show) {
+    display: none;
+  }
+
+  .faq-section-mob .collapse.show {
+    display: block;
   }
 }
 @media (max-width: 1024px) {

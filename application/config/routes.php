@@ -70,6 +70,7 @@ $route['multi-vendor-ecommerce-website']	            = 'frontend/multi_vendor_ec
 $route['ecommerce-website-development']	            = 'frontend/ecommerce_website_development';
 $route['multi-vendor-ecommerce-website-in-coimbatore']  = 'frontend/multi_vendor_ecommerce_website_in_coimbatore';
 $route['food']	                        = 'frontend/food';
+$route['flutter-app-development']	= 'frontend/flutter_app_development';
 $route['search-engine-optimization']	= 'frontend/search_engine_optimization';
 $route['search-engine-marketing']	    = 'frontend/search_engine_marketing';
 $route['social-media-optimization']	    = 'frontend/social_media_optimization';
