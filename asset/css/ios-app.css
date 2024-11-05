@@ -1,0 +1,106 @@
+.body-inner .common-inner-banner .inner-pattern img {
+  position: absolute;
+  opacity: 0.3;
+  top: 12%;
+}
+.body-inner .common-inner-banner {
+  background: #0b2359;
+}
+.body-inner .topbar-transparent {
+  background: #051a49;
+}
+.body-inner .header-standard {
+  background: rgb(20 46 100 / 56%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border: 1px solid rgba(35, 70, 144, 0.3);
+}
+.body-inner .common-inner-banner {
+  padding: 1px;
+}
+
+.body-inner .banner-content {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.body-inner .common-inner-banner .banner-tagline {
+  text-align: center;
+  margin: 20px;
+}
+.body-inner .common-inner-banner .banner-tagline span {
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 20px;
+  background: rgba(150, 199, 212, 0.56);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(150, 199, 212, 0.3);
+}
+.body-inner .common-inner-banner .title {
+  text-align: center;
+  line-height: 1.4;
+  color: #ffffff;
+  font-size: 42px;
+}
+.body-inner .common-inner-banner .title span {
+  background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  display: inline-block;
+}
+
+.body-inner .title span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
+  animation: grow 2.5s forwards linear infinite;
+}
+
+@keyframes grow {
+  to {
+    width: 100%;
+  }
+}
+
+.common-inner-banner .shape-tri-3 {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+.common-inner-banner .shape-tri-4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.common-inner-banner .shape-tri-1 {
+  position: absolute;
+  width: 15px;
+  animation: animationFramesOne 25s infinite linear;
+  left: 0;
+}
+.common-inner-banner .shape-tri-1 img {
+  width: 13px;
+}
+.common-inner-banner .banner-tagline span img {
+  width: 22px;
+  padding-bottom: 6px;
+}
+.ios-intro-section .title {
+  line-height: 45px;
+}
+.ios-intro-section .sub-title {
+  font-size: 20px;
+  color: #ba1425;
+}

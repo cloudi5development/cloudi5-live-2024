@@ -808,6 +808,7 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'Home new';
 		$this->load->view('frontend/home-new',$data);
 	}
+	#portfolio-new
 	public function portfolio_new()
 	{
 		$data['settings']	= $this->settings;
@@ -815,11 +816,28 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'portfolio New';
 		$this->load->view('frontend/portfolio-new',$data);
 	}
+	#smm
 	public function smm()
 	{
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'smm')->get('meta_tags')->row();
 		$data['page_title'] = 'smm';
 		$this->load->view('frontend/smm',$data);
+	}
+	#ios-app-development
+	public function ios_app_development()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'ios_app_development')->get('meta_tags')->row();
+		$data['page_title'] = 'IOS App development';
+		$this->load->view('frontend/ios-app-development',$data);
+	}
+	#erp-software
+	public function erp_software()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'erp_software')->get('meta_tags')->row();
+		$data['page_title'] = 'ERP Software';
+		$this->load->view('frontend/erp-software',$data);
 	}
 }
