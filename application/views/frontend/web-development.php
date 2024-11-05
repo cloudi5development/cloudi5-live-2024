@@ -3,10 +3,10 @@
 
 <head>
    <title><?php if ($meta) {
-      echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company In Coimbatore | Web Application";
-   } else {
-      echo "Cloudi5 - Web Development Company In Coimbatore | Web Application";
-   } ?></title>
+               echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company In Coimbatore | Web Application";
+            } else {
+               echo "Cloudi5 - Web Development Company In Coimbatore | Web Application";
+            } ?></title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
@@ -1266,9 +1266,9 @@
       <?php $this->load->view('frontend/common-js'); ?>
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
       <script>
-         $(document).ready(function () {
+         $(document).ready(function() {
             // Add click event to the entire card
-            $('.card').click(function (e) {
+            $('.card').click(function(e) {
                // Prevent default behavior only if clicking on card but not on the collapse itself
                if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
                   e.preventDefault();
@@ -1288,9 +1288,9 @@
             });
 
             // Handle the show/hide events to manage the +/- icons
-            $('.collapse').on('show.bs.collapse', function () {
+            $('.collapse').on('show.bs.collapse', function() {
                $(this).prev('.card-header').addClass('active');
-            }).on('hide.bs.collapse', function () {
+            }).on('hide.bs.collapse', function() {
                $(this).prev('.card-header').removeClass('active');
             });
          });
