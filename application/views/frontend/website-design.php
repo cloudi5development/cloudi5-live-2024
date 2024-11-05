@@ -68,41 +68,29 @@
     <div class="body-inner body-bg-1" id="">
         <?php include 'redbg-header.php' ?>
         <!-- Start Main Section -->
+
+
+
+        <!--banner-section-starts -->
         <section class="img_banner_section img_banner_section_height">
             <div class="container">
-                <div class="sketch-1">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-pattern-2.png" height="80" width="80" alt="pattern" class="banner-pattern-1" />
-                </div>
-                <div class="sketch-2">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-bottom-pattern.png" height="80" width="80" alt="pattern" class="" />
-                </div>
-                <div class="sketch-3">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-pattern-3.png" alt="pattern" height="80" width="80" class="single-star-pattern" />
-                </div>
-
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-7">
                         <div class="banner_iner">
                             <h1>Best Web Design
-                                <!-- <span class="underline-pattern">
-                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/banner-underline-pattern.png" alt="pattern" class="" />
-                                </span> -->
                                 Company in Coimbatore
                             </h1>
                             <p class="wow fadeInLeft" data-wow-delay=".5s">We build sites that deserve applause, not yawns.
                                 Professional, Polished, and Positively enchanting sites.
                             </p>
 
-                            <a href="javascript:void(0);" class="contact-btn">
+                            <a href="javascript:void(0);" class="contact-btn web-design-btn">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                                 <span></span>
                                 Build Your Dream Site
                             </a>
-                            <!-- <div class="banner_btn">
-                                <a href="<?php echo base_url(); ?>contactus" class="btn grdnt-purple ecom-ban-btn-txt ecom-btn-pd wd-b-btn" data-wow-delay=".5s"><span class="btn-pulso"></span>Build Your Dream Site</a>
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInDown" data-wow-delay=".5s">
@@ -125,7 +113,7 @@
                 <div class="container">
                     <div class="service-wrapper">
                         <div class="row justify-content-center">
-                            <div class="col-lg-4 col-md-6">
+                            <div class="col-lg-4 col-md-12 col-12">
                                 <div class="service-card style-2">
                                     <div class="corner top-left"></div>
                                     <div class="corner top-right"></div>
@@ -149,7 +137,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6">
+                            <div class="col-lg-4 col-md-12 col-12">
                                 <div class="service-card style-2">
                                     <div class="corner top-left"></div>
                                     <div class="corner top-right"></div>
@@ -173,7 +161,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6">
+                            <div class="col-lg-4 col-md-12 col-12">
                                 <div class="service-card style-2">
                                     <div class="corner top-left"></div>
                                     <div class="corner top-right"></div>
@@ -203,6 +191,8 @@
 
 
         </section>
+        <!-- banner-section-ends -->
+
 
         <!-- <section class="our_services">
             <div class="container">
@@ -292,6 +282,8 @@
                 </div>
         </section> -->
 
+
+        <!-- -------principple-section-starts------->
         <section class="principle-sec  ">
             <!-- <div class="shape-image-animation p-0">
                 <svg xmlns="http://www.w3.org/2000/svg" widht="auto" height="100" viewBox="0 150 3000 100">
@@ -307,133 +299,252 @@
                     </path>
                 </svg>
             </div> -->
-            <div class="principle-company-section pt-120 mt-100">
+            <div>
 
-                <div class="container">
+                <div class="container-fluid principle-container">
+                    <div class="principle-company-section pt-60 mt-60 mb-60">
 
 
-                    <div class="principle-sketch-1">
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ring-pattern.png" height="80" width="80" alt="pattern" class="banner-pattern-1" />
-                    </div>
-                    <div class="principle-sketch-2">
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/solid-pattern.png" height="80" width="80" alt="pattern" class="" />
-                    </div>
-                    <div>
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-1 move-horizontal" height="80" width="80" alt="priciple-img">
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-2 move-horizontal" height="80" width="80" alt="priciple-img">
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-3 move-horizontal " height="80" width="80" alt="priciple-img">
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-4 move-horizontal" height="80" width="80" alt="priciple-img">
-                    </div>
-
-                    <div class="row justify-content-between">
-                        <div class="col-lg-6">
-                            <div class="principle-section-title mb-60">
-                                <span class="sub-title">
-                                    We earn client satisfaction via design principles
-                                </span>
-                                <h2 class="title">Principles of Our Web Design Company</h2>
-
-                            </div>
+                        <div class="principle-sketch-1">
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ring-pattern.png" height="80" width="80" alt="pattern" class="banner-pattern-1" />
                         </div>
-                        <div class="col-lg-auto align-self-start">
-                            <div class="principle-button-wrapper">
-                                <!-- <a href="" class="btn btn-wrapper"> Know more
+                        <div class="principle-sketch-2">
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/solid-pattern.png" height="80" width="80" alt="pattern" class="" />
+                        </div>
+                        <div>
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-1 move-horizontal" height="80" width="80" alt="priciple-img">
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-2 move-horizontal" height="80" width="80" alt="priciple-img">
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-3 move-horizontal " height="80" width="80" alt="priciple-img">
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-4 move-horizontal" height="80" width="80" alt="priciple-img">
+                        </div>
+
+                        <div class="row justify-content-evenly">
+                            <div class="col-lg-6">
+                                <div class="principle-section-title mb-60">
+                                    <span class="sub-title">
+                                        We earn client satisfaction via design principles
+                                    </span>
+                                    <h2 class="title">Principles of Our Web Design Company</h2>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-auto align-self-start">
+                                <div class="principle-button-wrapper">
+                                    <!-- <a href="" class="btn btn-wrapper"> Know more
                                     <i class="icon-btn fi fi-rr-arrow-right"></i>
                                 </a> -->
-                                <a href="javascript:void(0);" class="contact-btn">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    View More Details
-                                </a>
+                                    <a href="javascript:void(0);" class="contact-btn principle-btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        View More Details
+                                    </a>
+                                </div>
+
                             </div>
 
                         </div>
 
-                    </div>
+                        <div class="content-card-wrapper">
+                            <div class="container">
 
-                    <div class="content-card-wrapper">
-                        <div class="container">
+                                <div class="row justify-content-center card-section-wrapper">
+                                    <div class="col-xl-3 col-md-6 col-12 card-section-col">
 
-                            <div class="row justify-content-center card-section-wrapper">
-                                <div class="col-xl-3 col-md-6 card-section-col">
-
-                                    <div class="principle-card style3">
-                                        <div class="principle-card-icon-item">
-                                            <div class="principle-card-icon">
-                                                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-1.png" class="principle-icon-1" alt="service-img">
+                                        <div class="principle-card style3">
+                                            <div class="principle-card-icon-item">
+                                                <div class="principle-card-icon">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-1.png" class="principle-icon-1" alt="service-img">
+                                                </div>
+                                                <h4 class="principle-card-title">Creative <br> Designs</h4>
+                                                <p class="principle-card-text">
+                                                    Designing sites with creative ideas that perform to deliver faster results than your competitors.
+                                                </p>
                                             </div>
-                                            <h4 class="principle-card-title">Creative <br> Designs</h4>
-                                            <p class="principle-card-text">
-                                                Designing sites with creative ideas that perform to deliver faster results than your competitors.
-                                            </p>
+
                                         </div>
-
                                     </div>
-                                </div>
-                                <div class="col-xl-3 col-md-6 card-section-col">
+                                    <div class="col-xl-3 col-md-6 col-12 card-section-col">
 
-                                    <div class="principle-card style3">
-                                        <div class="principle-card-icon-item">
-                                            <div class="principle-card-icon">
-                                                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-2.png" class="principle-icon-1" alt="service-img">
+                                        <div class="principle-card style3">
+                                            <div class="principle-card-icon-item">
+                                                <div class="principle-card-icon">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-2.png" class="principle-icon-1" alt="service-img">
+                                                </div>
+                                                <h4 class="principle-card-title">SEO friendly Website design</h4>
+                                                <p class="principle-card-text">
+
+                                                    Our designs meet all the foundational requirements of the standard SEO guidelines.
+                                                </p>
                                             </div>
-                                            <h4 class="principle-card-title">SEO friendly Website design</h4>
-                                            <p class="principle-card-text">
 
-                                                Our designs meet all the foundational requirements of the standard SEO guidelines.
-                                            </p>
                                         </div>
-
                                     </div>
-                                </div>
 
 
-                                <div class="col-xl-3 col-md-6 card-section-col">
+                                    <div class="col-xl-3 col-md-6 col-12 card-section-col">
 
-                                    <div class="principle-card style3">
-                                        <div class="principle-card-icon-item">
-                                            <div class="principle-card-icon">
-                                                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-3.png" class="principle-icon-1" alt="service-img">
+                                        <div class="principle-card style3">
+                                            <div class="principle-card-icon-item">
+                                                <div class="principle-card-icon">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-3.png" class="principle-icon-1" alt="service-img">
+                                                </div>
+                                                <h4 class="principle-card-title">Responsive <br> Design</h4>
+                                                <p class="principle-card-text">
+
+                                                    Building device-compatible web designs that display elegantly on all screen resolutions.
+                                                </p>
                                             </div>
-                                            <h4 class="principle-card-title">Responsive <br> Design</h4>
-                                            <p class="principle-card-text">
 
-                                                Building device-compatible web designs that display elegantly on all screen resolutions.
-                                            </p>
                                         </div>
-
                                     </div>
-                                </div>
 
-                                <div class="col-xl-3 col-md-6 card-section-col">
+                                    <div class="col-xl-3 col-md-6 col-12 card-section-col">
 
-                                    <div class="principle-card style3">
-                                        <div class="principle-card-icon-item">
-                                            <div class="principle-card-icon">
-                                                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-4.png" class="principle-icon-1" alt="service-img">
+                                        <div class="principle-card style3">
+                                            <div class="principle-card-icon-item">
+                                                <div class="principle-card-icon">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-4.png" class="principle-icon-1" alt="service-img">
+                                                </div>
+                                                <h4 class="principle-card-title">Mobile-Friendly Design</h4>
+                                                <p class="principle-card-text">
+                                                    Your Website will look great and work smoothly on any device, phone, tablet, or computer.
+                                                </p>
                                             </div>
-                                            <h4 class="principle-card-title">Mobile-Friendly Design</h4>
-                                            <p class="principle-card-text">
-                                                Your Website will look great and work smoothly on any device, phone, tablet, or computer.
-                                            </p>
+
                                         </div>
-
                                     </div>
-                                </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- -------principple-section-ends------->
 
 
 
+
+        <!-------our-process-starts---- -->
         <section>
-            <div class="leading-webdesign mt-100">
+            <div class="our-process-section mb-60 mt-100">
+                <div class="container-lg container-fluid ">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="our-process-title mt-20">
+                                <h2>Our Solution
+                                    <br><span>Process</span>
+                                </h2>
+                                <div class="dash-and-paragraph">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 65">
+                                        <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM475 3L475.255 3.42984L476.82 2.5H475V3ZM438.668 65L441.872 60.197L436.111 59.8239L438.668 65ZM3 3.5H475V2.5H3V3.5ZM474.745 2.57016C459.928 11.3742 441.341 27.8789 438.461 60.47L439.457 60.5581C442.3 28.3895 460.613 12.1303 475.255 3.42984L474.745 2.57016Z"></path>
+                                    </svg>
+
+                                    <div class="btn-and-paragraph">
+                                        <p>Digital agencies can vary in size and specialization. Some may focus on specific niches, such as healthcare or e-commerce, while others may offer a comprehensive.</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="process-section-wrapper mt-20">
+                    <div class="row" id="scroll-progress">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <!--  #f5bebe -->
+                            <div class="fixed-column">
+                                <div class="progress-container">
+                                    <svg class="progress-ring" width="100%" height="auto" viewBox="0 0 200 200">
+                                        <circle cx="100" cy="100" r="90" fill="#c9daed" stroke="#e6e6e6" stroke-width="6" />
+                                        <circle class="progress" cx="100" cy="100" r="90" fill="#f5bebe" stroke="#f4cb0a" stroke-width="6" stroke-dasharray="565.48" stroke-dashoffset="565.48" />
+                                    </svg>
+                                    <div class="step-text">Step 1/4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="scrolling-column">
+                                <div class="card scrolling-card-wrapper" data-index="1">
+                                    <div class="process-icon-wrapper">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/scroll-icon1.svg" height="70" width="70" alt="pattern" class="" />
+                                    </div>
+                                    <div class="our-process-content">
+                                        <h3>Discussions</h3>
+                                        <p> We collaborate with you to define your brand, goals, and success metrics.</p>
+
+                                        <ul>
+                                            <li><i class="fi fi-rr-plus-small"></i>Kick-off Meeting</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>Requirement Gathering</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>Market Research</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div class="card scrolling-card-wrapper" data-index="2">
+                                    <div class="process-icon-wrapper">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/scroll-icon-2.svg" height="80" width="80" alt="pattern" class="" />
+                                    </div>
+                                    <div class="our-process-content">
+                                        <h3>Wireframe</h3>
+                                        <p> We create a blueprint (wireframes) for smooth navigation before design.</p>
+                                        <ul>
+                                            <li><i class="fi fi-rr-plus-small"></i>Sketching Layouts</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>User Flow</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>Feedback Loop</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div class="card scrolling-card-wrapper" data-index="3">
+                                    <div class="process-icon-wrapper">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/scroll-icon-3.svg" height="60" width="60" alt="pattern" class="" />
+                                    </div>
+                                    <div class="our-process-content">
+                                        <h3>UI & Develop</h3>
+                                        <p>Our designers create a user-friendly & visually appealing interface. Skilled developers bring it to life.</p>
+                                        <ul>
+                                            <li><i class="fi fi-rr-plus-small"></i>Visual Style Guide</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>High-Fidelity Mockups</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>Client Review</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div class="card scrolling-card-wrapper card-wrapper-last" data-index="4">
+                                    <div class="process-icon-wrapper">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/scroll-icon-4.svg" height="80" width="80" alt="pattern" class="" />
+                                    </div>
+                                    <div class="our-process-content">
+                                        <h3>Product Delivery</h3>
+                                        <p> We ensure on-time launch with optimal performance through testing and your feedback.</p>
+                                        <ul>
+                                            <li><i class="fi fi-rr-plus-small"></i>Quality Assurance</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>Development</li>
+                                            <li><i class="fi fi-rr-plus-small"></i>Post-Launch Support</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------our-process-starts---- -->
+
+        <!------leading-section-starts----->
+        <section>
+            <div class="leading-webdesign mt-60">
                 <div class="">
                     <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/spin.svg" class="spin leading-webdesign-bg-shape" alt="spin-img">
                 </div>
@@ -450,16 +561,17 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-6 p-0">
+                        <div class="col-lg-6 col-md-12 p-0">
                             <div>
                                 <h1 class="leading-webdesign-content-title">
                                     <span class="leading-content-wrapper">
-                                        Leading Web Design <i class="fi fi-rr-arrow-small-right arrow-up-right"></i></span>
-
-                                    <span class="leading-content-wrapper">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/spin.svg" class="spin" alt="spin-img">
-                                        Company in Coimbatore
+                                        <i class="fi fi-rr-arrow-small-right arrow-up-right"></i> Leading Web Design <br>
                                     </span>
+                                    <span class="leading-title">Company in Coimbatore</span>
+                                    <!-- <span class="leading-content-wrapper">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/spin.svg" class="spin" alt="spin-img">
+                                       
+                                    </span> -->
                                 </h1>
                                 <p class="mb-35">
                                     Welcome to Cloudi5 Technologies, your best website designing company in Coimbatore.
@@ -521,7 +633,7 @@
                     </div>
                     <div class="row  leading-webdesign-content-wrapper">
 
-                        <div class="col-lg-6 p-0">
+                        <div class="col-lg-6 col-md-12 p-0">
                             <div>
 
                                 <p class="mb-35">
@@ -554,141 +666,7 @@
 
             </div>
         </section>
-
-
-        <section>
-            <div class="our-process-section mb-60">
-                <div class="container-lg container-fluid ">
-                    <div class="row mb-60">
-                        <div class="col-lg-12">
-                            <div class="our-process-title">
-                                <h2>Our Solution
-                                    <br><span>Process</span>
-                                </h2>
-                                <div class="dash-and-paragraph">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 65">
-                                        <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM475 3L475.255 3.42984L476.82 2.5H475V3ZM438.668 65L441.872 60.197L436.111 59.8239L438.668 65ZM3 3.5H475V2.5H3V3.5ZM474.745 2.57016C459.928 11.3742 441.341 27.8789 438.461 60.47L439.457 60.5581C442.3 28.3895 460.613 12.1303 475.255 3.42984L474.745 2.57016Z"></path>
-                                    </svg>
-
-                                    <div class="btn-and-paragraph">
-                                        <p>Digital agencies can vary in size and specialization. Some may focus on specific niches, such as healthcare or e-commerce, while others may offer a comprehensive.</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="process-section-wrapper">
-                    <div class="row" id="scroll-progress">
-                        <div class="col-lg-6">
-
-                            <div class="fixed-column">
-                                <div class="progress-container">
-                                    <svg class="progress-ring" width="100%" height="auto" viewBox="0 0 200 200">
-                                        <circle cx="100" cy="100" r="90" fill="#c9daed" stroke="#e6e6e6" stroke-width="6" />
-                                        <circle class="progress" cx="100" cy="100" r="90" fill="#e8f2fd" stroke="#f4cb0a" stroke-width="6" stroke-dasharray="565.48" stroke-dashoffset="565.48" />
-                                    </svg>
-                                    <div class="step-text">Step 1/4</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="scrolling-column">
-                                <div class="card scrolling-card-wrapper" data-index="1">
-                                    <div class="process-icon-wrapper">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 70 70">
-                                            <path d="M58.3331 63C58.3331 50.1144 47.8856 39.6669 35 39.6669C22.1144 39.6669 11.6669 50.1144 11.6669 63H7C7 47.537 19.537 35 35 35C50.463 35 63 47.537 63 63H58.3331ZM39.6669 7C39.6669 19.8856 50.1144 30.3338 63 30.3338V35C47.537 35 35 22.463 35 7H39.6669Z"></path>
-                                            <path d="M56 21C59.866 21 63 17.866 63 14C63 10.134 59.866 7 56 7C52.134 7 49 10.134 49 14C49 17.866 52.134 21 56 21Z"></path>
-                                            <path d="M35.0001 63.0007C40.1546 63.0007 44.3332 58.8221 44.3332 53.6676C44.3332 48.513 40.1546 44.3345 35.0001 44.3345C29.8456 44.3345 25.667 48.513 25.667 53.6676C25.667 58.8221 29.8456 63.0007 35.0001 63.0007Z" fill="#F5BEBE"></path>
-                                            <path d="M18.6669 30.3338C25.1104 30.3338 30.3338 25.1104 30.3338 18.6669C30.3338 12.2234 25.1104 7 18.6669 7C12.2234 7 7 12.2234 7 18.6669C7 25.1104 12.2234 30.3338 18.6669 30.3338Z" fill="#F5BEBE"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="our-process-content">
-                                        <h3>Discussions</h3>
-                                        <p> We collaborate with you to define your brand, goals, and success metrics.</p>
-
-                                        <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Kick-off Meeting</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Requirement Gathering</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Market Research</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                                <div class="card scrolling-card-wrapper" data-index="2">
-                                    <div class="process-icon-wrapper">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 70 70">
-                                            <path d="M60.9 25.69H44.31V9.1C44.31 7.91 45.22 7 46.41 7H60.9C62.09 7 63 7.91 63 9.1V23.59C63 24.71 62.09 25.69 60.9 25.69ZM44.31 44.31H25.69V27.79C25.69 26.6 26.6 25.69 27.79 25.69H44.38V44.31H44.31ZM23.59 63H9.1C7.91 63 7 62.09 7 60.9V46.41C7 45.22 7.91 44.31 9.1 44.31H25.69V60.9C25.69 62.09 24.71 63 23.59 63ZM9.1 7H22.54C23.73 7 24.29 8.4 23.45 9.24L9.24 23.45C8.4 24.29 7 23.66 7 22.54V9.1C7 7.91 7.91 7 9.1 7Z"></path>
-                                            <path d="M60.9001 63.0001H46.4101C45.2201 63.0001 44.3101 62.0901 44.3101 60.9001V44.3101H60.9001C62.0901 44.3101 63.0001 45.2201 63.0001 46.4101V60.9001C63.0001 62.0901 62.0901 63.0001 60.9001 63.0001Z"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="our-process-content">
-                                        <h3>Wireframe</h3>
-                                        <p> We create a blueprint (wireframes) for smooth navigation before design.</p>
-                                        <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Sketching Layouts</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>User Flow</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Feedback Loop</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                                <div class="card scrolling-card-wrapper" data-index="3">
-                                    <div class="process-icon-wrapper">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 70 70">
-                                            <path d="M58.3331 63C58.3331 50.1144 47.8856 39.6669 35 39.6669C22.1144 39.6669 11.6669 50.1144 11.6669 63H7C7 47.537 19.537 35 35 35C50.463 35 63 47.537 63 63H58.3331ZM39.6669 7C39.6669 19.8856 50.1144 30.3338 63 30.3338V35C47.537 35 35 22.463 35 7H39.6669Z"></path>
-                                            <path d="M56 21C59.866 21 63 17.866 63 14C63 10.134 59.866 7 56 7C52.134 7 49 10.134 49 14C49 17.866 52.134 21 56 21Z"></path>
-                                            <path d="M35.0001 63.0007C40.1546 63.0007 44.3332 58.8221 44.3332 53.6676C44.3332 48.513 40.1546 44.3345 35.0001 44.3345C29.8456 44.3345 25.667 48.513 25.667 53.6676C25.667 58.8221 29.8456 63.0007 35.0001 63.0007Z" fill="#F5BEBE"></path>
-                                            <path d="M18.6669 30.3338C25.1104 30.3338 30.3338 25.1104 30.3338 18.6669C30.3338 12.2234 25.1104 7 18.6669 7C12.2234 7 7 12.2234 7 18.6669C7 25.1104 12.2234 30.3338 18.6669 30.3338Z" fill="#F5BEBE"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="our-process-content">
-                                        <h3>UI & Develop</h3>
-                                        <p>Our designers create a user-friendly & visually appealing interface. Skilled developers bring it to life.</p>
-                                        <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Visual Style Guide</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>High-Fidelity Mockups</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Client Review</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                                <div class="card scrolling-card-wrapper card-wrapper-last" data-index="4">
-                                    <div class="process-icon-wrapper">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 70 70">
-                                            <g>
-                                                <path d="M67.6527 16.0958C68.7855 14.6144 67.827 11.5646 65.5614 12.436C60.246 14.5273 54.7564 19.1456 51.1838 23.6767C47.4368 28.4693 46.7397 34.5689 48.4825 40.3199C51.0095 48.6851 58.4161 54.1748 65.5614 58.6188C68.8726 60.7101 71.8353 55.4818 68.6112 53.3905C63.383 50.1665 57.5448 46.071 54.9307 40.3199C52.9265 35.7888 52.9265 30.6477 56.2377 26.6394C59.5489 22.7182 64.4286 20.1041 67.6527 16.0958ZM1.42836 53.3905C-1.88286 55.3947 1.16694 60.6229 4.47816 58.6188C11.6234 54.1748 18.943 48.6851 21.5571 40.3199C23.2998 34.7432 22.6899 28.6435 19.1172 24.0253C15.6317 19.407 9.96781 14.6144 4.5653 12.5231C2.29973 11.6518 1.25408 14.7016 2.474 16.1829C5.61095 20.1041 10.3164 22.7182 13.6276 26.4651C17.1131 30.4734 17.2873 35.7017 15.196 40.4942C12.4948 46.071 6.56946 50.1665 1.42836 53.3905ZM53.3622 1.36957C50.1381 6.59781 46.0426 12.436 40.2916 15.0501C35.7604 17.0543 30.6193 17.0543 26.611 13.7431C22.6027 10.4319 19.9886 5.55216 15.9803 2.32808C14.5861 1.1953 11.5363 2.24094 12.4077 4.50651C14.499 9.82189 19.1172 15.3115 23.6484 18.8842C28.4409 22.6311 34.5405 23.3282 40.2916 21.5854C48.6568 19.0584 54.1464 11.6518 58.5904 4.50651C60.5946 1.1953 55.4535 -1.85451 53.3622 1.36957ZM58.5904 65.5898C54.1464 58.4445 48.6568 51.125 40.2916 48.5108C34.7148 46.7681 28.6152 47.3781 23.9969 50.9507C19.3786 54.4362 14.5861 60.1001 12.4948 65.5026C11.6234 67.7682 14.6732 68.8138 16.1546 67.5939C20.0757 64.457 22.6899 59.7516 26.4368 56.4403C30.4451 52.9548 35.6733 52.7806 40.4659 54.8719C46.2169 57.486 50.2252 63.3242 53.5365 68.5524C55.4535 71.8636 60.5946 68.901 58.5904 65.5898Z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div class="our-process-content">
-                                        <h3>Product Delivery</h3>
-                                        <p> We ensure on-time launch with optimal performance through testing and your feedback.</p>
-                                        <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Quality Assurance</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Development</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Post-Launch Support</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
+        <!-- -------leading-section-ends----->
 
 
         <!-- <section class="process-section">
@@ -757,6 +735,8 @@
                 </div>
             </div>
         </section> -->
+
+        <!-- ---webinar-section-starts -->
         <section class="webinar-area mt-100">
             <div class="row m-0">
                 <div class="col-lg-6 p-0">
@@ -786,6 +766,8 @@
                 </div>
             </div>
         </section>
+        <!-- ---webinar-section-ends -->
+
         <!-- <section class="section is-sm is-dark section-call2action">
             <div class="container">
                 <div class="call2action-box flex vcenter">
@@ -809,6 +791,8 @@
             </div>
         </section> -->
 
+
+        <!-- web-technology--starts -->
         <section>
             <div class="container mt-60 mb-60">
 
@@ -820,12 +804,12 @@
                 </div>
                 <div class="web-technology-section">
                     <div class="row">
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-one">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-1.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-1.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Custom Web Design</h3>
@@ -836,12 +820,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-two">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/wordpress.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-2.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>WordPress Design</h3>
@@ -852,12 +836,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-three">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ui-design.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-3.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Web UI/UX Design</h3>
@@ -868,12 +852,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-four">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/landing_page-img.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-4.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Landing Page Design</h3>
@@ -886,12 +870,12 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-five">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/amp_icon.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-5.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>AMP Web Design</h3>
@@ -904,12 +888,12 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-six">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ecommerce-icon.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-7.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>E-commerce Website Design</h3>
@@ -921,12 +905,12 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-seven">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/redesign-image-1.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-7.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Website Redesign</h3>
@@ -939,12 +923,12 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-eight">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/web-maintenance.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-8.png" class="custom-webdesign tech-icon" alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>Website Maintenance</h3>
@@ -957,12 +941,12 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-4 p-0">
+                        <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-eight">
                                 <div class="circle"></div>
                                 <div class="techno-card-content">
                                     <div class="techno-icon">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cms-webdesign.png" class="custom-webdesign tech-icon " alt="E-Commerce Website Design">
+                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-9.png" class="custom-webdesign tech-icon " alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
                                         <h3>CMS Web Design</h3>
@@ -981,71 +965,20 @@
             </div>
 
         </section>
+        <!-- web-technology--starts -->
 
 
-
-
-
-
-
-
-
-        <section>
-            <div class="container cta-container">
-
-                <div class="pattern-img-curve">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-section-highlighting.png" class="cta-pattern-1" alt="priciple-img">
-                </div>
-                <div class="call-to-action-sec mb-50">
-                    <div>
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern-1.webp" class="cta-pattern-1-wrapper spin" width="100" height="100" alt="priciple-img">
-                    </div>
-
-
-                    <div class="pattern-img-curve">
-
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern.png" class="cta-pattern" alt="priciple-img">
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-md-10 col-xl-8 p-0">
-                            <div class="subscribe-inner-area">
-                                <div class="cta-section-title">
-                                    <p class="desc">Let's Create Your Success Together</p>
-                                    <h2 class="title">
-                                        Ready to get started with <br>
-                                        your new project today?
-                                    </h2>
-
-                                    <a href="javascript:void(0);" class="contact-btn btn-cta">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        Contact Us
-                                    </a>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
 
 
 
         <!-- Banner -->
         <!-- START FEATURES -->
-        <section id="feature" class="feature_area feature_area_bg section-padding">
+        <section id="feature" class="feature_area feature_area_bg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
                         <div class="single_feature mt_60">
                             <h2 class="text-center">Our Web Design and Development Technologies</h2>
-                            <p>You can spread your wings worldwide and build a powerful brand with updated web designing skills that complement the advancing business expansion trends. Our expert team designs your websites using the latest technologies like HTML 4 & 5, Bootstrap, Angular and Vue.js and Content Management System (CMS) - WordPress, Shopify, Magento and Joomla. We deploy PHP frameworks like Laravel and CodeIgniter for <a href="<?php echo base_url('web-development'); ?>"><strong>Web Development.</strong></a></p>
                         </div>
                     </div>
                     <!-- <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
@@ -1055,7 +988,7 @@
                     </div> -->
                 </div>
             </div>
-            <div class="wd-section tech-web-dev pt-60 pb-60 mt-20 mb-20">
+            <div class="wd-section tech-web-dev pb-60 mt-20 mb-20">
                 <div class="container">
                     <!-- <h2 class="section-title-wd">The Technologies We use at Cloudi5 Technologies</h2> -->
 
@@ -1222,34 +1155,81 @@
             </div>
         </section> -->
 
+
+        <!--cta-section-starts -->
+        <section>
+            <div class="container cta-container mt-60">
+
+                <div class="pattern-img-curve">
+                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-section-highlighting.png" class="cta-pattern-1" alt="priciple-img">
+                </div>
+                <div class="call-to-action-sec mb-50">
+                    <!-- <div>
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern-1.webp" class="cta-pattern-1-wrapper spin" width="100" height="100" alt="priciple-img">
+                    </div> -->
+
+
+                    <div class="pattern-img-curve">
+
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern.png" class="cta-pattern" alt="priciple-img">
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-xl-8 col-sm-12 p-0">
+                            <div class="subscribe-inner-area">
+                                <div class="cta-section-title">
+                                    <p class="desc">Let's Create Your Success Together</p>
+                                    <h2 class="title">
+                                        Ready to get started with <br>
+                                        your new project today?
+                                    </h2>
+
+                                    <a href="javascript:void(0);" class="contact-btn btn-cta">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        Contact Us
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--cta-section-ends -->
+
+
         <!-- FAQ-section-starts -->
         <section>
             <div class="faq-section">
-                <div>
 
-                </div>
-                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-pattern-1.webp" class="faq-pattern-1-wrapper spin" alt="priciple-img">
-                <div>
+                <!-- <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-pattern-1.webp" class="faq-pattern-1-wrapper spin" alt="priciple-img"> -->
 
-                </div>
-                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-pattern-2.webp" class="faq-pattern-2-wrapper spin" alt="priciple-img">
-                <div>
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/text-shape-pattern.webp" class="text-shape-pattern" alt="priciple-img">
-                </div>
-                <div class="container position-relative">
+
+                <!-- <div>
+                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-bg-img.webp" class="text-shape-pattern" alt="priciple-img">
+                </div> -->
+                <div class="container">
+
                     <div class="faq-container">
-                        <div class="faq-title">
-                            <h2 class="title">Frequently Asked Questions</h2>
-                            <div>
-                                <svg class="highlight" viewBox="0 0 65 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="none" clip-rule="evenodd" d="M43.8083 51.3755C46.1973 51.4486 48.5601 51.5419 50.9497 51.5457C51.4638 51.5484 51.877 51.1374 51.8757 50.6285C51.8761 50.1162 51.4585 49.701 50.9477 49.7C48.5713 49.6944 46.2285 49.6026 43.856 49.5292C43.3434 49.515 42.9184 49.9161 42.9047 50.4219C42.8927 50.9327 43.2957 51.3612 43.8083 51.3755Z" fill="#fb4834" stroke="#fb4834"></path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M34.3909 34.0184C40.2156 29.2556 45.7937 24.2013 51.512 19.3174C51.8999 18.9843 51.9423 18.4022 51.6096 18.0158C51.2736 17.6279 50.6909 17.5797 50.2997 17.9111C44.5929 22.7884 39.0263 27.8359 33.2114 32.587C32.8152 32.9119 32.7611 33.4925 33.0856 33.8872C33.4134 34.2835 33.9963 34.3399 34.3909 34.0184Z" fill="#fb4834" stroke="#fb4834"></path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6786 20.5825C12.4979 14.4934 14.1488 8.34326 16.0364 2.27486C16.1848 1.78908 15.9115 1.27162 15.4249 1.11827C14.935 0.963313 14.4153 1.23663 14.2636 1.72078C12.3761 7.79745 10.722 13.9542 8.9028 20.0516C8.75779 20.539 9.03602 21.0548 9.52582 21.2015C10.019 21.3499 10.532 21.0732 10.6786 20.5825Z" fill="#fb4834" stroke="#fb4834"></path>
-                                </svg>
-                            </div>
-                        </div>
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="faq-title col-md-8">
+                                <h2 class="title">Frequently Asked Questions</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-pattern-2.webp" class="faq-pattern-2-wrapper spin" alt="priciple-img">
+                                <div>
+                                    <svg class="highlight" viewBox="0 0 65 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="none" clip-rule="evenodd" d="M43.8083 51.3755C46.1973 51.4486 48.5601 51.5419 50.9497 51.5457C51.4638 51.5484 51.877 51.1374 51.8757 50.6285C51.8761 50.1162 51.4585 49.701 50.9477 49.7C48.5713 49.6944 46.2285 49.6026 43.856 49.5292C43.3434 49.515 42.9184 49.9161 42.9047 50.4219C42.8927 50.9327 43.2957 51.3612 43.8083 51.3755Z" fill="#fb4834" stroke="#fb4834"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M34.3909 34.0184C40.2156 29.2556 45.7937 24.2013 51.512 19.3174C51.8999 18.9843 51.9423 18.4022 51.6096 18.0158C51.2736 17.6279 50.6909 17.5797 50.2997 17.9111C44.5929 22.7884 39.0263 27.8359 33.2114 32.587C32.8152 32.9119 32.7611 33.4925 33.0856 33.8872C33.4134 34.2835 33.9963 34.3399 34.3909 34.0184Z" fill="#fb4834" stroke="#fb4834"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6786 20.5825C12.4979 14.4934 14.1488 8.34326 16.0364 2.27486C16.1848 1.78908 15.9115 1.27162 15.4249 1.11827C14.935 0.963313 14.4153 1.23663 14.2636 1.72078C12.3761 7.79745 10.722 13.9542 8.9028 20.0516C8.75779 20.539 9.03602 21.0548 9.52582 21.2015C10.019 21.3499 10.532 21.0732 10.6786 20.5825Z" fill="#fb4834" stroke="#fb4834"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-12">
                                 <div class="faq-item">
                                     <div class="accordion-section">
                                         <div class="accordion-single">
@@ -1341,7 +1321,7 @@
         </section>
         <!-- FAQ-section-ends -->
 
-        <section class="video-section wd-video-section">
+        <!-- <section class="video-section wd-video-section">
             <div class="container">
                 <h2>Have a Project? Let's make it together </h2>
                 <div class="title"> Our experts are ready to design a brand for your business</div>
@@ -1353,7 +1333,7 @@
                 <div class="wave waveTop"></div>
                 <div class="wave waveMiddle"></div>
             </div>
-        </section>
+        </section> -->
         <!-- Footer -->
         <?php $this->load->view('frontend/footer'); ?>
 
