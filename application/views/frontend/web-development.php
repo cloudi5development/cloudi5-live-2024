@@ -104,7 +104,7 @@
                      alt="Convert into Mockups">
                </div>
             </div>
-            <div class="container d-flex section-intro">
+            <div class="container d-flex section-intro p-0">
 
                <div class="col-md-6">
                   <div class="tagline">Who Are We, Really?</div>
@@ -142,106 +142,7 @@
             </div>
          </div>
       </section>
-      <section class="main-container wd-section web-dev-section pb-60" id="main-container">
-         <div class="container web-dev-section-content">
-            <div class="text-center">
-               <div class="shape-wrapper">
-                  <div class="shape-tri-1">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/tri-shape-1.webp" alt="Shape-1">
-                  </div>
-                  <div class="shape-tri-2">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/tri-shape-2.png" alt="Shape-2">
-                  </div>
-                  <div class="shape-tri-3">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
-                  </div>
-                  <div class="shape-tri-4">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
-                  </div>
-                  <div class="shape-tri-5">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/blob-1.webp" alt="Shape-4">
-                  </div>
-               </div>
-               <h3 class="text-center common_h4">We help build a remarkable online presence</span></h3>
-               <p class="title-content">Don't just take our word for it. Look at the countless businesses just like
-                  yours who've transformed
-                  their online presence and seen success with Cloudi5 Technologies, <span><strong>the best website
-                        development company
-                        in Coimbatore.</strong></span> In today's digital age, a strong online presence is no longer a
-                  luxury, it's essential.
-                  When you run a business or sell a product, the quality of the product is just one half. The other half
-                  is how your product reaches the consumer. Over 80% of potential customers research products and
-                  services online before making a purchase. Without a user-friendly, informative website, you're missing
-                  out on a massive and actively searching audience. At Cloudi5 Technologies, we understand the
-                  importance of having a strong online presence. That's why we offer a range of web development services
-                  to help businesses like yours succeed online. </p>
-               <p class="title-content">Whether you need a simple, informative website or a complex web application, we
-                  have the skills and
-                  expertise to bring your vision to life. Our team of experienced professionals is dedicated to
-                  delivering excellence in every project we undertake. We work closely with you to understand your
-                  unique needs and goals, ensuring that the final product exceeds your expectations. Plus, our
-                  commitment to delivering projects on time and within budget means you can trust us to get the job done
-                  right, every time.</p>
-               <a href="javascript:void(0);" class="contact-btn">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  Start the project
-               </a>
-            </div>
-         </div>
-      </section>
-      <section class="mCommerce padd50 ">
-         <div class="container">
-            <p class="aos-animate aos-init" data-aos="fade-up">
-               <span class="tagline">We Build What You Need</spa>
-            </p>
-            <h2 class="newTitle aos-animate aos-init aos-h2" data-aos="fade-up">Why Partner with Cloudi5?</h2>
 
-            <ul class="boxes clearfix aos-animate aos-init service-list" data-aos="flip-right">
-               <li><a>
-                     <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/team.webp"
-                           alt="Understand Client Requirements"><br>
-                     </div>
-                     <h3>Dedicated Team</h3>
-                  </a></li>
-               <li><a>
-                     <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/ontime.webp" alt="On-time"><br>
-                     </div>
-                     <h3>On-time Delivery</h3>
-                  </a></li>
-               <li><a>
-                     <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/client.png" alt="Review"><br>
-
-                     </div>
-                     <h3>100% Client Satisfaction</h3>
-                  </a>
-
-               </li>
-               <li><a>
-                     <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/innovation.png"
-                           alt="Innovation"><br>
-
-                     </div>
-                     <h3>Innovative Solutions</h3>
-                  </a></li>
-               <li><a>
-                     <div class="mcommerce-icon">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/support.png" alt="Support"><br>
-
-                     </div>
-                     <h3>Continuous Support</h3>
-                  </a></li>
-            </ul>
-            <p class="mt-40"><a class="btn btn-warning yellowBtn aos-animate contact-opener aos-init dev-talk-btn pulse"
-                  href="<?php echo base_url(); ?>contactus" data-aos="fade-up">Let’s Have a Talk</a></p>
-         </div>
-      </section>
       <div class="web_process_banner hide-mob">
          <div class="table">
             <div class="table-cell width50 hid-tab">
@@ -324,6 +225,108 @@
             </div>
          </div>
       </div>
+
+      <section class="mCommerce padd50 ">
+         <div class="container">
+            <p class="aos-animate aos-init" data-aos="fade-up">
+               <span class="tagline">We Build What You Need</spa>
+            </p>
+            <h2 class="newTitle aos-animate aos-init aos-h2" data-aos="fade-up">Why Partner with Cloudi5?</h2>
+
+            <ul class="boxes clearfix aos-animate aos-init service-list" data-aos="flip-right">
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/team.webp"
+                           alt="Understand Client Requirements"><br>
+                     </div>
+                     <h3>Dedicated Team</h3>
+                  </a></li>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/ontime.webp" alt="On-time"><br>
+                     </div>
+                     <h3>On-time Delivery</h3>
+                  </a></li>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/client.png" alt="Review"><br>
+
+                     </div>
+                     <h3>100% Client Satisfaction</h3>
+                  </a>
+
+               </li>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/innovation.png"
+                           alt="Innovation"><br>
+
+                     </div>
+                     <h3>Innovative Solutions</h3>
+                  </a></li>
+               <li><a>
+                     <div class="mcommerce-icon">
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/support.png" alt="Support"><br>
+
+                     </div>
+                     <h3>Continuous Support</h3>
+                  </a></li>
+            </ul>
+            <p class="mt-40"><a class="btn btn-warning yellowBtn aos-animate contact-opener aos-init dev-talk-btn pulse"
+                  href="<?php echo base_url(); ?>contactus" data-aos="fade-up">Let’s Have a Talk</a></p>
+         </div>
+      </section>
+
+      <section class="main-container wd-section web-dev-section pb-60" id="main-container">
+         <div class="container web-dev-section-content">
+            <div class="text-center">
+               <div class="shape-wrapper">
+                  <div class="shape-tri-1">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/tri-shape-1.webp" alt="Shape-1">
+                  </div>
+                  <div class="shape-tri-2">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/tri-shape-2.png" alt="Shape-2">
+                  </div>
+                  <div class="shape-tri-3">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
+                  </div>
+                  <div class="shape-tri-4">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
+                  </div>
+                  <div class="shape-tri-5">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/blob-1.webp" alt="Shape-4">
+                  </div>
+               </div>
+               <h3 class="text-center common_h4">We help build a remarkable online presence</span></h3>
+               <p class="title-content">Don't just take our word for it. Look at the countless businesses just like
+                  yours who've transformed
+                  their online presence and seen success with Cloudi5 Technologies, <span><strong>the best website
+                        development company
+                        in Coimbatore.</strong></span> In today's digital age, a strong online presence is no longer a
+                  luxury, it's essential.
+                  When you run a business or sell a product, the quality of the product is just one half. The other half
+                  is how your product reaches the consumer. Over 80% of potential customers research products and
+                  services online before making a purchase. Without a user-friendly, informative website, you're missing
+                  out on a massive and actively searching audience. At Cloudi5 Technologies, we understand the
+                  importance of having a strong online presence. That's why we offer a range of web development services
+                  to help businesses like yours succeed online. </p>
+               <p class="title-content">Whether you need a simple, informative website or a complex web application, we
+                  have the skills and
+                  expertise to bring your vision to life. Our team of experienced professionals is dedicated to
+                  delivering excellence in every project we undertake. We work closely with you to understand your
+                  unique needs and goals, ensuring that the final product exceeds your expectations. Plus, our
+                  commitment to delivering projects on time and within budget means you can trust us to get the job done
+                  right, every time.</p>
+               <a href="javascript:void(0);" class="contact-btn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Start the project
+               </a>
+            </div>
+         </div>
+      </section>
       <section class="adds_value madcValue howAnd_why iotBg gcv padd50 p-relative">
          <div class="text-dev container">
             <p class="text-center aos-animate aos-init" data-aos="fade-up"><span class="tagline">Our Artistic Web
@@ -1087,7 +1090,7 @@
                               <button class="btn btn-link btn-block text-left collapsed" type="button"
                                  data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
                                  aria-controls="collapseFour">
-                                 4. How do you ensure my website will be mobile-friendly?
+                                 4. Do you offer search engine optimization (SEO) services?
                               </button>
                            </h2>
                         </div>
@@ -1113,8 +1116,9 @@
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                            data-parent="#faqAccordion">
                            <div class="card-body">
-                              Security is a top priority for us. We use the latest security measures and best practices
-                              to protect your website and your visitors' information.
+                              We can help optimize your website for search engines to improve your website's visibility
+                              and organic traffic. We can incorporate SEO best practices into the website development
+                              process and offer ongoing SEO services.
                            </div>
                         </div>
                      </div>

@@ -156,7 +156,7 @@
                     </div>
                     <div class="col-sm-5">
                         <img alt="Mobile App Development Services | Cloudi5"
-                            src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mobile-app-development-services-cloudi5.webp"
+                            src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mobile-app-development-services-cloudi5.png"
                             width="100%">
                     </div>
                 </div>
@@ -266,7 +266,7 @@
                         <div class="service-content-box">
                             <div class="service-icon">
                                 <figure>
-                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/process.png"
+                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/hybrid.png"
                                         class="col-icon" alt="100% Transparency">
                                 </figure>
                             </div>
@@ -285,7 +285,7 @@
                         <div class="service-content-box">
                             <div class="service-icon">
                                 <figure>
-                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/app.png"
+                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/native.jpg"
                                         class="col-icon" alt="100% Transparency">
                                 </figure>
                             </div>
@@ -303,7 +303,7 @@
                         <div class="service-content-box">
                             <div class="service-icon">
                                 <figure>
-                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/platform.png"
+                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/cross-platform.png"
                                         class="col-icon" alt="100% Transparency">
                                 </figure>
                             </div>
@@ -339,18 +339,17 @@
                         <div class="service-content-box">
                             <div class="service-icon">
                                 <figure>
-                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/process.png"
+                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/android.png"
                                         class="col-icon" alt="100% Transparency">
                                 </figure>
                             </div>
                             <div class="service-title">
-                                <h4>Hybrid App Development</h4>
+                                <h4>Android App Development</h4>
                             </div>
                             <div class="service-content">
-                                <p>Our hybrid app development combines web and mobile tech to create apps that work on
-                                    any
-                                    platform. Enjoy faster development and a single codebase while engaging users
-                                    effectively.</p>
+                                <p>In Android app development, we design user-friendly apps tailored to your audience.
+                                    Our focus is on performance and engaging features that keep users coming back for
+                                    more.</p>
                             </div>
                         </div>
                     </div>
@@ -392,9 +391,9 @@
                     </div>
                     <div class="col-lg-4 col-last col-last-row">
                         <div class="service-content-box">
-                            <div class="service-icon">
+                            <div class="service-icon-last">
                                 <figure>
-                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/technology.png"
+                                    <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/iot.png"
                                         class="col-icon" alt="100% Transparency">
                                 </figure>
                             </div>
@@ -544,8 +543,8 @@
                         <img src="<?php echo base_url(); ?>asset/images/web-development/blob-1.webp" alt="Shape-4">
                     </div>
                 </div>
-                <h2 class="newTitle aos-animate aos-init " data-aos="fade-up">How Can Our Apps Be the Secret Sauce to
-                    Your Success?</h2>
+                <h2 class="newTitle aos-animate aos-init " data-aos="fade-up">How can our apps be the Secret Sauce to
+                    your Success?</h2>
                 <p class="aos-animate aos-init aos-h2" data-aos="fade-up">Let our apps be the secret ingredient that
                     makes your business shine!</p>
                 <ul class="suite-services-list clearfix">
@@ -987,7 +986,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-8 text-center mb-3">
-                        <h3 class="common_h4">App Store Publish</span>
+                        <h3 class="common_h4">Google Play Store Publish</span>
                             <span class="red-border-line">&nbsp;</span>
                         </h3>
                         <p class="aos-animate aos-init aos-h2" data-aos="fade-up">Let our apps be the secret ingredient

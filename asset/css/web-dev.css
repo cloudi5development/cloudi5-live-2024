@@ -333,6 +333,9 @@
 .tagline {
   font-family: "Plus Jakarta Sans", sans-serif !important;
 } */
+.dotLinks li {
+  font-size: 16px !important;
+}
 .section-sure {
   position: relative;
   overflow: hidden;
@@ -873,11 +876,12 @@
   border-radius: 0px;
   width: 100%;
 }
-.faq-section-wd .card-header h2 .btn-link{
+.faq-section-wd .card-header h2 .btn-link {
   font-size: 17px !important;
   color: #000 !important;
+  font-weight: bold;
 }
-.faq-section-wd .card-header.active .btn-link{
+.faq-section-wd .card-header.active .btn-link {
   font-weight: 700;
 }
 .faq-section-wd .card-header {
@@ -1177,7 +1181,6 @@
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: -0.5px;
 }
 
 @media (max-width: 767px) {
