@@ -638,6 +638,34 @@
         </section>
         <!-- Service end-->
 
+        <!-- <div class="project-section">
+            <div class="container">
+                <div class="row">
+                    <div class="project-content text-center">
+                        <h2 class="title">Our <span class="theme-red-color">Portfolio</span></h2>
+                        <p>Here’s a glimpse of our team's work on mobile applications, custom web solutions, and
+                            business software. Discover how we’ve supported clients in managing enterprise software
+                            projects, boosting revenue, and crafting engaging user experiences.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="project-detail-container">
+                            <div class="left-content-container">
+                                <div class="tag-container">
+                                    <a href="">Web App Development</a>
+                                    <a href="">Design</a>
+                                    <a href="">Development</a>
+                                </div>
+                                
+                            </div>
+                            <div class="right-image-container">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
         <section class="projects-page-section" style="padding-top: 50px;">
             <div class="container">
                 <div class="h4 lrg text-center"> Our <span class="theme-red-color">Portfolio </div><span

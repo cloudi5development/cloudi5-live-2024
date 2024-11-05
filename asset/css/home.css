@@ -271,10 +271,6 @@
     /* height: auto; */
     filter: none;
 }
-/* @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-50% - 0px)); }
-} */
 @keyframes marquee {
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
@@ -338,4 +334,12 @@
   top: -65px;
   right: -20px;
   width: 100px;
+}
+
+.project-section{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.project-section .project-content .title{
+ padding-bottom: 20px;
 }
