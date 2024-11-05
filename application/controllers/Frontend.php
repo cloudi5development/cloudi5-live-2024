@@ -792,7 +792,14 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'Write for Us';
 		$this->load->view('frontend/write-for-us',$data);
 	}
-
+	#flutter-app-development
+	public function flutter_app_development()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'android')->get('meta_tags')->row();
+		$data['page_title'] = 'Mobile App';
+		$this->load->view('frontend/flutter-app-development',$data);
+	}
 	#home-new
 	public function home_new()
 	{
