@@ -1,15 +1,15 @@
-.mobile-app-development-page .banner-area svg {
+.body-inner .common-inner-banner .inner-pattern img {
   position: absolute;
   opacity: 0.3;
   top: 12%;
 }
-.mobile-app-development-page .banner-area {
+.body-inner .common-inner-banner {
   background: #0b2359;
 }
-.mobile-app-development-page .topbar-transparent {
+.body-inner .topbar-transparent {
   background: #051a49;
 }
-.mobile-app-development-page .header-standard {
+.body-inner .header-standard {
   /* background: #0b2359; */
   background: rgb(20 46 100 / 56%);
   /* border-radius: 16px; */
@@ -18,24 +18,22 @@
   -webkit-backdrop-filter: blur(0.5px);
   border: 1px solid rgba(35, 70, 144, 0.3);
 }
-.mobile-app-development-page .banner-area {
+.body-inner .common-inner-banner {
   padding: 1px;
 }
-.mob-services .service-title{
-  margin-top:10px;
-}
-.mobile-app-development-page .banner-content {
+
+.body-inner .banner-content {
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
 }
-.mobile-app-development-page .mob-app-section-banner .banner-tagline {
+.body-inner .common-inner-banner .banner-tagline {
   text-align: center;
   margin: 20px;
 }
-.mobile-app-development-page .mob-app-section-banner .banner-tagline span {
+.body-inner .common-inner-banner .banner-tagline span {
   font-size: 15px;
   padding: 5px 10px;
   /* padding: 8px 15px; */
@@ -47,13 +45,13 @@
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(150, 199, 212, 0.3);
 }
-.mob-app-section-banner .title {
+.body-inner .common-inner-banner .title {
   text-align: center;
   line-height: 1.4;
   color: #ffffff;
   font-size: 42px;
 }
-.mob-app-section-banner .title span {
+.body-inner .common-inner-banner .title span {
   /* background: linear-gradient(95deg, #023575 0.75%, #da0e17 101.34%); */
   background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
   -webkit-background-clip: text;
@@ -64,7 +62,7 @@
   display: inline-block;
 }
 
-.title span::after {
+.body-inner .title span::after {
   content: "";
   position: absolute;
   left: 0;
@@ -74,13 +72,42 @@
   background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
   animation: grow 2.5s forwards linear infinite;
 }
-
+.common-inner-banner .shape-tri-3 {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+.common-inner-banner .shape-tri-4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.common-inner-banner .shape-tri-1 {
+  position: absolute;
+  width: 15px;
+  animation: animationFramesOne 25s infinite linear;
+  left: 0;
+}
+.common-inner-banner .shape-tri-1 img {
+  width: 13px;
+}
 @keyframes grow {
   to {
     width: 100%;
   }
 }
-
+.common-inner-banner .banner-tagline span img {
+  width: 22px;
+  padding-bottom: 6px;
+}
+.common-inner-banner .banner-quote {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+.mob-services .service-title {
+  margin-top: 10px;
+}
 .mob-intro-contact-btn .contact-btn {
   margin: 10px 0px 0px 0px !important;
 }
@@ -127,8 +154,8 @@
   li
   .ins-suite-services-list
   .head {
-    font-weight: 500;
-    font-size: 18px !important;
+  font-weight: 500;
+  font-size: 18px !important;
 }
 .software-development-sec .content-right .paraa {
   line-height: 1.5;
@@ -679,6 +706,7 @@ html {
 }
 .faq-section-mob {
   background: #0b2359 !important;
+  padding: 60px 20px;
 }
 .faq-section-mob .faq-section {
   background: #0b2359 !important;
@@ -716,6 +744,7 @@ html {
   font-size: 17px !important;
   color: #ffffff !important;
   /* font-weight: 600; */
+  padding: 0px;
 }
 .faq-section-mob .card-header.active .btn-link {
   font-weight: 700;
@@ -767,24 +796,7 @@ html {
 #faqAccordion .collapse.show + .card-header h2 {
   font-weight: bold;
 }
-.mob-app-section1 .shape-tri-1 {
-  position: absolute;
-  top: 8%;
-  left: 4%;
-}
-.mob-app-section1 .shape-tri-2 {
-  position: absolute;
-  bottom: 8%;
-  right: 4%;
-  animation: rotateme 5s linear infinite;
-}
-.shape-tri-5 img {
-  width: 75px;
-  position: absolute;
-  top: -10%;
-  right: 4%;
-  animation: upDownMob 1s infinite alternate;
-}
+
 .mob-app-section1 {
   position: relative;
   padding: 0px 0px 50px 0px !important;
@@ -877,4 +889,245 @@ html {
   left: 10%;
   bottom: 15%;
   /* animation: rotateme 20s linear infinite; */
+}
+.shape-tri-5 img {
+  width: 75px;
+  position: absolute;
+  top: -10%;
+  right: 4%;
+  animation: upDownMob 1s infinite alternate;
+}
+.mob-app-section1 .shape-tri-2 {
+  position: absolute;
+  bottom: 8%;
+  right: 4%;
+  animation: rotateme 5s linear infinite;
+}
+.mob-app-section1 .shape-tri-1 {
+  position: absolute;
+  top: 8%;
+  left: 4%;
+}
+
+/* responsive */
+@media (max-width: 426px) {
+  .mob-app-intro .common_h4,
+  .mob-app-section1 .common_h4,
+  .go-to-mob .common_h4,
+  .mob-services .common_h4,
+  .section-mobile-process-timeline .section-title-wd,
+  .section-app-store .common_h4,
+  .faq-section-mob .faq-header .section-title-mob,
+  .largest-company-sec .h4.lrg {
+    font-size: 26px !important;
+    line-height: 1.3;
+  }
+  .mob-app-intro .mob-app-intro-content p {
+    text-align: start;
+  }
+  .shape-tri-5 img {
+    top: -8% !important;
+  }
+  .mob-app-intro .shape-wrapper .shape-tri-1 img {
+    width: 40px !important;
+    top: 19% !important;
+    right: 24% !important;
+  }
+  .mob-app-section1 .shape-tri-1 {
+    display: none;
+  }
+  .go-to-mob img {
+    display: none;
+  }
+  .mob-service-title svg {
+    display: none;
+  }
+  .mob-service-title {
+    padding-bottom: 0px !important;
+  }
+  .mobile-app-development-page .app-secret-key h2 {
+    line-height: 1.4;
+    font-size: 24px;
+  }
+  .mobile-app-development-page .app-secret-key p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: start;
+  }
+  .section-mobile-process-timeline .timeline::before,
+  .section-mobile-process-timeline .timeline-dot {
+    left: 10%;
+  }
+  .section-mobile-process-timeline .timeline-content {
+    width: 80% !important;
+    left: 20%;
+    margin-left: 0 !important;
+  }
+  .section-mobile-process-timeline .step-num,
+  .section-mobile-process-timeline .step-num-even {
+    right: 6% !important;
+    left: unset !important;
+  }
+  .section-mobile-process-timeline .svg-text svg {
+    display: none;
+  }
+  .section-mobile-process-timeline .timeline {
+    padding: 0px !important;
+    left: -20px;
+    margin-top: 40px;
+  }
+  .faq-section-mob .card-header h2:after {
+    position: absolute;
+    right: 3px;
+    top: 12px;
+    color: #fff !important;
+  }
+  .section-app-store p {
+    font-size: 16px;
+  }
+  .section.guarantee-sec {
+    padding-top: 0px !important ;
+  }
+  .guarantee-row .grnt-cols:first-child {
+    padding: 0px !important;
+  }
+  .guarantee-row .grnt-cols {
+    padding: 0px !important;
+    border-right: 1px solid #e5e5e5 !important;
+    margin-bottom: 30px;
+  }
+  .shape-review-1 img {
+    opacity: 0.8;
+    width: 120px !important;
+  }
+  .shape-review-1 {
+    top: 10% !important;
+    right: unset !important;
+  }
+  .mob-section-cta {
+    padding: 100px 20px !important;
+  }
+  .mob-section-cta .cta-content h3 {
+    font-size: 24px !important;
+  }
+  .mob-section-cta .shape-wrapper .shape-cta-1 img {
+    left: 25px;
+    width: 65px;
+    bottom: 25%;
+  }
+  .section.largest-company-sec .small-heading {
+    text-align: start;
+  }
+  .mobile-app-development-page .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .cook-app-img {
+    text-align: center;
+  }
+  .cook-app-img img {
+    width: 350px !important;
+  }
+  .faq-section-mob {
+    padding: 60px 0px !important;
+  }
+  .section-app-store img {
+    width: 350px !important;
+  }
+  .guarantee-row {
+    padding: 0px !important;
+  }
+  .suite-services-list li {
+    width: fit-content !important;
+  }
+  .suite-services-list li {
+    margin-top: 0px !important;
+  }
+  .mob-services .col-lg-4,
+  .mob-services .col-lg-6 {
+    border: unset !important;
+    border-bottom: 1px solid #e2e2e2 !important;
+  }
+  .section-app-store .app-publish-img {
+    text-align: center;
+  }
+  .guarantee-row .grnt-cols:nth-child(3),
+  .guarantee-row .grnt-cols:nth-child(4) {
+    margin-top: 0px !important;
+  }
+}
+/* Tab Responsive */
+@media (max-width: 768px) {
+  .mob-app-intro .shape-wrapper .shape-tri-1 img {
+    width: 55px;
+    top: 20%;
+    right: 23%;
+  }
+  .mob-app-section1 .shape-tri-1 {
+    top: 8%;
+    left: 1%;
+  }
+  .mob-app-section1 .shape-tri-1 img {
+    width: 90px;
+  }
+  .software-development-sec .left-img {
+    display: none;
+  }
+  .software-development-sec .content-right {
+    right: unset;
+    margin: 0px 40px;
+  }
+  .software-development-sec .content-right .h4 {
+    text-align: center;
+  }
+  .go-to-mob .row {
+    flex-direction: column-reverse;
+  }
+  .tab-last {
+    border-right: unset !important;
+    border-left: 1px solid #e2e2e2;
+  }
+  .mob-services .col-last-row {
+    border-bottom: 1px solid #e2e2e2 !important;
+  }
+  .mob-services .col-lg-4 {
+    border-right: unset !important;
+  }
+  .suite-services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 19px;
+    margin-top: 60px;
+    align-items: center;
+  }
+  .suite-services-list li {
+    min-height: unset;
+  }
+  .mobile-app-development-page .app-secret-key h2 {
+    line-height: 1.3;
+    font-size: 28px;
+  }
+  .section-app-store img {
+    width: 300px;
+  }
+  .section-app-store .row:nth-child(2) {
+    align-items: start !important;
+  }
+  .guarantee-3 {
+    padding-left: 0px !important;
+  }
+  .guarantee-row .grnt-cols:nth-child(3),
+  .guarantee-row .grnt-cols:nth-child(4) {
+    margin-top: 40px;
+  }
+  .largest-company-sec .h4.lrg {
+    font-size: 28px;
+  }
+  .go-to-mob .go-to-mob-img img {
+    width: 70%;
+  }
+  .go-to-mob .go-to-mob-img {
+    text-align: center;
+  }
 }
