@@ -9,9 +9,8 @@
     } ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="<?php echo $meta ? $meta->description : "Cloudi5 is the Leading Flutter app development company in Coimbatore, creating innovative mobile solutions. Get custom apps designed for your business needs."; ?>">
-    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : ""; ?>">
+    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
+    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " "; ?>">
     <meta name="robots" content="index,follow" />
     <meta name="language" content="english" />
     <meta name="Expires" content="never" />
@@ -78,19 +77,67 @@
             </div>
         </div>
 
+        <section class="clients-logo pt-50 pb-50">
+            <div class="container-fluid">
+                <div class="client-logo-details">
+                    <div class="clients-title">
+                        <h6>Our Trusted Partner</h6>
+                    </div>
+                    <div class="marquee">
+                        <div class="marquee-content">
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                            </div>
+                            <!-- Duplicate items for seamless looping -->
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients-title-2">
+                        <h6>Almost 20+ Partner we have</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- flutter-intro-section-1-start  -->
         <section class="pt-80 pb-80 flutter-intro-section">
             <div class="row">
-                <div class="img-wrapper">
-                    <!-- <div class="shape-1">
+                <!-- <div class="img-wrapper">
+                    <div class="shape-1">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/bg-pattern-sec-1.png"
                             alt="Convert into Mockups">
-                    </div> -->
+                    </div>
                     <div class="shape-2">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/shape-2.png"
                             alt="Convert into Mockups">
                     </div>
-                </div>
+                </div> -->
                 <div class="container d-flex section-intro">
 
                     <div class="col-md-7 p-0">
@@ -179,7 +226,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 deploy-tab">
                             <div class="service-card-box">
                                 <div class="service-icon">
                                     <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/deployment.png"
@@ -244,6 +291,25 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-12 deploy-tab-view">
+                            <div class="service-card-box">
+                                <div class="service-icon">
+                                    <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/deployment.png"
+                                        alt="Flutter App Development">
+                                </div>
+                                <div class="service-title">
+                                    <h4>Deployment & Optimization</h4>
+                                </div>
+                                <span class="service-num">
+                                    <h1>04</h1>
+                                </span>
+                                <div class="service-content">
+                                    <p>We ensure a seamless app store launch with optimized listings for
+                                        discoverability,
+                                        maximizing your app's reach to potential users.</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-lg-12">
                             <div class="service-card-box">
                                 <div class="service-icon">
@@ -302,10 +368,10 @@
                     </div>
                 </div>
                 <div class="row pt-80 pb-30 service-row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="service-card-box">
                             <div class="service-icon">
-                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cross-sample.png"
+                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/custom-app.png"
                                     alt="Flutter App Development">
                             </div>
                             <div class="service-title">
@@ -317,10 +383,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="service-card-box">
                             <div class="service-icon">
-                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/sample.png"
+                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cross-platform.png"
                                     alt="Flutter App Development">
                             </div>
                             <div class="service-title">
@@ -332,10 +398,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-12 consulting-mid">
                         <div class="service-card-box">
                             <div class="service-icon">
-                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cross-sample.png"
+                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/consulting-service.png"
                                     alt="Flutter App Development">
                             </div>
                             <div class="service-title">
@@ -349,10 +415,10 @@
                     </div>
                 </div>
                 <div class="row pb-40 service-row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="service-card-box">
                             <div class="service-icon">
-                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cross-sample.png"
+                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/enterprise.png"
                                     alt="Flutter App Development">
                             </div>
                             <div class="service-title">
@@ -364,10 +430,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="service-card-box">
                             <div class="service-icon">
-                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cross-sample.png"
+                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/upgrading.png"
                                     alt="Flutter App Development">
                             </div>
                             <div class="service-title">
@@ -379,10 +445,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="service-card-box">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="service-card-box maintenance-last">
                             <div class="service-icon">
-                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cross-sample.png"
+                                <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/flutter-maintenance.png"
                                     alt="Flutter App Development">
                             </div>
                             <div class="service-title">
@@ -558,7 +624,7 @@
                         <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/better-app.svg"
                             alt="spark">
                     </div>
-                    <div class="col-md-8 pb-60 title-better">
+                    <div class="col-md-12 col-lg-8 pb-60 title-better">
                         <div class="tagline">
                             Building Better Apps Faster
                         </div>
@@ -566,7 +632,7 @@
                                 class="grad-text">Flutter</span>
                             Development</h2>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-12 col-lg-8">
                         <p>Flutter helps you make great mobile apps, and Cloudi5 knows how to use it best. We'll help
                             you get your app out faster, make it look great, and save you money. Let Cloudi5 help you
                             build your dream app.</p>
@@ -591,7 +657,7 @@
 
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-none col-lg-4">
                         <div class="flutter-better-img-left">
                             <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/flutter-better.png"
                                 alt="Flutter in Laptop">
@@ -612,7 +678,7 @@
                     <!-- <div class="background-flutter">
                         <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/pat.png" alt="spark">
                     </div> -->
-                    <div class="col-md-10">
+                    <div class="col-md-12 col-lg-10">
                         <h2 class="section-title-wd mb-0 text-center">Hire Cloudi5's <span class="grad-text">Elite
                                 Flutter</span> Development Team</h2>
                     </div>
@@ -635,7 +701,7 @@
                             Talk to Our Experts!
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 flutter-person-img-col">
                         <div class="flutter-person-img">
                             <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/hire-flutter.png"
                                 alt="hire-flutter">
@@ -971,20 +1037,22 @@
         <!-- web-dev cta -->
         <section class="wd-section flutter-section-cta">
             <div class="container">
-                <div class="shape-wrapper">
-                    <div class="shape-cta-1">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/shape-1.png" alt="Shape-Dot">
-                    </div>
-                    <div class="shape-cta-2">
-                        <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cta-flutter-pattern.svg"
-                            alt="Shape-Dot">
-                    </div>
-                    <!-- <div class="shape-cta-3">
+
+                <div class="row justify-content-center">
+                    <div class="shape-wrapper">
+                        <div class="shape-cta-1">
+                            <img src="<?php echo base_url(); ?>asset/images/web-development/shape-1.png"
+                                alt="Shape-Dot">
+                        </div>
+                        <div class="shape-cta-2">
+                            <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/cta-flutter-pattern.svg"
+                                alt="Shape-Dot">
+                        </div>
+                        <!-- <div class="shape-cta-3">
                         <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/doodle-corner.webp"
                             alt="doodle">
                     </div> -->
-                </div>
-                <div class="row justify-content-center">
+                    </div>
                     <div class="col-md-10">
                         <div class="cta-content cta-content-overlay">
                             <h3>
@@ -1011,7 +1079,6 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
         <script>
             $(document).ready(function () {
-                // Add click event to the entire card
                 $('.card').click(function (e) {
                     // Prevent default behavior only if clicking on card but not on the collapse itself
                     if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
@@ -1031,11 +1098,49 @@
                     }
                 });
 
-                // Handle the show/hide events to manage the +/- icons
                 $('.collapse').on('show.bs.collapse', function () {
                     $(this).prev('.card-header').addClass('active');
                 }).on('hide.bs.collapse', function () {
                     $(this).prev('.card-header').removeClass('active');
+                });
+                $(document).ready(function () {
+                    $('.card').click(function (e) {
+                        if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
+                            e.preventDefault();
+                            const collapseElement = $(this).find('.collapse');
+                            const button = $(this).find('.card-header button');
+                            collapseElement.collapse('toggle');
+                            button.attr('aria-expanded', button.attr('aria-expanded') === 'true' ? 'false' : 'true');
+                        }
+                    });
+
+                    $('.collapse')
+                        .on('show.bs.collapse', function () {
+                            $(this).prev('.card-header').addClass('active');
+                            $(this).css('height', 'auto');
+                        })
+                        .on('hide.bs.collapse', function () {
+                            $(this).prev('.card-header').removeClass('active');
+                        })
+                        .on('shown.bs.collapse', function () {
+                            $(this).css('height', 'auto');
+                        });
+                    $('<style>')
+                        .prop('type', 'text/css')
+                        .html(`
+            .card-header button.btn-link {
+                white-space: normal !important;
+                text-align: left;
+                height: auto !important;
+                padding: 15px;
+                line-height: 1.5;
+            }
+            .collapse.show {
+                height: auto !important;
+                max-height: none !important;
+            }
+        `)
+                        .appendTo('head');
                 });
             });
         </script>

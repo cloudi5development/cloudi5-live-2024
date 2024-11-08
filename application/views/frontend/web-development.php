@@ -68,19 +68,54 @@
             </div>
          </div>
       </div>
-      <!-- <section class="wd-section wd-section-banner">
-         <div class="container banner-content">
-            <div class="row justify-content-center">
-               <div class="col-md-10">
-                  <div class="banner-tagline">
-                     <span> Transform Your Vision into Digital Success!</span>
+
+      <section class="clients-logo pt-50 pb-50">
+         <div class="container-fluid">
+            <div class="client-logo-details">
+               <div class="clients-title">
+                  <h6>Our Trusted Partner</h6>
+               </div>
+               <div class="marquee">
+                  <div class="marquee-content">
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                     </div>
+                     <!-- Duplicate items for seamless looping -->
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                     </div>
                   </div>
-                  <h2 class="title">Gear up your business returns with top-performing <span>Web Development</span>
-                     Company in Coimbatore!</h2>
+               </div>
+               <div class="clients-title-2">
+                  <h6>Almost 20+ Partner we have</h6>
                </div>
             </div>
          </div>
-      </section> -->
+      </section>
 
       <section class="wd-section pt-80 pb-80 section-sure">
          <div class="row">
@@ -223,7 +258,7 @@
             </p>
             <h2 class="newTitle aos-animate aos-init aos-h2" data-aos="fade-up">Why Partner with Cloudi5?</h2>
 
-            <ul class="boxes clearfix aos-animate aos-init service-list" data-aos="flip-right">
+            <ul class="boxes aos-animate aos-init service-list" data-aos="flip-right">
                <li><a>
                      <div class="mcommerce-icon">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/team.webp"
@@ -559,9 +594,9 @@
                   </div>
                   <div class="tech-card size-2">
                      <div class="tech-item">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/photoshop.webp"
-                           alt="Photoshop">
-                        <div class="tech-name">Photoshop</div>
+                        <img src="<?php echo base_url(); ?>asset/images/web-development/tech/express.png"
+                           alt="Express Js">
+                        <div class="tech-name">Express Js</div>
                      </div>
                   </div>
                   <div class="tech-card size-2">
@@ -705,292 +740,6 @@
       </div>
       <!-- hiring-developers-start -->
 
-      <!-- <section class="blog-web-dev pt-80 pb-80">
-         <div class="container mt-5">
-            <div class="slider-container">
-               <div class="slider-track">
-                                 <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide">
-                     <div class="slide-content">
-                        <img
-                           src="https://mayflowerenterprises.com/uploads/banner_image/20240711-225957-17207189970914.jpg"
-                           alt="Innovation 1">
-                        <div class="overlay">
-                           <h3>Innovation 1</h3>
-                           <p>Discover groundbreaking technologies that shape the future.</p>
-                           <button class="btn btn-light">Learn More</button>
-                        </div>
-                     </div>
-                  </div>
-                         </div>
-               <div class="slider-controls">
-                  <button class="slider-btn prev">←</button>
-                  <button class="slider-btn next">→</button>
-               </div>
-            </div>
-         </div>
-      </section> -->
-
-      <!-- faq start -->
-      <!-- <section class="write-for-faq position-relative">
-         <div class="container position-relative">
-            <div class="faqs-title text-center">
-               <h2 class="faq-title">
-                  Everything You Need to Know!
-               </h2>
-               <div class="description">
-                  <p>Stop Wasting Time Scrolling Here! The Good Stuff Happens After You Sign Up with Cloudi5. Don't Miss
-                     Out!.</p>
-               </div>
-            </div>
-            <div class="row justify-content-center">
-               <div class="col-lg-8">
-                  <div class="faq">
-                     <div class="accordion-section">
-                        <div class="accordion-single">
-                           <h5 class="header-area">
-                              <button
-                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
-                                 type="button">
-                                 1. Do you offer any free consultations or website audits?
-                              </button>
-                           </h5>
-                           <div class="content-area">
-                              <div class="content-body pt-4">
-                                 <p class="desc">
-                                    Absolutely! We believe in open communication and understanding your needs. We offer
-                                    free consultations to discuss your vision and goals for your website. We can also
-                                    perform a free website audit to identify areas for improvement.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="accordion-single">
-                           <h5 class="header-area ">
-                              <button
-                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
-                                 type="button">
-                                 2. Do you offer website maintenance and support services?
-                              </button>
-                           </h5>
-                           <div class="content-area">
-                              <div class="content-body pt-4">
-                                 <p class="desc">Yes, we do! We understand that your website is an ongoing asset. We
-                                    offer website maintenance and support plans to ensure your website stays up-to-date,
-                                    secure, and functioning smoothly.</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="accordion-single">
-                           <h5 class="header-area ">
-                              <button
-                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
-                                 type="button">
-                                 3. Are your web developers experienced in working with my industry?
-                              </button>
-                           </h5>
-                           <div class="content-area">
-                              <div class="content-body pt-4">
-                                 <p class="desc">
-                                    We have a team of experienced web developers with expertise in a wide range of
-                                    industries. We'll take the time to understand your specific industry needs and
-                                    challenges to create a website that resonates with your target audience.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="accordion-single">
-                           <h5 class="header-area ">
-                              <button
-                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
-                                 type="button">
-                                 4. How do you ensure my website will be mobile-friendly?
-                              </button>
-                           </h5>
-                           <div class="content-area">
-                              <div class="content-body pt-4">
-                                 <p class="desc">
-                                    We prioritize responsive design in all our projects. This means your website will
-                                    automatically adjust to fit any screen size, ensuring a seamless user experience on
-                                    desktops, tablets, and mobile phones.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="accordion-single">
-                           <h5 class="header-area ">
-                              <button
-                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
-                                 type="button">
-                                 5. Will my website be secure and protect my visitors' information?
-                              </button>
-                           </h5>
-                           <div class="content-area">
-                              <div class="content-body pt-4">
-                                 <p class="desc">
-                                    Security is a top priority for us. We use the latest security measures and best
-                                    practices to protect your website and your visitors' information.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="accordion-single">
-                           <h5 class="header-area ">
-                              <button
-                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
-                                 type="button">
-                                 6. Do you offer search engine optimization (SEO) services?
-                              </button>
-                           </h5>
-                           <div class="content-area">
-                              <div class="content-body pt-4">
-                                 <p class="desc">
-                                    We can help optimize your website for search engines to improve your website's
-                                    visibility and organic traffic. We can incorporate SEO best practices into the
-                                    website development process and offer ongoing SEO services.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-
-      <!-- faq end -->
       <section class="faq-section-wd pt-60 pb-60">
          <div class="faq-section container">
             <div class="row faq-tab">
@@ -1150,159 +899,35 @@
             </div>
          </div>
       </section>
-
-      <!-- <section class="wd-section wd-section-faq">
-         <div class="faq-section container">
-            <div class="row d-flex">
-               <div class="faq-header col-md-4">
-                  <h1 class="display-4 mb-3">Frequently Asked Questions</h1>
-                  <p class="faq-description">Find answers to common queries about our products, services, and
-                     policies
-                     here.</p>
-
-                  <div class="d-flex action-buttons">
-                     <button class="btn support-btn">Go To Support Center</button>
-                     <button class="btn contact-btn">Contact Us</button>
-                  </div>
-               </div>
-
-               <div class="col-md-8">
-                  <div class="accordion" id="faqAccordion">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseOne">
-                              How long does it take to ship my order?
-                           </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                           <div class="accordion-body">
-                              Shipping times vary depending on your location and chosen shipping method. Typically,
-                              orders are
-                              processed within 1-2 business days and delivered within 3-7 business days.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseTwo">
-                              What payment methods do you accept?
-                           </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                           <div class="accordion-body">
-                              We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and Apple
-                              Pay.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseThree">
-                              What shipping options do you have?
-                           </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                           <div class="accordion-body">
-                              We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and
-                              Next
-                              Day Delivery options for most locations.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseFour">
-                              How do I make changes to an existing order?
-                           </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                           <div class="accordion-body">
-                              To modify an existing order, please contact our customer support team within 24 hours of
-                              placing
-                              your order. Changes after this period may not be possible.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseFive">
-                              When will my order arrive?
-                           </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                           <div class="accordion-body">
-                              You can track your order status and estimated delivery date through our tracking system.
-                              Once
-                              your order ships, you'll receive a confirmation email with tracking information.
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-
-            </div>
-         </div>
-      </section> -->
       <?php include 'footer.php' ?>
       <?php $this->load->view('frontend/common-js'); ?>
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
       <script>
          $(document).ready(function () {
-            // Add click event to the entire card
             $('.card').click(function (e) {
-               // Prevent default behavior only if clicking on card but not on the collapse itself
                if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
                   e.preventDefault();
-
-                  // Find the collapse element within this card
                   const collapseElement = $(this).find('.collapse');
-
-                  // Find the button within this card
                   const button = $(this).find('.card-header button');
-
-                  // Toggle the collapse
                   collapseElement.collapse('toggle');
-
-                  // Toggle aria-expanded
                   button.attr('aria-expanded', button.attr('aria-expanded') === 'true' ? 'false' : 'true');
                }
             });
 
-            // Handle the show/hide events to manage the +/- icons
             $('.collapse').on('show.bs.collapse', function () {
                $(this).prev('.card-header').addClass('active');
             }).on('hide.bs.collapse', function () {
                $(this).prev('.card-header').removeClass('active');
             });
             $('.card').click(function (e) {
-               // Prevent default behavior only if clicking on card but not on the collapse itself
                if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
                   e.preventDefault();
-
-                  // Find the collapse element within this card
                   const collapseElement = $(this).find('.collapse');
-
-                  // Find the button within this card
                   const button = $(this).find('.card-header button');
-
-                  // Toggle the collapse
                   collapseElement.collapse('toggle');
-
-                  // Toggle aria-expanded
                   button.attr('aria-expanded', button.attr('aria-expanded') === 'true' ? 'false' : 'true');
                }
             });
-
-            // Handle the show/hide events to manage the +/- icons and ensure proper height
             $('.collapse')
                .on('show.bs.collapse', function () {
                   // Add active class
@@ -1311,15 +936,12 @@
                   $(this).css('height', 'auto');
                })
                .on('hide.bs.collapse', function () {
-                  // Remove active class
                   $(this).prev('.card-header').removeClass('active');
                })
                .on('shown.bs.collapse', function () {
                   // After animation completes, ensure height is auto
                   $(this).css('height', 'auto');
                });
-
-            // Add this CSS dynamically for the text wrapping
             $('<style>')
                .prop('type', 'text/css')
                .html(`

@@ -9,10 +9,8 @@
     } ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="<?php echo $meta ? $meta->description : "Cloudi5 Technologies, a top Mobile App Development Company in Coimbatore, specializes in iOS, Android, Flutter, and cross-platform apps for business growth."; ?>">
-    <meta name="keywords"
-        content="<?php echo $meta ? $meta->keyword : "mobile application development, mobile app development, mobile app developers, mobile app development company in coimbatore, app development company in coimbatore, mobile app development companies in coimbatore, mobile app developers coimbatore, mobile app developers in coimbatore, android app development company in Coimbatore"; ?>">
+    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
+    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " "; ?>">
     <meta name="robots" content="index,follow" />
     <meta name="language" content="english" />
     <meta name="Expires" content="never" />
@@ -77,7 +75,56 @@
                 </div>
             </div>
         </div>
-        <section class="mob-app-intro pt-60 pb-60 text-center">
+
+        <section class="clients-logo pt-50 pb-50">
+            <div class="container-fluid">
+                <div class="client-logo-details">
+                    <div class="clients-title">
+                        <h6>Our Trusted Partner</h6>
+                    </div>
+                    <div class="marquee">
+                        <div class="marquee-content">
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                            </div>
+                            <!-- Duplicate items for seamless looping -->
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients-title-2">
+                        <h6>Almost 20+ Partner we have</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mob-app-intro pt-0 pb-60 text-center">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="shape-wrapper">
@@ -207,7 +254,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-5 go-to-mob-img">
-                        <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/android-application-development-services-cloudi5.png"
+                        <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/android-application-development-services-cloudi5.webp"
                             class="app-side-img" alt="Android Application Development Services | Cloudi5" width="100%">
                     </div>
                     <div class="col-lg-7 col-md-12">
@@ -435,7 +482,7 @@
                     your Success?</h2>
                 <p class="aos-animate aos-init aos-h2" data-aos="fade-up">Let our apps be the secret ingredient that
                     makes your business shine!</p>
-                <ul class="suite-services-list clearfix">
+                <ul class="suite-services-list">
                     <li>
                         <div class="ins-suite-services-list mob-li-bg1">
                             <figure> <span class="upimg"><img
@@ -1109,7 +1156,6 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
         <script>
             $(document).ready(function () {
-                // Add click event to the entire card
                 $('.card').click(function (e) {
                     // Prevent default behavior only if clicking on card but not on the collapse itself
                     if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
@@ -1129,7 +1175,6 @@
                     }
                 });
 
-                // Handle the show/hide events to manage the +/- icons
                 $('.collapse').on('show.bs.collapse', function () {
                     $(this).prev('.card-header').addClass('active');
                 }).on('hide.bs.collapse', function () {
@@ -1137,42 +1182,26 @@
                 });
                 $(document).ready(function () {
                     $('.card').click(function (e) {
-                        // Prevent default behavior only if clicking on card but not on the collapse itself
                         if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
                             e.preventDefault();
-
-                            // Find the collapse element within this card
                             const collapseElement = $(this).find('.collapse');
-
-                            // Find the button within this card
                             const button = $(this).find('.card-header button');
-
-                            // Toggle the collapse
                             collapseElement.collapse('toggle');
-
-                            // Toggle aria-expanded
                             button.attr('aria-expanded', button.attr('aria-expanded') === 'true' ? 'false' : 'true');
                         }
                     });
 
-                    // Handle the show/hide events to manage the +/- icons and ensure proper height
                     $('.collapse')
                         .on('show.bs.collapse', function () {
-                            // Add active class
                             $(this).prev('.card-header').addClass('active');
-                            // Ensure proper height
                             $(this).css('height', 'auto');
                         })
                         .on('hide.bs.collapse', function () {
-                            // Remove active class
                             $(this).prev('.card-header').removeClass('active');
                         })
                         .on('shown.bs.collapse', function () {
-                            // After animation completes, ensure height is auto
                             $(this).css('height', 'auto');
                         });
-
-                    // Add this CSS dynamically for the text wrapping
                     $('<style>')
                         .prop('type', 'text/css')
                         .html(`
@@ -1191,7 +1220,6 @@
                         .appendTo('head');
                 });
             });
-
         </script>
 
     </div>
