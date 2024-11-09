@@ -123,7 +123,7 @@
 
 
                                         <div class="service-card-icon-wrapper mt-10">
-                                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/unique-design.png" class="service-icon-1" alt="service-img">
+                                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/unique-design.png" class="service-icon-1" alt="unique-design-service-img">
                                         </div>
                                         <div class="service-card-number">01</div>
                                     </div>
@@ -146,7 +146,7 @@
                                     <div class="service-card-icon">
 
                                         <div class="service-card-icon-wrapper">
-                                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/quality-assurance.png" class="service-icon-2" alt="service-img">
+                                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/quality-assurance.png" class="service-icon-2" alt="Quality-Assurance-service-img">
                                         </div>
                                         <div class="service-card-number">02</div>
                                     </div>
@@ -170,7 +170,7 @@
                                     <div class="service-card-icon">
 
                                         <div class="service-card-icon-wrapper">
-                                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/customer-satisfaction.png" class="service-icon-3" alt="service-img">
+                                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/customer-satisfaction.png" class="service-icon-2" alt="Customer-Satisfaction-service-icon-3">
                                         </div>
                                         <div class="service-card-number">03</div>
                                     </div>
@@ -192,96 +192,6 @@
 
         </section>
         <!-- banner-section-ends -->
-
-
-        <!-- <section class="our_services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="services_content_iner">
-                            <div class="single_services_section wow fadeInDown wd-service-ind" data-wow-delay=".3s">
-                                <a href="#" class="services_section_bg bg_1"></a>
-                                <div class="single_section_content">
-                                    <h5>Unique Web Design</h5>
-                                    <h3>The unique work process is a standout factor that differentiates us from the rest. Our designers take utmost care of everything like no one else to make your site successful. The uniqueness of the web design reflects your brand explicitly to build a strong identity among the customers.</h3>
-                                </div>
-                            </div>
-                            <div class="single_services_section wow fadeInDown wd-service-ind" data-wow-delay=".5s">
-                                <a href="#" class="services_section_bg bg_2"></a>
-                                <div class="single_section_content">
-                                    <h5>Quality Assurance (QA)</h5>
-                                    <h3>Quality that speaks is the driving force of our success. We deploy and implement an enormous number of quality checkpoints before taking the website to live servers. Our web designing team retains high standards and utilizes the latest technology in every web design that we create.</h3>
-                                </div>
-                            </div>
-                            <div class="single_services_section wow fadeInDown wd-service-ind" data-wow-delay=".7s">
-                                <a href="#" class="services_section_bg bg_3"></a>
-                                <div class="single_section_content">
-                                    <h5>Customer Satisfaction</h5>
-                                    <h3>Our organization works passionately to earn customers satisfaction from everyone we work. We are committed to building sites that meet your expectations. We believe happy customers are the spirit of never-ending business growth. Customization of our web designs satisfies your needs regardless of the nature of your business.</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- START WORK PROCESS -->
-        <!-- <section class="pos-r">
-            <div class="container">
-                <div class="wow fadeInLeft animated wd-service-inleft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="text-center">
-                        <h2 class="wd-title">Principles of Our Web Design Company</h2>
-                        <p>We earn client satisfaction via design principles.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
-                            <div class="featured-item style-3">
-                                <div class="featured-icon"><i class="flaticon-ui"></i><span class="border-anim"></span></div>
-                                <div class="featured-title">
-                                    <h5>Creative Designs</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Designing sites with creative ideas that perform to deliver faster results than your competitors.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
-                            <div class="featured-item style-3">
-                                <div class="featured-icon"><i class="flaticon-ui"></i><span class="border-anim"></span></div>
-                                <div class="featured-title">
-                                    <h5>SEO friendly Website design</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Our designs meet all the foundational requirements of the standard SEO guidelines.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
-                            <div class="featured-item style-3">
-                                <div class="featured-icon"><i class="flaticon-ui"></i><span class="border-anim"></span></div>
-                                <div class="featured-title">
-                                    <h5>Responsive Design</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Building device-compatible web designs that display elegantly on all screen resolutions.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
-                            <div class="featured-item style-3">
-                                <div class="featured-icon"><i class="flaticon-ui"></i><span class="border-anim"></span></div>
-                                <div class="featured-title">
-                                    <h5>Mobile-Friendly Design</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Your Website will look great and work smoothly on any device, phone, tablet, or computer.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section> -->
-
 
         <!-- -------principple-section-starts------->
         <section class="principle-sec  ">
@@ -306,10 +216,10 @@
 
 
                         <div class="principle-sketch-1">
-                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ring-pattern.png" height="80" width="80" alt="pattern" class="banner-pattern-1" />
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ring-pattern.png" height="80" width="80" alt="pattern-img" class="banner-pattern-1" />
                         </div>
                         <div class="principle-sketch-2">
-                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/solid-pattern.png" height="80" width="80" alt="pattern" class="" />
+                            <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/solid-pattern.png" height="80" width="80" alt="pattern-img" class="" />
                         </div>
                         <div>
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg" class="princi-pattern-1 move-horizontal" height="80" width="80" alt="priciple-img">
@@ -355,7 +265,7 @@
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
-                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-1.png" class="principle-icon-1" alt="service-img">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-1.png" class="principle-icon-1" alt="creative-design-icon">
                                                 </div>
                                                 <h4 class="principle-card-title">Creative <br> Designs</h4>
                                                 <p class="principle-card-text">
@@ -370,7 +280,7 @@
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
-                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-2.png" class="principle-icon-1" alt="service-img">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-2.png" class="principle-icon-1" alt="SEO-img">
                                                 </div>
                                                 <h4 class="principle-card-title">SEO friendly Website design</h4>
                                                 <p class="principle-card-text">
@@ -388,7 +298,7 @@
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
-                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-3.png" class="principle-icon-1" alt="service-img">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-3.png" class="principle-icon-1" alt="Responsive-img">
                                                 </div>
                                                 <h4 class="principle-card-title">Responsive <br> Design</h4>
                                                 <p class="principle-card-text">
@@ -405,7 +315,7 @@
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
-                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-4.png" class="principle-icon-1" alt="service-img">
+                                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/principle-icon-4.png" class="principle-icon-1" alt="Mobile-Friendly-img">
                                                 </div>
                                                 <h4 class="principle-card-title">Mobile-Friendly Design</h4>
                                                 <p class="principle-card-text">
@@ -463,7 +373,7 @@
                                 <div class="progress-container">
                                     <svg class="progress-ring" width="100%" height="auto" viewBox="0 0 200 200">
                                         <circle cx="100" cy="100" r="90" fill="#c9daed" stroke="#e6e6e6" stroke-width="6" />
-                                        <circle class="progress" cx="100" cy="100" r="90" fill="#f5bebe" stroke="#f4cb0a" stroke-width="6" stroke-dasharray="565.48" stroke-dashoffset="565.48" />
+                                        <circle class="progress" cx="100" cy="100" r="90" fill="#f5d6d6" stroke="#f4cb0a" stroke-width="6" stroke-dasharray="565.48" stroke-dashoffset="565.48" />
                                     </svg>
                                     <div class="step-text">Step 1/4</div>
                                 </div>
@@ -553,10 +463,10 @@
                         <div class="col-lg-4 p-0">
                             <div class="leading-img-wrapper">
                                 <div class="image-box-1">
-                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/leading-company-bg-image-1.webp" class="leading-img-pattern" alt="priciple-img">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/leading-company-bg-image-1.webp" class="leading-img-pattern" alt="pattern-img">
                                 </div>
                                 <div class="image-box">
-                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-icon-1.png" class="priciple-img move-y" alt="priciple-img">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-icon-1.png" class="priciple-img move-y" alt="pattern-img">
                                 </div>
                             </div>
 
@@ -654,10 +564,10 @@
                         <div class="col-lg-4 p-0">
                             <div class="leading-img-wrapper">
                                 <div class="image-box">
-                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-potential.png" class="priciple-img-2 move-y" alt="priciple-img">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/business-potential.png" class="priciple-img-2 move-y" alt="pattern-img">
                                 </div>
                                 <div class="image-box-1">
-                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/leading-company-bg-image-1.webp" class="leading-img-pattern-1" alt="priciple-img">
+                                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/leading-company-bg-image-1.webp" class="leading-img-pattern-1" alt="pattern-img">
                                 </div>
                             </div>
                         </div>
@@ -739,13 +649,13 @@
         <!-- ---webinar-section-starts -->
         <section class="webinar-area mt-100">
             <div class="row m-0">
-                <div class="col-lg-6 p-0">
+                <div class="col-lg-6 col-md-12 p-0">
                     <div class="webinar-video-image-1 wow slideInLeft animated content-desktop">
                         <img src="<?php echo base_url(); ?>asset/images/wd-page/box1.jpg" alt="E-Commerce Website Design">
                     </div>
                 </div>
 
-                <div class="col-lg-6 p-0">
+                <div class="col-lg-6 col-md-12 p-0">
                     <div class="webinar-content">
                         <h2>E-Commerce Website Design</h2>
                         <p>You are just a few clicks away from the customized <a href="<?php echo base_url('ecommerce-website-development'); ?>"><strong>web design solutions</strong></a> that simplify your business challenges, provide instant connection, and secures your transactions. We adopt out-of-box thinking and proven strategies to build high performing <br><strong>E-commerce websites</strong> that boost business sale and audience reach. Our Web Designs focuses on customer needs capturing clients' business essence and vision. The e-commerce sites present a feel and look of an online store by user-friendly signup & checkout process, high-quality product image, optimized search bars, proper placement of shopping cart and CTAs, and easy navigation through product categories.</p>
@@ -753,13 +663,13 @@
                 </div>
             </div>
             <div class="row m-0">
-                <div class="col-lg-6 p-0">
+                <div class="col-lg-6 col-md-12 p-0">
                     <div class="webinar-content">
                         <h2>Website Redesign and Maintenance</h2>
                         <p>We shape your business with specific redesigning techniques that fulfill your requirements and don't fade away with the changing trends. Website redesign enhances the visually appealing and usability features of a site. Our redesigning services deploy the latest designs and technologies to create faster loading <strong>responsive web designs</strong> for the existing sites, and few SEO aspects are added to the redesigned one. Maintenance services help to increase and sustain customer engagement rates by providing regular website and technical updates, checks for broken links, images, and the functionality of databases etc.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 p-0">
+                <div class="col-lg-6 col-md-12 p-0">
                     <div class="webinar-video-image wow slideInRight animated content-desktop">
                         <img src="<?php echo base_url(); ?>asset/images/wd-page/box2.jpg" alt="Website Redesign and Maintenance">
                     </div>
@@ -799,7 +709,7 @@
 
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 class="web-technology-title text-center mb-40">Website design Services We Offer</h2>
+                        <h2 class="web-technology-title text-center mb-40">Website design services we offer</h2>
                     </div>
                 </div>
                 <div class="web-technology-section">
@@ -949,11 +859,12 @@
                                         <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/iconscout-web-card-9.png" class="custom-webdesign tech-icon " alt="E-Commerce Website Design">
                                     </div>
                                     <div class="card-content">
-                                        <h3>CMS Web Design</h3>
-                                        <p>Custom CMS web pages that are visually appealing and optimized for SEO.
-                                            allowing you to focus on running your business.
-                                            Easy website management system.
-                                            Improved online presence with CMS web designing services.</p>
+                                        <h3>Static & Dynamic Website Design</h3>
+                                        <p>Choose a fast, reliable static site or an interactive,
+                                            update-friendly dynamic site—Cloudi5 offers both.
+                                            We design static sites for simplicity and speed,
+                                            and dynamic sites for flexibility and engaging user experiences,
+                                            customized to your business needs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1070,9 +981,9 @@
                             </div>
                             <div class="tech-card size-2">
                                 <div class="tech-item">
-                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/photoshop.webp"
-                                        alt="Photoshop">
-                                    <div class="tech-name">Photoshop</div>
+                                    <img src="<?php echo base_url(); ?>asset/images/web-development/tech/express.png"
+                                        alt="Express">
+                                    <div class="tech-name">Express JS</div>
                                 </div>
                             </div>
                             <div class="tech-card size-2">
@@ -1161,7 +1072,7 @@
             <div class="container cta-container mt-60">
 
                 <div class="pattern-img-curve">
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-section-highlighting.png" class="cta-pattern-1" alt="priciple-img">
+                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-section-highlighting.png" class="cta-pattern-1" alt="cta-pattern-img">
                 </div>
                 <div class="call-to-action-sec mb-50">
                     <!-- <div>
@@ -1171,7 +1082,7 @@
 
                     <div class="pattern-img-curve">
 
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern.png" class="cta-pattern" alt="priciple-img">
+                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern.png" class="cta-pattern" alt="cta-pattern-img">
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-md-10 col-xl-8 col-sm-12 p-0">

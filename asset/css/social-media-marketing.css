@@ -21,6 +21,13 @@
   padding: 1px;
 }
 
+.text-red {
+  color: rgb(170, 31, 31);
+}
+.text-bold {
+  font-weight: bold;
+}
+
 .body-inner .banner-content {
   height: 400px;
   display: flex;
@@ -139,7 +146,10 @@
   border: none;
   transition: 0.5s ease-in;
 }
-
+.smm-leading-right-img {
+  width: 100%;
+  height: 100%;
+}
 .web-design-btn {
   margin: 0 !important;
 }
@@ -262,13 +272,26 @@
   line-height: 50px !important;
 }
 .right-leading-container {
-  background: url(../images/smm-page/circle-bg-img.png);
+  /* background: url(../images/smm-page/circle-bg-img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
+  position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.move-x {
+  animation: move-x 5s linear infinite alternate;
+}
+@keyframes move-x {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(10%);
+  }
+}
 .marketing-strategy-img {
   width: 40px;
 }
@@ -322,8 +345,8 @@
 .dot1 {
   bottom: 0;
   right: 208px;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   padding: 10px;
   background-color: #da0e17;
@@ -594,7 +617,7 @@
   background-color: #fbe7f3;
 }
 .wrapper-7 {
-  background-color: #fbe7f3;
+  background-color: #eee7fe;
 }
 .wrapper-8 {
   background-color: #efe8ff;
