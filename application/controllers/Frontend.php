@@ -49,7 +49,7 @@ class Frontend extends CI_Controller
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'web_development')->get('meta_tags')->row();
 		$data['page_title'] = 'Web Development';
-		$this->load->view('frontend/web-development',$data);
+		$this->load->view('frontend/web-development-company-in-coimbatore',$data);
 	}
 	#Mobile App
 	public function mobile_application_development_android_app()
@@ -57,7 +57,7 @@ class Frontend extends CI_Controller
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'android')->get('meta_tags')->row();
 		$data['page_title'] = 'Mobile App';
-		$this->load->view('frontend/mobile-application-development-android-app',$data);
+		$this->load->view('frontend/mobile-app-development-company-in-coimbatore',$data);
 	}
 	#Digital Marketing
 	public function digital_marketing_service()
@@ -798,7 +798,7 @@ class Frontend extends CI_Controller
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'android')->get('meta_tags')->row();
 		$data['page_title'] = 'Mobile App';
-		$this->load->view('frontend/flutter-app-development',$data);
+		$this->load->view('frontend/flutter-app-development-company-in-coimbatore',$data);
 	}
 	#home-new
 	public function home_new()
@@ -830,7 +830,7 @@ class Frontend extends CI_Controller
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'ios_app_development')->get('meta_tags')->row();
 		$data['page_title'] = 'IOS App development';
-		$this->load->view('frontend/ios-app-development',$data);
+		$this->load->view('frontend/ios-app-development-company-in-coimbatore',$data);
 	}
 	#erp-software
 	public function erp_software()
