@@ -4,13 +4,14 @@
 <head>
 
    <title><?php if ($meta) {
-      echo $meta->title ? $meta->title : "Cloudi5 - Write for us |  Coimbatore";
+      echo $meta->title ? $meta->title : "Write for Us - Cloudi5 Technologies Platform";
    } else {
-      echo "";
+      echo "Write for Us - Cloudi5 Technologies Platform";
    } ?></title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
+   <meta name="description"
+      content="<?php echo $meta ? $meta->description : "Become a contributor and share your insights on digital marketing, web design, SEO, and web development to reach a larger audience."; ?>">
    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " "; ?>">
    <meta name="robots" content="index,follow" />
    <meta name="language" content="english" />
@@ -25,10 +26,10 @@
    <meta name="email" content="info@cloudi5.com" />
    <link rel="canonical" href="<?php echo base_url(); ?>aboutus" />
    <meta property="og:type" content="website" />
-   <meta property="og:title" content="Cloudi5 - Web Development Company |  Digital Marketing | Coimbatore" />
+   <meta property="og:title" content="Write for Us - Cloudi5 Technologies Platform" />
    <meta property="og:description"
-      content="Cloudi5 is one of the best software development, web design, mobile app development, School ERP, Digital Marketing, SEO & SMO companies in Coimbatore, Tamil Nadu, India. Global custom software development company helps the client to build innovative software products and focused on the execution delivery and support." />
-   <meta property="og:url" content="<?php echo base_url(); ?>aboutus" />
+      content="Become a contributor and share your insights on digital marketing, web design, SEO, and web development to reach a larger audience." />
+   <meta property="og:url" content="<?php echo base_url(); ?>write-for-us" />
    <?php include ('common-css.php') ?>
    <?php $this->load->view('frontend/common-css'); ?>
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.carousel.min.css">
@@ -41,6 +42,11 @@
    <link rel='stylesheet'
       href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 
+   <link rel='stylesheet'
+      href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
    <?php $this->load->view('frontend/fb-pixel-code'); ?>
 </head>
 
@@ -49,23 +55,6 @@
    <div class="body-inner">
 
       <?php include 'header.php' ?>
-
-      <!-- <div class="banner-area resp-banner" id="banner-area"
-         alt="Web Development, ERP, CRM & Web Design Company in India" title="About Us">
-         <div class="container">
-            <div class="row justify-content-center">
-               <div class="col">
-                  <div class="banner-heading text-center">
-                     <h1 class="banner-title2">Share your story and be a part of this community!</h1>
-                     <ol class="breadcrumb">
-                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                        <li>Write for us</li>
-                     </ol>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
 
       <!-- <section class="write-for-us-home">
          <div class="container-fluid">
@@ -155,24 +144,25 @@
             <div class="row justify-center align-items-center">
                <div class="col-lg-9">
                   <div class="banner-contents">
-                     <span class="sub-title"><img src="<?php echo base_url(); ?>asset/images/write-for-us/hii-emoji.svg"
-                           alt="Hi Emoji" class="hi-emoji"> Leading Digital Solutions Provider in Coimbatore</span>
-                     <h1 class="banner-title">Secure your websites with
-                        cloud-based <span class="highlight">platform. <svg width="205" height="17" viewBox="0 0 205 17"
-                              fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <span class="sub-title"><img
+                           src="<?php echo base_url(); ?>asset/images/write-for-us/write-for-us-icon.png" alt="Hi Emoji"
+                           class="write-for-icon"> Write for Us to Inspire and Engage</span>
+                     <h1 class="banner-title">Do You Want to Write for <span class="highlight"> <br> Cloudi5
+                           Technologies? <svg width="205" height="17" viewBox="0 0 205 17" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
                               <path
                                  d="M2.62599 4.60245C33.6378 2.24214 117.062 -0.161247 202.664 9.10766M2.95273 14.5959C19.8661 13.505 66.1001 11.6133 101.833 13.0647"
                                  stroke="currentcolor" stroke-width="4" stroke-linecap="round"></path>
                            </svg></span>
                      </h1>
-                     <p class="banner-desc">These tools can help you reach your target audience, improve your website's
-                        visibility, and track your results.</p>
-                     <a href="javascript:void(0);" class="contact-btn">
+                     <p class="banner-desc">Let’s collaborate! Share your content with us to attract more visitors to
+                        your site.</p>
+                     <a href="#contact-us" class="contact-btn">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        Let's Discuss your Project
+                        Submit your article
                      </a>
                   </div>
                </div>
@@ -184,73 +174,130 @@
       <section class="why-choose-us">
          <div class="container">
             <div class="row align-items-center justify-center">
-               <div class="col-lg-6">
+               <div class="col-lg-4">
                   <div class="left-side-content">
                      <h2 class="why-choose-title">
-                        Why Should You
+                        Why It's Great to
                         <br> <span> Write for Us ? <img
                               src="<?php echo base_url(); ?>asset/images/write-for-us/rating.png" alt=""
                               class="rating-img"></span>
                      </h2>
                      <p class="why-choose-desc">
-                        Because it’s your chance to share your expertise, amplify your voice, and captivate our audience
-                        with your writing skills.
+                        This is your moment to share your knowledge, get noticed, and engage our audience with your
+                        writing.
                      </p>
                   </div>
                </div>
-               <div class="col-lg-6">
-                  <ul class="why-choose-points">
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        High DA (72) for domain value
-                     </li>
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        Impressive DR (90) and UR (83)
-                     </li>
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        1M+ monthly blog visitors
-                     </li>
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        Backlink to your site
-                     </li>
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        89K+ customers
-                     </li>
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        Exposure to our blog subscribers
-                     </li>
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        Mentions in newsletter and social media
-                     </li>
-                     <li class="d-flex gap-2 pb-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png" alt="Point-shape">
-                        </div>
-                        Plus exciting additional benefits…
-                     </li>
-                  </ul>
+               <div class="col-lg-8">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <ul class="why-choose-points">
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Drive more traffic to your website
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Connect with a wider audience
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              70K+ customers
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Exposure to our blog subscriber
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Boost your SEO rankings
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Gain credibility in your industry
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Enhance your brand visibility
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-6">
+                        <ul class="why-choose-points">
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Receive feedback and tips to enhance your writing skills
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Targeted audience
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              SEO Boost
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Professional exposure
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Access a large, engaged audience for your content
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Get tips on effective content marketing strategies
+                           </li>
+                           <li class="d-flex gap-2 pb-2">
+                              <div class="icon">
+                                 <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.png"
+                                    alt="Point-shape">
+                              </div>
+                              Contribute to discussions on trending topics
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
                </div>
-
             </div>
          </div>
       </section>
@@ -264,169 +311,128 @@
                         <img src="<?php echo base_url(); ?>asset/images/write-for-us/dots.png" alt="Sub-Heading-Design">
                         <span>What we offers</span>
                      </div>
-                     <h2>List of Categories</h2>
+                     <h2>What We’re Looking For?</h2>
                   </div>
                </div>
                <div class="col-lg-7 right-side-content">
                   <div class="about-desc">
-                     <p>We strive to develop real-world web solutions that are ideal for small to large projects with
-                        bespoke project requirements. we compelling web, which are the right-fit for your target.</p>
+                     <p>We accept well-researched, original, and detailed articles on the following topics when you
+                        write for us:</p>
                   </div>
                </div>
             </div>
             <div class="row">
-               <div class=".col-lg-12 categories-contents">
+               <div class="col-lg-12 categories-contents">
                   <ul class="categories-container">
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-01.png"
-                              alt="Categories-Img">
-                           <h4>Content Guidelines</h4>
+                           <i class="uil uil-cube fa-2x mb-3X"></i>
+                           <h4>Blockchain</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-02.png"
-                              alt="Categories-Img">
-                           <h4>Submission Process</h4>
+                           <i class="uil uil-mobile-android fa-2x mb-3"></i>
+                           <h4>Mobile App Development</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-03.png"
-                              alt="Categories-Img">
-                           <h4>Article Categories</h4>
+                           <i class="uil uil-megaphone fa-2x mb-3"></i>
+                           <h4>Digital Marketing</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-04.png"
-                              alt="Categories-Img">
-                           <h4>Guest Posting FAQs</h4>
+                           <i class="uil uil-search fa-2x mb-3"></i>
+                           <h4>Search Engine Optimization (SEO)</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-01.png"
-                              alt="Categories-Img">
-                           <h4>Author Bio Guidelines</h4>
+                           <i class="uil uil-web-grid fa-2x mb-3"></i>
+                           <h4>Website Development</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-02.png"
-                              alt="Categories-Img">
-                           <h4>Formatting Requirements</h4>
+                           <i class="uil uil-brush-alt fa-2x mb-3"></i>
+                           <h4>Web Designing</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-03.png"
-                              alt="Categories-Img">
-                           <h4>Approval Process</h4>
+                           <i class="uil uil-share fa-2x mb-3"></i>
+                           <h4>Social Media Marketing</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-04.png"
-                              alt="Categories-Img">
-                           <h4>Content Ownership</h4>
+                           <i class="uil uil-shield-check fa-2x mb-3"></i>
+                           <h4>Cyber Security</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-01.png"
-                              alt="Categories-Img">
-                           <h4>Linking Policy</h4>
+                           <i class="uil uil-pen fa-2x mb-3"></i>
+                           <h4>Content Marketing</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-02.png"
-                              alt="Categories-Img">
-                           <h4>Image Guidelines</h4>
+                           <i class="uil uil-palette fa-2x mb-3"></i>
+                           <h4>Graphic Designing</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-03.png"
-                              alt="Categories-Img">
-                           <h4>Originality Requirements</h4>
+                           <i class="uil uil-shopping-cart fa-2x mb-3"></i>
+                           <h4>Ecommerce Web Solutions</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-04.png"
-                              alt="Categories-Img">
-                           <h4>Word Count Guidelines</h4>
+                           <i class='bx bx-pointer fa-2x mb-3'></i>
+                           <h4>Pay-Per-Click (PPC) Advertising</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-01.png"
-                              alt="Categories-Img">
-                           <h4>Editing Rights</h4>
+                           <i class="uil uil-building fa-2x mb-3"></i>
+                           <h4>Enterprise Resource Planning</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-02.png"
-                              alt="Categories-Img">
-                           <h4>Copyright Policy</h4>
+                           <i class="uil uil-server fa-2x mb-3"></i>
+                           <h4>Web Hosting</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-03.png"
-                              alt="Categories-Img">
-                           <h4>Rejection Reasons</h4>
+                           <i class="uil uil-copyright fa-2x mb-3"></i>
+                           <h4>Branding</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-04.png"
-                              alt="Categories-Img">
-                           <h4>Promotion Guidelines</h4>
+                           <i class="uil uil-brain fa-2x mb-3"></i>
+                           <h4>Artificial Intelligence</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-01.png"
-                              alt="Categories-Img">
-                           <h4>Plagiarism Policy</h4>
+                           <i class='bx bx-devices fa-2x mb-3'></i>
+                           <h4>AR/VR</h4>
                         </div>
                      </li>
                      <li>
                         <div class="categories-list">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-02.png"
-                              alt="Categories-Img">
-                           <h4>Content Review Timeline</h4>
+                           <i class="uil uil-users-alt fa-2x mb-3"></i>
+                           <h4>CRM (Customer Relationship Management)</h4>
                         </div>
                      </li>
                   </ul>
-
-                  <!-- <div class="row">
-                     <div class="col-lg-3 text-center about-details">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-01.png" alt="">
-                        <h5>Trusted company</h5>
-                        <p>We deliver email marketing campaigns to audience.</p>
-                     </div>
-                     <div class="col-lg-3 text-center about-details">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-02.png" alt="">
-                        <h5>Professional work</h5>
-                        <p>We also help our clients with social media strategy.</p>
-                     </div>
-                     <div class="col-lg-3 text-center about-details">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-03.png" alt="">
-                        <h5>Award winning</h5>
-                        <p>We believe in challenges so we have made challenges.</p>
-                     </div>
-                     <div class="col-lg-3 text-center about-details">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/about-icon-04.png" alt="">
-                        <h5>Help any time</h5>
-                        <p>We never fail for support for your business anywhere.</p>
-                     </div>
-                  </div> -->
                </div>
             </div>
          </div>
@@ -438,11 +444,12 @@
                <div class="col-lg-9">
                   <div class="process-contents">
                      <span class="sub-title">
-                        How We Get Things Done</span>
-                     <h2 class="process-title">Drive Business Growth with High-Performing Web Designs
+                        How to Become a Contributor</span>
+                     <h2 class="process-title">Become part of our growing team of writers and share your expertise with
+                        a wider audience
                      </h2>
-                     <p class="process-desc">We follow a clear and structured process to ensure your project is
-                        delivered on time and exceeds expectations.</p>
+                     <p class="process-desc">Follow these simple steps to write for us and get your work featured on our
+                        platform.</p>
                   </div>
                </div>
                <div class="col-lg-12">
@@ -450,31 +457,31 @@
                      <div class="process-step-box">
                         <div class="process-boxs">
                            <div class="icon">
-                              <img src="<?php echo base_url(); ?>asset/images/write-for-us/process-img-1.png" alt=""
-                                 class="Process-icon">
+                              <img src="<?php echo base_url(); ?>asset/images/write-for-us/pitch-your-topic.png"
+                                 alt=" Pitch Your Topic" class="process-icon">
                            </div>
-                           <h4> Discovery and Planning</h4>
+                           <h4> Pitch Your Topic</h4>
                         </div>
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/process-shape-1.webp" alt=""
+                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/process-shape-1.webp" alt="shape"
                            class="process-shape">
                         <div class="process-boxs">
                            <div class="icon">
-                              <img src="<?php echo base_url(); ?>asset/images/write-for-us/process-img-2.png" alt=""
-                                 class="Process-icon">
+                              <img src="<?php echo base_url(); ?>asset/images/write-for-us/get-approval.png"
+                                 alt="Get Approval" class="process-icon">
                            </div>
                            <h4>
-                              Design and Development
+                              Get Approval
                            </h4>
                         </div>
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/process-shape-1.webp" alt=""
+                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/process-shape-1.webp" alt="shape"
                            class="process-shape">
                         <div class="process-boxs">
                            <div class="icon">
-                              <img src="<?php echo base_url(); ?>asset/images/write-for-us/process-img-3.png" alt=""
-                                 class="Process-icon">
+                              <img src="<?php echo base_url(); ?>asset/images/write-for-us/submit-article.png"
+                                 alt="Submit Your Article" class="process-icon">
                            </div>
                            <h4>
-                              Testing and Launch
+                              Submit Your Article
                            </h4>
                         </div>
                      </div>
@@ -489,11 +496,11 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="writing-guide-contents">
-                     <h2 class="guide-title">Writing Guidelines<img
+                     <h2 class="guide-title">Writing Guidelines or our principles<img
                            src="<?php echo base_url(); ?>asset/images/write-for-us/writing.png" alt=""
                            class="writing-img"></h2>
-                     <p class="guide-desc">Please adhere to the following guidelines to ensure a smooth approval process
-                        for your blog.</p>
+                     <p class="guide-desc">To help your blog get approved easily, please follow these guidelines
+                        closely.</p>
                   </div>
                </div>
             </div>
@@ -504,65 +511,72 @@
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Minimum article word count: 1500 words
+                        Display originality in your writing for greater impact.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Use Arial (12pt) font for text
+                        Word Count Length should be 800 to 1,000 words.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Up to 02 no-follow links allowed
+                        Avoid promotional content in your writing.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Include at least ONE link to a relevant Cloudways blog
+                        Use keywords naturally throughout your content.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Engaging, unique, and well-formatted content required
+                        Ensure high content quality in your writing.
                      </li>
+                     <!-- <li class="d-flex gap-2">
+                        <div class="icon">
+                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
+                        </div>
+                        Choose article ideas that capture interest.
+                     </li> -->
                   </ul>
                </div>
                <div class="col-lg-6">
                   <ul class="writing-guide-points">
+
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Provide sources for any statistics
+                        Learn about our writer compensation.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Credit the original author for quotes/references
+                        Use a cover image of 1200 x 650 pixels.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Properly format titles and headings
+                        Avoid any company mentions in your writing.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Use relevant images, charts, and infographics
+                        Format your content for a clean layout.
                      </li>
                      <li class="d-flex gap-2">
                         <div class="icon">
                            <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
                         </div>
-                        Include key takeaways to keep readers interested
+                        Know the article submission process clearly.
                      </li>
                   </ul>
                </div>
@@ -579,8 +593,7 @@
                         <i class="fi fi-rr-comment-dots"></i>
                      </div>
                      <div class="cta-contents">
-                        <h4>Let's make something great work together. <a href="javascript:void(0);"
-                              class="call-action">Got a project in mind?</a></h4>
+                        <h4>Write for Us and Improve Your Website to New Heights!</h4>
                      </div>
                   </div>
                </div>
@@ -596,10 +609,9 @@
                      <span class="sub-title">
                         <img src="<?php echo base_url(); ?>asset/images/write-for-us/dots.png" alt="Sub-Heading-Design">
                         Publish Process</span>
-                     <h2 class="service-title">What We Will Never Publish?
+                     <h2 class="service-title">What will we never publish?
                      </h2>
-                     <p class="service-desc">Discover how we design, develop, and implement effective solutions to
-                        enhance your business.</p>
+                     <p class="service-desc">Our platform is built on trust Write for us positively!</p>
                   </div>
                </div>
             </div>
@@ -608,48 +620,24 @@
                   <div class="offer-box p-2">
                      <div class="offer-contents">
                         <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/web-designing.png" alt=""
+                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/published-content.png" alt=""
                               class="Offer-icon">
                         </div>
                         <h4>
                            Previously Published Content</h4>
-                        <p>Guest posts that have already been published on any other platform.
+                        <p>Do not submit previously published work, as we value originality.
                         </p>
-                        <!-- <a href="javascript:void(0);" class="know-more-btn text-decoration-none text-dark">
-                           <span
-                              class="hover-icon d-inline-flex align-items-center justify-content-center rounded-circle border mr-2">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-arrow-right">
-                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                                 <polyline points="12 5 19 12 12 19"></polyline>
-                              </svg>
-                           </span>
-                           <span class="know-more-text">Know More</span>
-                        </a> -->
                      </div>
                   </div>
                   <div class="offer-box p-2">
                      <div class="offer-contents">
                         <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/web-development.png" alt=""
+                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/flawed-articles.png" alt=""
                               class="Offer-icon">
                         </div>
                         <h4>
                            Flawed or Misinformed Articles</h4>
-                        <p>Articles with too many flaws and misinformation.</p>
-                        <!-- <a href="javascript:void(0);" class="know-more-btn text-decoration-none text-dark">
-                           <span
-                              class="hover-icon d-inline-flex align-items-center justify-content-center rounded-circle border mr-2">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-arrow-right">
-                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                                 <polyline points="12 5 19 12 12 19"></polyline>
-                              </svg>
-                           </span>
-                           <span class="know-more-text">Know More</span>
-                        </a> -->
+                        <p>We don’t accept flawed or misinformed articles, as accuracy matters.</p>
                      </div>
                   </div>
                </div>
@@ -657,49 +645,24 @@
                   <div class="offer-box p-2">
                      <div class="offer-contents">
                         <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/e-commerce.png" alt=""
+                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/self-promotion.png" alt=""
                               class="Offer-icon">
                         </div>
                         <h4>
-                           Lack of Value</h4>
-                        <p>Posts that include no useful information for our readers.
-
+                           Excessive Self-Promotion</h4>
+                        <p>Maintain no self-promotion and concentrate on valuable topics.
                         </p>
-                        <!-- <a href="javascript:void(0);" class="know-more-btn text-decoration-none text-dark">
-                           <span
-                              class="hover-icon d-inline-flex align-items-center justify-content-center rounded-circle border mr-2">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-arrow-right">
-                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                                 <polyline points="12 5 19 12 12 19"></polyline>
-                              </svg>
-                           </span>
-                           <span class="know-more-text">Know More</span>
-                        </a> -->
                      </div>
                   </div>
                   <div class="offer-box p-2">
                      <div class="offer-contents">
                         <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/seo.png" alt=""
+                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/prohibited-topics.png" alt=""
                               class="Offer-icon">
                         </div>
                         <h4>
-                           Duplicate Topics</h4>
-                        <p>Topics that have already been covered on our blog.</p>
-                        <!-- <a href="javascript:void(0);" class="know-more-btn text-decoration-none text-dark">
-                           <span
-                              class="hover-icon d-inline-flex align-items-center justify-content-center rounded-circle border mr-2">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-arrow-right">
-                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                                 <polyline points="12 5 19 12 12 19"></polyline>
-                              </svg>
-                           </span>
-                           <span class="know-more-text">Know More</span>
-                        </a> -->
+                           Irrelevant or Prohibited Topics</h4>
+                        <p>Ensure topics are relevant, as we do not accept prohibited content.</p>
                      </div>
                   </div>
                </div>
@@ -707,49 +670,23 @@
                   <div class="offer-box p-2">
                      <div class="offer-contents">
                         <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/cms.png" alt=""
+                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/harmful-perspectives.png" alt=""
                               class="Offer-icon">
                         </div>
                         <h4>
-                           Excessive Self-Promotion</h4>
-                        <p>Posts with an inordinate amount of self-promotion.</p>
-                        <!-- <a href="javascript:void(0);" class="know-more-btn text-decoration-none text-dark">
-                           <span
-                              class="hover-icon d-inline-flex align-items-center justify-content-center rounded-circle border mr-2">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-arrow-right">
-                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                                 <polyline points="12 5 19 12 12 19"></polyline>
-                              </svg>
-
-                           </span>
-                           <span class="know-more-text">Know More</span>
-                        </a> -->
+                           Disrespectful or Harmful Perspectives</h4>
+                        <p>Submissions should reflect a respectful and safe perspective.</p>
                      </div>
                   </div>
                   <div class="offer-box p-2">
                      <div class="offer-contents">
                         <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/digital.png" alt=""
+                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/outdated-information.png" alt=""
                               class="Offer-icon">
                         </div>
                         <h4>
-                           Irrelevant or Prohibited Topics</h4>
-                        <p>Content on adult topics, gambling/casino, CBD, and topics.</p>
-                        <!-- <a href="javascript:void(0);" class="know-more-btn text-decoration-none text-dark">
-                           <span
-                              class="hover-icon d-inline-flex align-items-center justify-content-center rounded-circle border mr-2">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-arrow-right">
-                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                                 <polyline points="12 5 19 12 12 19"></polyline>
-                              </svg>
-
-                           </span>
-                           <span class="know-more-text">Know More</span>
-                        </a> -->
+                           Outdated Information </h4>
+                        <p>Keep your articles free from outdated information.</p>
                      </div>
                   </div>
                </div>
@@ -846,16 +783,16 @@
                      <span class="sub-title">
                         <img src="<?php echo base_url(); ?>asset/images/write-for-us/dots.png" alt="Sub-Heading-Design">
                         How We Get Things Done</span>
-                     <h2 class="cta-title">Accelerate Your Business Growth with Top-Quality Web Designs
+                     <h2 class="cta-title">Cloudi5 Technologies is a trusted name in the industry.
                      </h2>
-                     <p class="cta-desc">We implement a systematic approach to guarantee timely project delivery while
-                        exceeding your expectations.</p>
-                     <a href="javascript:void(0);" class="contact-btn">
+                     <p class="cta-desc">We value our guest writers! Write for us to share your knowledge and help
+                        others improve their websites!</p>
+                     <a href="#contact-us" class="contact-btn">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        Let's Discuss your Project
+                        Become a Contributor
                      </a>
                   </div>
                </div>
@@ -874,11 +811,10 @@
                      alt="Sub-Heading-Design">
                   Faq</span>
                <h2 class="faq-title">
-                  Any questions? Check out the FAQ
+                  Have questions about becoming a contributor?
                </h2>
                <div class="description">
-                  <p>Interested in contributing to our IT blog? Here are answers to frequently asked questions about our
-                     guest posting opportunities.</p>
+                  <p>Check our FAQ to learn how to write for us and share your expertise!</p>
                </div>
             </div>
             <div class="row justify-content-center">
@@ -890,16 +826,16 @@
                               <button
                                  class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
                                  type="button">
-                                 1. What topics are we looking for?
+                                 1. What are the benefits of writing for Cloudi5?
                               </button>
                            </h5>
                            <div class="content-area">
                               <div class="content-body pt-4">
                                  <p class="desc">
-                                    We're interested in articles covering a wide range of IT topics, including but not
-                                    limited to:
-                                    software development, cloud computing, cybersecurity, AI and machine learning,
-                                    DevOps, IT infrastructure, and emerging technologies.
+                                    By writing for Cloudi5, you'll gain exposure to a large audience through our
+                                    well-performing blog. Become a contributor and tap into our huge number of visitors
+                                    who regularly read our content, helping to boost your visibility and establish your
+                                    expertise.
                                  </p>
                               </div>
                            </div>
@@ -909,18 +845,14 @@
                               <button
                                  class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
                                  type="button">
-                                 2. What are our submission guidelines?
+                                 2. How can I submit my guest post to Cloudi5?
                               </button>
                            </h5>
                            <div class="content-area">
                               <div class="content-body pt-4">
-                                 <ul>
-                                    <li>Articles should be 1000-2000 words long</li>
-                                    <li>Content must be original and not published elsewhere</li>
-                                    <li>Include relevant examples, case studies, or data to support your points</li>
-                                    <li>Use a clear, engaging writing style suitable for both beginners and experts</li>
-                                    <li>Proper attribution for any external sources or references</li>
-                                 </ul>
+                                 <p class="desc">To submit your guest post, simply fill out the form mentioned below
+                                    with your article details and contact information. Our editorial team will review
+                                    your submission and get back to you.</p>
                               </div>
                            </div>
                         </div>
@@ -929,16 +861,16 @@
                               <button
                                  class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
                                  type="button">
-                                 3. What's in it for contributors?
+                                 3. Who can contribute to the Cloudi5 blog?
                               </button>
                            </h5>
                            <div class="content-area">
                               <div class="content-body pt-4">
                                  <p class="desc">
-                                    Contributors benefit from exposure to our large readership of IT professionals,
-                                    opportunities to establish themselves as thought leaders,
-                                    networking with other industry experts, and compensation for accepted articles
-                                    (rates discussed upon acceptance).
+                                    We accept contributions from experienced writers, industry experts, tech
+                                    enthusiasts, and content creators who can provide insightful and original articles.
+                                    If you’re interested, write for us on topics like digital marketing, web design,
+                                    SEO, mobile development, and more!
                                  </p>
                               </div>
                            </div>
@@ -948,16 +880,34 @@
                               <button
                                  class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
                                  type="button">
-                                 4. How to submit your article?
+                                 4. How long does it take for my article to be published?
                               </button>
                            </h5>
                            <div class="content-area">
                               <div class="content-body pt-4">
                                  <p class="desc">
-                                    To submit your article or pitch an idea, please email us at
-                                    submissions@itcompany.com with your name, brief bio, article title and outline,
-                                    your expertise in the topic, and any relevant writing samples. We'll review your
-                                    submission and respond within 5-7 business days.
+                                    After submission, it typically takes 5 to 7 days for us to review, edit, and
+                                    schedule your article for publication. We will notify you once it goes live on our
+                                    website.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-single">
+                           <h5 class="header-area ">
+                              <button
+                                 class="accordion-btn d-flex align-items-center text-start d-flex position-relative w-100"
+                                 type="button">
+                                 5. Can I include links in my guest post?
+                              </button>
+                           </h5>
+                           <div class="content-area">
+                              <div class="content-body pt-4">
+                                 <p class="desc">
+                                    Yes, you may include one or two relevant links to reputable sources within your
+                                    article. However, promotional or affiliate links must be disclosed and approved by
+                                    our team. When you submit your article, ensure that any links enhance the value of
+                                    the content.
                                  </p>
                               </div>
                            </div>
@@ -969,7 +919,7 @@
          </div>
       </section>
 
-      <section class="write-for-contact">
+      <section class="write-for-contact" id="contact-us">
          <div class="sparkle-shape">
             <img src="<?php echo base_url(); ?>asset/images/write-for-us/sparkle.png" alt="">
          </div>
@@ -1033,26 +983,78 @@
             <div class="row">
                <div class="tag-details">
                   <p class="tag-contents"> <b>Tags Details:</b>
+                     Blockchain + write for us|
+                     Blockchain + become a contributor |
+                     Blockchain + guest blogs |
+                     Mobile app development + write for us |
+                     Mobile app development + become a contributor |
+                     Mobile app development + guest blogs |
+                     Mobile app development + submit an article|
                      Digital marketing + write for us |
-                     “Digital marketing” + become a contributor |
-                     “Digital marketing” + guest blogs |
-                     “Digital marketing” + submit an article |
-                     Digital Marketing Guest Post Search string |
-                     Digital Marketing “guest post” |
-                     Digital Marketing “guest article” |
-                     Digital Marketing “this is a guest post by” |
-                     Digital Marketing “contributing writer” |
-                     Digital Marketing “want to write for” |
-                     Digital Marketing “submit blog post” |
-                     Digital Marketing “contribute to our site” |
-                     Digital Marketing “guest column” |
-                     Digital Marketing “submit content” |
-                     digital marketing write for us guest post |
-                     “write for us” digital marketing |
-                     “Marketing” + “Guest Post” |
-                     “Startups” + “Guest Post” |
-                     “Social Media Marketing” + “Guest Post” |
-                     digital marketing blog write for us.</p>
+                     Digital marketing + become a contributor |
+                     Digital marketing + guest blogs |
+                     Digital marketing + submit an article |
+                     SEO + write for us |
+                     SEO + become a contributor |
+                     SEO + guest blogs |
+                     SEO + submit an article |
+                     Website development + write for us |
+                     Website development + become a contributor |
+                     Website development + guest blogs |
+                     Website development + submit an article |
+                     Web designing + write for us |
+                     Web designing + become a contributor |
+                     Web designing + guest blogs |
+                     Web designing + submit an article |
+                     Social media marketing + write for us |
+                     Social media marketing + become a contributor |
+                     Social media marketing + guest blogs |
+                     Social media marketing + submit an article |
+                     Cyber security + write for us |
+                     Cyber security + become a contributor |
+                     Cyber security + guest blogs |
+                     Cyber security + submit an article |
+                     Content marketing + write for us |
+                     Content marketing + become a contributor |
+                     Content marketing + guest blogs |
+                     Content marketing + submit an article |
+                     Graphic designing + write for us |
+                     Graphic designing + become a contributor |
+                     Graphic designing + guest blogs |
+                     Graphic designing + submit an article |
+                     Ecommerce web solutions + write for us |
+                     Ecommerce web solutions + become a contributor |
+                     Ecommerce web solutions + guest blogs |
+                     Ecommerce web solutions + submit an article |
+                     PPC advertising + write for us |
+                     PPC advertising + become a contributor |
+                     PPC advertising + guest blogs |
+                     PPC advertising + submit an article |
+                     ERP + write for us |
+                     ERP + become a contributor |
+                     ERP + guest blogs |
+                     ERP + submit an article |
+                     Web hosting + write for us |
+                     Web hosting + become a contributor |
+                     Web hosting + guest blogs |
+                     Web hosting + submit an article |
+                     Branding + write for us |
+                     Branding + become a contributor |
+                     Branding + guest blogs |
+                     Branding + submit an article |
+                     Artificial intelligence + write for us |
+                     Artificial intelligence + become a contributor |
+                     Artificial intelligence + guest blogs |
+                     Artificial intelligence + submit an article |
+                     AR/VR + write for us |
+                     AR/VR + become a contributor |
+                     AR/VR + guest blogs |
+                     AR/VR + submit an article |
+                     CRM + write for us |
+                     CRM + become a contributor |
+                     CRM + guest blogs |
+                     CRM + submit an article |
+                  </p>
                </div>
             </div>
          </div>
