@@ -2115,3 +2115,40 @@
   top: 62%;
   transform: translateY(-50%);
 }
+
+.portfolio-new-design .portfolio-screens {
+  background: transparent url(../images/portfolio-new/portfolio-sanlak.png)
+    repeat 0 0;
+  background-size: cover;
+  height: 510px;
+  margin-left: 0%;
+  width: 100%;
+  animation: slide 125s linear infinite;
+}
+.portfolio-new-design .portfolio-cards.card-bg-clr-1 {
+  background: rgb(250 175 0 / 50%);
+}
+.portfolio-new-design .portfolio-screens-2 {
+  background: transparent
+    url(../images/portfolio-new/portfolio-mayflower-backend.png) repeat 0 0;
+  background-size: cover;
+  height: 510px;
+  margin-left: 0%;
+  width: 100%;
+  animation: slide 125s linear infinite;
+}
+.portfolio-new-design .portfolio-cards.card-bg-clr-2 {
+  background-color: rgba(228, 18, 28, 0.5);
+}
+.portfolio-new-design .portfolio-screens-3 {
+  background: transparent url(../images/portfolio-new/susin-portfolio.png)
+    repeat 0 0;
+  background-size: cover;
+  height: 510px;
+  margin-left: 0%;
+  width: 100%;
+  animation: slide 125s linear infinite;
+}
+.portfolio-new-design .portfolio-cards.card-bg-clr-3 {
+  background: rgb(188 16 58 / 60%);
+}

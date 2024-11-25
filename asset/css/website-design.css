@@ -1370,6 +1370,7 @@ section-sure .title-content {
   padding: 40px 0 40px 0;
 }
 
+
 /* --------responsive-starts here----------- */
 @media only screen and (max-width: 1440px) {
   .img_banner_section {
@@ -1619,6 +1620,17 @@ section-sure .title-content {
 @media only screen and (max-width: 768px) {
   .leading-img-wrapper {
     display: none;
+  }
+  .portfolio-new-design .portfolio-content-container {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .portfolio-new-design .portfolio-global-store {
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .portfolio-new-design .portfolio-screens {
+    height: 500px;
   }
 }
 

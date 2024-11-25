@@ -706,6 +706,124 @@ html {
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
+
+/* portfolio-new-design css start */
+
+.portfolio-new-design .mob-portfolio-screens {
+  background: transparent url(../images/portfolio-new/ecom-portfolio.png) repeat
+    0 0;
+  background-size: cover;
+  height: 600px;
+  margin-left: 0%;
+  width: 100%;
+  animation: slide 125s linear infinite;
+}
+.portfolio-new-design .mob-portfolio-screens-1 {
+  background: transparent url(../images/portfolio-new/portfolio-baps.png) repeat
+    0 0;
+  background-size: cover;
+  height: 600px;
+  margin-left: 0%;
+  width: 100%;
+  animation: slide 125s linear infinite;
+}
+.portfolio-new-design .portfolio-cards.card-bg-clr-1 {
+  background-color: rgb(56 79 203 / 60%) !important;
+}
+.portfolio-new-design .mob-portfolio-screens-2 {
+  background: transparent url(../images/portfolio-new/vasool-portfolio.png)
+    repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  margin-left: 0%;
+  width: 100%;
+  animation: slide 125s linear infinite;
+}
+.portfolio-new-design .portfolio-cards.card-bg-clr-2 {
+  background-color: rgb(171 228 219) !important;
+}
+.portfolio-new-design .mob-portfolio-screens-3 {
+  background: transparent url(../images/portfolio-new/portfolio-hydroz.png)
+    repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  margin-left: 0%;
+  width: 100%;
+  animation: slide 125s linear infinite;
+}
+.portfolio-new-design .portfolio-cards.card-bg-clr-4 {
+  background-color: rgb(77 174 66 / 60%);
+}
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 6000px;
+  }
+}
+.portfolio-new-design .portfolio-content-container .portfolio-logo {
+  display: inline-block;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.portfolio-new-design .portfolio-content-container h3 {
+  padding-top: 20px;
+}
+.portfolio-new-design .portfolio-global-store {
+  display: flex;
+  gap: 20px;
+}
+.portfolio-new-design .portfolio-global-store .visit-link {
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid #0b2359;
+  border-radius: 0px 15px;
+  color: #0b2359;
+  transition: color 0.3s ease;
+}
+.portfolio-new-design .portfolio-global-store .visit-link .content {
+  font-size: 16px;
+}
+.portfolio-new-design .portfolio-global-store .visit-link:hover {
+  background: #0b2359;
+  color: #ffffff;
+  border: 2px solid #0b2359;
+}
+.portfolio-new-design .portfolio-global-store .visit-link svg {
+  fill: #0b2359;
+  transition: all 0.3s ease;
+}
+.portfolio-new-design .portfolio-global-store .visit-link:hover svg {
+  fill: #ffffff;
+  transition: all 0.3s ease;
+}
+.portfolio-new-design .portfolio-global-store .visit-link img {
+  width: 20px;
+}
+.portfolio-new-design .portfolio-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.portfolio-new-design .portfolio-cards .ellipse {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 50%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  transform: translate(-50%, 55%);
+  z-index: 0;
+}
+
 .faq-section-mob {
   background: #0b2359 !important;
   padding: 60px 20px;

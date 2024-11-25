@@ -972,7 +972,6 @@
                         Submit Your Details
                      </button>
                   </div>
-
                </form>
             </div>
          </div>

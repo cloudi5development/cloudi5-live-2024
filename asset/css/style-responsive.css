@@ -1,1 +1,79 @@
-@media only screen and (min-width:240px) and (max-width:480px){.top-bar{display:none}.he-res{float:left;width:60%}#jms-slideshow{display:none}#wrap{margin-left:0!important}.navbar-nav{float:left}.owl-carousel .owl-item img{display:-webkit-inline-box!important}.icon-box3{width:300px!important;height:300px!important;padding-top:15px!important}.sm-menu a{float:left}.log-mob{width:100%!important}.navbar-default .navbar-toggle .icon-bar{border-color:#fff!important}.navbar-toggle{background:#002a53!important}.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background:#002a53!important}}@media only screen and (min-width:480px) and (max-width:640px){.top-bar{display:none}.he-res{float:left;width:60%}.owl-carousel .owl-item img{display:-webkit-inline-box!important}#wrap{margin-left:0!important}.icon-box3{width:300px!important;height:300px!important;padding-top:15px!important}#jms-slideshow{display:none}.navbar-nav{float:left!important}.sm-menu a{float:left}.log-mob{width:100%!important}}@media only screen and (min-width:1084px){.navbar-nav{float:right!important}}
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  .top-bar {
+    display: none;
+  }
+  .he-res {
+    float: left;
+    width: 60%;
+  }
+  #jms-slideshow {
+    display: none;
+  }
+  #wrap {
+    margin-left: 0 !important;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .owl-carousel .owl-item img {
+    display: -webkit-inline-box !important;
+  }
+  .icon-box3 {
+    width: 300px !important;
+    height: 300px !important;
+    padding-top: 15px !important;
+  }
+  .sm-menu a {
+    float: left;
+  }
+  .log-mob {
+    width: 100% !important;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    border-color: #fff !important;
+  }
+  .navbar-toggle {
+    background: #002a53 !important;
+  }
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background: #002a53 !important;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  .top-bar {
+    display: none;
+  }
+  .he-res {
+    float: left;
+    width: 60%;
+  }
+  .owl-carousel .owl-item img {
+    display: -webkit-inline-box !important;
+  }
+  #wrap {
+    margin-left: 0 !important;
+  }
+  .icon-box3 {
+    width: 300px !important;
+    height: 300px !important;
+    padding-top: 15px !important;
+  }
+  #jms-slideshow {
+    display: none;
+  }
+  .navbar-nav {
+    float: left !important;
+  }
+  .sm-menu a {
+    float: left;
+  }
+  .log-mob {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 1084px) {
+  .navbar-nav {
+    float: right !important;
+  }
+}
