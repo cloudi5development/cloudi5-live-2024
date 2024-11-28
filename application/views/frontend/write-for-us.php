@@ -37,13 +37,10 @@
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/write-for-us.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-brands">
-   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/flutter-app.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-thin-straight.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-regular-rounded.css">
 
-   <link rel='stylesheet'
-      href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-
-   <link rel='stylesheet'
-      href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css'>
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -127,7 +124,6 @@
             </div>
          </div>
       </section> -->
-
       <section class="write-for-us-home">
          <!-- <div class="circle-shape">
             <img src="<?php echo base_url(); ?>asset/images/write-for-us/circle-2-img.png" alt="img">
