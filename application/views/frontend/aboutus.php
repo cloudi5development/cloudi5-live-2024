@@ -352,16 +352,6 @@
                   </div>
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/revathi-profile-php-developer.png"
-                           alt="Revathi Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Revathi J</h3>
-                           <p class="team-designation">Web Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/shreeram-profile-php-developer.png"
                            alt="Shreeram Profile" class="about-us-image">
                         <div class="text-center ts-team-content">
@@ -417,16 +407,6 @@
                         <div class="text-center ts-team-content">
                            <h3 class="team-name">Nigith Pastine K</h3>
                            <p class="team-designation">Android Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/javin-profile-app-developer.png"
-                           alt="Javin Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Javin Emmanuel A</h3>
-                           <p class="team-designation">App Developer</p>
                         </div>
                      </div>
                   </div>
