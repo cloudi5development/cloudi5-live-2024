@@ -50,9 +50,10 @@
         <?php include 'header.php' ?>
         <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
             alt="Web Development Company in Coimbatore" title="iOS-app-development">
-            <!-- <div class="inner-pattern"> <img
-                    src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg" alt="Shape-1">
-            </div> -->
+            <div class="inner-pattern"> <img
+                    src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg"
+                    alt="banner-pattern">
+            </div>
             <div class="container banner-content">
                 <div class="row justify-content-center">
                     <div class="shape-wrapper">
@@ -90,40 +91,78 @@
                     <div class="marquee">
                         <div class="marquee-content">
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg"
+                                    alt="Client 11">
                             </div>
                             <!-- Duplicate items for seamless looping -->
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
                             </div>
                             <div class="marquee-item">
-                                <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg"
+                                    alt="Client 11">
                             </div>
                         </div>
                     </div>
                     <div class="clients-title-2">
-                        <h6>Almost 20+ Partner we have</h6>
+                        <h6>Almost 250+ Partner we have</h6>
                     </div>
                 </div>
             </div>
@@ -153,7 +192,8 @@
                                     of passionate app developers help you create an iOS app that will make your
                                     competitors jealous and your users thrilled.</p>
                             </div>
-                            <div class="mob-intro-contact-btn"><a href="javascript:void(0);" class="contact-btn">
+                            <div class="mob-intro-contact-btn"><a href="<?php echo base_url(); ?>contactus"
+                                    class="contact-btn">
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -606,7 +646,8 @@
                                         NEXT Generation SMART Shopping APP.</p>
                                 </div>
                                 <div class="portfolio-global-store">
-                                    <a href="javascript:void(0);">
+                                    <a href="https://play.google.com/store/apps/details?id=com.cloudi5.ecom_365&pcampaignid=web_share"
+                                        target="_blank">
                                         <span class="visit-link">
                                             <span class="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
@@ -658,7 +699,7 @@
                                         Alathukombai, Erode District of Tamilnadu owing to the deep desire and urge of
                                         the people of the locality.</p>
                                 </div>
-                                <div class="portfolio-global-store">
+                                <!-- <div class="portfolio-global-store">
                                     <a href="javascript:void(0);">
                                         <span class="visit-link">
                                             <span class="icon">
@@ -687,7 +728,7 @@
                                             </span>
                                         </span>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-lg-7">
                                 <div class="portfolio-screens-2"></div>
@@ -712,7 +753,7 @@
                                         software.</p>
                                 </div>
                                 <div class="portfolio-global-store">
-                                    <a href="javascript:void(0);">
+                                    <!-- <a href="javascript:void(0);">
                                         <span class="visit-link">
                                             <span class="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
@@ -725,7 +766,7 @@
                                                 <span>Playstore</span>
                                             </span>
                                         </span>
-                                    </a>
+                                    </a> -->
                                     <a href="https://vasoollinediary.com/" target="_blank">
                                         <span class="visit-link">
                                             <span class="icon">
@@ -756,14 +797,14 @@
                             <div class="col-lg-5">
                                 <div class="portfolio-content-container">
                                     <div class="portfolio-logo">
-                                        <img src="<?php echo base_url(); ?>asset/images/portfolio-new/vasool-logo.png"
+                                        <img src="<?php echo base_url(); ?>asset/images/portfolio-new/hydroz-logo.png"
                                             alt="baps-logo">
                                     </div>
                                     <h3>HYDROZ</h3>
                                     <p>The HYDROZ Water Purifier app offers seamless control, real-time monitoring, and
                                         maintenance alerts to ensure pure, safe drinking water anytime.</p>
                                 </div>
-                                <div class="portfolio-global-store">
+                                <!-- <div class="portfolio-global-store">
                                     <a href="javascript:void(0);">
                                         <span class="visit-link">
                                             <span class="icon">
@@ -792,7 +833,7 @@
                                             </span>
                                         </span>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-lg-7">
                                 <div class="portfolio-screens-4"></div>
@@ -813,7 +854,6 @@
             </div>
         </section>
         <!-- portfolio-new-design end -->
-
 
         <!-- ios-faq section start -->
         <section class="ios-faq">

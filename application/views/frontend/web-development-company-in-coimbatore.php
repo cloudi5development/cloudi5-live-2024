@@ -78,40 +78,76 @@
                <div class="marquee">
                   <div class="marquee-content">
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11">
                      </div>
                      <!-- Duplicate items for seamless looping -->
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="Client 1">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="Client 2">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="Client 3">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="Client 4">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
                      </div>
                      <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="Client 5">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
+                     </div>
+                     <div class="marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11">
                      </div>
                   </div>
                </div>
                <div class="clients-title-2">
-                  <h6>Almost 20+ Partner we have</h6>
+                  <h6>Almost 250+ Partner we have</h6>
                </div>
             </div>
          </div>
@@ -342,7 +378,7 @@
                   unique needs and goals, ensuring that the final product exceeds your expectations. Plus, our
                   commitment to delivering projects on time and within budget means you can trust us to get the job done
                   right, every time.</p>
-               <a href="javascript:void(0);" class="contact-btn">
+               <a href="#getstarted" class="contact-btn">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -447,7 +483,7 @@
                      <h3>Discover how our commitment to excellence has impacted businesses just like yours!!!</h3>
                   </div>
                   <div class="w-100 testimonial-btn">
-                     <a href="javascript:void(0);" class="contact-btn">
+                     <a href="#getstarted" class="contact-btn">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -882,7 +918,7 @@
                      </h2>
                      <p class="faq-description">Stop Wasting Time Scrolling Here! The Good Stuff Happens After You Sign
                         Up with Cloudi5. Don't Miss Out!</p>
-                     <a href="javascript:void(0);" class="contact-btn">
+                     <a href="<?php echo base_url(); ?>contactus" class="contact-btn">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -1018,7 +1054,7 @@
                         Creating Websites with Precision & Passion,
                         Let’s make a website that’s as unique as you!!
                      </h3>
-                     <a href="javascript:void(0);" class="contact-btn">
+                     <a href="#getstarted" class="contact-btn">
                         <span></span>
                         <span></span>
                         <span></span>

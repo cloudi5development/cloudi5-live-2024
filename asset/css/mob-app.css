@@ -728,7 +728,7 @@ html {
   animation: slide 125s linear infinite;
 }
 .portfolio-new-design .portfolio-cards.card-bg-clr-1 {
-  background-color: rgb(56 79 203 / 60%) !important;
+  background-color: rgb(177 189 255 / 60%) !important;
 }
 .portfolio-new-design .mob-portfolio-screens-2 {
   background: transparent url(../images/portfolio-new/vasool-portfolio.png)
@@ -783,7 +783,7 @@ html {
   justify-content: center;
   gap: 10px;
   border: 2px solid #0b2359;
-  border-radius: 0px 15px;
+  border-radius: 10px;
   color: #0b2359;
   transition: color 0.3s ease;
 }

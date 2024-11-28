@@ -1,0 +1,58 @@
+.client-logos-section {
+  background: #f1f1f1;
+  padding: 200px 0 70px 0;
+}
+.client-logos-section .client-logos-container {
+  padding: 0 20px;
+}
+.client-logos-section .client-logos-container .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.client-logos-section .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  flex: 0 0 calc(25% - 20px);
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.client-logos-section .client-logo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #051a49;
+  transition: width 0.3s ease;
+}
+.client-logos-section .client-logo:hover::after {
+  width: 100%;
+}
+.client-logos-section .client-logo img {
+  max-height: 100px;
+  max-width: 160px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+.client-logos-section .client-logo:hover img {
+  transform: scale(1.05);
+}
+.client-logos-section .title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+.client-logos-section .section-title h2 {
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 15px;
+}

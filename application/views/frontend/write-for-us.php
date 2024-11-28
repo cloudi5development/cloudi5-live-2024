@@ -129,12 +129,12 @@
       </section> -->
 
       <section class="write-for-us-home">
-         <div class="circle-shape">
+         <!-- <div class="circle-shape">
             <img src="<?php echo base_url(); ?>asset/images/write-for-us/circle-2-img.png" alt="img">
          </div>
          <div class="arrow-shape">
             <img src="<?php echo base_url(); ?>asset/images/write-for-us/arrow-up-img-1.png" alt="img">
-         </div>
+         </div> -->
          <div class="ball-pulse-effect">
             <div class="ball-shape">
 
@@ -537,12 +537,6 @@
                         </div>
                         Ensure high content quality in your writing.
                      </li>
-                     <!-- <li class="d-flex gap-2">
-                        <div class="icon">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/check.svg" alt="Point-shape">
-                        </div>
-                        Choose article ideas that capture interest.
-                     </li> -->
                   </ul>
                </div>
                <div class="col-lg-6">
@@ -1052,7 +1046,7 @@
                      CRM + write for us |
                      CRM + become a contributor |
                      CRM + guest blogs |
-                     CRM + submit an article |
+                     CRM + submit an article.
                   </p>
                </div>
             </div>

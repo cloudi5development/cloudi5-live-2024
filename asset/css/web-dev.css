@@ -2152,3 +2152,6 @@
 .portfolio-new-design .portfolio-cards.card-bg-clr-3 {
   background: rgb(188 16 58 / 60%);
 }
+#clients-area{
+  display: none;
+}

@@ -840,4 +840,11 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'ERP Software';
 		$this->load->view('frontend/erp-software',$data);
 	}
+	public function clients_logo()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'clients_logo')->get('meta_tags')->row();
+		$data['page_title'] = 'clients Logo';
+		$this->load->view('frontend/clients-logo',$data);
+	}
 }
