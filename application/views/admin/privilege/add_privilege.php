@@ -170,6 +170,16 @@
 												<td class="selectAll"></td>
 											</tr>
 											<tr>
+												<th>Write For Us Enquiries </th>
+												<td class="selectAll"></td>
+												<td class="selectAll"></td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[write_for_us_enquiries][view]" value="1">
+												</td>
+												<td class="selectAll"></td>
+												<td class="selectAll"></td>
+											</tr>
+											<tr>
 												<th>News Letter </th>
 												<td class="selectAll"></td>
 												<td class="selectAll"></td>

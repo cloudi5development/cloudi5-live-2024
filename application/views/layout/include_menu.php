@@ -106,6 +106,16 @@
 				if (array_key_exists('view' , $newsletterAccess))
 				{ 
 		?>	
+		<li class="<?php if ($page_title == 'Write For Us') echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>Write_for_us_enquiry/"><i class="icon-envelope-o"></i><span data-i18n="nav.dash.main" class="menu-title">Write For U</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li>
+		<?php }
+			} 			
+			$newsletterAccess = json_decode($getpermission->newsletter, TRUE);
+			if(!empty($newsletterAccess)){
+				if (array_key_exists('view' , $newsletterAccess))
+				{ 
+		?>	
 			<li class="<?php if ($page_title == 'News Letter') echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url();?>newsletter/"><i class="icon-newspaper-o"></i><span data-i18n="nav.dash.main" class="menu-title">News Letter</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
 			</li>
@@ -229,6 +239,10 @@
 
 			<li class="<?php if ($page_title == 'Contact Enquiry') echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url();?>enquiries/"><i class="icon-envelope-o"></i><span data-i18n="nav.dash.main" class="menu-title">Contact Enquiry</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li>
+			
+			<li class="<?php if ($page_title == 'Write For Us') echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>Write_for_us_enquiry/"><i class="icon-envelope-o"></i><span data-i18n="nav.dash.main" class="menu-title">Write For Us Enquiry</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
 			</li>
 			<li class="<?php if ($page_title == 'News Letter') echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url();?>newsletter/"><i class="icon-newspaper-o"></i><span data-i18n="nav.dash.main" class="menu-title">News Letter</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
