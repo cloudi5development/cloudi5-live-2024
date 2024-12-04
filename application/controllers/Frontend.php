@@ -796,8 +796,8 @@ class Frontend extends CI_Controller
 	public function flutter_app_development()
 	{
 		$data['settings']	= $this->settings;
-		$data['meta']       = $this->db->select('*')->where('page', 'android')->get('meta_tags')->row();
-		$data['page_title'] = 'Mobile App';
+		$data['meta']       = $this->db->select('*')->where('page', 'flutter_app_development')->get('meta_tags')->row();
+		$data['page_title'] = 'Flutter Mobile Application';
 		$this->load->view('frontend/flutter-app-development-company-in-coimbatore',$data);
 	}
 	#home-new
