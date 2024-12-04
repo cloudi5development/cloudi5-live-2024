@@ -447,21 +447,9 @@
                 <div class="social-media-card-wrapper">
                     <div class="social-wrapper-1">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="card-content-wrapper">
-                                    <button class="Btn">
-                                        <span class="svgContainer">
-                                            <svg viewBox="0 0 320 512"
-                                                height="1.3em"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                class="svgIcon"
-                                                fill="white">
-                                                <path
-                                                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path>
-                                            </svg>
-                                        </span>
-                                        <span class="BG bg-1"></span>
-                                    </button>
+
                                     <!-- <span class="btn-container">
                                             <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-icon.webp" alt="pattern" class=" icon-1" />
                                         </span> -->
@@ -472,7 +460,22 @@
 
                                     </div> -->
                                     <div class="card-text-wrapper">
-                                        <h2 class="text-center">Facebook</h2>
+                                        <div class="icon-wrapper">
+                                            <button class="Btn">
+                                                <span class="svgContainer">
+                                                    <svg viewBox="0 0 320 512"
+                                                        height="1.3em"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="svgIcon"
+                                                        fill="white">
+                                                        <path
+                                                            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="BG bg-1"></span>
+                                            </button>
+                                            <h2 class="text-center">Facebook</h2>
+                                        </div>
                                         <p>Facebook is important for your brand, helping you reach more people, build a community, and stand out.
                                             We specialize in maximizing your Facebook presence, making your page attractive and engaging.
                                             We interact with your audience, ensuring everyone feels part of your brand's community.
@@ -483,40 +486,41 @@
                                 </div>
 
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="card-content-wrapper">
-
-                                    <button class="Btn">
-                                        <span class="svgContainer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                                <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
-                                                    <stop offset="0" stop-color="#fd5"></stop>
-                                                    <stop offset=".328" stop-color="#ff543f"></stop>
-                                                    <stop offset=".348" stop-color="#fc5245"></stop>
-                                                    <stop offset=".504" stop-color="#e64771"></stop>
-                                                    <stop offset=".643" stop-color="#d53e91"></stop>
-                                                    <stop offset=".761" stop-color="#cc39a4"></stop>
-                                                    <stop offset=".841" stop-color="#c837ab"></stop>
-                                                </radialGradient>
-                                                <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
-                                                <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
-                                                    <stop offset="0" stop-color="#4168c9"></stop>
-                                                    <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
-                                                </radialGradient>
-                                                <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
-                                                <path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path>
-                                                <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
-                                                <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
-                                            </svg>
-                                        </span>
-                                        <span class="BG bg-2"></span>
-                                    </button>
                                     <!-- <div class="social-icon-wrapper">
                                         <img src="<?php echo base_url(); ?>asset/images/smm-page/instagram-icon.webp" alt="pattern" class="social-icon" />
 
                                     </div> -->
                                     <div class="card-text-wrapper">
-                                        <h2 class="text-center">Instagram</h2>
+                                        <div class="icon-wrapper">
+                                            <button class="Btn">
+                                                <span class="svgContainer">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                                        <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
+                                                            <stop offset="0" stop-color="#fd5"></stop>
+                                                            <stop offset=".328" stop-color="#ff543f"></stop>
+                                                            <stop offset=".348" stop-color="#fc5245"></stop>
+                                                            <stop offset=".504" stop-color="#e64771"></stop>
+                                                            <stop offset=".643" stop-color="#d53e91"></stop>
+                                                            <stop offset=".761" stop-color="#cc39a4"></stop>
+                                                            <stop offset=".841" stop-color="#c837ab"></stop>
+                                                        </radialGradient>
+                                                        <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
+                                                        <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                                                            <stop offset="0" stop-color="#4168c9"></stop>
+                                                            <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
+                                                        </radialGradient>
+                                                        <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
+                                                        <path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path>
+                                                        <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+                                                        <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="BG bg-2"></span>
+                                            </button>
+                                            <h2 class="text-center">Instagram</h2>
+                                        </div>
                                         <p>Instagram is a powerful platform for businesses. Let us help you dominate Instagram.
                                             We create a stunning profile, develop high-quality content, produce high-quality photos and videos,
                                             and engage with your audience. We're experts at using hashtags and crafting captions that spark conversations. Leverage Instagram Reels and Stories with our campaigns. Additionally, we actively engage with your audience, respond to comments, and provide insights to improve your strategy.</p>
@@ -524,28 +528,32 @@
                                 </div>
 
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="card-content-wrapper">
-                                    <button class="Btn">
-                                        <span class="svgContainer">
-                                            <svg
-                                                viewBox="0 0 448 512"
-                                                height="1.6em"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                class="svgIcon"
-                                                fill="white">
-                                                <path
-                                                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path>
-                                            </svg>
-                                        </span>
-                                        <span class="BG bg-3"></span>
-                                    </button>
+
                                     <!-- <div class="social-icon-wrapper">
                                         <img src="<?php echo base_url(); ?>asset/images/smm-page/linked-in-icon.png" alt="pattern" class="social-icon" />
 
                                     </div> -->
                                     <div class="card-text-wrapper">
-                                        <h2 class="text-center">LinkedIn</h2>
+                                        <div class="icon-wrapper">
+                                            <button class="Btn">
+                                                <span class="svgContainer">
+                                                    <svg
+                                                        viewBox="0 0 448 512"
+                                                        height="1.6em"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="svgIcon"
+                                                        fill="white">
+                                                        <path
+                                                            d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="BG bg-3"></span>
+                                            </button>
+
+                                            <h2 class="text-center">LinkedIn</h2>
+                                        </div>
                                         <p>LinkedIn is more than just another social platform; it's the go-to space for professional
                                             networking and B2B marketing. We understand its importance in connecting with potential clients,
                                             establishing industry authority, and generating leads. Our comprehensive LinkedIn strategy includes
@@ -554,55 +562,63 @@
                                             stands out and flourishes in the professional environment.</p>
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+
+
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="card-content-wrapper youtube-wrapper">
-                                    <button class="Btn">
-                                        <span class="svgContainer">
-                                            <svg
-                                                viewBox="0 0 576 512"
-                                                fill="white"
-                                                height="1.6em"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"></path>
-                                            </svg>
-                                        </span>
-                                        <span class="BG bg-4"></span>
-                                    </button>
                                     <div class="card-text-wrapper ">
-                                        <h2 class="text-center">Youtube</h2>
-                                        <p>YouTube is more than just a video-sharing platform; it's essential for brand exposure and engagement.
-                                            At Cloudi5 Technologies, we specialize in optimizing your YouTube presence. We create a professional
-                                            channel that's easily searchable, ensuring your content reaches your target audience. From tutorials
-                                            to brand stories, our videos are designed to captivate and educate. We'll build a lively YouTube community
-                                            by actively engaging with comments, hosting live sessions, and uploading Shorts. Our focus on search
-                                            optimization, data-driven strategies, and staying updated with YouTube trends sets us apart,
-                                            ensuring your YouTube presence not only stands out but also drives real results.</p>
+                                        <div class="icon-wrapper">
+                                            <button class="Btn">
+                                                <span class="svgContainer">
+                                                    <svg
+                                                        viewBox="0 0 576 512"
+                                                        fill="white"
+                                                        height="1.6em"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="BG bg-4"></span>
+                                            </button>
+
+                                            <h2 class="text-center">Youtube</h2>
+                                        </div>
                                     </div>
+                                    <p>YouTube is more than just a video-sharing platform; it's essential for brand exposure and engagement.
+                                        At Cloudi5 Technologies, we specialize in optimizing your YouTube presence. We create a professional
+                                        channel that's easily searchable, ensuring your content reaches your target audience. From tutorials
+                                        to brand stories, our videos are designed to captivate and educate. We'll build a lively YouTube community
+                                        by actively engaging with comments, hosting live sessions, and uploading Shorts. Our focus on search
+                                        optimization, data-driven strategies, and staying updated with YouTube trends sets us apart,
+                                        ensuring your YouTube presence not only stands out but also drives real results.</p>
                                 </div>
-
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper twitter-wrapper">
-                                    <button class="Btn">
-                                        <span class="svgContainer">
-                                            <svg
-                                                viewBox="0 0 512 512"
-                                                height="1.7em"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                class="svgIcon"
-                                                fill="white">
-                                                <path
-                                                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
-                                            </svg>
-                                        </span>
-                                        <span class="BG bg-5"></span>
-                                    </button>
 
+
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="card-content-wrapper twitter-wrapper">
                                     <div class="card-text-wrapper">
-                                        <h2 class="text-center">Twitter</h2>
+                                        <div class="icon-wrapper">
+                                            <button class="Btn">
+                                                <span class="svgContainer">
+                                                    <svg
+                                                        viewBox="0 0 512 512"
+                                                        height="1.7em"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="svgIcon"
+                                                        fill="white">
+                                                        <path
+                                                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="BG bg-5"></span>
+                                            </button>
+
+
+                                            <h2 class="text-center">Twitter</h2>
+                                        </div>
                                         <p>Twitter is a powerful platform for real-time engagement and brand promotion.
                                             We'll help you make the most of Twitter by creating a compelling profile,
                                             curating engaging content, and using relevant hashtags to increase visibility. Our team will actively engage with your audience, respond to queries, and participate in trending conversations to boost your brand's presence. Let us help you utilize the power of Twitter to connect with your audience and drive meaningful engagement.
