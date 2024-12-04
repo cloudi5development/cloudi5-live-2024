@@ -151,4 +151,6 @@ $autoload['model'] = array(
 'Settings_model',
 'Subscribe_model',
 'Users_model',
+'Write_for_us_enquiry_model',
+
 );

@@ -922,42 +922,53 @@
                <h2 class="contact-title">Submit Your Information <img
                      src="<?php echo base_url(); ?>asset/images/write-for-us/paper-plane.png" alt=""
                      class="paper-plane-img"></h2>
-               <form>
+               <form class="submit-form" id="FormValidation" action="<?php echo base_url('write_for_us_enquiry_form'); ?>" method="post" enctype="multipart/form-data">
                   <div class="row">
+                  <input type="text" name="website" class="form-control" style="display:none;">
                      <div class="col-md-4 form-group">
-                        <input type="text" class="form-control" id="firstName" placeholder=" " required>
+                        <input type="text" class="form-control" id="firstName"  name="firstName" placeholder=" " required>
                         <label for="firstName" class="form-label">First Name <span class="required">*</span></label>
                      </div>
                      <div class="col-md-4 form-group">
-                        <input type="text" class="form-control" id="lastName" placeholder=" " required>
-                        <label for="lastName" class="form-label">Last Name <span class="required">*</span></label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder=" " >
+                        <label for="lastName" class="form-label">Last Name </label>
+                     </div>
+                     
+                     <div class="col-md-4 form-group">
+                        <input type="email" class="form-control" id="email"  name="email" placeholder=" " required>
+                        <label for="email" class="form-label">Email Address <span class="required">*</span></label>
                      </div>
                      <div class="col-md-4 form-group">
-                        <input type="email" class="form-control" id="email" placeholder=" " required>
-                        <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                        <input type="text" class="form-control" id="number" name="number" placeholder=" " required>
+                        <label for="phone_number" class="form-label">Phone Number<span class="required">*</span></label>
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-md-6 form-group">
-                        <input type="email" class="form-control" id="email" placeholder=" " required>
-                        <label for="email" class="form-label">Post Title<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="post_title" name="post_title" placeholder=" " required>
+                        <label for="post_title" class="form-label">Post Title<span class="required">*</span></label>
                      </div>
                      <div class="col-md-6 form-group">
 
-                        <select class="form-select" id="customerStatus" required>
+                        <select class="form-select" id="customerStatus" name="customerStatus" required>
                            <option value="" selected disabled hidden></option>
                            <option value="guest">Guest Post</option>
                            <option value="sponsored">Sponsored Post</option>
                         </select>
-                        <label for="customerStatus" class="form-label">Post Type</label>
+                        <label for="customerStatus" class="form-label">Post Type <span class="required">*</span></label>
                      </div>
 
                   </div>
                   <div class="row justify-center">
                      <div class="col-md-12 form-group">
-                        <textarea class="form-control" id="bio" placeholder=" " required></textarea>
+                        <textarea class="form-control" id="post_summary" placeholder=" "name="post_summary" required></textarea>
                         <label for="bio" class="form-label">Post Summary <span class="required">*</span></label>
                      </div>
+                     <div class="one-column">
+                                       <div class="g-recaptcha" data-sitekey="6Lf0WYUUAAAAAMi0BjYIrf8I-9G5cS-kJ04d8MEL"></div>
+                                       <?php echo form_error('g-recaptcha-response', '<div class="error">', '</div>'); ?>
+                                    </div>
+                     
                      <button type="submit" class="contact-btn">
                         <span></span>
                         <span></span>
@@ -1097,6 +1108,7 @@
             });
          });
       </script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 
    </div>
 

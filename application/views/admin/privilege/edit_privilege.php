@@ -64,6 +64,7 @@
 											$rights_job_post		= json_decode($edit_data->job_post, TRUE);
 											$rights_job_application	= json_decode($edit_data->job_application, TRUE);
 											$rights_enquiries		= json_decode($edit_data->enquiries, TRUE);
+											$rights_write_for_us_enquiries		= json_decode($edit_data->write_for_us_enquiries, TRUE);
 											$rights_newsletter		= json_decode($edit_data->newsletter, TRUE);
 											$rights_privilege		= json_decode($edit_data->privilege, TRUE);
 											$rights_subscribe		= json_decode($edit_data->subscribe, TRUE);
@@ -182,6 +183,16 @@
 												<td class="selectAll"></td>
 												<td class="selectAll">
 													<input class="checkbox" type="checkbox" name="privilege[enquiries][view]" value="1" <?php if(!empty($rights_enquiries['view'])){ if($rights_enquiries['view']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll"></td>
+												<td class="selectAll"></td>
+											</tr>
+											<tr>
+												<th>Write For Us Enquiries </th>
+												<td class="selectAll"></td>
+												<td class="selectAll"></td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[write_for_us_enquiries][view]" value="1" <?php if(!empty($rights_write_for_us_enquiries['view'])){ if($rights_write_for_us_enquiries['view']==1) echo 'checked'; } ?>>
 												</td>
 												<td class="selectAll"></td>
 												<td class="selectAll"></td>

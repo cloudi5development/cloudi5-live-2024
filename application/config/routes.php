@@ -123,3 +123,4 @@ $route['ios-app-development-company-in-coimbatore']			                        = 
 $route['crm']			    = 'frontend/crm';
 $route['404_override']				    = 'custom404';
 $route['translate_uri_dashes']		    = FALSE;
+$route['write_for_us_enquiry_form']			= 'frontend/write_for_us_enquiry_form';

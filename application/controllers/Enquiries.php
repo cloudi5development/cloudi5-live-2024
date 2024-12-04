@@ -20,7 +20,9 @@ class Enquiries extends CI_Controller
     public function index()
     {
 		$data['access']				= $this->access;
+        
 		$this->page_data->show_data('Enquiries','enquiries/list',$data,'enquiries','view');
+        
     }
 	
 	#View Enquiries
@@ -34,6 +36,7 @@ class Enquiries extends CI_Controller
     public function enquiries_list()
     {
         $list = $this->Enquiries_model->get_datatables($this->input->post(null, true));
+      
         $data = array();
         $no = $_POST['start'];
         foreach ($list['rows'] as $enquiries) {
@@ -58,6 +61,7 @@ class Enquiries extends CI_Controller
         );
         // output to json format
         echo json_encode($output);
+       
     }
 
     #Delete Blog

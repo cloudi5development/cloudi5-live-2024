@@ -117,6 +117,11 @@ class Privilege extends CI_Controller
 			}else{
 				$data['enquiries'] 	= '';
 			}
+			if(!empty($privilege['write_for_us_enquiries'])){
+				$data['write_for_us_enquiries'] 	= json_encode($privilege['write_for_us_enquiries']);
+			}else{
+				$data['write_for_us_enquiries'] 	= '';
+			}
 			if(!empty($privilege['newsletter'])){
 				$data['newsletter'] = json_encode($privilege['newsletter']);
 			}else{
@@ -211,6 +216,11 @@ class Privilege extends CI_Controller
 			$data['enquiries'] 	= json_encode($privilege['enquiries']);
 		}else{
 			$data['enquiries'] 	= '';
+		}
+		if(!empty($privilege['write_for_us_enquiries'])){
+			$data['write_for_us_enquiries'] 	= json_encode($privilege['write_for_us_enquiries']);
+		}else{
+			$data['write_for_us_enquiries'] 	= '';
 		}
 		if(!empty($privilege['newsletter'])){
 			$data['newsletter'] = json_encode($privilege['newsletter']);
