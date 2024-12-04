@@ -847,6 +847,13 @@ class Frontend extends CI_Controller
 		$data['page_title'] = 'clients Logo';
 		$this->load->view('frontend/our-clientele',$data);
 	}
+	public function portfolio_new_details()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'Portfolio_new_details')->get('meta_tags')->row();
+		$data['page_title'] = 'portfolio new details';
+		$this->load->view('frontend/portfolio-new-details',$data);
+	}
 
 	// public function submitinfo()
 	// {

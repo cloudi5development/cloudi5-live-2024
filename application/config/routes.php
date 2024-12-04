@@ -117,6 +117,7 @@ $route['write-for-us']			                        = 'frontend/write_for_us';
 $route['portfolio-new']			                        = 'frontend/portfolio_new';
 $route['erp-software']			                        = 'frontend/erp_software';
 $route['our-clientele']			                        = 'frontend/clients_logo';
+$route['portfolio-new-details']			                = 'frontend/portfolio_new_details';
 $route['smm']			                        = 'frontend/smm';
 $route['home-new']			                        = 'frontend/home_new';
 $route['ios-app-development-company-in-coimbatore']			                        = 'frontend/ios_app_development';
