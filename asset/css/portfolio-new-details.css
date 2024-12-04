@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+.portfolio-new-details {
+  padding-top: 230px;
+  padding-bottom: 60px;
+  background: #051a49;
+  position: relative;
+}
+.portfolio-new-details .circle-shape {
+  position: absolute;
+  top: 0px;
+  right: 40px;
+}
+.portfolio-new-details .circle-shape-2 {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+.portfolio-new-details .intro-section {
+  position: relative;
+}
+.portfolio-new-details .client-section {
+  padding-top: 80px;
+  position: relative;
+}
+.portfolio-new-details .challenges-section {
+  padding-top: 80px;
+  position: relative;
+}
+.portfolio-new-details .solution-section {
+  padding-top: 80px;
+  position: relative;
+}
+.portfolio-new-details .stroke-text {
+  font-family: "Roboto", sans-serif;
+  transform: translate(-50%);
+  font-size: 250px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 900;
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  width: max-content;
+  -webkit-text-stroke: 1px #0b3593b8;
+  -webkit-text-fill-color: transparent;
+  pointer-events: none;
+}
+.portfolio-new-details .stroke-text-2 {
+  font-size: 150px;
+  top: 15px;
+  left: 50%;
+}
+.portfolio-new-details .stroke-text-3 {
+  font-size: 150px;
+  top: 15px;
+  left: 50%;
+}
+.portfolio-new-details .stroke-text-4 {
+  font-size: 150px;
+  top: -45px;
+  left: 60%;
+}
+.portfolio-new-details .title {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 30px;
+  background: linear-gradient(70deg, #60b5f3 -10.75%, #da0e17 101.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: normal;
+  z-index: 1;
+}
+.portfolio-new-details .desc {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+}

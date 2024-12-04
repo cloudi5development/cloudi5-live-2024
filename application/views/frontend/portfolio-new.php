@@ -62,7 +62,7 @@
             </div>
             <div class="row" id="portfolio-grid">
                 <div class="col-md-6" data-categories="web-design">
-                    <a href="javascript:void(0);">
+                    <a href="<?php echo base_url(); ?>portfolio-new-details">
                         <div class="portfolio-card-container">
                             <div class="client-logo">
                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-logo.png"
