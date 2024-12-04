@@ -1082,8 +1082,13 @@
   font-weight: 600;
   color: #0b2359;
 }
+@media screen and (max-width: 480px) {
+  .new-clients-logo .new-marquee-content {
+    width: 500%;
+  }
+}
 /* new client logo end*/
-#clients-area{
+#clients-area {
   display: none;
 }
 /* responsive start */

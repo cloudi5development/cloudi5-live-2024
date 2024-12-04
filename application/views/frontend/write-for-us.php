@@ -53,87 +53,9 @@
 
       <?php include 'header.php' ?>
 
-      <!-- <section class="write-for-us-home">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="swiper mySwiper">
-                  <div class="swiper-wrapper">
-                     <div class="swiper-slide">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/write-for-us-home-1.png"
-                           alt="Home-Img-1">
-                        <div class="bg-shadow-circle-1"></div>
-                        <div class="bg-shadow-circle-2"></div>
-                        <div class="slide-content">
-                           <h2 class="title">Collaborate and Share Your Knowledge</h2>
-                           <p class="description">Partner with us to publish high-quality content that informs and
-                              engages industry professionals.</p>
-                           <a href="javascript:void(0);" class="btn-write">
-                              <button class="contact-btn">
-                                 Get Started Now
-                                 <span class="first"></span>
-                                 <span class="second"></span>
-                                 <span class="third"></span>
-                                 <span class="fourth"></span>
-                              </button>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/write-for-us-home-2.png"
-                           alt="Home-Img-2">
-                        <div class="bg-shadow-circle-1"></div>
-                        <div class="bg-shadow-circle-2"></div>
-                        <div class="slide-content">
-                           <h2 class="title">Make Your Expertise Known</h2>
-                           <p class="description">Become a recognized thought leader by writing for our corporate blog
-                              and engaging with a broad audience.</p>
-                           <a href="javascript:void(0);" class="btn-write">
-                              <button class="contact-btn">
-                                 Get Started Now
-                                 <span class="first"></span>
-                                 <span class="second"></span>
-                                 <span class="third"></span>
-                                 <span class="fourth"></span>
-                              </button>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/write-for-us-home-3.png"
-                           alt="Home-Img-3">
-                        <div class="bg-shadow-circle-1"></div>
-                        <div class="bg-shadow-circle-2"></div>
-                        <div class="slide-content">
-                           <h2 class="title">Publish Your Expert Opinions</h2>
-                           <p class="description">Share your take on current trends, challenges, and opportunities in
-                              the corporate world with our readers.</p>
-                           <a href="javascript:void(0);" class="btn-write">
-                              <button class="contact-btn">
-                                 Get Started Now
-                                 <span class="first"></span>
-                                 <span class="second"></span>
-                                 <span class="third"></span>
-                                 <span class="fourth"></span>
-                              </button>
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
-               </div>
-            </div>
-         </div>
-      </section> -->
       <section class="write-for-us-home">
-         <!-- <div class="circle-shape">
-            <img src="<?php echo base_url(); ?>asset/images/write-for-us/circle-2-img.png" alt="img">
-         </div>
-         <div class="arrow-shape">
-            <img src="<?php echo base_url(); ?>asset/images/write-for-us/arrow-up-img-1.png" alt="img">
-         </div> -->
          <div class="ball-pulse-effect">
             <div class="ball-shape">
-
             </div>
          </div>
          <div class="container">
@@ -166,6 +88,61 @@
             </div>
          </div>
       </section>
+
+<!-- clients-logo section start-->
+<section class="new-clients-logo">
+         <div class="container-fluid">
+            <div class="new-client-logo-details">
+               <div class="new-clients-title">
+                  <h6>Our Trusted Partner</h6>
+               </div>
+               <div class="new-marquee">
+                  <div class="new-marquee-content">
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11">
+                     </div>
+                     <div class="new-marquee-item">
+                        <img src="<?php echo base_url(); ?>asset/images/clients/stanes.jpg" alt="Client 12">
+                     </div>
+                  </div>
+               </div>
+               <div class="new-clients-title-2">
+                  <h6>Almost 250+ Partner we have</h6>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- clients-logo section end-->
 
       <section class="why-choose-us">
          <div class="container">

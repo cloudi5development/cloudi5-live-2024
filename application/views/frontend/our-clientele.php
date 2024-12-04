@@ -3,14 +3,16 @@
 
 <head>
     <title><?php if ($meta) {
-        echo $meta->title ? $meta->title : "Our-clientele";
+        echo $meta->title ? $meta->title : "Cloudi5’s Gallery of Trust | Meet Our Exceptional Clients";
     } else {
-        echo "Our-clientele";
+        echo "Cloudi5’s Gallery of Trust | Meet Our Exceptional Clients";
     } ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
-    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " "; ?>">
+    <meta name="description"
+        content="<?php echo $meta ? $meta->description : "Explore Cloudi5’s esteemed clientele – a group of elite brands who trust our innovative tech solutions that spark creativity, boost success and shake things up!"; ?>">
+    <meta name="keywords"
+        content="<?php echo $meta ? $meta->keyword : "Clientele, Our Clients, Trusted by Leading Businesses, Cloudi5 Clients, Client Success Stories, Top Clients, Business Partnerships, Client Relationships, Global Clientele, Client Portfolio, Successful Client Collaborations, Cloudi5 Client List, Client Testimonial"; ?>">
     <meta name="robots" content="index,follow" />
     <meta name="language" content="english" />
     <meta name="Expires" content="never" />
@@ -22,11 +24,11 @@
     <meta name="search engines" content="ALL" />
     <meta name="copyright" content="cloudi5.com" />
     <meta name="email" content="info@cloudi5.com" />
-    <link rel="canonical" href="<?php echo base_url(); ?>flutter-app-development" />
+    <link rel="canonical" href="<?php echo base_url(); ?>Cloudi5’s Gallery of Trust | Meet Our Exceptional Clients" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Flutter App Development Company in Coimbatore" />
+    <meta property="og:title" content="Cloudi5’s Gallery of Trust | Meet Our Exceptional Clients" />
     <meta property="og:description"
-        content="Cloudi5 is the Leading Flutter app development company in Coimbatore, creating innovative mobile solutions. Get custom apps designed for your business needs." />
+        content="Explore Cloudi5’s esteemed clientele – a group of elite brands who trust our innovative tech solutions that spark creativity, boost success and shake things up!" />
     <meta property="og:url" content="<?php echo base_url(); ?>flutter-app" />
     <?php $this->load->view('frontend/common-css'); ?>
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.carousel.min.css">
@@ -39,7 +41,7 @@
 </head>
 
 <body>
-    <div class="body-inner flutter-app-development-page">
+    <div class="body-inner">
         <?php include 'header.php' ?>
 
         <section class="client-logos-section">
@@ -47,32 +49,32 @@
                 <div class="row">
                     <div class="col-lg-12 title">
                         <h2>Our happy Customers</h2>
-                        <p>We've been fortunate to work with these incredible organizations</p>
+                        <p>Meet our delighted clients and find out why they love Cloudi5.</p>
                     </div>
                 </div>
 
                 <div class="client-logos-container">
                     <div class="row">
-                        <div class="col-6 col-md-3 col-lg-3 client-logo">
+                        <div class="col-6 col-md-6 col-lg-3 col-sm-6 client-logo">
                             <img src="<?php echo base_url(); ?>asset/images/clientele/mayflower.png" alt="mayflower"
                                 class="img-fluid">
                         </div>
-                        <div class="col-6 col-md-3 col-lg-3 client-logo">
-                            <img src="<?php echo base_url(); ?>asset/images/clientele/baps.png" alt="baps"
+                        <div class="col-6 col-md-6 col-lg-3 col-sm-6 client-logo">
+                            <img src="<?php echo base_url(); ?>asset/images/clientele/svhv-school.png" alt="svhv-school"
                                 class="img-fluid">
                         </div>
-                        <div class="col-6 col-md-3 col-lg-3 client-logo">
+                        <div class="col-6 col-md-6 col-lg-3 col-sm-6 client-logo">
                             <img src="<?php echo base_url(); ?>asset/images/clientele/stanes.png" alt="stanes"
                                 class="img-fluid">
                         </div>
-                        <div class="col-6 col-md-3 col-lg-3 client-logo">
+                        <div class="col-6 col-md-6 col-lg-3 col-sm-6 client-logo">
                             <img src="<?php echo base_url(); ?>asset/images/clientele/metro.png" alt="metro"
                                 class="img-fluid">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6 col-md-3 col-lg-3 client-logo">
-                            <img src="<?php echo base_url(); ?>asset/images/clientele/massiva.png" alt="massiva"
+                            <img src="<?php echo base_url(); ?>asset/images/clientele/baps.png" alt="baps"
                                 class="img-fluid">
                         </div>
                         <div class="col-6 col-md-3 col-lg-3 client-logo">
@@ -184,7 +186,7 @@
                     </div>
                     <div class="row">
                         <div class="col-6 col-md-3 col-lg-3 client-logo">
-                            <img src="<?php echo base_url(); ?>asset/images/clientele/svhv-school.png" alt="svhv-school"
+                            <img src="<?php echo base_url(); ?>asset/images/clientele/massiva.png" alt="massiva"
                                 class="img-fluid">
                         </div>
                         <div class="col-6 col-md-3 col-lg-3 client-logo">
@@ -241,11 +243,9 @@
             </div>
         </section>
 
-
         <!-- Footer start-->
         <?php include 'footer.php' ?>
         <!-- initialize jQuery Library-->
-        <?php $this->load->view('frontend/common-js'); ?>
 
     </div>
 </body>
