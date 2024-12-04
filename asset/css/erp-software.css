@@ -1,3 +1,7 @@
+.mt-20 {
+  margin-top: 20px;
+}
+
 .body-inner .common-inner-banner .inner-pattern img {
   position: absolute;
   opacity: 0.3;
@@ -134,7 +138,9 @@
     rgba(0, 0, 0, 0)
   );
 }
-
+.benefit-icon {
+  width: 34px;
+}
 .benefits-wrapper:nth-child(1) .content-inner-wrapper:after,
 .benefits-wrapper:nth-child(4) .content-inner-wrapper:after {
   left: 0;
@@ -221,14 +227,20 @@
     transform: translateY(-5px);
   }
 }
+.arrow-wrapper svg {
+  width: 160px;
+  display: flex;
+  justify-content: ;
+  align-items: end;
+}
 
-.simplify-icon {
+/* .simplify-icon {
   position: relative;
 }
 
 .simplify-icon::before {
   position: absolute;
-  content: "\f215";
+  content: "";
   font-size: 20px;
 }
 .focus-icon {
@@ -239,7 +251,7 @@
   position: absolute;
   content: "\f784";
   font-size: 20px;
-}
+} */
 
 /*----faq-section------- */
 .faq-section {
