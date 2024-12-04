@@ -85,6 +85,7 @@ $header_setting = $this->db->from('settings')->get()->row();
                         <ul class="dropdown-menu" role="menu">
                            <li class="nav-item"><a href="<?php echo base_url();?>aboutus">About Us</a></li>
                            <li><a href="<?php echo base_url();?>careers">Careers</a></li>
+                           <li><a href="<?php echo base_url(); ?>our-clientele">Our Clientele</a></li>
                            <li><a href="<?php echo base_url();?>write-for-us">Write for Us</a></li>
                         </ul>
                      </li>

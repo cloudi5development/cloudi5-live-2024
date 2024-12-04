@@ -839,17 +839,18 @@
     display: none;
   }
 }
+
+/* client-logo css start */
+
 .clients-logo {
-  padding: 70px 0px 70px 0px !important;
-  /* padding-bottom: 30px; */
+  padding-top: 70px;
   border: none;
-  margin: 0 !important;
 }
 .clients-logo .client-logo-details {
   border-top: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
   position: relative;
-  overflow: visible !important;
+  overflow: hidden;
 }
 .clients-logo .marquee {
   width: 100%;
@@ -864,41 +865,79 @@
   position: absolute;
   top: 0;
   height: 100%;
+  width: 200px;
   z-index: 2;
-  width: 100px;
 }
 .clients-logo .marquee::before {
   left: 0;
-  background-color: transparent;
-  background-image: linear-gradient(90deg, #ffffffbd 0%, #f2295b00 100%);
+  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 }
 .clients-logo .marquee::after {
   right: 0;
-  background-color: transparent;
-  background-image: linear-gradient(-90deg, #ffffffbd 0%, #f2295b00 100%);
+  background: linear-gradient(-90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 }
 .clients-logo .marquee-content {
-  display: flex;
-  gap: 40px;
+  display: inline-flex;
   animation: marquee 20s linear infinite;
+  width: 200%;
+}
+.clients-logo .marquee-content:hover {
+  animation-play-state: paused;
 }
 .clients-logo .marquee-item {
   flex: 0 0 auto;
   padding: 0 25px;
+  display: inline-block;
 }
 .clients-logo .marquee-item img {
-  max-width: 100%;
-  /* height: auto; */
-  filter: none;
+  max-width: 150px;
+  height: 90px;
+  object-fit: contain;
+  transition: filter 0.3s ease;
 }
 @keyframes marquee {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+
+.clients-logo .clients-title {
+  position: absolute;
+  left: 0px;
+  top: -13px;
+  background-color: #ffffff;
+  padding: 0 10px;
+  z-index: 3;
+}
+
+.clients-logo .clients-title h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b2359;
+}
+
+.clients-logo .clients-title-2 {
+  position: absolute;
+  right: 0px;
+  bottom: -9px;
+  background-color: #ffffff;
+  padding: 0 10px;
+  z-index: 3;
+}
+
+.clients-logo .clients-title-2 h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b2359;
+}
+
+/* client-logo css end */
+
 .clients-logo .clients-title {
   position: absolute;
   left: 0px;
@@ -949,7 +988,6 @@
   top: 62%;
   transform: translateY(-50%);
 }
-
 
 /* portfolio-new-design css start */
 
@@ -1067,3 +1105,113 @@
   transform: translate(-50%, 55%);
   z-index: 0;
 }
+
+/* new client logo start */
+.new-clients-logo {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  border: none;
+}
+
+.new-clients-logo .new-client-logo-details {
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.new-clients-logo .new-marquee {
+  width: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  padding: 40px 0;
+  position: relative;
+}
+
+.new-clients-logo .new-marquee::before,
+.new-clients-logo .new-marquee::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  z-index: 2;
+}
+
+.new-clients-logo .new-marquee::before {
+  left: 0;
+  background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.new-clients-logo .new-marquee::after {
+  right: 0;
+  background: linear-gradient(-90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.new-clients-logo .new-marquee-content {
+  display: inline-flex;
+  animation: new-marquee 20s linear infinite;
+  width: 200%;
+  gap: 20px;
+}
+.new-clients-logo .new-marquee-content:hover {
+  animation-play-state: paused;
+}
+.new-clients-logo .new-marquee-item {
+  flex: 0 0 auto;
+  padding: 0 35px;
+  display: inline-block;
+}
+.new-clients-logo .new-marquee-item img {
+  max-width: 150px;
+  height: 80px;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+@keyframes new-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.new-clients-logo .new-clients-title {
+  position: absolute;
+  left: 0px;
+  top: -13px;
+  background-color: #ffffff;
+  padding: 0 10px;
+  z-index: 3;
+}
+
+.new-clients-logo .new-clients-title h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b2359;
+}
+
+.new-clients-logo .new-clients-title-2 {
+  position: absolute;
+  right: 0px;
+  bottom: -9px;
+  background-color: #ffffff;
+  padding: 0 10px;
+  z-index: 3;
+}
+
+.new-clients-logo .new-clients-title-2 h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b2359;
+}
+@media screen and (max-width: 480px) {
+  .new-clients-logo .new-marquee-content {
+    width: 500%;
+  }
+}
+/* new client logo end*/
