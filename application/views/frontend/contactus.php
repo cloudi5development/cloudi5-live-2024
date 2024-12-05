@@ -48,21 +48,6 @@ $contact_setting = $this->db->from('settings')->get()->row();
 <body id="cont">
    <div class="body-inner">
       <?php include 'header.php' ?>
-      <!-- <div class="banner-area about-banner resp-banner" id="banner-area">
-         <div class="container">
-            <div class="row justify-content-center">
-               <div class="col">
-                  <div class="banner-heading">
-                     <h2 class="banner-title2">We Listen, We Care,<br> We Respond</h2>
-                     <ol class="breadcrumb">
-                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                        <li>Contact Us</li>
-                     </ol>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
       <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="Website Development">
          <div class="inner-pattern"> <img
@@ -82,12 +67,12 @@ $contact_setting = $this->db->from('settings')->get()->row();
                      <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
                   </div>
                </div>
-               <div class="col-md-10">
+               <div class="col-md-10 col-12 banner-inner-text">
                   <div class="banner-tagline">
                      <span> <img src="<?php echo base_url(); ?>asset/images/web-development/star.png"
                            alt="Convert into Mockups"> Transform Your Vision into Digital Success!</span>
                   </div>
-                  <h2 class="title">We Listen, We Care<span>We Respond</span></h2>
+                  <h2 class="title">We Listen, We Care <span>We Respond</span></h2>
                </div>
             </div>
          </div>
@@ -123,7 +108,7 @@ $contact_setting = $this->db->from('settings')->get()->row();
                               <img src="<?php echo base_url(); ?>asset/images/contactUs/contact-message-icon.webp" class="contact-icon" alt="Mail Id">
                            </div>
                            <div class="details-content mt-10">
-                              <span>Send a Message</span>
+                              <span>Send a message</span>
                               <p>info@cloudi5.com</p>
                            </div>
                         </div>
@@ -134,9 +119,8 @@ $contact_setting = $this->db->from('settings')->get()->row();
                               <img src="<?php echo base_url(); ?>asset/images/contactUs/contact-phone-icon.webp" class="contact-icon" alt="Mail Id">
                            </div>
                            <div class="details-content mt-10">
-                              <span>Let's talk with Us</span>
+                              <span>Let's talk with us</span>
                               <p>Sales: +91 97874 67575
-
                                  Support: +91 91599 13344</p>
                            </div>
                         </div>
@@ -148,7 +132,7 @@ $contact_setting = $this->db->from('settings')->get()->row();
                            </div>
                            <div class="details-content mt-10">
                               <span>Join our team</span>
-                              <p>Careers: (+91) 95970 16798 <br>
+                              <p>+91 95970 16798 <br>
                                  careers@cloudi5.com
                               </p>
                            </div>
@@ -158,7 +142,6 @@ $contact_setting = $this->db->from('settings')->get()->row();
                </div>
             </div>
          </div>
-
       </section>
 
       <section class="form-section mt-20 ">
@@ -189,14 +172,14 @@ $contact_setting = $this->db->from('settings')->get()->row();
                                     class="required">*</span></label>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
-                              <input type="text" class="form-input" id="lastName" placeholder=" " required>
-                              <label for="lastName" class="floating-label">Last Name <span
-                                    class="required">*</span></label>
+                              <input type="text" class="form-input" id="business" placeholder=" ">
+                              <label for="business" class="floating-label">Business <span
+                                    class="required"></span></label>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
-                              <input type="number" class="form-input" id="phone" placeholder=" " required>
+                              <input type="number" class="form-input" id="phone" placeholder=" ">
                               <label for="phone" class="floating-label">Phone Number <span
-                                    class="required">*</span></label>
+                                    class="required"></span></label>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
                               <input type="email" class="form-input" id="email" placeholder=" " required>
@@ -218,19 +201,15 @@ $contact_setting = $this->db->from('settings')->get()->row();
                                  <button type="submit" class="submit-btn">Submit</button>
                               </div>
                            </div>
-
                         </div>
                      </form>
-
                   </div>
                </div>
                <div class="col-lg-6 col-md-12 p-0 ">
                   <div>
                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15663.458235321368!2d76.9936509!3d11.0487799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859196af1d857%3A0xb7a08f850c62d14a!2sCloudi5%20Technologies!5e0!3m2!1sen!2sin!4v1733296133038!5m2!1sen!2sin" class="map-section" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
-
                </div>
-
             </div>
          </div>
       </section>

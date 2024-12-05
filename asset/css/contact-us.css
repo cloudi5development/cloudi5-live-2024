@@ -75,12 +75,10 @@
   font-size: 42px;
 }
 .body-inner .common-inner-banner .title span {
-  /* background: linear-gradient(95deg, #023575 0.75%, #da0e17 101.34%);  */
   background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  /* text-fill-color: transparent;  */
   position: relative;
   display: inline-block;
 }
@@ -245,11 +243,6 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 /* ------------------------ */
-/* .social-icons-wrapper {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-} */
 .social-horizontal-line {
   border-top: 1px solid #ccc;
   margin: 26px 0;
@@ -294,7 +287,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .icons-section a.twitter:hover {
   background-color: #1da1f2;
-  /* stroke: white; */
 }
 
 .icons-section a.twitter:hover .twitter-social-icon svg {
@@ -335,6 +327,9 @@ input[type="number"]::-webkit-outer-spin-button {
   .icons-section a {
     width: 44px;
   }
+  .details-content span {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 991px) {
   .social-horizontal-line {
@@ -368,5 +363,50 @@ input[type="number"]::-webkit-outer-spin-button {
   .form-section-wrapper {
     width: 100%;
     height: 780px;
+  }
+  .body-inner .common-inner-banner .inner-pattern img {
+    top: -11% !important;
+  }
+}
+@media (max-width: 426px) {
+  .contact-title-sec h2 {
+    font-size: 32px;
+  }
+  .top-social {
+    padding: 0px;
+  }
+  .resp-banner {
+    height: 415px !important;
+  }
+  .common-inner-banner .banner-tagline {
+    margin: 40px 20px 10px 20px !important;
+  }
+  .common-inner-banner .banner-tagline span {
+    font-size: 10px !important;
+    text-transform: uppercase;
+    margin: 10px 0px !important;
+  }
+  .common-inner-banner .title {
+    font-size: 26px !important;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .banner-tagline span img {
+    width: 18px !important;
+    padding-bottom: 4px !important;
+  }
+  .title span::after {
+    height: 2px;
+  }
+  .body-inner .common-inner-banner .inner-pattern img {
+    top: -11% !important;
+  }
+  .common-inner-banner .banner-quote {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .banner-inner-text {
+    margin-bottom: 100px;
   }
 }
