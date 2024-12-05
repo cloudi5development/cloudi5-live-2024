@@ -24445,7 +24445,7 @@ round-circle {
   overflow-y: hidden;
   border-radius: 30px;
   padding-left: 40px;
-  float: left;  
+  float: left;
   position: relative;
 }
 .portfolio-new-design .portfolio-cards.card-bg-clr-2 {
@@ -24470,7 +24470,8 @@ round-circle {
   position: relative;
 }
 .portfolio-new-design .portfolio-screens {
-  background: transparent url(../images/portfolio-new/portfolio-mayflower.png) repeat 0 0;
+  background: transparent url(../images/portfolio-new/portfolio-mayflower.png)
+    repeat 0 0;
   background-size: cover;
   height: 510px;
   margin-left: 0%;
@@ -24478,7 +24479,8 @@ round-circle {
   animation: slide 125s linear infinite;
 }
 .portfolio-new-design .portfolio-screens-2 {
-  background: transparent url(../images/portfolio-new/portfolio-hookz.png) repeat 0 0;
+  background: transparent url(../images/portfolio-new/portfolio-hookz.png)
+    repeat 0 0;
   background-size: cover;
   height: 510px;
   margin-left: 0%;
@@ -24486,7 +24488,8 @@ round-circle {
   animation: slide 125s linear infinite;
 }
 .portfolio-new-design .portfolio-screens-3 {
-  background: transparent url(../images/portfolio-new/portfolio-arman.png) repeat 0 0;
+  background: transparent url(../images/portfolio-new/portfolio-arman.png)
+    repeat 0 0;
   background-size: cover;
   height: 510px;
   margin-left: 0%;
@@ -24502,7 +24505,7 @@ round-circle {
     background-position: 0 4000px;
   }
 }
-.portfolio-new-design .portfolio-content-container .portfolio-logo img{
+.portfolio-new-design .portfolio-content-container .portfolio-logo img {
   border-radius: 10px;
   /* padding: 10px; */
 }
@@ -24612,7 +24615,6 @@ round-circle {
     height: 500px;
   }
 }
-
 
 /* new client logo start */
 .new-clients-logo {
@@ -24836,7 +24838,7 @@ round-circle {
   margin-top: 20px;
   text-align: center;
 }
-.banner-title2.career-title{
+.banner-title2.career-title {
   text-align: center;
   line-height: 1.4 !important;
   font-size: 42px !important;
@@ -24882,7 +24884,7 @@ round-circle {
   }
   .resp-banner {
     height: 450px !important;
-}
+  }
 }
 @media (max-width: 767px) {
   .common-inner-banner .banner-tagline {
@@ -24892,4 +24894,37 @@ round-circle {
     height: fit-content;
     margin-top: 0px;
   }
+  .home-clients-list .logos-list > div {
+    width: 50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+  .home-clients-list .logos-list {
+    margin-bottom: 30px !important;
+}
+.home-clients-list{
+  padding-top: 20px;
+  padding-bottom: 0px !important;
+}
+}
+
+.home-clients-list {
+  padding-top: 60px;
+}
+.home-clients-list .logos-list {
+  margin-bottom: 60px;
+}
+.home-clients-list .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.home-clients-list .client-img {
+  transition: 0.3s linear;
+}
+.home-clients-list .client-img:hover {
+  transition: 0.3s linear;
+  transform: scale(1.1);
 }

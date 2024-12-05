@@ -231,7 +231,68 @@
       </div>
 
       <!-- clients-logo section start-->
-      <?php include 'our-clients.php' ?>
+      <!-- <?php include 'our-clients.php' ?> -->
+      <section class="home-clients-list">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <h2 class="title">Collaborating with Innovators and Pioneers</h2>
+               </div>
+            </div>
+            <div class="row logos-list">
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11"
+                     class="img-fluid client-img">
+               </div>
+            </div>
+            <div class="row logos-list">
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4"
+                     class="img-fluid client-img">
+               </div>
+               <div class="col-lg-2 col-sm-6">
+                  <img src="<?php echo base_url(); ?>asset/images/clients/stanes.jpg" alt="Client 12"
+                     class="img-fluid client-img">
+               </div>
+            </div>
+         </div>
+      </section>
       <!-- clients-logo section end-->
 
       <section class="about-company-sec py-5">
