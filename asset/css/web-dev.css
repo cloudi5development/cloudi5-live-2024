@@ -761,6 +761,7 @@
 .adds_value.gcv {
   padding-bottom: 20px;
 }
+
 /* banner-web dev */
 .body-inner .common-inner-banner .inner-pattern img {
   position: absolute;
@@ -768,10 +769,10 @@
   top: 11%;
 }
 .body-inner .common-inner-banner {
-  background: #0b2359;
+  background: #0b2359 !important;
 }
 .body-inner .topbar-transparent {
-  background: #051a49;
+  background: #051a49 !important;
 }
 .body-inner .header-standard {
   /* background: #0b2359; */

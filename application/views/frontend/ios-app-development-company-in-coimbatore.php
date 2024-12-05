@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/write-for-us.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-brands">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-brands.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/flutter-app.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/ios-app.css">
 
@@ -82,8 +82,8 @@
         </div>
 
         <!-- clients-logo section start-->
-      <?php include 'our-clients.php' ?>
-      <!-- clients-logo section end-->
+        <?php include 'our-clients.php' ?>
+        <!-- clients-logo section end-->
 
         <!-- ios-intro-section start-->
         <section class="ios-intro-section">

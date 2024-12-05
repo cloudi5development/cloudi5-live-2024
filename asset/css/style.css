@@ -24727,3 +24727,169 @@ round-circle {
 }
 
 /* new client logo end*/
+
+/* banner-web dev */
+.body-inner .common-inner-banner .inner-pattern img {
+  position: absolute;
+  opacity: 0.3;
+  top: 11%;
+}
+.body-inner .common-inner-banner {
+  background: #0b2359 !important;
+}
+.body-inner.header-clr .topbar-transparent {
+  background: #051a49 !important;
+}
+.body-inner.header-clr .header-standard {
+  background: rgb(20 46 100 / 56%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border: 1px solid rgba(35, 70, 144, 0.3);
+}
+.body-inner .common-inner-banner {
+  padding: 1px;
+}
+
+.body-inner .banner-content {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.body-inner .common-inner-banner .banner-tagline {
+  text-align: center;
+  margin: 20px;
+}
+.body-inner .common-inner-banner .banner-tagline span {
+  font-size: 15px;
+  padding: 5px 10px;
+  /* padding: 8px 15px; */
+  margin: 20px;
+  background: rgba(150, 199, 212, 0.56);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(150, 199, 212, 0.3);
+}
+.body-inner .common-inner-banner .title {
+  text-align: center;
+  line-height: 1.4;
+  color: #ffffff;
+  font-size: 42px;
+}
+.body-inner .common-inner-banner .title span {
+  /* background: linear-gradient(95deg, #023575 0.75%, #da0e17 101.34%); */
+  background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  position: relative;
+  display: inline-block;
+}
+
+.body-inner .title span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
+  animation: grow 2.5s forwards linear infinite;
+}
+.common-inner-banner .shape-tri-3 {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+.common-inner-banner .shape-tri-4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.common-inner-banner .shape-tri-1 {
+  position: absolute;
+  width: 15px;
+  animation: animationFramesOne 25s infinite linear;
+  left: 0;
+}
+.common-inner-banner .shape-tri-1 img {
+  width: 13px;
+}
+@keyframes grow {
+  to {
+    width: 100%;
+  }
+}
+.common-inner-banner .banner-tagline span img {
+  width: 22px;
+  padding-bottom: 6px;
+}
+.common-inner-banner .banner-quote {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.banner-title2.career-title{
+  text-align: center;
+  line-height: 1.4 !important;
+  font-size: 42px !important;
+}
+@media (max-width: 426px) {
+  .top-social {
+    padding: 0px;
+  }
+  .resp-banner {
+    height: 480px !important;
+  }
+  .common-inner-banner .banner-tagline {
+    margin: 40px 20px 10px 20px !important;
+  }
+  .common-inner-banner .banner-tagline span {
+    font-size: 10px !important;
+    text-transform: uppercase;
+    margin: 10px 0px !important;
+  }
+  .common-inner-banner .title {
+    font-size: 26px !important;
+    font-weight: 500;
+    margin: 00px;
+  }
+  .banner-tagline span img {
+    width: 18px !important;
+    padding-bottom: 4px !important;
+  }
+  .title span::after {
+    height: 2px;
+  }
+  .body-inner .common-inner-banner .inner-pattern img {
+    top: -11% !important;
+  }
+  .common-inner-banner .banner-content {
+    margin-top: 180px !important;
+  }
+  .common-inner-banner .banner-quote {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 16px;
+    line-height: 1.5;
+  }
+  .resp-banner {
+    height: 450px !important;
+}
+}
+@media (max-width: 767px) {
+  .common-inner-banner .banner-tagline {
+    margin: 20px 00px;
+  }
+  .common-inner-banner .banner-content {
+    height: fit-content;
+    margin-top: 0px;
+  }
+}

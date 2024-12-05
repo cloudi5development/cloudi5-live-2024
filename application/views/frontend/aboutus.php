@@ -36,7 +36,8 @@
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
-   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet">
    <?php $this->load->view('frontend/fb-pixel-code'); ?>
 </head>
 
@@ -52,7 +53,7 @@
 
       <?php include 'header.php' ?>
 
-      <div class="banner-area about-banner resp-banner" id="banner-area"
+      <!-- <div class="banner-area about-banner resp-banner" id="banner-area"
          alt="Web Development, ERP, CRM & Web Design Company in India" title="About Us">
          <div class="container">
             <div class="row justify-content-center">
@@ -68,7 +69,39 @@
                </div>
             </div>
          </div>
+      </div> -->                
+
+      <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
+         alt="Web Development Company in Coimbatore" title="About Us">
+         <div class="inner-pattern"> <img
+               src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg"
+               alt="banner-pattern">
+         </div>
+         <div class="container banner-content">
+            <div class="row justify-content-center">
+               <div class="shape-wrapper">
+                  <div class="shape-tri-1">
+                     <img src="<?php echo base_url(); ?>asset/images/home/banner_shape02.png" alt="Shape-1">
+                  </div>
+                  <div class="shape-tri-3">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
+                  </div>
+                  <div class="shape-tri-4">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
+                  </div>
+               </div>
+               <div class="col-md-10">
+                  <div class="banner-tagline">
+                     <span> <img src="<?php echo base_url(); ?>asset/images/web-development/star.png"
+                           alt="Convert into Mockups"> Empower Your Business with Innovative IT Solutions!</span>
+                  </div>
+                  <h2 class="title">Intelligent Web Design, Responsive Websites and <span>Strategic Digital
+                        Marketing</span> Solutions!</h2>
+               </div>
+            </div>
+         </div>
       </div>
+
       <section class="main-container wd-section" id="main-container">
          <div class="container">
             <div class="row">
@@ -459,7 +492,7 @@
                            <p class="team-designation">Web Designer</p>
                         </div>
                      </div>
-                  </div>                 
+                  </div>
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/ramya-profile-digital-marketing.png"
@@ -494,7 +527,7 @@
             </div>
          </div>
          <!-- Cloudi5 Team End -->
-        
+
       </section>
 
       <?php include 'footer.php' ?>

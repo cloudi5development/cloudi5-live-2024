@@ -27,30 +27,34 @@
 </head>
 
 <body>
-  <div class="body-inner">
+  <div class="body-inner header-clr">
     <?php include 'header.php' ?>
 
     <!-- banner sec start -->
-    <div class="banner-area overlay about-banner resp-banner" id="banner-area">
-      <div class="container">
+    <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
+      alt="Web Development Company in Coimbatore" title="Digital Marketing">
+      <div class="inner-pattern"> <img
+          src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg" alt="banner-pattern">
+      </div>
+      <div class="container banner-content">
         <div class="row justify-content-center">
-          <div class="col">
-            <div class="banner-heading">
-              <div class="banner-title2 wow flipInX" data-wow-delay="100ms" data-wow-duration="1500ms">
-                <span>
-                  <h1 class="banner-title3">Best Digital Marketing Company
-                    in
-                    Coimbatore
-                  </h1>
-                </span>
-                <!--<br>-->
-                <!--We Don't Just Market, We Make Your Brand a Star!-->
-              </div>
-              <ol class="breadcrumb">
-                <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                <li>Digital Marketing</li>
-              </ol>
+          <div class="shape-wrapper">
+            <div class="shape-tri-1">
+              <img src="<?php echo base_url(); ?>asset/images/home/banner_shape02.png" alt="Shape-1">
             </div>
+            <div class="shape-tri-3">
+              <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
+            </div>
+            <div class="shape-tri-4">
+              <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="banner-tagline">
+              <span> <img src="<?php echo base_url(); ?>asset/images/web-development/star.png"
+                  alt="Convert into Mockups"> Transform Your Business with Digital Solutions!</span>
+            </div>
+            <h2 class="title">Best <span>Digital Marketing</span> Company in Coimbatore!</h2>
           </div>
         </div>
       </div>
@@ -62,7 +66,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12 text-center">
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Trusted Digital Marketing Agency in Coimbatore</h2>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Trusted Digital Marketing
+              Agency in Coimbatore</h2>
             <h5 class="sub-title wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1600ms"><span
                 class="clr-red">V</span>ibrant, <span class="clr-red">I</span>nnovative, <span
                 class="clr-red">P</span>assionate

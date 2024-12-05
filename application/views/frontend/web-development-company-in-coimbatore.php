@@ -38,6 +38,7 @@
 <body>
    <div class="body-inner web-dev-page">
       <?php include 'header.php' ?>
+      
       <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="Website Development">
          <div class="inner-pattern"> <img
