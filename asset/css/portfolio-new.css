@@ -14,7 +14,7 @@
   margin-top: 10px;
   color: #bebebe;
 }
-.portfolio-new-section .animated-text {
+/* .portfolio-new-section .animated-text {
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -45,10 +45,10 @@
   100% {
     background-position: 0% center;
   }
-}
+} */
 
 .portfolio-filters {
-  margin: 40px 0px 50px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 .filter-btn {
@@ -94,6 +94,7 @@
   top: -20px;
   left: 10px;
   z-index: 1;
+  border-radius: 5px;
 }
 .portfolio-card-container .portfolio-img {
   width: 100%;
@@ -188,3 +189,6 @@
 @media screen and (min-width: 1200px) {
 }
 /* responsive end */
+
+
+

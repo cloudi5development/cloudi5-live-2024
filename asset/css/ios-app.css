@@ -31,7 +31,7 @@
   text-align: center;
   margin: 20px;
 }
-.body-inner .common-inner-banner .banner-tagline {
+/* .body-inner .common-inner-banner .banner-tagline {
   font-size: 15px;
   padding: 1px 10px;
   margin: 20px;
@@ -41,7 +41,7 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(150, 199, 212, 0.3);
-}
+} */
 .body-inner .common-inner-banner .title {
   text-align: center;
   line-height: 1.4;
