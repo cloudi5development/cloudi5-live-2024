@@ -10465,8 +10465,10 @@ html body .mrg-bot-20 {
   position: relative;
   border-radius: 6px;
   padding: 0 25px;
+  border: 1px solid #e3e3e3;
   box-shadow: 0 5px 25px 0 rgba(41, 128, 185, 0.15);
   -webkit-box-shadow: 0 5px 25px 0 rgba(41, 128, 185, 0.15);
+  transition: 0.3s linear;
 }
 
 .vertical-job-card {
@@ -10582,7 +10584,9 @@ html body .mrg-bot-20 {
 }
 
 .skill-tag {
-  background-color: #ffdecc;
+  /* background-color: #ffdecc; */
+  background-color: #ffa87b4f;
+  border: 1px solid #c9c9c975;
   border-radius: 0 2px 2px 0;
   display: inline-block;
   font-size: 13.5px;
@@ -10593,6 +10597,25 @@ html body .mrg-bot-20 {
   position: relative;
   border-radius: 4px;
 }
+.career-section .vertical-job-card .job-icon {
+  font-size: 20px;
+}
+.career-section .vrt-job-act .job-apply-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.career-section .vrt-job-act .arrow-up-right {
+  transition: 0.3s linear;
+}
+.career-section .vrt-job-act .job-apply-btn:hover .arrow-up-right {
+  transform: rotate(45deg);
+  transition: 0.3s linear;
+}
+/* .career-section .vrt-job-act .arrow-up-right{
+  stroke: #ffffff;
+  fill: #ffffff;
+} */
 
 .skill-tag:before {
   border-top: 10px solid transparent;
@@ -12712,7 +12735,9 @@ a.color--primarya i {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-
+.m-auto {
+  margin: auto;
+}
 .btn-bg--primary {
   background: #9313db;
 }
@@ -22248,6 +22273,9 @@ h2.title_text.c_slide_in_wrap1 {
 .pt-9 {
   padding-top: 9px;
 }
+.pt-7 {
+  padding-top: 7px;
+}
 
 .dm-h-220 {
   height: 220px;
@@ -23819,8 +23847,12 @@ round-circle {
 /* new-style */
 
 .send-resume {
-  background: #ffd2d6;
-  padding: 0px 10px;
+  /* background: #ffd2d6;
+  padding: 0px 10px; */
+  background: #ffe4d6;
+  border: 1px solid #ff7c3975;
+  padding: 3px 10px;
+  margin-left: 5px;
   border-radius: 4px;
   font-size: 16px;
 }
@@ -24904,11 +24936,11 @@ round-circle {
   }
   .home-clients-list .logos-list {
     margin-bottom: 30px !important;
-}
-.home-clients-list{
-  padding-top: 20px;
-  padding-bottom: 0px !important;
-}
+  }
+  .home-clients-list {
+    padding-top: 20px;
+    padding-bottom: 0px !important;
+  }
 }
 
 .home-clients-list {
@@ -24927,4 +24959,181 @@ round-circle {
 .home-clients-list .client-img:hover {
   transition: 0.3s linear;
   transform: scale(1.1);
+}
+
+.job-verticle-list:hover {
+  border: 1px solid #1f2d709e;
+  box-shadow: 0 5px 25px 0 rgb(41 128 185 / 32%);
+  transition: 0.3 linear;
+}
+
+/* new career css starts */
+.justify-center {
+  justify-content: center;
+}
+.new-career-section {
+  background: #f5f5f5;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.new-career-section .job-container {
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+  border: 1px solid #e3e3e3;
+  transition: 0.3s linear;
+}
+.new-career-section .job-container:hover {
+  border: 1px solid #1f2d709e;
+  box-shadow: 0 5px 25px 0 rgb(41 128 185 / 32%);
+  transition: 0.3s linear;
+}
+.new-career-section .job-top-box {
+  position: relative;
+  display: block;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.new-career-section .job-info ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.new-career-section .job-info li {
+  margin-right: 20px;
+}
+
+.new-career-section .job-info .vacancy-no {
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.new-career-section .job-info .v-count {
+  font-weight: bold;
+}
+
+.new-career-section .job-info li span {
+  font-weight: 600;
+  color: #111111;
+}
+
+.new-career-section .job-bottom-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 40px;
+  gap: 30px;
+}
+
+.new-career-section .job-bottom-box .title-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.new-career-section .job-bottom-box .skill-container {
+  flex: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.new-career-section .job-bottom-box .skill-container strong {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.new-career-section .skill-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #e1ebff;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0;
+  color: #12326e;
+  font-weight: bold;
+  white-space: nowrap;
+  border: none;
+}
+
+.new-career-section .job-bottom-box .btn-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.new-career-section .job-bottom-box .icon-box {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.new-career-section .job-bottom-box .icon-box-content {
+  min-width: 0;
+}
+.new-career-section .job-bottom-box .icon-box-content h4 {
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+  word-wrap: break-word;
+}
+.new-career-section .job-bottom-box .btn-job {
+  padding: 12px 20px;
+  display: inline-flex;
+  gap: 7px;
+  background: linear-gradient(95deg, #023575 0.75%, #da0e17 101.34%);
+  border: none;
+}
+.new-career-section .job-bottom-box .icon-box {
+  display: inline-block;
+  left: 30px;
+  top: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #10165424;
+  border-radius: 50%;
+  font-size: 40px;
+}
+.new-career-section .job-bottom-box .job-apply-btn:hover .arrow-up-right {
+  transform: rotate(45deg);
+  transition: 0.3s linear;
+}
+.new-career-section .job-bottom-box .arrow-up-right {
+  transition: 0.3s linear;
+}
+.new-career-section .job-top-box .job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-career-section .resume-mail {
+  display: inline-block;
+  padding: 3px 30px;
+  color: #000;
+  border-radius: 30px;
+  background: #f1f6f3;
+  border: 1px solid #d6ece0;
+}
+.new-career-section .resume-mail p {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.new-career-section .resume-mail p .send-resume-mail {
+  color: #0b2359;
+}
+.new-career-section .exp{
+  font-size: 18px;
 }
