@@ -96,9 +96,7 @@ $contact_setting = $this->db->from('settings')->get()->row();
                               <span>
                                  Location
                               </span>
-                              <p class="text-center">#24, MK SQURE, 3rd Floor,
-                                 Sri Vari Ramakrishna Garden, Sivanandapuram,
-                                 Cbe,TN,India</p>
+                              <p class="text-center"><?php echo $contact_setting->address_1; ?><br> <?php echo $contact_setting->address_2 . ' ' . $contact_setting->address_3; ?> <br><?php echo $contact_setting->city . ' ' . $contact_setting->pincode; ?>, <?php echo $contact_setting->state; ?>, India</p>
                            </div>
                         </div>
                      </div>
@@ -109,7 +107,7 @@ $contact_setting = $this->db->from('settings')->get()->row();
                            </div>
                            <div class="details-content mt-10">
                               <span>Send a message</span>
-                              <p>info@cloudi5.com</p>
+                              <p><img src="<?php echo base_url(); ?>asset/images/footer-bmail.png" alt="Mail Id"></p>
                            </div>
                         </div>
                      </div>
@@ -120,8 +118,8 @@ $contact_setting = $this->db->from('settings')->get()->row();
                            </div>
                            <div class="details-content mt-10">
                               <span>Let's talk with us</span>
-                              <p>Sales: +91 97874 67575
-                                 Support: +91 91599 13344</p>
+                              <p class="mb-0"><strong>Sales:</strong> <?php echo $contact_setting->mobile_2; ?></p>
+                              <p><strong>Support:</strong> <?php echo $contact_setting->mobile_1; ?></p>
                            </div>
                         </div>
                      </div>
@@ -132,9 +130,8 @@ $contact_setting = $this->db->from('settings')->get()->row();
                            </div>
                            <div class="details-content mt-10">
                               <span>Join our team</span>
-                              <p>+91 95970 16798 <br>
-                                 careers@cloudi5.com
-                              </p>
+                              <p class="mb-0">+91 95970 16798</p>
+                              <p><img src="<?php echo base_url(); ?>asset/images/career-mail.png" alt="Mail Id"></p>
                            </div>
                         </div>
                      </div>
@@ -149,7 +146,9 @@ $contact_setting = $this->db->from('settings')->get()->row();
             <div class="row">
                <div class="col-lg-6 col-md-12 p-0">
                   <div class="form-section-wrapper">
-                     <form id="contact-form">
+                     <form id="FormValidation" action="<?php echo base_url('contactform'); ?>" method="post" enctype="multipart/form-data">
+                     <?php echo message_box('success'); ?>
+                     <?php echo message_box('error'); ?>
                         <div class="row">
                            <div class="col-lg-12 form-heading mt-10 mb-20">
                               <h2>How can we help you?</h2>
@@ -167,30 +166,36 @@ $contact_setting = $this->db->from('settings')->get()->row();
                               </span>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
-                              <input type="text" class="form-input" id="firstName" placeholder=" " required>
+                              <input type="text" name="website" class="form-control" style="display:none;">   
+                              <input type="text" class="form-input" id="firstName" name="contactname" value="<?php echo set_value('contactname'); ?>" placeholder=" " required>
                               <label for="firstName" class="floating-label">First Name <span
                                     class="required">*</span></label>
+                              <?php echo form_error('contactname', '<div class="error">', '</div>'); ?>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
-                              <input type="text" class="form-input" id="business" placeholder=" ">
+                              <input type="text" class="form-input" id="business" placeholder=" " name="businessname" value="<?php echo set_value('businessname'); ?>">
                               <label for="business" class="floating-label">Business <span
                                     class="required"></span></label>
+                              <?php echo form_error('businessname', '<div class="error">', '</div>'); ?>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
-                              <input type="number" class="form-input" id="phone" placeholder=" ">
+                              <input type="number" class="form-input" id="phone" placeholder=" " name="contactphone" value="<?php echo set_value('contactphone'); ?>">
                               <label for="phone" class="floating-label">Phone Number <span
                                     class="required"></span></label>
+                              <?php echo form_error('contactphone', '<div class="error">', '</div>'); ?>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
-                              <input type="email" class="form-input" id="email" placeholder=" " required>
+                              <input type="email" class="form-input" id="email" placeholder=" " name="contactemail" value="<?php echo set_value('contactemail'); ?>" required>
                               <label for="email" class="floating-label">Email Address <span
                                     class="required">*</span></label>
+                              <?php echo form_error('contactemail', '<div class="error">', '</div>'); ?>
                            </div>
                            <div class="col-xl-12 col-lg-12 col-md-12  form-group mt-20">
-                              <textarea type="text" class="form-input" id="message" rows="3" placeholder=" "
-                                 required></textarea>
+                              <textarea type="text" class="form-input" id="message" rows="3" placeholder=" " name="contactdescription"
+                                 required><?php echo set_value('contactdescription'); ?></textarea>
                               <label for="message" class="floating-label">Write your message<span
                                     class="required">*</span></label>
+                                    <?php echo form_error('contactdescription', '<div class="error">', '</div>'); ?>
                            </div>
                            <div class="col-xl-12 mt-20">
                               <div class="g-recaptcha" data-sitekey="6Lf0WYUUAAAAAMi0BjYIrf8I-9G5cS-kJ04d8MEL"></div>
@@ -226,29 +231,29 @@ $contact_setting = $this->db->from('settings')->get()->row();
                   <div class="social-horizontal-line"></div>
                </div>
                <div class="col-lg-6 icons-section col-md-12">
-                  <a href="https://www.facebook.com/cloudi5technologies/" class="facebook" target="_blank">
+                  <a href="<?php echo $contact_setting->facebook; ?>" class="facebook" target="_blank">
                      <span><i class="fa fa-facebook social-media-icon"></i></span>
                   </a>
-                  <a href="https://x.com/i/flow/login?redirect_after_login=%2FCloudi5india" class="twitter" target="_blank">
+                  <a href="<?php echo $contact_setting->twitter; ?>" class="twitter" target="_blank">
                      <span class="twitter-social-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 512 512">
                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" stroke="#ffffff" />
                         </svg>
                      </span>
                   </a>
-                  <a href="https://www.instagram.com/cloudi5technologies/" class="instagram" target="_blank">
+                  <a href="<?php echo $contact_setting->instagram; ?>" class="instagram" target="_blank">
                      <span><i class="fa fa-instagram social-media-icon"></i></span>
                   </a>
-                  <a href="https://www.linkedin.com/company/cloudi5-technologies/" class="linkedin" target="_blank">
+                  <a href="<?php echo $contact_setting->linkedin; ?>" class="linkedin" target="_blank">
                      <span><i class="fa fa-linkedin social-media-icon"></i></span>
                   </a>
-                  <a href="https://www.pinterest.com/cloudi5technologies/" class="pinterest" target="_blank">
+                  <a href="<?php echo $contact_setting->pinterest; ?>" class="pinterest" target="_blank">
                      <span><i class="fa fa-pinterest social-media-icon"></i></span>
                   </a>
-                  <a href="https://www.youtube.com/@cloudi5technologies" class="youtube" target="_blank">
+                  <a href="<?php echo $contact_setting->youtube; ?>" class="youtube" target="_blank">
                      <span><i class="fa fa-youtube social-media-icon"></i></span>
                   </a>
-                  <a href="https://www.threads.net/@cloudi5technologies" class="threads" target="_blank">
+                  <a href="<?php echo $contact_setting->google_plus; ?>" class="threads" target="_blank">
                      <span>
                         <img src="<?php echo base_url(); ?>asset/images/thread-icon.png" width="34" class="social-icon" alt="thread-img">
                      </span>
@@ -259,62 +264,6 @@ $contact_setting = $this->db->from('settings')->get()->row();
    </div>
 
    </section>
-
-   <!-- clients-logo section start-->
-   <section class="new-clients-logo mb-40">
-      <div class="container-fluid">
-         <div class="new-client-logo-details">
-            <div class="new-clients-title">
-               <h6>Our Trusted Partner</h6>
-            </div>
-            <div class="new-marquee">
-               <div class="new-marquee-content">
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11">
-                  </div>
-                  <div class="new-marquee-item">
-                     <img src="<?php echo base_url(); ?>asset/images/clients/stanes.jpg" alt="Client 12">
-                  </div>
-               </div>
-            </div>
-            <div class="new-clients-title-2">
-               <h6>Almost 250+ Partner we have</h6>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- clients-logo section end-->
-
 
    <!-- <section class="main-container bg-pattern-1" id="main-container">
          <div class="container">
@@ -425,7 +374,7 @@ $contact_setting = $this->db->from('settings')->get()->row();
                </div>
             </div>
          </div>
-      </section> -->
+      </section> --> 
    <?php include 'footer.php' ?>
    <!-- initialize jQuery Library-->
    <script src='https://www.google.com/recaptcha/api.js'></script>

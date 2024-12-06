@@ -231,7 +231,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <div class="single-footer-widget">
                     <h3>Product & Services</h3>
                     <ul class="footer-services-list">
-                        <li><a href="<?php echo base_url(); ?>web-development">Web Development</a></li>
+                        <li><a href="<?php echo base_url(); ?>web-development-company-in-coimbatore">Web Development</a></li>
                         <li><a href="<?php echo base_url(); ?>website-design">Web Design</a></li>
                         <li><a href="<?php echo base_url(); ?>mobile-application-development-android-app">Android App Development</a></li>
                         <li><a href="<?php echo base_url(); ?>digital-marketing-company-in-coimbatore">Digital Marketing</a></li>
@@ -239,7 +239,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <h3>Quick Links</h3>
                     <ul class="quick-links-list">
@@ -251,7 +251,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <h3>Contacts</h3>
                     <ul class="footer-contact-list">
