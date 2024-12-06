@@ -24904,11 +24904,11 @@ round-circle {
   }
   .home-clients-list .logos-list {
     margin-bottom: 30px !important;
-}
-.home-clients-list{
-  padding-top: 20px;
-  padding-bottom: 0px !important;
-}
+  }
+  .home-clients-list {
+    padding-top: 20px;
+    padding-bottom: 0px !important;
+  }
 }
 
 .home-clients-list {
@@ -24927,4 +24927,12 @@ round-circle {
 .home-clients-list .client-img:hover {
   transition: 0.3s linear;
   transform: scale(1.1);
+}
+@media (max-width: 426px) {
+  .single-footer-widget .footer-contact-list .mob-phone {
+    display: block !important;
+  }
+  .single-footer-widget .footer-contact-list .web-phone {
+    display: none !important;
+  }
 }

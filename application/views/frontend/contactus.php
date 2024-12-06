@@ -45,8 +45,8 @@ $contact_setting = $this->db->from('settings')->get()->row();
    <?php $this->load->view('frontend/fb-pixel-code'); ?>
 </head>
 
-<body id="cont">
-   <div class="body-inner">
+<body id="cont" class="body-inner">
+   <div>
       <?php include 'header.php' ?>
       <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="Website Development">
@@ -118,8 +118,10 @@ $contact_setting = $this->db->from('settings')->get()->row();
                            </div>
                            <div class="details-content mt-10">
                               <span>Let's talk with us</span>
-                              <p class="mb-0"><strong>Sales:</strong> <?php echo $contact_setting->mobile_2; ?></p>
-                              <p><strong>Support:</strong> <?php echo $contact_setting->mobile_1; ?></p>
+                              <p class="mb-0 web-phone d-block"><strong>Sales:</strong> <?php echo $contact_setting->mobile_2; ?></p>
+                              <a href="tel:+919787467575" class="mb-0 mob-phone d-none"><strong>Sales:</strong><?php echo $contact_setting->mobile_2; ?></a>
+                              <p class="mb-0 web-phone d-block"><strong>Support:</strong> <?php echo $contact_setting->mobile_1; ?></p>
+                              <a href="tel:+919159913344" class="mb-0 mob-phone d-none"><strong>Support:</strong><?php echo $contact_setting->mobile_1; ?></a>
                            </div>
                         </div>
                      </div>
@@ -130,7 +132,8 @@ $contact_setting = $this->db->from('settings')->get()->row();
                            </div>
                            <div class="details-content mt-10">
                               <span>Join our team</span>
-                              <p class="mb-0">+91 95970 16798</p>
+                              <p class="mb-0 web-phone d-block">+91 95970 16798</p>
+                              <a href="tel:+919597016798" class="mb-0 mob-phone d-none">+91 95970 16798</a>
                               <p><img src="<?php echo base_url(); ?>asset/images/career-mail.png" alt="Mail Id"></p>
                            </div>
                         </div>
@@ -147,8 +150,8 @@ $contact_setting = $this->db->from('settings')->get()->row();
                <div class="col-lg-6 col-md-12 p-0">
                   <div class="form-section-wrapper">
                      <form id="FormValidation" action="<?php echo base_url('contactform'); ?>" method="post" enctype="multipart/form-data">
-                     <?php echo message_box('success'); ?>
-                     <?php echo message_box('error'); ?>
+                        <?php echo message_box('success'); ?>
+                        <?php echo message_box('error'); ?>
                         <div class="row">
                            <div class="col-lg-12 form-heading mt-10 mb-20">
                               <h2>How can we help you?</h2>
@@ -165,43 +168,43 @@ $contact_setting = $this->db->from('settings')->get()->row();
                                  </svg>
                               </span>
                            </div>
-                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
-                              <input type="text" name="website" class="form-control" style="display:none;">   
+                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20 mb-0">
+                              <input type="text" name="website" class="form-control" style="display:none;">
                               <input type="text" class="form-input" id="firstName" name="contactname" value="<?php echo set_value('contactname'); ?>" placeholder=" " required>
                               <label for="firstName" class="floating-label">First Name <span
                                     class="required">*</span></label>
                               <?php echo form_error('contactname', '<div class="error">', '</div>'); ?>
                            </div>
-                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
+                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20 mb-0">
                               <input type="text" class="form-input" id="business" placeholder=" " name="businessname" value="<?php echo set_value('businessname'); ?>">
                               <label for="business" class="floating-label">Business <span
                                     class="required"></span></label>
                               <?php echo form_error('businessname', '<div class="error">', '</div>'); ?>
                            </div>
-                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
+                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20 mb-0">
                               <input type="number" class="form-input" id="phone" placeholder=" " name="contactphone" value="<?php echo set_value('contactphone'); ?>">
                               <label for="phone" class="floating-label">Phone Number <span
                                     class="required"></span></label>
                               <?php echo form_error('contactphone', '<div class="error">', '</div>'); ?>
                            </div>
-                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20">
+                           <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20 mb-0">
                               <input type="email" class="form-input" id="email" placeholder=" " name="contactemail" value="<?php echo set_value('contactemail'); ?>" required>
                               <label for="email" class="floating-label">Email Address <span
                                     class="required">*</span></label>
                               <?php echo form_error('contactemail', '<div class="error">', '</div>'); ?>
                            </div>
-                           <div class="col-xl-12 col-lg-12 col-md-12  form-group mt-20">
+                           <div class="col-xl-12 col-lg-12 col-md-12  form-group mt-20 mb-0">
                               <textarea type="text" class="form-input" id="message" rows="3" placeholder=" " name="contactdescription"
                                  required><?php echo set_value('contactdescription'); ?></textarea>
                               <label for="message" class="floating-label">Write your message<span
                                     class="required">*</span></label>
-                                    <?php echo form_error('contactdescription', '<div class="error">', '</div>'); ?>
+                              <?php echo form_error('contactdescription', '<div class="error">', '</div>'); ?>
                            </div>
-                           <div class="col-xl-12 mt-20">
+                           <div class="col-xl-12 mt-30">
                               <div class="g-recaptcha" data-sitekey="6Lf0WYUUAAAAAMi0BjYIrf8I-9G5cS-kJ04d8MEL"></div>
                               <?php echo form_error('g-recaptcha-response', '<div class="error">', '</div>'); ?>
                            </div>
-                           <div class="col-xl-12 mt-40">
+                           <div class="col-xl-12 mt-30">
                               <div class="btn-wrapper ">
                                  <button type="submit" class="submit-btn">Submit</button>
                               </div>
@@ -261,11 +264,12 @@ $contact_setting = $this->db->from('settings')->get()->row();
                </div>
             </div>
          </div>
-   </div>
+      </section>
 
-   </section>
 
-   <!-- <section class="main-container bg-pattern-1" id="main-container">
+
+
+      <!-- <section class="main-container bg-pattern-1" id="main-container">
          <div class="container">
             <div class="row text-center">
                <div class="col-md-12">
@@ -374,12 +378,12 @@ $contact_setting = $this->db->from('settings')->get()->row();
                </div>
             </div>
          </div>
-      </section> --> 
-   <?php include 'footer.php' ?>
-   <!-- initialize jQuery Library-->
-   <script src='https://www.google.com/recaptcha/api.js'></script>
-   <?php $this->load->view('frontend/common-js'); ?>
-   <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
+      </section> -->
+      <?php include 'footer.php' ?>
+      <!-- initialize jQuery Library-->
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+      <?php $this->load->view('frontend/common-js'); ?>
+      <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
 
    </div>
 </body>

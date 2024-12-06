@@ -13,6 +13,9 @@
 .mt-40 {
   margin-top: 40px;
 }
+.mt-30 {
+  margin-top: 30px;
+}
 .mb-60 {
   margin-bottom: 60px;
 }
@@ -93,23 +96,23 @@
   background: linear-gradient(95deg, #60b5f3 0.75%, #da0e17 101.34%);
   animation: grow 2.5s forwards linear infinite;
 }
-.common-inner-banner .shape-tri-3 {
+.body-inner .common-inner-banner .shape-tri-3 {
   position: absolute;
   right: 0;
   bottom: 25%;
 }
-.common-inner-banner .shape-tri-4 {
+.body-inner .common-inner-banner .shape-tri-4 {
   position: absolute;
   left: 0;
   bottom: 0;
 }
-.common-inner-banner .shape-tri-1 {
+.body-inner .common-inner-banner .shape-tri-1 {
   position: absolute;
   width: 15px;
   animation: animationFramesOne 25s infinite linear;
   left: 0;
 }
-.common-inner-banner .shape-tri-1 img {
+.body-inner .common-inner-banner .shape-tri-1 img {
   width: 13px;
 }
 @keyframes grow {
@@ -117,11 +120,11 @@
     width: 100%;
   }
 }
-.common-inner-banner .banner-tagline span img {
+.body-inner .common-inner-banner .banner-tagline span img {
   width: 22px;
   padding-bottom: 6px;
 }
-.common-inner-banner .banner-quote {
+.body-inner .common-inner-banner .banner-quote {
   color: #fff;
   font-weight: 400;
   font-size: 18px;
@@ -183,7 +186,7 @@
 
 .floating-label {
   position: absolute;
-  left: 20px;
+  left: 16px;
   top: 0px;
   color: #999;
   transition: all 0.2s ease;
@@ -198,22 +201,26 @@
 
 .form-input {
   width: 100%;
-  padding: 10px 0;
   border: none;
   border-bottom: 1px solid #ddd;
   font-size: 16px;
+  padding: 10px 0 !important;
+  height: 44px;
+  margin-top: 20px;
+  background-color: transparent !important;
 }
 
 .form-input:focus {
   outline: none;
   border-bottom-color: #007bff;
+  /* margin-top: 20px; */
+  background-color: transparent !important;
 }
 
 .form-input:focus + .floating-label,
 .form-input:not(:placeholder-shown) + .floating-label {
-  top: -20px;
-  font-size: 14px;
-  color: #007bff;
+  color: #4c4c4c !important;
+  opacity: 1 !important;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -362,13 +369,22 @@ input[type="number"]::-webkit-outer-spin-button {
   }
   .form-section-wrapper {
     width: 100%;
-    height: 780px;
+    height: 820px;
   }
   .body-inner .common-inner-banner .inner-pattern img {
     top: -11% !important;
   }
 }
 @media (max-width: 426px) {
+  .body-inner .banner-content {
+    height: 160px;
+  }
+  .mob-phone {
+    display: block !important;
+  }
+  .web-phone {
+    display: none !important;
+  }
   .contact-title-sec h2 {
     font-size: 32px;
   }
@@ -406,7 +422,8 @@ input[type="number"]::-webkit-outer-spin-button {
     text-align: center;
     line-height: 1.5;
   }
-  .banner-inner-text {
-    margin-bottom: 100px;
+  .details-content {
+    padding: 16px 20px;
+    margin-top: 20px;
   }
 }
