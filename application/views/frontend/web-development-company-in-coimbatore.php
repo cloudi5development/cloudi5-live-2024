@@ -208,7 +208,7 @@
          </div>
       </div>
 
-      <section class="mCommerce padd50 ">
+      <section class="mCommerce padd50">
          <div class="container">
             <p class="aos-animate aos-init" data-aos="fade-up">
                <span class="tagline">We Build What You Need</spa>

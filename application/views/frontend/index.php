@@ -241,53 +241,53 @@
             </div>
             <div class="row logos-list">
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="mayflower"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="baps"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="missiva"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="ecom-365"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="falcon"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="madhampatty"
                      class="img-fluid client-img">
                </div>
             </div>
             <div class="row logos-list">
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="susin"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="vencar"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="maloos"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="metro"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="hookz"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/stanes.jpg" alt="Client 12"
+                  <img src="<?php echo base_url(); ?>asset/images/clients/stanes.jpg" alt="stanes"
                      class="img-fluid client-img">
                </div>
             </div>

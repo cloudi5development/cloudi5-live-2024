@@ -84,7 +84,7 @@
 						<div class="vertical-job-card">
 							<div class="vertical-job-header">
 								<div class="vrt-job-cmp-logo">
-									<a href="#"><i class="<?php echo $career_details->icon; ?> pt-9"
+									<a href="#"><i class="<?php echo $career_details->icon; ?> pt-7 job-icon"
 											aria-hidden="true"></i></a>
 								</div>
 								<h4><a href="#"><?php echo $career_details->title; ?></a></h4>
@@ -95,13 +95,13 @@
 								<div class="row">
 									<div class="col-md-9 col-sm-8">
 										<ul class="can-skils">
-											<li><strong>Job Id: </strong><?php echo $career_details->job_id; ?></li>
-											<li><strong>Job Type: </strong><?php echo $career_details->job_type; ?></li>
+											<li class="mb-2"><strong>Job Id: </strong><?php echo $career_details->job_id; ?></li>
+											<li class="mb-2"><strong>Job Type: </strong><?php echo $career_details->job_type; ?></li>
 											<?php if (!empty($career_details->job_type)) { ?>
-											<li><strong>Qualification:
+											<li class="mb-2"><strong>Qualification:
 												</strong><?php echo $career_details->qualification; ?></li>
 											<?php } ?>
-											<li><strong>Skills: </strong>
+											<li class="mb-2"><strong>Skills: </strong>
 												<?php
 													$skills = explode(',', $career_details->skills);
 													foreach ($skills as $skill) {
@@ -109,9 +109,9 @@
 												<span class="skill-tag"><?php echo $skill; ?></span>
 												<?php } ?>
 											</li>
-											<li><strong>Experience: </strong><?php echo $career_details->experience; ?>
+											<li class="mb-2"><strong>Experience: </strong><?php echo $career_details->experience; ?>
 											</li>
-											<li><strong>Location: </strong><?php echo $career_details->location; ?></li>
+											<li class="mb-2"><strong>Location: </strong><?php echo $career_details->location; ?></li>
 										</ul>
 									</div>
 								</div>
