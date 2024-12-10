@@ -27,7 +27,7 @@
    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <link rel="icon" href="<?php echo base_url(); ?>asset/images/favicon.png">
-   <?php if ($meta_category) { ?>
+   <?php if ($this->uri->segment(2) != "" && $meta_category) { ?>
       <link rel="canonical" href="<?php echo base_url($meta_category->slug . '-' . $meta_category->category_id); ?>" />
    <?php } else { ?>
       <link rel="canonical" href="<?php echo base_url(); ?>blog" />
