@@ -165,3 +165,4 @@ img {
 body.vertical-layout.vertical-menu.menu-collapsed .navbar .navbar-header{
     display: none;
 }
+.cke_notifications_area{display:none};
