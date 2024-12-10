@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <?php if ($this->uri->segment(2) != "") { ?>
@@ -37,10 +38,12 @@
    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/admin.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/font-awesome.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/icon-font.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/icon-font.css">
    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>asset/blog/css/web-style.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/responsive.css">
-   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+   <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet"> -->
 </head>
+
 <body id="cont1">
    <?php include('header.php'); ?>
    <div class="banner-area" id="banner-area" alt="Job Openings in Coimbatore">
@@ -110,4 +113,5 @@
    </script>
    <script src="<?php echo base_url(); ?>asset/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -3,10 +3,10 @@
 
 <head>
     <title><?php if ($meta) {
-        echo $meta->title ? $meta->title : "Best Mobile App Development Company in Coimbatore | Cloudi5";
-    } else {
-        echo "Best Mobile App Development Company in Coimbatore | Cloudi5";
-    } ?></title>
+                echo $meta->title ? $meta->title : "Best Mobile App Development Company in Coimbatore | Cloudi5";
+            } else {
+                echo "Best Mobile App Development Company in Coimbatore | Cloudi5";
+            } ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
@@ -130,10 +130,7 @@
                             <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/mob-app/shape-1-bg.png"
                                 alt="Shape-5">
                         </div>
-                        <!--                       
-                        <div class="shape-tri-5">
-                            <img src="<?php echo base_url(); ?>asset/images/web-development/blob-1.webp" alt="Shape-4">
-                        </div> -->
+
                     </div>
                     <div class="col-sm-7">
                         <h3 class="common_h4">Let’s Cook Up Some App <span class="grad-text">Vision Together!</span>
@@ -146,7 +143,7 @@
                             relationships with our clients and guiding you through every step of the process. With a
                             commitment to excellence and your success, let’s make your business shine in the digital
                             world!</p>
-                        <div class="mob-intro-contact-btn"><a href="<?php echo base_url();?>contactus"
+                        <div class="mob-intro-contact-btn"><a href="<?php echo base_url(); ?>contactus"
                                 class="contact-btn">
                                 <span></span>
                                 <span></span>
@@ -168,7 +165,6 @@
         <div class="software-development-sec hide-mob">
             <div class="container-fluid pd0">
                 <div class="row mr0 align-items-center justify-content-center">
-                    <!-- <div class="col-lg-1"></div> -->
                     <div class="col-lg-6 left-img pd0">
                         <div>
                             <img src="<?php echo base_url(); ?>asset/images/mobile-app-dev/cross-platform-mobile-application-development-company-cloudi5.png"
@@ -231,17 +227,6 @@
                 </div>
             </div>
         </section>
-        <!--<div class="row services-section-wrapper">-->
-        <!--    <div class="col-md-5 col-md-offset-1 col-md-push-6 services-section-text">-->
-        <!--        <h2 class="text-left service-section-heading service-section-heading-h2">Our Turnkey <span class="grad-text">Android App Development</span></h2>-->
-        <!--        <p class="text-left service-section-description">Cloudi5 Technologies possess the right technology and workforce to provide successful and user-friendly mobile applications that your business needs to capture the expansive online audience. With our rich experience and expertise in the field, we help you build Android Apps that deliver information with an element of creativity and innovativeness.</p>-->
-        <!--        <p>We are experts in bringing you the highly responsive, device compatible, personalized and interactive Android application. Taking into account even the minute details, we bring your app to launch phase by an in-depth understanding of your requirements and the current market trend to materialize your vision.</p>-->
-        <!--        <div class="z-clear"></div>-->
-        <!--    </div>-->
-        <!--    <div class="col-md-6 services-image col-md-pull-6"><img src="<?php echo base_url(); ?>asset/images/android-application-development-services-cloudi5.png" class="app-side-img" alt="Android Application Development Services | Cloudi5" width="100%"></div>-->
-        <!--    <div class="z-clear"></div>-->
-        <!--</div>-->
-
 
         <section class="mob-services pt-60 pb-60">
             <div class="container">
@@ -413,9 +398,6 @@
                 </div>
             </div>
         </section>
-
-
-
         <section class="mCommerce padd50 app-secret-key">
             <div class="container">
                 <div class="shape-wrapper">
@@ -1012,9 +994,6 @@
                 </div>
             </div>
         </section>
-
-
-
         <section class="main-container section-app-store" id="main-container">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -1121,7 +1100,6 @@
         <section class="quote-area bg-overlay overlay-color" id="quote-area">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <!-- <div class="col-lg-3"></div> -->
                     <div class="shape-wrapper">
                         <div class="shape-review-1">
                             <img src="<?php echo base_url(); ?>asset/images/web-development/review-star.png"
@@ -1142,9 +1120,6 @@
                                 Start the project
                             </a>
                         </div>
-                        <!-- <div class="feedback-image">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/girl-review.png" alt="Review">
-                  </div> -->
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-6 align-self-center">
@@ -1254,8 +1229,8 @@
         <?php $this->load->view('frontend/common-js'); ?>
         <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
         <script>
-            $(document).ready(function () {
-                $('.card').click(function (e) {
+            $(document).ready(function() {
+                $('.card').click(function(e) {
                     // Prevent default behavior only if clicking on card but not on the collapse itself
                     if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
                         e.preventDefault();
@@ -1275,13 +1250,13 @@
                     }
                 });
 
-                $('.collapse').on('show.bs.collapse', function () {
+                $('.collapse').on('show.bs.collapse', function() {
                     $(this).prev('.card-header').addClass('active');
-                }).on('hide.bs.collapse', function () {
+                }).on('hide.bs.collapse', function() {
                     $(this).prev('.card-header').removeClass('active');
                 });
-                $(document).ready(function () {
-                    $('.card').click(function (e) {
+                $(document).ready(function() {
+                    $('.card').click(function(e) {
                         if (!$(e.target).hasClass('collapse') && !$(e.target).parents(
                                 '.collapse').length) {
                             e.preventDefault();
@@ -1294,14 +1269,14 @@
                     });
 
                     $('.collapse')
-                        .on('show.bs.collapse', function () {
+                        .on('show.bs.collapse', function() {
                             $(this).prev('.card-header').addClass('active');
                             $(this).css('height', 'auto');
                         })
-                        .on('hide.bs.collapse', function () {
+                        .on('hide.bs.collapse', function() {
                             $(this).prev('.card-header').removeClass('active');
                         })
-                        .on('shown.bs.collapse', function () {
+                        .on('shown.bs.collapse', function() {
                             $(this).css('height', 'auto');
                         });
                     $('<style>')

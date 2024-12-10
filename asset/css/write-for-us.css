@@ -711,45 +711,6 @@
 
 /* our partners css start */
 
-.partners-section {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  position: relative;
-  background: url(../images/write-for-us/partners-bg.jpg);
-}
-.partners-section .sub-title {
-  font-size: 18px;
-}
-.partners-section .partners-title {
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1.2;
-  padding-bottom: 10px;
-  margin-top: 20px;
-}
-.list-imgs {
-  margin: 20px;
-  padding: 10px;
-  border-radius: 10px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.cont-btn {
-  display: inline-flex;
-  gap: 10px;
-  align-items: center;
-  font-size: 16px;
-  background: #ffffff;
-  padding: 5px 20px;
-  border-radius: 10px;
-  font-weight: bold;
-}
-.cont-btn:hover {
-  color: var(--primary-color) !important;
-}
-
 /* cta section css start */
 .write-for-cta-section {
   padding-top: 60px;

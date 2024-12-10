@@ -70,9 +70,6 @@
     <div class="body-inner body-bg-1" id="">
         <?php include 'redbg-header.php' ?>
         <!-- Start Main Section -->
-
-
-
         <!--banner-section-starts -->
         <section class="img_banner_section img_banner_section_height">
             <div class="container">
@@ -86,7 +83,6 @@
                                 yawns.
                                 Professional, Polished, and Positively enchanting sites.
                             </p>
-
                             <a href="javascript:void(0);" class="contact-btn web-design-btn">
                                 <span></span>
                                 <span></span>
@@ -104,13 +100,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="banner_line">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div> -->
         </section>
         <section>
             <div class="banner-service-area">
@@ -124,8 +113,6 @@
                                     <div class="corner bottom-left"></div>
                                     <div class="corner bottom-right"></div>
                                     <div class="service-card-icon">
-
-
                                         <div class="service-card-icon-wrapper mt-10">
                                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/unique-design.png"
                                                 class="service-icon-1" alt="unique-design-service-img">
@@ -149,7 +136,6 @@
                                     <div class="corner bottom-left"></div>
                                     <div class="corner bottom-right"></div>
                                     <div class="service-card-icon">
-
                                         <div class="service-card-icon-wrapper">
                                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/quality-assurance.png"
                                                 class="service-icon-2" alt="Quality-Assurance-service-img">
@@ -164,7 +150,6 @@
                                         Our web designing team retains high standards and utilizes
                                         the latest technology in every web design that we create.
                                     </p>
-
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-12 col-12">
@@ -174,7 +159,6 @@
                                     <div class="corner bottom-left"></div>
                                     <div class="corner bottom-right"></div>
                                     <div class="service-card-icon">
-
                                         <div class="service-card-icon-wrapper">
                                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/customer-satisfaction.png"
                                                 class="service-icon-2" alt="Customer-Satisfaction-service-icon-3">
@@ -190,40 +174,20 @@
                                         Customization of our web designs satisfies your needs regardless of the nature
                                         of your business.
                                     </p>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </section>
         <!-- banner-section-ends -->
 
         <!-- -------principple-section-starts------->
         <section class="principle-sec  ">
-            <!-- <div class="shape-image-animation p-0">
-                <svg xmlns="http://www.w3.org/2000/svg" widht="auto" height="100" viewBox="0 150 3000 100">
-                    <path class="st1" d="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" fill="#f7e9ea">
-                        <animate attributeName="d" dur="8s" values="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190;
-                    M 0 190 C 400 50 400 400 3000 190 L 3000 350 L 0 350 L 0 190;
-                    M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" repeatCount="indefinite"></animate>
-                    </path>
-                    <path class="st1" d="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" fill="#f7e9ea">
-                        <animate attributeName="d" dur="5s" values="M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190;
-                    M 0 190 C 400 50 400 400 3000 190 L 3000 350 L 0 350 L 0 190;
-                    M 0 190 C 1200 400 1200 50 3000 190 L 3000 350 L 0 350 L 0 190" repeatCount="indefinite"></animate>
-                    </path>
-                </svg>
-            </div> -->
             <div>
-
                 <div class="container-fluid principle-container">
                     <div class="principle-company-section pt-60 mt-60 mb-60">
-
-
                         <div class="principle-sketch-1">
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ring-pattern.png"
                                 height="80" width="80" alt="pattern-img" class="banner-pattern-1" />
@@ -242,7 +206,6 @@
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg"
                                 class="princi-pattern-4 move-horizontal" height="80" width="80" alt="priciple-img">
                         </div>
-
                         <div class="row justify-content-evenly">
                             <div class="col-lg-6">
                                 <div class="principle-section-title mb-60">
@@ -250,14 +213,10 @@
                                         We earn client satisfaction via design principles
                                     </span>
                                     <h2 class="title">Principles of Our Web Design Company</h2>
-
                                 </div>
                             </div>
                             <div class="col-lg-auto align-self-start">
                                 <div class="principle-button-wrapper">
-                                    <!-- <a href="" class="btn btn-wrapper"> Know more
-                                    <i class="icon-btn fi fi-rr-arrow-right"></i>
-                                </a> -->
                                     <a href="javascript:void(0);" class="contact-btn principle-btn">
                                         <span></span>
                                         <span></span>
@@ -266,17 +225,12 @@
                                         View More Details
                                     </a>
                                 </div>
-
                             </div>
-
                         </div>
-
                         <div class="content-card-wrapper">
                             <div class="container">
-
                                 <div class="row justify-content-center card-section-wrapper">
                                     <div class="col-xl-3 col-md-6 col-12 card-section-col">
-
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
@@ -289,11 +243,9 @@
                                                     results than your competitors.
                                                 </p>
                                             </div>
-
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-md-6 col-12 card-section-col">
-
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
@@ -302,18 +254,15 @@
                                                 </div>
                                                 <h4 class="principle-card-title">SEO friendly Website design</h4>
                                                 <p class="principle-card-text">
-
                                                     Our designs meet all the foundational requirements of the standard
                                                     SEO guidelines.
                                                 </p>
                                             </div>
-
                                         </div>
                                     </div>
 
 
                                     <div class="col-xl-3 col-md-6 col-12 card-section-col">
-
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
@@ -322,17 +271,14 @@
                                                 </div>
                                                 <h4 class="principle-card-title">Responsive <br> Design</h4>
                                                 <p class="principle-card-text">
-
                                                     Building device-compatible web designs that display elegantly on all
                                                     screen resolutions.
                                                 </p>
                                             </div>
-
                                         </div>
                                     </div>
 
                                     <div class="col-xl-3 col-md-6 col-12 card-section-col">
-
                                         <div class="principle-card style3">
                                             <div class="principle-card-icon-item">
                                                 <div class="principle-card-icon">
@@ -345,10 +291,8 @@
                                                     tablet, or computer.
                                                 </p>
                                             </div>
-
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -377,25 +321,19 @@
                                             d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM475 3L475.255 3.42984L476.82 2.5H475V3ZM438.668 65L441.872 60.197L436.111 59.8239L438.668 65ZM3 3.5H475V2.5H3V3.5ZM474.745 2.57016C459.928 11.3742 441.341 27.8789 438.461 60.47L439.457 60.5581C442.3 28.3895 460.613 12.1303 475.255 3.42984L474.745 2.57016Z">
                                         </path>
                                     </svg>
-
                                     <div class="btn-and-paragraph">
                                         <p>Digital agencies can vary in size and specialization. Some may focus on
                                             specific niches, such as healthcare or e-commerce, while others may offer a
                                             comprehensive.</p>
-
                                     </div>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
                 <div class="process-section-wrapper mt-20">
                     <div class="row" id="scroll-progress">
                         <div class="col-lg-6 col-md-6 col-12">
-                            <!--  #f5bebe -->
                             <div class="fixed-column">
                                 <div class="progress-container">
                                     <svg class="progress-ring" width="100%" height="auto" viewBox="0 0 200 200">
@@ -420,7 +358,6 @@
                                         <h3>Discussions</h3>
                                         <p> We collaborate with you to define your brand, goals, and success metrics.
                                         </p>
-
                                         <ul>
                                             <li><i class="fi fi-rr-plus-small"></i>Kick-off Meeting</li>
                                             <li><i class="fi fi-rr-plus-small"></i>Requirement Gathering</li>
@@ -428,8 +365,6 @@
                                         </ul>
                                     </div>
                                 </div>
-
-
                                 <div class="card scrolling-card-wrapper" data-index="2">
                                     <div class="process-icon-wrapper">
                                         <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/scroll-icon-2.svg"
@@ -445,8 +380,6 @@
                                         </ul>
                                     </div>
                                 </div>
-
-
                                 <div class="card scrolling-card-wrapper" data-index="3">
                                     <div class="process-icon-wrapper">
                                         <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/scroll-icon-3.svg"
@@ -463,8 +396,6 @@
                                         </ul>
                                     </div>
                                 </div>
-
-
                                 <div class="card scrolling-card-wrapper card-wrapper-last" data-index="4">
                                     <div class="process-icon-wrapper">
                                         <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/scroll-icon-4.svg"
@@ -509,7 +440,6 @@
                                         class="priciple-img move-y" alt="pattern-img">
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-6 col-md-12 p-0">
                             <div>
@@ -519,10 +449,6 @@
                                         <br>
                                     </span>
                                     <span class="leading-title">Company in Coimbatore</span>
-                                    <!-- <span class="leading-content-wrapper">
-                                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/spin.svg" class="spin" alt="spin-img">
-                                       
-                                    </span> -->
                                 </h1>
                                 <p class="mb-35">
                                     Welcome to Cloudi5 Technologies, your best website designing company in Coimbatore.
@@ -530,50 +456,6 @@
                                     all seem the same,
                                     we get it. But unlike the rest, At Cloudi5, we're different.
                                 </p>
-                                <!-- <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="list-wrap">
-                                            <ul>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Personalized campaigns
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Email autoresponders
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Best Solutions & Service
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Latest Technology
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>World Best Service
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="list-wrap">
-                                            <ul>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>24H Customer Service
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Generate Ideas
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Product Create
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Databse Security
-                                                </li>
-                                                <li class="icon-sec">
-                                                    <i class="fi fi-br-check check-icon"></i>Product Design
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div> -->
                                 <p class="mb-35">
                                     Our team of skilled professionals is dedicated to creating websites that
                                     not only look stunning but also generate results.
@@ -584,10 +466,8 @@
                         </div>
                     </div>
                     <div class="row  leading-webdesign-content-wrapper">
-
                         <div class="col-lg-6 col-md-12 p-0">
                             <div>
-
                                 <p class="mb-35">
                                     Using the latest technology, we create websites that not only look amazing but also
                                     help your business succeed.
@@ -596,7 +476,6 @@
                                     What makes us different is our commitment to doing a great job.
                                     We listen carefully to what you need and then create a custom solution just for you.
                                 </p>
-
                                 <p class="mb-35">
                                     Our goal is not just to meet your expectations but to exceed them,
                                     giving you a website that looks great and works perfectly.
@@ -619,78 +498,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <!-- -------leading-section-ends----->
-
-
-        <!-- <section class="process-section">
-            <div class="curve"></div>
-            <div class="bubble-dotted">
-                <span class="dotted dotted-1"></span>
-                <span class="dotted dotted-2"></span>
-                <span class="dotted dotted-3"></span>
-                <span class="dotted dotted-4"></span>
-                <span class="dotted dotted-5"></span>
-                <span class="dotted dotted-6"></span>
-                <span class="dotted dotted-7"></span>
-                <span class="dotted dotted-8"></span>
-                <span class="dotted dotted-9"></span>
-                <span class="dotted dotted-10"></span>
-            </div>
-            <div class="faded-text style-two">
-                <div class="f-text"><span>Process</span></div>
-            </div>
-            <div class="auto-container">
-                <div class="sec-title style-two centered text-center">
-                    <h2 class="wd-title">Our Web Design Process</h2>
-                    <p>We plan and implement a successful 4-step smart approach that is essential to take your business towards success.</p>
-                </div>
-                <div class="row clearfix">
-                  
-                    <div class="process-block col-sm-3">
-                        <div class="inner-box">
-                            <div class="pattern-layer"></div>
-                            <div class="count hide-section"><span>01</span></div>
-                            <div class="icon-box"><span class="flaticon-user"></span></div>
-                            <h4>Discussions</h4>
-                            <div class="text">We collaborate with you to define your brand, goals, and success metrics.</div>
-                        </div>
-                    </div>
-                   
-                    <div class="process-block col-sm-3">
-                        <div class="inner-box">
-                            <div class="pattern-layer"></div>
-                            <div class="count hide-section"><span>02</span></div>
-                            <div class="icon-box"><span class="flaticon-monitor"></span></div>
-                            <h4>Wireframe</h4>
-                            <div class="text">We collaborate with you to define your brand, goals, and success metrics.</div>
-                        </div>
-                    </div>
-                   
-                    <div class="process-block col-sm-3">
-                        <div class="inner-box">
-                            <div class="pattern-layer"></div>
-                            <div class="count hide-section"><span>03</span></div>
-                            <div class="icon-box"><span class="flaticon-line-chart"></span></div>
-                            <h4>UI &amp; Develop</h4>
-                            <div class="text">Our designers create a user-friendly & visually appealing interface. Skilled developers bring it to life.</div>
-                        </div>
-                    </div>
-                  
-                    <div class="process-block col-sm-3">
-                        <div class="inner-box">
-                            <div class="pattern-layer"></div>
-                            <div class="count hide-section"><span>04</span></div>
-                            <div class="icon-box"><span class="flaticon-alarm-clock-1"></span></div>
-                            <h4>Product Delivery</h4>
-                            <div class="text">We ensure on-time launch with optimal performance through testing and your feedback.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <!-- ---webinar-section-starts -->
         <section class="webinar-area mt-100">
@@ -701,7 +511,6 @@
                             alt="E-Commerce Website Design">
                     </div>
                 </div>
-
                 <div class="col-lg-6 col-md-12 p-0">
                     <div class="webinar-content">
                         <h2>E-Commerce Website Design</h2>
@@ -742,35 +551,11 @@
         </section>
         <!-- ---webinar-section-ends -->
 
-        <!-- <section class="section is-sm is-dark section-call2action">
-            <div class="container">
-                <div class="call2action-box flex vcenter">
-                    <div class="col-sm-4">
-                        <div class="box-left content-desktop">
-                            <img class="screen" src="<?php echo base_url(); ?>asset/images/wd-page/call2action.png" alt="Web Design" />
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="box-right">
-                            <div class="box-content">
-                                <h2 class="section-title">Let’s Create Your Success Together</h2>
-                                <p class="section-desc float-left">Contact Our Web Design Company in Coimbatore </p>
-                                <div class="float-right mob-btn-fl-none">
-                                    <a href="<?php echo base_url(); ?>contactus" class="btn grdnt-purple"><span class="">Contact Us</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
 
         <!-- web-technology--starts -->
         <section>
             <div class="container mt-60 mb-60">
-
-
                 <div class="row">
                     <div class="col-lg-12">
                         <h2 class="web-technology-title text-center mb-40">Website design services we offer</h2>
@@ -853,7 +638,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-five">
@@ -874,7 +658,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-six">
@@ -894,7 +677,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-seven">
@@ -914,7 +696,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-eight">
@@ -935,7 +716,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 p-0">
                             <div class="techno-card card-eight">
@@ -955,13 +735,10 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </section>
         <!-- web-technology--starts -->
 
@@ -1110,17 +887,10 @@
                             <h2 class="text-center">Our Web Design and Development Technologies</h2>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-                        <div class="feature_img">
-                            <img data-animate="fadeInLeftBig" src="<?php echo base_url(); ?>asset/images/wd-page/icon.png" class="img-fluid fadeInLeftBig animated" alt="Web Design Frameworks" />
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <div class="wd-section tech-web-dev pb-60 mt-20 mb-20">
                 <div class="container">
-                    <!-- <h2 class="section-title-wd">The Technologies We use at Cloudi5 Technologies</h2> -->
-
                     <div class="d-flex justify-content-center">
                         <div class="css-masonry">
                             <!-- Bootstrap -->
@@ -1131,7 +901,6 @@
                                     <div class="tech-name">HTML</div>
                                 </div>
                             </div>
-
                             <!-- Magento -->
                             <div class="tech-card size-2">
                                 <div class="tech-item">
@@ -1140,7 +909,6 @@
                                     <div class="tech-name">Laravel</div>
                                 </div>
                             </div>
-
                             <div class="tech-card size-2">
                                 <div class="tech-item">
                                     <img src="<?php echo base_url(); ?>asset/images/web-development/tech/css.webp"
@@ -1148,7 +916,6 @@
                                     <div class="tech-name">CSS</div>
                                 </div>
                             </div>
-
                             <div class="tech-card size-2">
                                 <div class="tech-item">
                                     <img src="<?php echo base_url(); ?>asset/images/web-development/tech/php.webp"
@@ -1156,8 +923,6 @@
                                     <div class="tech-name">PHP</div>
                                 </div>
                             </div>
-
-
                             <div class="tech-card size-2">
                                 <div class="tech-item">
                                     <img src="<?php echo base_url(); ?>asset/images/web-development/tech/js.webp"
@@ -1165,8 +930,6 @@
                                     <div class="tech-name">JavaScript</div>
                                 </div>
                             </div>
-
-
                             <div class="tech-card size-2">
                                 <div class="tech-item">
                                     <img src="<?php echo base_url(); ?>asset/images/web-development/tech/react.webp"
@@ -1181,8 +944,6 @@
                                     <div class="tech-name">Bootstrap</div>
                                 </div>
                             </div>
-
-
                             <div class="tech-card size-2">
                                 <div class="tech-item">
                                     <img src="<?php echo base_url(); ?>asset/images/web-development/tech/typescript.webp"
@@ -1190,7 +951,6 @@
                                     <div class="tech-name">Typescript</div>
                                 </div>
                             </div>
-
                             <div class="tech-card size-2">
                                 <div class="tech-item">
                                     <img src="<?php echo base_url(); ?>asset/images/web-development/tech/jquery.webp"
@@ -1198,7 +958,6 @@
                                     <div class="tech-name">Jquery</div>
                                 </div>
                             </div>
-
                             <div class="tech-card size-2">
                                 <div class="tech-item">
                                     <img src="<?php echo base_url(); ?>asset/images/web-development/tech/vue.webp"
@@ -1255,65 +1014,16 @@
             </div>
         </section>
         <!-- Portfolio -->
-        <!-- <section class="projects-page-section pt-50">
-            <div class="container">
-                <div class="h4 lrg text-center"> Our <span class="red-text">Portfolio </div><span class="red-border-line">&nbsp;</span>
-                <div class="mixitup-gallery pt-30">
-                    <div class="filters clearfix">
-
-                        <ul class="filter-tabs filter-btns clearfix">
-                            <li class="filter active" data-role="button" data-filter="all">All</li>
-                            <?php foreach ($category as $res_category) { ?>
-                                <li class="filter" data-role="button" data-filter=".<?php echo strtolower(str_replace(' ', '_', $res_category->title)); ?>"><?php echo ucwords($res_category->title); ?></li>
-                            <?php } ?>
-                        </ul>
-
-                    </div>
-                    <div class="filter-list row clearfix" id="MixItUpC72ED9">
-                        <?php foreach ($portfolio as $res_portfolio) { ?>
-                            <div class="gallery-item-two mix <?php echo strtolower(str_replace(' ', '_', $res_portfolio->category)); ?> col-lg-4 col-md-6 col-sm-12 d-inlineb">
-                                <div class="inner-box">
-                                    <figure class="image-box">
-                                        <img src="<?php echo base_url(); ?>asset/images/default_image.png" data-src="<?php echo base_url() . $res_portfolio->thumbnail; ?>" data-srcset="<?php echo base_url() . $res_portfolio->thumbnail; ?>" class="lazy" alt="Cloudi5 Portfolio">
-                                        <div class="overlay-box">
-                                            <div class="overlay-inner">
-                                                <div class="content">
-                                                    <a href="<?php echo base_url() . $res_portfolio->thumbnail_popup; ?>" data-fancybox="gallery-3" data-caption="" class="link"><span class="fa fa-search-plus"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                    <div class="lower-box">
-                                        <h3><a href="<?php echo base_url() . 'portfolio/' . $res_portfolio->slug . '-' . $res_portfolio->id; ?>"> <?php echo ucwords($res_portfolio->title); ?></a></h3>
-                                        <div class="category"><?php echo $res_portfolio->services; ?></div>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php } ?>
-
-                    </div>
-                    <div class="text-center"><a class="btn btn-primary" href="<?php echo base_url(); ?>portfolio"> View More Portfolio</a></div>
-                </div>
-            </div>
-        </section> -->
-
 
         <!--cta-section-starts -->
         <section>
             <div class="container cta-container mt-60">
-
                 <div class="pattern-img-curve">
                     <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-section-highlighting.png"
                         class="cta-pattern-1" alt="cta-pattern-img">
                 </div>
                 <div class="call-to-action-sec mb-50">
-                    <!-- <div>
-                        <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern-1.webp" class="cta-pattern-1-wrapper spin" width="100" height="100" alt="priciple-img">
-                    </div> -->
-
-
                     <div class="pattern-img-curve">
-
                         <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/cta-pattern.png"
                             class="cta-pattern" alt="cta-pattern-img">
                     </div>
@@ -1326,7 +1036,6 @@
                                         Ready to get started with <br>
                                         your new project today?
                                     </h2>
-
                                     <a href="javascript:void(0);" class="contact-btn btn-cta">
                                         <span></span>
                                         <span></span>
@@ -1334,15 +1043,11 @@
                                         <span></span>
                                         Contact Us
                                     </a>
-
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <!--cta-section-ends -->
@@ -1351,15 +1056,7 @@
         <!-- FAQ-section-starts -->
         <section>
             <div class="faq-section">
-
-                <!-- <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-pattern-1.webp" class="faq-pattern-1-wrapper spin" alt="priciple-img"> -->
-
-
-                <!-- <div>
-                    <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/faq-bg-img.webp" class="text-shape-pattern" alt="priciple-img">
-                </div> -->
                 <div class="container">
-
                     <div class="faq-container">
                         <div class="row justify-content-center">
                             <div class="faq-title col-md-8">
@@ -1477,41 +1174,21 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </section>
         <!-- FAQ-section-ends -->
-
-        <!-- <section class="video-section wd-video-section">
-            <div class="container">
-                <h2>Have a Project? Let's make it together </h2>
-                <div class="title"> Our experts are ready to design a brand for your business</div>
-                <div class="">
-                    <a href="<?php echo base_url(); ?>contactus" class="btn grdnt-purple btn-webdesign">Contact Us</a>
-                </div>
-            </div>
-            <div class="waveWrapper hide-section">
-                <div class="wave waveTop"></div>
-                <div class="wave waveMiddle"></div>
-            </div>
-        </section> -->
         <!-- Footer -->
         <?php $this->load->view('frontend/footer'); ?>
-
         <!-- Javascript Files -->
         <?php $this->load->view('frontend/common-js'); ?>
         <!-- To Avoid Console Error -->
         <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/jquery.counterup.min.js"></script>
         <!-- To Avoid Console Error -->
-
         <!-- Portfolio -->
         <script async src="<?php echo base_url(); ?>asset/js/jquery.fancybox.js"></script>
         <script async src="<?php echo base_url(); ?>asset/js/mixitup.js"></script>
@@ -1530,7 +1207,7 @@
         <!-- On Scroll Animation End-->
         <!-- Google Tag Manager -->
         <script>
-            (function (w, d, s, l, i) {
+            (function(w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({
                     'gtm.start': new Date().getTime(),
@@ -1546,8 +1223,8 @@
             })(window, document, 'script', 'dataLayer', 'GTM-TTPGBC2');
 
 
-            $(document).ready(function () {
-                $(".accordion-single .header-area").on("click", function () {
+            $(document).ready(function() {
+                $(".accordion-single .header-area").on("click", function() {
                     var $accordionItem = $(this).closest(".accordion-single");
                     var $contentArea = $(this).next(".content-area");
 
@@ -1562,10 +1239,6 @@
                     }
                 });
             });
-
-
-
-
             // progress-multi-step
 
             const scrollingColumn = document.querySelector('.scrolling-column');

@@ -155,34 +155,6 @@
 .banner-pattern-1 {
   color: aqua !important;
 }
-
-/* .img_banner_section .sketch-1{
-    position: absolute;
-    top: 180px;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    transform: translate(50%, 50%);
-    animation: ZoomInOut 2s linear infinite alternate;
-}
-
-.img_banner_section .sketch-2{
-    position: absolute;
-    bottom: 100px;
-    top: unset;
-    transform: translate(-50%, -50%);
-    right: 50px;
-    animation: ZoomInOut 2s linear infinite alternate;
-    
-}
-.img_banner_section .sketch-3{
-    position: absolute;
-    top: 170px;
-    right: 32px;
-    transform: translate(50%, 50%);
-    animation: ZoomInOut 2s linear infinite alternate;
-} */
-
 .img_banner_section .underline-pattern {
   position: absolute;
   width: 60% !important;
@@ -362,7 +334,7 @@
 .leading-img-pattern {
   position: absolute;
   left: 40px;
-  /* opacity: 0.5; */
+  
   top: -150px;
   width: 200px;
 }
@@ -420,14 +392,10 @@
   font-size: 46px;
   margin-left: -130px;
   color: #ffffff !important;
-  /* display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 .leading-title {
   display: flex;
   justify-content: end;
-  /* margin-left: 20px; */
 }
 .leading-content-wrapper {
   display: flex;
@@ -488,10 +456,6 @@
 /* -----business-potential-section-ends----------- */
 
 /* ----principle-company--starts-- */
-.principle-company-section {
-  /* position: relative;
-    z-index: 99; */
-}
 .principle-container {
   position: relative;
   z-index: 99;
@@ -530,7 +494,6 @@
 
 .principle-company-section .principle-sketch-2 {
   position: absolute;
-  /* bottom: 400px; */
   top: 170px;
   transform: translate(-50%, -50%);
   right: 20px;
@@ -542,8 +505,6 @@
   inset: 0;
   height: 524px;
   background-color: #0b2359;
-  /* background-color: #f7e9ea; */
-  /* background: -webkit-linear-gradient(left, rgb(255, 254, 253) 0%, rgb(249, 212, 215) 32%, rgb(208, 231, 252) 100%); */
   z-index: -1;
 }
 .align-self-end {
@@ -598,26 +559,11 @@
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 25px;
-  /* display: inline-flex; */
   color: #ffffff;
   line-height: 1;
-
   margin-left: -60px;
   gap: 10px;
 }
-/* .principle-company-section .principle-section-title .sub-title:after{
-    content: "";
-    position: absolute;
-    display: inline-block;
-    height: 1px;
-    width: 26px;
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-    background: var(--tg-body-color);
-    align-self: center;
-    margin-top: -0.1em;
-} */
 .principle-company-section .principle-section-title .title {
   margin-bottom: 0;
   font-weight: 700;
@@ -626,8 +572,6 @@
   line-height: 1.208;
   color: #ffffff !important;
   margin-left: 40px;
-  /* display: flex;
-    justify-content:center; */
 }
 .principle-company-section .principle-section-title .align-self-end {
   align-self: end;
@@ -727,16 +671,12 @@
   height: 90px;
   line-height: 94px;
   padding: 20px;
-  /* background: #fce6e7; */
-  /* background-color: #c2dcf5; */
   border-radius: 4px 40px 40px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 60px;
-  /* From https://css.glass */
   background: rgba(223, 43, 247, 0.21);
-  /* border-radius: 16px; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8.2px);
   -webkit-backdrop-filter: blur(8.2px);
@@ -773,25 +713,12 @@
   text-align: center;
   background-color: #0b2359;
   z-index: 2;
-  /* background: url(../images/webdesign-page-img/faq-bg-img.webp); */
-}
-.faq-pattern-1-wrapper {
-  position: absolute;
-  top: 56px;
-  left: 260px;
 }
 .faq-pattern-2-wrapper {
   position: absolute;
   top: -43%;
   left: 0%;
 }
-
-/* .text-shape-pattern{
-    position: absolute;
-    top:-8px;
-    right:263px;
-    z-index: 1;
-} */
 .faq-title {
   margin-bottom: 80px;
   position: relative;

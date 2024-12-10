@@ -4,10 +4,10 @@
 <head>
 
    <title><?php if ($meta) {
-      echo $meta->title ? $meta->title : "Write for Us - Cloudi5 Technologies Platform";
-   } else {
-      echo "Write for Us - Cloudi5 Technologies Platform";
-   } ?></title>
+               echo $meta->title ? $meta->title : "Write for Us - Cloudi5 Technologies Platform";
+            } else {
+               echo "Write for Us - Cloudi5 Technologies Platform";
+            } ?></title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description"
@@ -30,7 +30,7 @@
    <meta property="og:description"
       content="Become a contributor and share your insights on digital marketing, web design, SEO, and web development to reach a larger audience." />
    <meta property="og:url" content="<?php echo base_url(); ?>write-for-us" />
-   <?php include ('common-css.php') ?>
+   <?php include('common-css.php') ?>
    <?php $this->load->view('frontend/common-css'); ?>
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.carousel.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/swiper-bundle.min.css">
@@ -610,83 +610,6 @@
          </div>
       </section>
 
-      <!-- <section class="partners-section">
-         <div class="container">
-            <div class="row justify-center">
-               <div class="col-lg-5">
-                  <div class="partners-contents">
-                     <span class="sub-title">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/dots.png" alt="Sub-Heading-Design">
-                        Our Partners
-                     </span>
-                     <h2 class="partners-title">Collaborators Who Appreciate Us</h2>
-                     <p class="partners-desc">Together with our partners, we turn ambitious ideas into successful
-                        projects that make a difference.</p>
-
-                     <a href="javascript:void(0);" class="cont-btn">Contact Us<div class="icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" class="feather feather-arrow-right">
-                              <line x1="5" y1="12" x2="19" y2="12"></line>
-                              <polyline points="12 5 19 12 12 19"></polyline>
-                           </svg>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-lg-7">
-                  <div class="partners-img-list row justify-center">
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-1.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-2.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-3.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-4.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-5.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-6.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-7.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-8.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-4.svg" alt="">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-
       <section class="write-for-cta-section">
          <div class="container">
             <div class="row">
@@ -997,8 +920,8 @@
       <script src="<?php echo base_url(); ?>assets/js/jquery.validate.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/form-validation.js"></script>
       <script>
-         setTimeout(function () {
-            $(".alert").fadeOut("slow", function () {
+         setTimeout(function() {
+            $(".alert").fadeOut("slow", function() {
                $(".alert").remove();
             });
 
@@ -1010,11 +933,11 @@
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/swiper-bundle.min.js"></script>
 
       <script>
-         $(document).ready(function () {
+         $(document).ready(function() {
             $('.accordion-single:first-child .accordion-btn').addClass('active');
             $('.accordion-single:first-child .content-area').show();
 
-            $('.accordion-btn').on('click', function () {
+            $('.accordion-btn').on('click', function() {
                var $this = $(this);
                var $parent = $this.closest('.accordion-single');
                var $content = $parent.find('.content-area');
@@ -1032,10 +955,7 @@
          });
       </script>
       <script src='https://www.google.com/recaptcha/api.js'></script>
-
-
    </div>
-
 </body>
 
 </html>

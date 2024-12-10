@@ -25,28 +25,28 @@
       content="The leading software, Web and mobile App development company in Coimbatore, India. Focusing on Offshore & custom software development including, Web development, Mobile application, Web design, Digital marketing including SEO, and E-commerce software. Major products are School ERP and E-commerce Software." />
    <meta property="og:url" content="https://www.cloudi5.com/" />
    <link rel="canonical" href="https://www.cloudi5.com/" />
-   <link rel="alternate" href="<?php echo base_url();?>" hreflang="x-default" />
-   <link rel="icon" href="<?php echo base_url();?>asset/images/favicon.png">
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/bootstrap.min.css">
+   <link rel="alternate" href="<?php echo base_url(); ?>" hreflang="x-default" />
+   <link rel="icon" href="<?php echo base_url(); ?>asset/images/favicon.png">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/bootstrap.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/custom-style.css">
 
 
    <!-- FontAwesome-->
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/font-awesome.min.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/font-awesome.min.css">
    <!-- Icon font-->
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/icon-font.css" media="print"
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/icon-font.css" media="print"
       onload="this.media='all'">
    <!-- Owl Carousel-->
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.carousel.min.css">
    <!-- Owl Theme -->
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
 
    <!-- Template styles-->
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/style.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/style.css">
 
    <!-- Responsive styles-->
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/responsive.css">
-   <link rel="stylesheet" href="<?php echo base_url();?>asset/css/jquery.fancybox.min.css" media="print"
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/responsive.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/jquery.fancybox.min.css" media="print"
       onload="this.media='all'">
    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
    <script type="application/ld+json">
@@ -161,28 +161,7 @@
    <div class="body-inner">
 
       <?php include 'header.php' ?>
-
-
-      <!--<img src="<?php echo base_url();?>asset/images/web-development-web-design-mobile-app-development-digital-marketingservices-cloudi5.jpg" alt="Web Development, Web Design, Mobile App Development, Digital Marketing Services | Cloudi5-->
-      <!--" class="resp-banner">-->
-      <!--<div class="slider-content">-->
-
-      <!--<div class="css-typing">-->
-      <!--  <p>-->
-      <!--    EMPOWER YOUR BUSINESS -->
-
-      <!--  </p>-->
-      <!--  <p>-->
-      <!--    WITH CLOUDI5 -->
-      <!--  </p>-->
-      <!--</div>-->
-      <!--<p class="banner-text">We turn customer dreams into cutting edge IT products<p>-->
-      <!--    <div class="btn-ba">-->
-      <!--<a href="#getstarted" class="btn-gradient scrolling">Let's Discuss your Project</a></div>-->
-      <!--</div>-->
-
       <div class="banner-section">
-         <!--<div class="banner-background-overlay"></div>-->
          <div class="bannerpattern-1"></div>
          <div class="container">
             <div class="row align-items-center">
@@ -191,11 +170,8 @@
                      <div class="banner-first-line">
                         <img class="hand-waving" src="<?php echo base_url(); ?>asset/images/3d/waving-hand.svg"
                            alt="svg"> Leading Digital Solutions Provider in Coimbatore
-                        <!--<p>Leading Digital Solutions Provider in Coimbatore</p>-->
                      </div>
                      <div class="css-typing">
-                        <!--<p>EMPOWER YOUR BUSINESS</p>-->
-                        <!--<p>WITH CLOUDI5ðŸ‘‹</p>-->
                         <p>Cloudi5, Bringing Visionary</p>
                         <p>Ideas to Life💡 </p>
                      </div>
@@ -308,7 +284,6 @@
                </div>
             </div>
             <div class="row align-items-center mt-30">
-
                <div class="col-md-6">
                   <div>
                      <p class="text-indent-30">Cloudi5 Technologies is the <strong>Best Web Designing and Development
@@ -335,7 +310,6 @@
 
       <section class="ts-intro" id="ts-intro">
          <div class="container">
-
             <div class="col-sm-12">
                <div class="h4 lrg text-center"> What <span class="theme-red-color">We Do?</span></div>
                <span class="red-border-line">&nbsp;</span>
@@ -343,29 +317,27 @@
                </h1><br>
                <div class="row text-center">
                   <div class="col-sm-4 bor wwd-img">
-                     <img src="<?php echo base_url();?>asset/images/3d/web-development.png" alt="Web Application"
+                     <img src="<?php echo base_url(); ?>asset/images/3d/web-development.png" alt="Web Application"
                         title="Web Application Development">
                      <h2 class="service-list">Web Application <br>Development</h2>
                      <p>Combining innovation expertise and the effective usage of technology we create the best web
                         applications for various segments of Business along with professional maintenance. </p>
                   </div>
                   <div class="col-sm-4 bor wwd-img">
-                     <img src="<?php echo base_url();?>asset/images/3d/mobile-application-development.png"
+                     <img src="<?php echo base_url(); ?>asset/images/3d/mobile-application-development.png"
                         alt="Mobile App" title="Mobile Application Development">
                      <h2 class="service-list">Mobile Application <br>Development</h2>
                      <p>Expand your Business with a user-friendly custom mobile app development and grow your customer
                         base by converting all smartphone users into your loyal customers. </p>
                   </div>
                   <div class="col-sm-4 wwd-img">
-                     <img src="<?php echo base_url();?>asset/images/3d/seo-digital-marketing.png"
+                     <img src="<?php echo base_url(); ?>asset/images/3d/seo-digital-marketing.png"
                         alt="Digital Marketing" title="Digital Marketing">
                      <h2 class="service-list">SEO & Digital <br>Marketing</h2>
                      <p>An innovative and agile approach is essential to have the maximum Brand impact in the market and
                         with customers. We help you to re-think strategies that work well for your Business. </p>
                   </div>
-
                </div>
-
                <div class="text-center"><a class="btn btn-primary" href="#getstarted"> Let's Get Started</a></div>
                <!-- Content Row end-->
             </div>
@@ -414,13 +386,13 @@
                         <div class="tab-pane active animated fadeInRight" id="tab_one">
                            <div class="row">
                               <div class="col-lg-5 align-self-center">
-                                 <!--<div class="bg-contain-verticle" style="background-image:url(<?php echo base_url();?>asset/images/tabs/tab-shape.png);">-->
+                                 <!--<div class="bg-contain-verticle" style="background-image:url(<?php echo base_url(); ?>asset/images/tabs/tab-shape.png);">-->
                                  <div class="bg-contain-verticle">
                                     <img class="img-center img-fluid lazy"
                                        alt="Customized ERP Software Development Company" title="ERP Development"
-                                       src="<?php echo base_url();?>asset/images/default_image.png"
-                                       data-src="<?php echo base_url();?>asset/images/home/customized-erp-software-development-company.png"
-                                       data-srcset="<?php echo base_url();?>asset/images/home/customized-erp-software-development-company.png">
+                                       src="<?php echo base_url(); ?>asset/images/default_image.png"
+                                       data-src="<?php echo base_url(); ?>asset/images/home/customized-erp-software-development-company.png"
+                                       data-srcset="<?php echo base_url(); ?>asset/images/home/customized-erp-software-development-company.png">
                                  </div>
                               </div>
                               <!-- Col end-->
@@ -437,7 +409,7 @@
                                        inexpensive and efficient tool taking into thought the various operations,
                                        necessities and volume. Create your own ERP software which would be a valuable
                                        asset in future for further personalization, flexibility, and sustenance.</p>
-                                    <a class="btn-light" href="<?php echo base_url();?>web-development">Read More <i
+                                    <a class="btn-light" href="<?php echo base_url(); ?>web-development">Read More <i
                                           class="fa fa-long-arrow-right"></i></a>
                                  </div>
                                  <!-- Tab content info end-->
@@ -463,7 +435,7 @@
                                        will, in turn, leave you with various profitable business opportunities. Our team
                                        can support you for a turnkey or pick up from where itâ€™s been stopped.</p><a
                                        class="btn-light"
-                                       href="<?php echo base_url();?>mobile-application-development-android-app">Read
+                                       href="<?php echo base_url(); ?>mobile-application-development-android-app">Read
                                        More <i class="fa fa-long-arrow-right"></i></a>
                                  </div>
                                  <!-- Tab content info end-->
@@ -473,9 +445,9 @@
                                  <!--<div class="bg-contain-verticle align-self-center" style="background-image:url(images/tabs/tab-shape.png);">-->
                                  <div class="bg-contain-verticle align-self-center">
                                     <img class="img-center img-fluid lazy" alt="IoT Application Development Company"
-                                       src="<?php echo base_url();?>asset/images/default_image.png"
-                                       data-src="<?php echo base_url();?>asset/images/home/iot-application-development-company.png"
-                                       data-srcset="<?php echo base_url();?>asset/images/home/iot-application-development-company.png"
+                                       src="<?php echo base_url(); ?>asset/images/default_image.png"
+                                       data-src="<?php echo base_url(); ?>asset/images/home/iot-application-development-company.png"
+                                       data-srcset="<?php echo base_url(); ?>asset/images/home/iot-application-development-company.png"
                                        title="IoT Development">
                                  </div>
                               </div>
@@ -489,9 +461,9 @@
                               <div class="col-lg-5 align-self-center">
                                  <div class="bg-contain-verticle">
                                     <img class="img-center img-fluid lazy" alt="Custom Software Development Company"
-                                       src="<?php echo base_url();?>asset/images/default_image.png"
-                                       data-src="<?php echo base_url();?>asset/images/home/custom-software-development-company.png"
-                                       data-srcset="<?php echo base_url();?>asset/images/home/custom-software-development-company.png"
+                                       src="<?php echo base_url(); ?>asset/images/default_image.png"
+                                       data-src="<?php echo base_url(); ?>asset/images/home/custom-software-development-company.png"
+                                       data-srcset="<?php echo base_url(); ?>asset/images/home/custom-software-development-company.png"
                                        title="Software Development">
                                  </div>
                               </div>
@@ -509,7 +481,7 @@
                                        can either create a requirements specification at the initial stage in case of
                                        traditional linear approach or continuously adapt to changing requirements in
                                        case of agile development.</p><a class="btn-light"
-                                       href="<?php echo base_url();?>web-development">Read More <i
+                                       href="<?php echo base_url(); ?>web-development">Read More <i
                                           class="fa fa-long-arrow-right"></i></a>
                                  </div>
                                  <!-- Tab content info end-->
@@ -538,7 +510,7 @@
                                        timing schedules like an hourly basis, part-time or for freelancing. Our people
                                        ensure in delivering search engine friendly website development which will help
                                        in your business boost.</p><a class="btn-light"
-                                       href="<?php echo base_url();?>contactus">Read More <i
+                                       href="<?php echo base_url(); ?>contactus">Read More <i
                                           class="fa fa-long-arrow-right"></i></a>
                                  </div>
                                  <!-- Tab content info end-->
@@ -547,9 +519,9 @@
                               <div class="col-lg-5 align-self-center">
                                  <div class="bg-contain-verticle">
                                     <img class="img-center img-fluid lazy" alt="Hire Software Application Developers"
-                                       src="<?php echo base_url();?>asset/images/default_image.png"
-                                       data-src="<?php echo base_url();?>asset/images/home/hire-software-application-developers.png"
-                                       data-srcset="<?php echo base_url();?>asset/images/home/hire-software-application-developers.png"
+                                       src="<?php echo base_url(); ?>asset/images/default_image.png"
+                                       data-src="<?php echo base_url(); ?>asset/images/home/hire-software-application-developers.png"
+                                       data-srcset="<?php echo base_url(); ?>asset/images/home/hire-software-application-developers.png"
                                        title="Hire Developers">
                                  </div>
                               </div>
@@ -561,7 +533,7 @@
                      </div>
                      <!-- tab content-->
                      <div class="gap-30"></div>
-                     <div class="text-center"><a class="btn btn-primary" href="<?php echo base_url();?>web-development">
+                     <div class="text-center"><a class="btn btn-primary" href="<?php echo base_url(); ?>web-development">
                            Check More Details</a></div>
                      <div class="gap-30"></div>
                   </div>
@@ -583,55 +555,51 @@
             <div class="mixitup-gallery" style="padding-top: 30px">
                <!--Filter-->
                <div class="filters clearfix">
-
                   <ul class="filter-tabs filter-btns clearfix">
                      <li class="filter active" data-role="button" data-filter="all">All</li>
-                     <?php foreach($category as $res_category) { ?>
-                     <li class="filter" data-role="button"
-                        data-filter=".<?php echo strtolower(str_replace(' ','_', $res_category->title)); ?>">
-                        <?php echo ucwords($res_category->title); ?></li>
+                     <?php foreach ($category as $res_category) { ?>
+                        <li class="filter" data-role="button"
+                           data-filter=".<?php echo strtolower(str_replace(' ', '_', $res_category->title)); ?>">
+                           <?php echo ucwords($res_category->title); ?></li>
                      <?php } ?>
                   </ul>
-
                </div>
                <div class="filter-list row clearfix" id="MixItUpC72ED9">
-                  <?php foreach($portfolio as $res_portfolio){ ?>
-                  <!--Gallery Item-->
-                  <div
-                     class="gallery-item-two mix <?php echo strtolower(str_replace(' ','_', $res_portfolio->category)); ?> col-lg-4 col-md-6 col-sm-12"
-                     style="display: inline-block;">
-                     <div class="inner-box">
-                        <figure class="image-box">
-                           <img src="<?php echo base_url();?>asset/images/default_image.png"
-                              data-src="<?php echo base_url() . $res_portfolio->thumbnail;?>"
-                              data-srcset="<?php echo base_url() . $res_portfolio->thumbnail;?>" class="lazy"
-                              alt="Web design">
-                           <!--Overlay Box-->
-                           <div class="overlay-box">
-                              <div class="overlay-inner">
-                                 <div class="content">
-                                    <!-- <a href="#" class="link"><span class="fa fa-link"></span></a> -->
-                                    <a href="<?php echo base_url() . $res_portfolio->thumbnail_popup;?>"
-                                       data-fancybox="gallery-3" data-caption="" class="link"><span
-                                          class="fa fa-search-plus"></span></a>
+                  <?php foreach ($portfolio as $res_portfolio) { ?>
+                     <!--Gallery Item-->
+                     <div
+                        class="gallery-item-two mix <?php echo strtolower(str_replace(' ', '_', $res_portfolio->category)); ?> col-lg-4 col-md-6 col-sm-12"
+                        style="display: inline-block;">
+                        <div class="inner-box">
+                           <figure class="image-box">
+                              <img src="<?php echo base_url(); ?>asset/images/default_image.png"
+                                 data-src="<?php echo base_url() . $res_portfolio->thumbnail; ?>"
+                                 data-srcset="<?php echo base_url() . $res_portfolio->thumbnail; ?>" class="lazy"
+                                 alt="Web design">
+                              <!--Overlay Box-->
+                              <div class="overlay-box">
+                                 <div class="overlay-inner">
+                                    <div class="content">
+                                       <a href="<?php echo base_url() . $res_portfolio->thumbnail_popup; ?>"
+                                          data-fancybox="gallery-3" data-caption="" class="link"><span
+                                             class="fa fa-search-plus"></span></a>
+                                    </div>
                                  </div>
                               </div>
+                           </figure>
+                           <!-- Lower Box -->
+                           <div class="lower-box">
+                              <h3><a
+                                    href="<?php echo base_url() . 'portfolio/' . $res_portfolio->slug . '-' . $res_portfolio->id; ?>">
+                                    <?php echo ucwords($res_portfolio->title); ?></a></h3>
+                              <div class="category"><?php echo $res_portfolio->services; ?></div>
                            </div>
-                        </figure>
-                        <!-- Lower Box -->
-                        <div class="lower-box">
-                           <!-- <a class="arrow-link" href="#"><span class="fa fa-arrow-right"></span></a> -->
-                           <h3><a
-                                 href="<?php echo base_url(). 'portfolio/' . $res_portfolio->slug .'-'. $res_portfolio->id;?>">
-                                 <?php echo ucwords($res_portfolio->title); ?></a></h3>
-                           <div class="category"><?php echo $res_portfolio->services; ?></div>
                         </div>
                      </div>
-                  </div>
                   <?php } ?>
 
                </div>
-               <div class="text-center"><a class="btn btn-primary" href="<?php echo base_url();?>portfolio"> View More
+               <div class="text-center"><a class="btn btn-primary" href="<?php echo base_url(); ?>portfolio"> View More
                      Portfolio</a></div>
             </div>
          </div>
@@ -639,11 +607,8 @@
 
       <section class="ts-featured-cases" style="padding-bottom: 24px;">
          <div class="container">
-
             <div class="h4 lrg text-center"> Industry <span class="theme-red-color">We Serve</span></div><span
                class="red-border-line">&nbsp;</span>
-
-
             <!-- Title row end-->
             <div class="row">
                <div class="owl-carousel owl-theme featured-cases-slide" id="featured-cases-slide">
@@ -660,7 +625,7 @@
                         </div>
                         <div class="features-slider-img float-right">
                            <img class="img-fluid"
-                              src="<?php echo base_url();?>asset/images/home/manufacturing-erp-software-solutions.png"
+                              src="<?php echo base_url(); ?>asset/images/home/manufacturing-erp-software-solutions.png"
                               alt="Manufacturing ERP Software Solutions" title="Manufacturing ERP">
                         </div>
                      </div>
@@ -678,7 +643,7 @@
                         </div>
                         <div class="features-slider-img pull-right">
                            <img
-                              src="<?php echo base_url();?>asset/images/home/enterprise-ecommerce-software-solution.png"
+                              src="<?php echo base_url(); ?>asset/images/home/enterprise-ecommerce-software-solution.png"
                               alt="Enterprise Ecommerce Software Solution" title="E-Commerce Industry">
                         </div>
                      </div>
@@ -697,7 +662,7 @@
                         </div>
                         <div class="features-slider-img float-right">
                            <img class="img-fluid"
-                              src="<?php echo base_url();?>asset/images/home/real-estate-crm-management-software.png"
+                              src="<?php echo base_url(); ?>asset/images/home/real-estate-crm-management-software.png"
                               alt="Real Estate CRM Management Software" title="Real Estate Software">
                         </div>
                      </div>
@@ -716,7 +681,7 @@
                         </div>
                         <div class="features-slider-img float-right">
                            <img class="img-fluid"
-                              src="<?php echo base_url();?>asset/images/home/hospital-management-software-development-company.png"
+                              src="<?php echo base_url(); ?>asset/images/home/hospital-management-software-development-company.png"
                               alt="Hospital Management Software Development Company"
                               title="Hospital Management Software">
                         </div>
@@ -737,7 +702,7 @@
                         </div>
                         <div class="features-slider-img float-right">
                            <img class="img-fluid"
-                              src="<?php echo base_url();?>asset/images/home/restaurant-pos-management-software.png"
+                              src="<?php echo base_url(); ?>asset/images/home/restaurant-pos-management-software.png"
                               alt="Restaurant POS Management Software" title="Restaurant Software">
                         </div>
                      </div>
@@ -762,7 +727,7 @@
             <div class="row">
                <div class="solution-block">
                   <div class="inner-content">
-                     <div class="icon-set"><img src="<?php echo base_url();?>asset/images/satisfied-clients.png"
+                     <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/satisfied-clients.png"
                            alt="Latest Thinking" title="Latest Thinking" width="auto" height="auto"></div>
                      <h4 class="text-style">Latest Thinking</h4>
                   </div>
@@ -770,14 +735,15 @@
                <div class="solution-block margin-left-right-30">
                   <div class="inner-content">
                      <div class="icon-set">
-                        <img src="<?php echo base_url();?>asset/images/reliable-services.png" alt="Unique talent pool"
-                           title="Unique talent pool" width="auto" height="auto"></div>
+                        <img src="<?php echo base_url(); ?>asset/images/reliable-services.png" alt="Unique talent pool"
+                           title="Unique talent pool" width="auto" height="auto">
+                     </div>
                      <h4 class="text-style">Unique talent pool</h4>
                   </div>
                </div>
                <div class="solution-block">
                   <div class="inner-content">
-                     <div class="icon-set"><img src="<?php echo base_url();?>asset/images/reliable-resources.png"
+                     <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/reliable-resources.png"
                            alt="Seamless Communication" title="Seamless Communication" width="auto" height="auto"></div>
                      <h4 class="text-style">Seamless Communication</h4>
                   </div>
@@ -786,21 +752,21 @@
             <div class="bot2 row">
                <div class="solution-block">
                   <div class="inner-content">
-                     <div class="icon-set"><img src="<?php echo base_url();?>asset/images/technology-expertise.png"
+                     <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/technology-expertise.png"
                            alt="On-time delivery" title="On-time delivery" width="auto" height="auto"></div>
                      <h4 class="text-style">On-time delivery</h4>
                   </div>
                </div>
                <div class="solution-block margin-left-right-30">
                   <div class="inner-content">
-                     <div class="icon-set"><img src="<?php echo base_url();?>asset/images/development-team.png"
+                     <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/development-team.png"
                            alt="Inexpensive approach" title="Inexpensive approach" width="auto" height="auto"></div>
                      <h4 class="text-style">Inexpensive approach</h4>
                   </div>
                </div>
                <div class="solution-block">
                   <div class="inner-content">
-                     <div class="icon-set"><img src="<?php echo base_url();?>asset/images/professional-competitive.png"
+                     <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/professional-competitive.png"
                            alt="Greater Flexibility" title="Greater Flexibility" width="auto" height="auto"></div>
                      <h4 class="text-style">Greater Flexibility</h4>
                   </div>
@@ -808,72 +774,61 @@
             </div>
          </div>
       </section>
-
       <!-- Quote area end-->
-
-
-      <!-- News end-->
-
-
-      <!-- Partners end-->
-
 
       <!-- Footer start-->
       <?php include 'footer.php' ?>
       <!-- Footer end-->
 
-
-
       <!-- Javascript Files -->
       <!-- initialize jQuery Library-->
-      <script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.js"></script>
+      <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/jquery.js"></script>
 
       <!-- Bootstrap jQuery-->
-      <script type="text/javascript" src="<?php echo base_url();?>asset/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/bootstrap.min.js"></script>
       <!-- Owl Carousel-->
-      <script type="text/javascript" src="<?php echo base_url();?>asset/js/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js">
+      </script>
 
-
-
-      <!-- Form Validatation -->
-      <script src="<?php echo base_url();?>assets/js/jquery.validate.js"></script>
-      <script src="<?php echo base_url();?>assets/js/form-validation.js"></script>
+      <!--Form Validatation-->
+      <script src="<?php echo base_url(); ?>assets/js/jquery.validate.js"></script>
+      <script src="<?php echo base_url(); ?>assets/js/form-validation.js"></script>
       <script>
-         setTimeout(function () {
-            $(".alert").fadeOut("slow", function () {
+         setTimeout(function() {
+            $(".alert").fadeOut("slow", function() {
                $(".alert").remove();
             });
 
          }, 6000);
       </script>
       <!-- Template custom-->
-      <script type="text/javascript" src="<?php echo base_url();?>asset/js/custom.js"></script>
+      <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/custom.js"></script>
       <script type="text/javascript">
-         $(window).on('load', function () {
-            setTimeout(function () {
+         $(window).on('load', function() {
+            setTimeout(function() {
                $('#subscribeModal').modal('show');
             }, 5000);
 
          });
-         $('#Reloadpage').click(function () {
+         $('#Reloadpage').click(function() {
             location.reload();
          });
       </script>
-      <script async src="<?php echo base_url();?>asset/js/jquery.fancybox.js"></script>
-      <script async src="<?php echo base_url();?>asset/js/mixitup.js"></script>
-      <script async src="<?php echo base_url();?>asset/js/script.js"></script>
-      <!-- <script src="<?php echo base_url();?>asset/js/lazysizes.min.js"></script> -->
+      <script async src="<?php echo base_url(); ?>asset/js/jquery.fancybox.js"></script>
+      <script async src="<?php echo base_url(); ?>asset/js/mixitup.js"></script>
+      <script async src="<?php echo base_url(); ?>asset/js/script.js"></script>
+      <!-- <script src="<?php echo base_url(); ?>asset/js/lazysizes.min.js"></script> -->
       <script type="text/javascript">
-         document.addEventListener("DOMContentLoaded", function () {
+         document.addEventListener("DOMContentLoaded", function() {
             let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
             let active = false;
 
-            const lazyLoad = function () {
+            const lazyLoad = function() {
                if (active === false) {
                   active = true;
 
-                  setTimeout(function () {
-                     lazyImages.forEach(function (lazyImage) {
+                  setTimeout(function() {
+                     lazyImages.forEach(function(lazyImage) {
                         if ((lazyImage.getBoundingClientRect().top <= window.innerHeight &&
                               lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(
                               lazyImage).display !== "none") {
@@ -881,7 +836,7 @@
                            lazyImage.srcset = lazyImage.dataset.srcset;
                            lazyImage.classList.remove("lazy");
 
-                           lazyImages = lazyImages.filter(function (image) {
+                           lazyImages = lazyImages.filter(function(image) {
                               return image !== lazyImage;
                            });
 

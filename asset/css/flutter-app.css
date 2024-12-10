@@ -361,23 +361,6 @@
 }
 
 /* Accent Bars */
-.accent-bar {
-  position: absolute;
-  width: 4px;
-  height: 80px;
-  background-color: #ff9800;
-  z-index: 2;
-}
-
-.accent-bar.top {
-  top: -20px;
-  left: -20px;
-}
-
-.accent-bar.bottom {
-  bottom: -20px;
-  right: -20px;
-}
 
 /* Service Items */
 .service-item {

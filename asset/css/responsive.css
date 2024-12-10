@@ -96,10 +96,10 @@
     padding-right: 0;
     margin-right: 25px;
   }
-  .custom-shape-image{
+  .custom-shape-image {
     border-radius: 10px !important;
   }
-  
+
   #top-bar .top-info i,
   #top-bar .top-info p {
     font-size: 12px;
@@ -447,10 +447,7 @@
   .pricing-boxed .single-price-box:last-child {
     margin-bottom: 0;
   }
-  .contact-box.form-box,
-  .contact-box.info-box {
-    width: 100%;
-  }
+
   .vertical-job-header h4 {
     margin-left: 24px;
   }
@@ -536,9 +533,6 @@
     transition: 0.3s;
     -webkit-transition: 0.3s;
     border: none;
-  }
-  .conn-title {
-    font-size: 30px !important;
   }
   .banner-title3 {
     font-size: 20px !important;
@@ -702,12 +696,6 @@
   .top-info {
     text-align: center !important;
     float: none !important;
-  }
-  .contact-info-right h3 {
-    font-size: 22px;
-  }
-  .contact-info-right .ts-contact-content h3 {
-    font-size: 17px;
   }
   .css-typing p:nth-child(1) {
     font-size: 22px;
@@ -1298,10 +1286,7 @@
   .ts-price-box {
     margin-bottom: -120px;
   }
-  .contact-box.form-box,
-  .contact-box.info-box {
-    width: 100%;
-  }
+
   a[href^="tel"]:hover,
   a[href^="tel"]:link,
   a[href^="tel"]:visited {
@@ -1537,10 +1522,10 @@
   .service-tab .nav-tabs .nav-item .nav-link.active:before {
     height: 3px;
   }
-  .custom-shape-image{
+  .custom-shape-image {
     border-radius: 10px !important;
   }
-  .service-tab .nav-tabs .nav-item .nav-link span{
+  .service-tab .nav-tabs .nav-item .nav-link span {
     height: 35px !important;
   }
   .single-tab-content {
@@ -1553,23 +1538,9 @@
   .tab-image {
     margin-top: -18px;
   }
-  .two-column-left {
-    width: 50%;
-  }
-  .two-column {
-    padding: 0 7px;
-  }
   .contact-us-btn {
     text-align: center;
     float: none;
-  }
-  .ts-form.form-boxed {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-  .contact-box.info-box {
-    padding-left: 20px;
-    padding-top: 30px;
   }
   .svg-container {
     margin: 30px;
@@ -1675,9 +1646,7 @@
     padding-bottom: 12px !important;
     padding-top: 10px !important;
   }
-  .services-section-wrapper {
-    padding: 20px 20px;
-  }
+ 
   .head {
     font-size: 16px !important;
   }
@@ -1689,14 +1658,6 @@
     font-size: 22px !important;
     font-weight: 500;
     text-align: center;
-  }
-  .contact-box.form-box,
-  .contact-box.info-box {
-    width: 100%;
-    padding-bottom: 20px !important;
-  }
-  .ts-contact-info .ts-contact-content {
-    margin-left: 50px !important;
   }
   .section-title span {
     padding-top: 45px !important;
@@ -1744,9 +1705,7 @@
   .school-tabs {
     height: auto !important;
   }
-  .conn-title {
-    font-size: 30px !important;
-  }
+
   .banner-title3 {
     font-size: 20px !important;
     color: #fff;
@@ -1904,10 +1863,7 @@
   .feature_area .feature_img img {
     width: 60% !important;
   }
-  .mob-btn-fl-none {
-    text-align: center !important;
-    float: none !important;
-  }
+
   .single_feature {
     margin-top: 20px !important;
   }

@@ -4,10 +4,10 @@
 <head>
 
    <title><?php if ($meta) {
-      echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company |  Digital Marketing | Coimbatore";
-   } else {
-      echo "";
-   } ?></title>
+               echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company |  Digital Marketing | Coimbatore";
+            } else {
+               echo "";
+            } ?></title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
@@ -29,7 +29,7 @@
    <meta property="og:description"
       content="Cloudi5 is one of the best software development, web design, mobile app development, School ERP, Digital Marketing, SEO & SMO companies in Coimbatore, Tamil Nadu, India. Global custom software development company helps the client to build innovative software products and focused on the execution delivery and support." />
    <meta property="og:url" content="<?php echo base_url(); ?>aboutus" />
-   <?php include ('common-css.php') ?>
+   <?php include('common-css.php') ?>
    <?php $this->load->view('frontend/common-css'); ?>
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.carousel.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/design.css">
@@ -69,7 +69,7 @@
                </div>
             </div>
          </div>
-      </div> -->                
+      </div> -->
 
       <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="About Us">
@@ -353,16 +353,6 @@
                      </div>
                   </div>
 
-                  <!-- <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/new-our-team/swetha.png"
-                           alt="Swetha Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Swetha R</h3>
-                           <p class="team-designation">PHP Developer</p>
-                        </div>
-                     </div>
-                  </div> -->
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/karthikeyan-profile-php-developer.png"
@@ -539,8 +529,8 @@
       <script src="<?php echo base_url(); ?>assets/js/jquery.validate.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/form-validation.js"></script>
       <script>
-         setTimeout(function () {
-            $(".alert").fadeOut("slow", function () {
+         setTimeout(function() {
+            $(".alert").fadeOut("slow", function() {
                $(".alert").remove();
             });
 

@@ -230,28 +230,9 @@
 .arrow-wrapper svg {
   width: 160px;
   display: flex;
-  justify-content: ;
   align-items: end;
 }
 
-/* .simplify-icon {
-  position: relative;
-}
-
-.simplify-icon::before {
-  position: absolute;
-  content: "";
-  font-size: 20px;
-}
-.focus-icon {
-  position: relative;
-}
-
-.focus-icon::before {
-  position: absolute;
-  content: "\f784";
-  font-size: 20px;
-} */
 
 /*----faq-section------- */
 .faq-section {
@@ -263,27 +244,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: #0b2359; */
   z-index: 2;
-  /* background: url(../images/webdesign-page-img/faq-bg-img.webp); */
 }
-.faq-pattern-1-wrapper {
-  position: absolute;
-  top: 56px;
-  left: 260px;
-}
+
 .faq-pattern-2-wrapper {
   position: absolute;
   top: -43%;
   left: 0%;
 }
-
-/* .text-shape-pattern{
-      position: absolute;
-      top:-8px;
-      right:263px;
-      z-index: 1;
-  } */
 .faq-title {
   margin-bottom: 80px;
   position: relative;
