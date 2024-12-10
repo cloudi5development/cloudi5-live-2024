@@ -10313,17 +10313,35 @@ html body .mrg-bot-20 {
 }
 
 .vertical-job-header {
-  display: inline-block;
+  display: flex;
   width: 100%;
-  padding: 12px 0 15px;
+  padding: 20px 0px;
   align-items: center;
+  justify-content: center;
+}
+.job-header-new {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gp-4 {
+  gap: 4px;
 }
 
 .vrt-job-cmp-logo {
-  max-width: 55px;
+  /* max-width: 62px; */
   float: left;
+  width: 45px;
+  height: 45px;
+  background: #acb8d561;
+  /* line-height: 1.5; */
+  text-align: center;
+  border-radius: 5px;
 }
-
+.vrt-job-cmp-logo a {
+  font-size: 30px;
+  line-height: 1.5;
+}
 .com-tagline,
 .vertical-job-header h4 {
   margin-left: 25px;
@@ -10335,6 +10353,7 @@ html body .mrg-bot-20 {
   margin-bottom: 0;
   line-height: 1;
   margin-top: 7px;
+  margin-left: 0px !important;
 }
 
 .vertical-job-header .com-tagline {
@@ -10376,7 +10395,7 @@ html body .mrg-bot-20 {
 }
 
 .vertical-job-footer {
-  padding: 15px 0;
+  padding: 30px 0;
 }
 
 .cmp-job-rating ul li,
@@ -10409,21 +10428,24 @@ html body .mrg-bot-20 {
 }
 
 .vertical-job-body ul.can-skils li strong {
-  width: 150px;
+  width: 125px;
   display: inline-block;
+}
+.mtb-5 {
+  margin: 5px 0px;
 }
 
 .skill-tag {
   /* background-color: #ffdecc; */
-  background-color: #ffa87b4f;
+  background-color: #7b9fff40;
   border: 1px solid #c9c9c975;
   border-radius: 0 2px 2px 0;
   display: inline-block;
   font-size: 13.5px;
   font-weight: 500;
   line-height: normal;
-  margin: 2px 15px 10px 0;
-  padding: 3px 10px;
+  margin: 2px 15px 0px 0;
+  padding: 5px 10px;
   position: relative;
   border-radius: 4px;
 }
@@ -22333,10 +22355,13 @@ h2.title_text.c_slide_in_wrap1 {
   padding-left: 22px;
 }
 
-.vertical-job-footer p {
-  margin-top: 1rem;
+.vertical-job-footer p > strong {
+  margin-bottom: 10px;
 }
-
+.vertical-job-footer p {
+  margin-bottom: 5px !important;
+  line-height: 1.7;
+}
 #back-to-top:after {
   position: absolute;
   z-index: -1;
@@ -24949,7 +24974,7 @@ round-circle {
   justify-content: space-between;
   align-items: center;
 }
-.new-career-section .job-top-box .job-info li{
+.new-career-section .job-top-box .job-info li {
   font-size: 16px;
 }
 .new-career-section .resume-mail {
@@ -24988,7 +25013,27 @@ round-circle {
   .new-career-section .job-bottom-box {
     flex-direction: column;
   }
-  .new-career-section .job-bottom-box .btn-container{
+  .new-career-section .job-bottom-box .btn-container {
     justify-content: center !important;
   }
+}
+.vertical-job-footer ul li {
+  line-height: 1.8;
+}
+.vertical-job-header .btn-job,
+.vertical-job-footer .btn-job {
+  padding: 12px 20px;
+  display: inline-flex;
+  /* gap: 7px; */
+  background: linear-gradient(95deg, #023575 0.75%, #da0e17 101.34%);
+  border: none;
+  margin: 0px !important;
+  color: #fff !important;
+  min-width: fit-content !important;
+}
+.gpt-20{
+  gap: 20px 0px;
+}
+.role-select select{
+  width: 100%;
 }
