@@ -212,7 +212,7 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
-                  <h2 class="title">Collaborating with Innovators and Pioneers</h2>
+                  <h2 class="title">Collaborating with Our Clients</h2>
                </div>
             </div>
             <div class="row logos-list">
@@ -349,7 +349,7 @@
 
       <section class="ts-services solid-bg" id="ts-services">
          <div class="container">
-            <div class="row text-left">
+            <div class="row text-left mb-10">
                <div class="col-lg-12">
                   <div class="h4 lrg text-center"> Our Major<span class="theme-red-color"> Services</span></div><span
                      class="red-border-line">&nbsp;</span>

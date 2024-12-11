@@ -107,8 +107,8 @@
 													<li class="mb-2"><strong>Qualification :
 														</strong><?php echo $career_details->qualification; ?></li>
 												<?php } ?>
-												<li class="mb-2 d-flex align-items-center mtb-5"><strong>Skills : </strong>
-													<div>
+												<li class="mb-2 d-flex align-items-center mtb-5"><p><strong>Skills : </strong></p>
+													<div class="d-flex g-12 flex-wrap">
 														<?php
 														$skills = explode(',', $career_details->skills);
 														foreach ($skills as $skill) {

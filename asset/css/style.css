@@ -564,7 +564,7 @@ section .title-white {
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 1px solid #e1e1e1;
-  padding: 5px 20px;
+  padding: 5px 15px;
   height: 50px;
   background: 0 0;
   color: #000;
@@ -2026,6 +2026,7 @@ ul.navbar-nav > li > a i {
   font-size: 20px;
   line-height: 35px;
   margin: 12px 0;
+
 }
 
 .navbar-toggler-icon:focus {
@@ -3138,7 +3139,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .featured-tab {
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .featured-tab .nav-tabs {
@@ -3162,7 +3163,13 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.featured-tab .nav-tabs > li > a > span:nth-child(1){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:  12px;
 
+}
 .featured-tab .nav-tabs > li > a.active {
   color: #0f2765;
   background: #fff;
@@ -3174,7 +3181,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .tab-text-title {
   display: block;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  font-size: 18px;
 }
 
 .featured-tab .tab-content {
@@ -3566,16 +3574,16 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .owl-carousel.featured-cases-slide.owl-theme .owl-nav > div {
-  bottom: -40px;
+  bottom: 0;
   right: 78px;
-  width: 60px;
-  height: 60px;
-  line-height: 56px;
+  width: 50px;
+  height: 50px;
+  line-height: 46px;
   font-size: 26px;
 }
 
 .owl-carousel.featured-cases-slide.owl-theme .owl-nav > .owl-prev {
-  right: 138px;
+  right: 15%;
 }
 
 .owl-carousel.featured-cases-slide.owl-theme .owl-nav > .disabled {
@@ -10294,7 +10302,7 @@ html body .mrg-bot-20 {
   overflow: hidden;
   position: relative;
   border-radius: 6px;
-  padding: 0 25px;
+  padding: 0 15px;
   border: 1px solid #e3e3e3;
   box-shadow: 0 5px 25px 0 rgba(41, 128, 185, 0.15);
   -webkit-box-shadow: 0 5px 25px 0 rgba(41, 128, 185, 0.15);
@@ -10307,17 +10315,17 @@ html body .mrg-bot-20 {
 
 .vertical-job-body {
   border-top: 1px solid #eaeff5;
-  border-bottom: 1px solid #eaeff5;
+  /* border-bottom: 1px solid #eaeff5; */
   padding: 15px 0;
   width: 100%;
 }
 
 .vertical-job-header {
-  display: flex;
+  display: flex !important;
   width: 100%;
   padding: 20px 0px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .job-header-new {
   display: flex;
@@ -10444,7 +10452,7 @@ html body .mrg-bot-20 {
   font-size: 13.5px;
   font-weight: 500;
   line-height: normal;
-  margin: 2px 15px 0px 0;
+  /* margin: 2px 15px 0px 0; */
   padding: 5px 10px;
   position: relative;
   border-radius: 4px;
@@ -24700,7 +24708,7 @@ round-circle {
   }
 }
 .common-inner-banner .banner-tagline span img {
-  width: 22px;
+  width: 20px;
   padding-bottom: 6px;
 }
 .common-inner-banner .banner-quote {
@@ -25036,4 +25044,10 @@ round-circle {
 }
 .role-select select{
   width: 100%;
+}
+.g-12{
+  gap:12px;
+}
+.mb-10{
+  margin-bottom: 10px;
 }

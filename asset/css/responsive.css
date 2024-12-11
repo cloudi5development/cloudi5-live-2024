@@ -50,7 +50,7 @@
   .vertical-job-header {
     display: inline-block;
     width: 100%;
-    padding: 10px 0 25px;
+    /* padding: 10px 0 25px; */
     align-items: center;
   }
   span.pull-right.vacancy-no {
@@ -2014,10 +2014,13 @@
     margin-left: 24px;
   }
   .vertical-job-header {
-    display: inline-block;
+    /* display: inline-block; */
     width: 100%;
-    padding: 10px 0 25px;
+    padding: 20px 0px;
+    align-items: center;    flex-direction: column;
+    justify-content: start;
     align-items: center;
+    gap: 15px;
   }
   span.pull-right.vacancy-no {
     position: absolute;
@@ -2277,6 +2280,9 @@
   }
   .header-bg-white.header-standard.header-transparent ul.navbar-nav > li > a {
     color: #fff;
+  }
+  .vertical-job-header .btn-job{
+    padding: 8px 16px !important;
   }
 }
 @media (min-width: 320px) and (max-width: 478px) {

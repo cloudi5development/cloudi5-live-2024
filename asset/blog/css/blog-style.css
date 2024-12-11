@@ -441,6 +441,24 @@ nav.navbar.bootsnav ul.nav > li > a {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+.widget.widget_social ul li .widget_social_link img {
+  display: inline-block;
+  padding: 7px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  color: #fff;
+  background: #000;
+  font-size: 15px;
+  margin-bottom: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
 .widget.widget_social ul li .widget_social_link p {
   margin: 0;
   font-size: 13px;
@@ -468,7 +486,7 @@ nav.navbar.bootsnav ul.nav > li > a {
   line-height: 22px;
 }
 .blog_author_data {
-  float: left;
+  /* float: left; */
   margin-right: 10px;
 }
 a:not([href]):not([tabindex]) {
@@ -898,10 +916,11 @@ ul.blog_meta_tags li span:after {
 .blog_comment_formdiv .comment-form .blog_row {
   display: flex;
   width: 100%;
+  gap: 10px;
 }
 .blog_comment_formdiv .comment-form .blog_row .blog_halfbox {
   flex: 50%;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 .blog_comment_formdiv .comment-form .blog_row .blog_form_group {
   margin-bottom: 20px;

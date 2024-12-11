@@ -97,7 +97,7 @@
   }
 }
 .common-inner-banner .banner-tagline span img {
-  width: 22px;
+  width: 20px;
   padding-bottom: 6px;
 }
 .common-inner-banner .banner-quote {
@@ -491,7 +491,7 @@ html {
   background-clip: text;
 }
 .banner-tagline span img {
-  width: 22px;
+  width: 20px;
   padding-bottom: 6px;
 }
 .timeline::before {

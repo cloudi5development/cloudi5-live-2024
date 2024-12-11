@@ -1,4 +1,4 @@
-<?php 
+<?php
 $footer_setting = $this->db->from('settings')->get()->row();
 ?>
 <div id="getstarted"></div>
@@ -11,15 +11,17 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         <h2>DO YOU HAVE A <br>PROJECT IN MIND?</h2>
                         <p>Lets get Started!</p>
                     </div>
-                    
+
                     <div class="sidebtns">
                         <a class="btns write">
                             <span><i class="fa fa-paper-plane-o"></i></span>
                             <div>
-                                <p class="mb-0">WRITE TO US</p> <img src="<?php echo base_url(); ?>asset/images/write-to-us.png" alt="Mail Id">
+                                <p class="mb-0">WRITE TO US</p> <img
+                                    src="<?php echo base_url(); ?>asset/images/write-to-us.png" alt="Mail Id">
                             </div>
                         </a>
-                        <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_1); ?>" class="btns callus">
+                        <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_1); ?>"
+                            class="btns callus">
                             <span><i class="fa fa-mobile"></i></span>
                             <div>
                                 <p class="mb-0">SUPPORT</p> <b><?php echo $footer_setting->mobile_1; ?></b>
@@ -27,7 +29,10 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         </a>
                     </div>
                     <ul class="list-unstyled address">
-                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br> <?php echo $footer_setting->address_2 .' '. $footer_setting->address_3; ?> <br><?php echo $footer_setting->city .' '. $footer_setting->pincode; ?>, <?php echo $footer_setting->state; ?>, India</li>
+                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br>
+                            <?php echo $footer_setting->address_2 . ' ' . $footer_setting->address_3; ?>
+                            <br><?php echo $footer_setting->city . ' ' . $footer_setting->pincode; ?>,
+                            <?php echo $footer_setting->state; ?>, India</li>
                     </ul>
                     <div class="or"><span>OR</span></div>
                 </div>
@@ -36,18 +41,22 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         <?php echo message_box('success'); ?>
                         <?php echo message_box('error'); ?>
                         <div id="sucess_project_frm"></div>
-                        <form class="project_frm" id="CommonValidation" action="<?php echo base_url('commonform'); ?>" method="post" enctype="multipart/form-data">
+                        <form class="project_frm" id="CommonValidation" action="<?php echo base_url('commonform'); ?>"
+                            method="post" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="customcol col-sm-6">
                                     <div class="form-group">
-                                        <input name="website" class="form-control input-lg" style="display:none;" value="">
-                                        <input name="your_name" class="required form-control input-lg" placeholder="Your Name*" value="<?php echo set_value('your_name'); ?>">
+                                        <input name="website" class="form-control input-lg" style="display:none;"
+                                            value="">
+                                        <input name="your_name" class="required form-control input-lg"
+                                            placeholder="Your Name*" value="<?php echo set_value('your_name'); ?>">
                                         <?php echo form_error('your_name', '<div class="error">', '</div>'); ?>
                                     </div>
                                 </div>
                                 <div class="customcol col-sm-6">
                                     <div class="form-group">
-                                        <input name="your_phone" class=" form-control input-lg" placeholder="Phone" value="<?php echo set_value('your_phone'); ?>">
+                                        <input name="your_phone" class=" form-control input-lg" placeholder="Phone"
+                                            value="<?php echo set_value('your_phone'); ?>">
                                         <?php echo form_error('your_phone', '<div class="error">', '</div>'); ?>
                                     </div>
                                 </div>
@@ -55,7 +64,8 @@ $footer_setting = $this->db->from('settings')->get()->row();
                             <div class="row">
                                 <div class="customcol col-sm-12">
                                     <div class="form-group">
-                                        <input type="email" name="your_email" class="required form-control input-lg" placeholder="Your E-mail*" value="<?php echo set_value('your_email'); ?>">
+                                        <input type="email" name="your_email" class="required form-control input-lg"
+                                            placeholder="Your E-mail*" value="<?php echo set_value('your_email'); ?>">
                                         <?php echo form_error('your_email', '<div class="error">', '</div>'); ?>
                                     </div>
                                 </div>
@@ -63,21 +73,25 @@ $footer_setting = $this->db->from('settings')->get()->row();
                             <div class="row">
                                 <div class="customcol col-sm-12">
                                     <div class="form-group">
-                                        <textarea class="required form-control input-lg" name="message" rows="6" placeholder="Message*" style="z-index: auto; position: relative; line-height: 21.3333px; font-size: 16px; transition: none 0s ease 0s; background: transparent !important;"><?php echo set_value('message'); ?></textarea>
+                                        <textarea class="required form-control input-lg" name="message" rows="6"
+                                            placeholder="Message*"
+                                            style="z-index: auto; position: relative; line-height: 21.3333px; font-size: 16px; transition: none 0s ease 0s; background: transparent !important;"><?php echo set_value('message'); ?></textarea>
                                         <?php echo form_error('message', '<div class="error">', '</div>'); ?>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="customcol col-sm-12">
-                                    <div class="g-recaptcha" data-sitekey="6Lf0WYUUAAAAAMi0BjYIrf8I-9G5cS-kJ04d8MEL"></div>
+                                    <div class="g-recaptcha" data-sitekey="6Lf0WYUUAAAAAMi0BjYIrf8I-9G5cS-kJ04d8MEL">
+                                    </div>
                                     <?php echo form_error('g-recaptcha-response', '<div class="error">', '</div>'); ?>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="customcol col-sm-12 text-center">
                                     <div class="form-group" style="padding-top: 10px;">
-                                        <button type="submit" id="project_btn" data-ladda="loading" class="btn btn-primary text-uppercase m-w-160 btn btn-bluedark btn-bold btn-lg waves-effect waves-button waves-light">SUBMIT</button>
+                                        <button type="submit" id="project_btn" data-ladda="loading"
+                                            class="btn btn-primary text-uppercase m-w-160 btn btn-bluedark btn-bold btn-lg waves-effect waves-button waves-light">SUBMIT</button>
                                     </div>
                                 </div>
                             </div>
@@ -94,25 +108,33 @@ $footer_setting = $this->db->from('settings')->get()->row();
         <div class="row">
             <div class="col-sm-12 owl-carousel owl-theme text-center partners" id="partners-carousel">
                 <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-aftis-global-solutions.png" alt="BPO Website">
+                    <img class="img-fluid"
+                        src="<?php echo base_url(); ?>asset/images/clients-aftis-global-solutions.png"
+                        alt="BPO Website">
                 </figure>
                 <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-gooesy.png" alt="Home Service Web Design">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-gooesy.png"
+                        alt="Home Service Web Design">
                 </figure>
                 <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-intechgroups.png" alt="Training Institute Website Design">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-intechgroups.png"
+                        alt="Training Institute Website Design">
                 </figure>
                 <figure class="item partner-logo last">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-dezignmedia.png" alt="Graphic Design Company Web Development">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-dezignmedia.png"
+                        alt="Graphic Design Company Web Development">
                 </figure>
                 <figure class="item partner-logo last">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-krishnaimpex.png" alt="Industry Web Design">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-krishnaimpex.png"
+                        alt="Industry Web Design">
                 </figure>
                 <figure class="item partner-logo last">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-evecollections.png" alt="Clothing Store Web Design">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-evecollections.png"
+                        alt="Clothing Store Web Design">
                 </figure>
                 <figure class="item partner-logo last">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-lrmoverseas.png" alt="Hr Management Website Designing">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients-lrmoverseas.png"
+                        alt="Hr Management Website Designing">
                 </figure>
             </div>
         </div>
@@ -124,8 +146,10 @@ $footer_setting = $this->db->from('settings')->get()->row();
             <div class="col-sm-4 footer-box"><i class="icon icon-phone3"></i>
                 <div class="footer-box-content">
                     <h3>Call Us</h3>
-                    <p>Support: <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_1); ?>" class="tel btns callus"><?php echo $footer_setting->mobile_1; ?></a></p>
-                    <p>Sales: <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_2); ?>" class="tel btns callus"><?php echo $footer_setting->mobile_2; ?></a></p>
+                    <p>Support: <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_1); ?>"
+                            class="tel btns callus"><?php echo $footer_setting->mobile_1; ?></a></p>
+                    <p>Sales: <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_2); ?>"
+                            class="tel btns callus"><?php echo $footer_setting->mobile_2; ?></a></p>
                 </div>
             </div>
             <div class="col-sm-4 footer-box"><i class="icon icon-envelope"></i>
@@ -139,13 +163,24 @@ $footer_setting = $this->db->from('settings')->get()->row();
                     <h3>Follow Us</h3>
                     <div class="Social-Footer">
                         <ul class="icons-ul">
-                            <li class="facebook"><a href="<?php echo $footer_setting->facebook; ?>" rel="nofollow" target="_blank"><span class="fa fa-facebook hvr-icon-up"></span></a></li>
-                            <li class="twitter"><a href="<?php echo $footer_setting->twitter; ?>" rel="nofollow" target="_blank"><img src="https://www.cloudi5.com/asset/images/twitter-white-logo.png" style="height:13px;"></a></li>
-                            <li class="instagram"><a href="<?php echo $footer_setting->instagram; ?>" rel="nofollow" target="_blank"><span class="fa fa-instagram hvr-icon-up"></span></a></li>
-                            <li class="linkedin"><a href="<?php echo $footer_setting->linkedin; ?>" rel="nofollow" target="_blank"><span class="fa fa-linkedin hvr-icon-up"></span></a></li>
-                            <li class="pinterest"><a href="<?php echo $footer_setting->pinterest; ?>" rel="nofollow" target="_blank"><span class="fa fa-pinterest hvr-icon-up"></span></a></li>
-                            <li class="youtube"><a href="<?php echo $footer_setting->youtube; ?>" rel="nofollow" target="_blank"><span class="fa fa-youtube hvr-icon-up"></span></a></li>
-                            <li class="thread"><a href="https://www.threads.net/@cloudi5technologies" rel="nofollow" target="_blank"><span class=""><img src="<?php echo base_url(); ?>asset/images/thread-icon.png" /></span></a></li>
+                            <li class="facebook"><a href="<?php echo $footer_setting->facebook; ?>" rel="nofollow"
+                                    target="_blank"><span class="fa fa-facebook hvr-icon-up"></span></a></li>
+                            <li class="twitter"><a href="<?php echo $footer_setting->twitter; ?>" rel="nofollow"
+                                    target="_blank"><img
+                                        src="https://www.cloudi5.com/asset/images/twitter-white-logo.png"
+                                        style="height:13px;"></a></li>
+                            <li class="instagram"><a href="<?php echo $footer_setting->instagram; ?>" rel="nofollow"
+                                    target="_blank"><span class="fa fa-instagram hvr-icon-up"></span></a></li>
+                            <li class="linkedin"><a href="<?php echo $footer_setting->linkedin; ?>" rel="nofollow"
+                                    target="_blank"><span class="fa fa-linkedin hvr-icon-up"></span></a></li>
+                            <li class="pinterest"><a href="<?php echo $footer_setting->pinterest; ?>" rel="nofollow"
+                                    target="_blank"><span class="fa fa-pinterest hvr-icon-up"></span></a></li>
+                            <li class="youtube"><a href="<?php echo $footer_setting->youtube; ?>" rel="nofollow"
+                                    target="_blank"><span class="fa fa-youtube hvr-icon-up"></span></a></li>
+                            <li class="thread"><a href="https://www.threads.net/@cloudi5technologies" rel="nofollow"
+                                    target="_blank"><span class=""><img
+                                            src="<?php echo base_url(); ?>asset/images/thread-icon.png" /></span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -160,7 +195,8 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <div class="single-footer-widget">
                     <h3>About Us</h3>
                     <div class="">
-                        <p>Earnest team committed to delivering the best in industry. We’re more than happy to deliver you the best! Reach out to partner with us.</p>
+                        <p>Earnest team committed to delivering the best in industry. We’re more than happy to deliver
+                            you the best! Reach out to partner with us.</p>
                     </div>
                 </div>
             </div>
@@ -168,11 +204,15 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <div class="single-footer-widget">
                     <h3>Product & Services</h3>
                     <ul class="footer-services-list">
-                        <li><a href="<?php echo base_url(); ?>web-development-company-in-coimbatore">Web Development</a></li>
+                        <li><a href="<?php echo base_url(); ?>web-development-company-in-coimbatore">Web Development</a>
+                        </li>
                         <li><a href="<?php echo base_url(); ?>website-design">Web Design</a></li>
-                        <li><a href="<?php echo base_url(); ?>mobile-application-development-android-app">Android App Development</a></li>
-                        <li><a href="<?php echo base_url(); ?>digital-marketing-company-in-coimbatore">Digital Marketing</a></li>
-                        <li><a href="<?php echo base_url(); ?>school-management-software">School Management Software</a></li>
+                        <li><a href="<?php echo base_url(); ?>mobile-application-development-android-app">Android App
+                                Development</a></li>
+                        <li><a href="<?php echo base_url(); ?>digital-marketing-company-in-coimbatore">Digital
+                                Marketing</a></li>
+                        <li><a href="<?php echo base_url(); ?>school-management-software">School Management Software</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -192,8 +232,12 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <div class="single-footer-widget">
                     <h3>Contacts</h3>
                     <ul class="footer-contact-list">
-                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br> <?php echo $footer_setting->address_2 .' '. $footer_setting->address_3; ?> <br><?php echo $footer_setting->city .' '. $footer_setting->pincode; ?>, <?php echo $footer_setting->state; ?>, India</li>
-                        <li><span>Email:</span> <img src="<?php echo base_url(); ?>asset/images/footer-mail.png" alt="Mail Id"></li>
+                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br>
+                            <?php echo $footer_setting->address_2 . ' ' . $footer_setting->address_3; ?>
+                            <br><?php echo $footer_setting->city . ' ' . $footer_setting->pincode; ?>,
+                            <?php echo $footer_setting->state; ?>, India</li>
+                        <li><span>Email:</span> <img src="<?php echo base_url(); ?>asset/images/footer-mail.png"
+                                alt="Mail Id"></li>
                         <li><span>Sales:</span> <?php echo $footer_setting->mobile_2; ?></li>
                         <li><span>Support:</span> <?php echo $footer_setting->mobile_1; ?></li>
                         <li><span>Careers:</span> +91 95970 16798</li>
@@ -212,7 +256,8 @@ $footer_setting = $this->db->from('settings')->get()->row();
                     <p>
                         <a href="<?php echo base_url('terms'); ?>">Terms and Conditions</a> |
                         <a href="<?php echo base_url('privacy-policy'); ?>">Privacy Policy</a> |
-                        <a href="<?php echo base_url('cancellation-policy'); ?>">Cancellation Policy</a> | <a href="<?php echo base_url('refund-policy'); ?>">Refund Policy</a>
+                        <a href="<?php echo base_url('cancellation-policy'); ?>">Cancellation Policy</a> | <a
+                            href="<?php echo base_url('refund-policy'); ?>">Refund Policy</a>
                     </p>
                 </div>
             </div>
@@ -228,15 +273,17 @@ $footer_setting = $this->db->from('settings')->get()->row();
     <button class="btn btn-primary content-desktop" title="Back to Top"><i class="fa fa-angle-double-up"></i>
     </button>
 </div>
-<div class="whats_app"><a href="https://api.whatsapp.com/send?phone=919159913344" target="_blank"><img src="<?php echo base_url(); ?>asset/images/whats_app.png" alt="919159913344" class="whats_app" title="919159913344"></a> </div>
+<div class="whats_app"><a href="https://api.whatsapp.com/send?phone=919159913344" target="_blank"><img
+            src="<?php echo base_url(); ?>asset/images/whats_app.png" alt="919159913344" class="whats_app"
+            title="919159913344"></a> </div>
 <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/jquery.js"></script>
 <script type="text/javascript">
-    $(window).on('load', function() {
-        setTimeout(function() {
+    $(window).on('load', function () {
+        setTimeout(function () {
             $('#subscribeModal').modal('show');
         }, 5000);
     });
-    $('#Reloadpage').click(function() {
+    $('#Reloadpage').click(function () {
         location.reload();
     });
 </script>
@@ -245,7 +292,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
 <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
-    (function() {
+    (function () {
         var s1 = document.createElement("script"),
             s0 = document.getElementsByTagName("script")[0];
         s1.async = true;
@@ -258,7 +305,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
 <!--End of Tawk.to Script-->
 <!-- Google Tag Manager -->
 <script>
-    (function(w, d, s, l, i) {
+    (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
             'gtm.start': new Date().getTime(),

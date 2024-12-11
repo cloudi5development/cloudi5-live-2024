@@ -44,7 +44,7 @@ class Frontend extends CI_Controller
 		$this->load->view('frontend/website-design-company-in-coimbatore',$data);
 	}
 	#Website Development
-	public function web_development()
+	public function web_development_company_in_coimbatore()
 	{
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'web_development')->get('meta_tags')->row();
