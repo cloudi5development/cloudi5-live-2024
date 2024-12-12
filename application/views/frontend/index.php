@@ -216,53 +216,53 @@
                </div>
             </div>
             <div class="row logos-list">
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/mayflower.png" alt="mayflower"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/bannari.png" alt="baps"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/missiva.png" alt="missiva"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/ecom-365.png" alt="ecom-365"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/vencar.png" alt="vencar"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/madhampatty.png" alt="madhampatty"
                      class="img-fluid client-img">
                </div>
             </div>
             <div class="row logos-list">
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/susin.png" alt="susin"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/falcon.png" alt="falcon"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/maloos.png" alt="maloos"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/metro.png" alt="metro"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/hookz.png" alt="hookz"
                      class="img-fluid client-img">
                </div>
-               <div class="col-lg-2 col-sm-6">
+               <div class="col-lg-2 col-sm-6 col-md-4">
                   <img src="<?php echo base_url(); ?>asset/images/clients-logo/stanes.png" alt="stanes"
                      class="img-fluid client-img">
                </div>

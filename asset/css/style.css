@@ -2048,9 +2048,27 @@ ul.navbar-nav > li > a i {
   ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
   }
+ 
+  .home-clients-list .logos-list{
+    gap:30px 0px;
+    margin-bottom: 30px;
+  }
+  .tab-text-title{
+    font-size: 16px !important;
+    text-align: start;
+  }
+ .featured-tab .nav-tabs > li > a{
+    padding: 25px 12px !important;
+  }
+}
+@media(max-width:768px){
+  .why-choose-dd .solution-block{
+    max-width: 350px !important;
+  }
 }
 
 @media (min-width: 767px) {
+
   ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu {
     left: 100%;
     top: 0;
