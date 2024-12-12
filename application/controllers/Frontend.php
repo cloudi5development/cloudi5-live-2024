@@ -27,22 +27,22 @@ class Frontend extends CI_Controller
 		$this->load->view('frontend/aboutus',$data);
 	}
 	#Website Design
-	public function website_design()
+	public function website_design_company_in_coimbatore()
 	{
 		$data['category']	= $this->Portfolio_model->getPortfolioCategory();
 		$data['portfolio']	= $this->Portfolio_model->getHomePortfolio();
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'web_design')->get('meta_tags')->row();
 		$data['page_title'] = 'Web Design';
-		$this->load->view('frontend/website-design',$data);
-	}
-	#Website Design Company in CBE
-	public function website_design_company_in_coimbatore()
-	{
-		$data['settings']	= $this->settings;
-		$data['page_title'] = 'Web Design';
 		$this->load->view('frontend/website-design-company-in-coimbatore',$data);
 	}
+	#Website Design Company in CBE
+	// public function website_design_company_in_coimbatore()
+	// {
+	// 	$data['settings']	= $this->settings;
+	// 	$data['page_title'] = 'Web Design';
+	// 	$this->load->view('frontend/website-design-company-in-coimbatore',$data);
+	// }
 	#Website Development
 	public function web_development_company_in_coimbatore()
 	{

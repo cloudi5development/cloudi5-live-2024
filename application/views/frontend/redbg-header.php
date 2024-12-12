@@ -115,7 +115,7 @@ $header_setting = $this->db->from('settings')->get()->row();
                      <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Services<i
                               class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu" role="menu">
-                           <li><a href="<?php echo base_url();?>website-design">Website Design</a></li>
+                           <li><a href="<?php echo base_url();?>website-design-company-in-coimbatore">Website Design</a></li>
                            <li><a href="<?php echo base_url();?>web-development-company-in-coimbatore">Web
                                  Development</a></li>
                            <li><a href="<?php echo base_url();?>mobile-app-development-company-in-coimbatore">Android

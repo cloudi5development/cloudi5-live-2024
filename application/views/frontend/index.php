@@ -217,53 +217,53 @@
             </div>
             <div class="row logos-list">
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="mayflower"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/mayflower.png" alt="mayflower"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="baps"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/bannari.png" alt="baps"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="missiva"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/missiva.png" alt="missiva"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="ecom-365"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/ecom-365.png" alt="ecom-365"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="falcon"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/vencar.png" alt="vencar"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="madhampatty"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/madhampatty.png" alt="madhampatty"
                      class="img-fluid client-img">
                </div>
             </div>
             <div class="row logos-list">
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="susin"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/susin.png" alt="susin"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="vencar"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/falcon.png" alt="falcon"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="maloos"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/maloos.png" alt="maloos"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="metro"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/metro.png" alt="metro"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="hookz"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/hookz.png" alt="hookz"
                      class="img-fluid client-img">
                </div>
                <div class="col-lg-2 col-sm-6">
-                  <img src="<?php echo base_url(); ?>asset/images/clients/stanes.jpg" alt="stanes"
+                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/stanes.png" alt="stanes"
                      class="img-fluid client-img">
                </div>
             </div>
@@ -409,8 +409,8 @@
                                        inexpensive and efficient tool taking into thought the various operations,
                                        necessities and volume. Create your own ERP software which would be a valuable
                                        asset in future for further personalization, flexibility, and sustenance.</p>
-                                    <a class="btn-light" href="<?php echo base_url(); ?>web-development">Read More <i
-                                          class="fa fa-long-arrow-right"></i></a>
+                                    <a class="btn-light" href="<?php echo base_url(); ?>school-management-software">Read
+                                       More <i class="fa fa-long-arrow-right"></i></a>
                                  </div>
                                  <!-- Tab content info end-->
                               </div>
@@ -435,7 +435,7 @@
                                        will, in turn, leave you with various profitable business opportunities. Our team
                                        can support you for a turnkey or pick up from where itâ€™s been stopped.</p><a
                                        class="btn-light"
-                                       href="<?php echo base_url(); ?>mobile-application-development-android-app">Read
+                                       href="<?php echo base_url(); ?>mobile-app-development-company-in-coimbatore">Read
                                        More <i class="fa fa-long-arrow-right"></i></a>
                                  </div>
                                  <!-- Tab content info end-->
@@ -481,8 +481,8 @@
                                        can either create a requirements specification at the initial stage in case of
                                        traditional linear approach or continuously adapt to changing requirements in
                                        case of agile development.</p><a class="btn-light"
-                                       href="<?php echo base_url(); ?>web-development">Read More <i
-                                          class="fa fa-long-arrow-right"></i></a>
+                                       href="<?php echo base_url(); ?>web-development-company-in-coimbatore">Read More
+                                       <i class="fa fa-long-arrow-right"></i></a>
                                  </div>
                                  <!-- Tab content info end-->
                               </div>
@@ -533,7 +533,8 @@
                      </div>
                      <!-- tab content-->
                      <div class="gap-30"></div>
-                     <div class="text-center"><a class="btn btn-primary" href="<?php echo base_url(); ?>web-development">
+                     <div class="text-center"><a class="btn btn-primary"
+                           href="<?php echo base_url(); ?>web-development-company-in-coimbatore">
                            Check More Details</a></div>
                      <div class="gap-30"></div>
                   </div>
@@ -560,7 +561,8 @@
                      <?php foreach ($category as $res_category) { ?>
                         <li class="filter" data-role="button"
                            data-filter=".<?php echo strtolower(str_replace(' ', '_', $res_category->title)); ?>">
-                           <?php echo ucwords($res_category->title); ?></li>
+                           <?php echo ucwords($res_category->title); ?>
+                        </li>
                      <?php } ?>
                   </ul>
                </div>
@@ -719,20 +721,26 @@
          <div class="container">
             <div class="h4 lrg text-center"> Why <span class="theme-red-color">hire developers</span> from us?</div>
             <span class="red-border-line">&nbsp;</span>
-            <div class="small-heading"> We help accelerate your journey with a new wave of the best talents to help
-               design, execute critical programs and support your growth. Lead your business with our driven workforce.
-            </div>
+
          </div><br>
          <div class="container">
-            <div class="row">
-               <div class="solution-block">
+            <div class="row justify-content-between gp-10">
+
+
+               <div class="solution-block mb-10">
                   <div class="inner-content">
                      <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/satisfied-clients.png"
                            alt="Latest Thinking" title="Latest Thinking" width="auto" height="auto"></div>
                      <h4 class="text-style">Latest Thinking</h4>
                   </div>
                </div>
-               <div class="solution-block margin-left-right-30">
+               <div class="col-md-6 mb-10 d-flex align-items-center">
+                  <div class="small-heading text-start">We help accelerate your journey with a new wave of top talent to
+                     design and execute critical programs while supporting your growth. Lead your business with our
+                     dedicated and driven workforce.
+                  </div>
+               </div>
+               <div class="solution-block mb-10">
                   <div class="inner-content">
                      <div class="icon-set">
                         <img src="<?php echo base_url(); ?>asset/images/reliable-services.png" alt="Unique talent pool"
@@ -744,12 +752,13 @@
                <div class="solution-block">
                   <div class="inner-content">
                      <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/reliable-resources.png"
-                           alt="Seamless Communication" title="Seamless Communication" width="auto" height="auto"></div>
+                           alt="Seamless Communication" title="Seamless Communication" width="auto" height="auto">
+                     </div>
                      <h4 class="text-style">Seamless Communication</h4>
                   </div>
                </div>
-            </div>
-            <div class="bot2 row">
+
+
                <div class="solution-block">
                   <div class="inner-content">
                      <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/technology-expertise.png"
@@ -757,7 +766,7 @@
                      <h4 class="text-style">On-time delivery</h4>
                   </div>
                </div>
-               <div class="solution-block margin-left-right-30">
+               <div class="solution-block">
                   <div class="inner-content">
                      <div class="icon-set"><img src="<?php echo base_url(); ?>asset/images/development-team.png"
                            alt="Inexpensive approach" title="Inexpensive approach" width="auto" height="auto"></div>
@@ -771,6 +780,7 @@
                      <h4 class="text-style">Greater Flexibility</h4>
                   </div>
                </div>
+
             </div>
          </div>
       </section>
@@ -794,8 +804,8 @@
       <script src="<?php echo base_url(); ?>assets/js/jquery.validate.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/form-validation.js"></script>
       <script>
-         setTimeout(function() {
-            $(".alert").fadeOut("slow", function() {
+         setTimeout(function () {
+            $(".alert").fadeOut("slow", function () {
                $(".alert").remove();
             });
 
@@ -804,13 +814,13 @@
       <!-- Template custom-->
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/custom.js"></script>
       <script type="text/javascript">
-         $(window).on('load', function() {
-            setTimeout(function() {
+         $(window).on('load', function () {
+            setTimeout(function () {
                $('#subscribeModal').modal('show');
             }, 5000);
 
          });
-         $('#Reloadpage').click(function() {
+         $('#Reloadpage').click(function () {
             location.reload();
          });
       </script>
@@ -819,24 +829,24 @@
       <script async src="<?php echo base_url(); ?>asset/js/script.js"></script>
       <!-- <script src="<?php echo base_url(); ?>asset/js/lazysizes.min.js"></script> -->
       <script type="text/javascript">
-         document.addEventListener("DOMContentLoaded", function() {
+         document.addEventListener("DOMContentLoaded", function () {
             let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
             let active = false;
 
-            const lazyLoad = function() {
+            const lazyLoad = function () {
                if (active === false) {
                   active = true;
 
-                  setTimeout(function() {
-                     lazyImages.forEach(function(lazyImage) {
+                  setTimeout(function () {
+                     lazyImages.forEach(function (lazyImage) {
                         if ((lazyImage.getBoundingClientRect().top <= window.innerHeight &&
-                              lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(
+                           lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(
                               lazyImage).display !== "none") {
                            lazyImage.src = lazyImage.dataset.src;
                            lazyImage.srcset = lazyImage.dataset.srcset;
                            lazyImage.classList.remove("lazy");
 
-                           lazyImages = lazyImages.filter(function(image) {
+                           lazyImages = lazyImages.filter(function (image) {
                               return image !== lazyImage;
                            });
 

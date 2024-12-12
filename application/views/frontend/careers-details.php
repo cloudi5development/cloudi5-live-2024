@@ -205,9 +205,9 @@
 													<label>Role looking for<span class="red-text">*</span></label>
 														<select class="form-select form-control" aria-label="Default select example">
 															<option selected>Select a Role</option>
-															<option value="1">Mobile App Developer</option>
-															<option value="2">Mobile App Developer</option>
-															<option value="3">Mobile App Developer</option>
+															<option value="1"><?php echo $career_details->title; ?></option>
+															<!-- <option value="2">Mobile App Developer</option>
+															<option value="3">Mobile App Developer</option> -->
 														</select>
 													</div>
 													<div class="form-group col-md-12">

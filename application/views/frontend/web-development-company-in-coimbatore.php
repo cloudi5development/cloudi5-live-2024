@@ -11,12 +11,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " "; ?>">
-   <link rel="canonical" href="<?php echo base_url('web-development'); ?>" />
+   <link rel="canonical" href="<?php echo base_url('web-development-company-in-coimbatore'); ?>" />
    <meta property="og:type" content="website" />
    <meta property="og:title" content="Website Development Company in Coimbatore" />
    <meta property="og:description"
       content="Cloudi5 Technologies, a leading web development company in Coimbatore, offers innovative and customized website development solutions that stand out." />
-   <meta property="og:url" content="<?php echo base_url('web-development'); ?>" />
+   <meta property="og:url" content="<?php echo base_url('web-development-company-in-coimbatore'); ?>" />
    <meta name="robots" content="index,follow" />
    <meta name="language" content="english" />
    <meta name="Expires" content="never" />

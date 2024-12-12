@@ -185,7 +185,7 @@
                         <div class="col-lg-9 col-md-12 col-sm-12 col-12">
                             <div class="blog_post_style2 blog_single_div">
                                 <div class="blog_post_style2_img wow fadeInUp">
-                                    <!-- <img src="<?php echo base_url() . $blog->image; ?>" class="img-fluid" alt="<?php echo $blog->image_alt_tag; ?>"> -->
+                                    <img src="<?php echo base_url() . $blog->image; ?>" class="img-fluid" alt="<?php echo $blog->image_alt_tag; ?>">
                                 </div>
                                 <div class="blog_post_style2_content wow fadeInUp">
                                     <h1 class="blog-title"><?php echo  ucwords($blog->title); ?></h1>

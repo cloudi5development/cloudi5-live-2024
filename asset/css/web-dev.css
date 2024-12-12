@@ -2220,13 +2220,13 @@
 
 .new-clients-logo .new-marquee-item {
   flex: 0 0 auto;
-  padding: 0 35px;
+  padding: 0 30px;
   display: inline-block;
 }
 
 .new-clients-logo .new-marquee-item img {
   max-width: 150px;
-  height: 80px;
+  /* height: 80px; */
   object-fit: contain;
   transition: filter 0.3s ease;
 }

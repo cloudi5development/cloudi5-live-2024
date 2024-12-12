@@ -918,6 +918,10 @@ ul.blog_meta_tags li span:after {
   width: 100%;
   gap: 10px;
 }
+.blog_comment_formdiv form{
+  padding: 20px;
+  background: #fff;
+}
 .blog_comment_formdiv .comment-form .blog_row .blog_halfbox {
   flex: 50%;
   /* margin-right: 20px; */

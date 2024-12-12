@@ -232,7 +232,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                     <h3>Product & Services</h3>
                     <ul class="footer-services-list">
                         <li><a href="<?php echo base_url(); ?>web-development-company-in-coimbatore">Web Development</a></li>
-                        <li><a href="<?php echo base_url(); ?>website-design">Web Design</a></li>
+                        <li><a href="<?php echo base_url(); ?>website-design-company-in-coimbatore">Web Design</a></li>
                         <li><a href="<?php echo base_url(); ?>mobile-application-development-android-app">Android App Development</a></li>
                         <li><a href="<?php echo base_url(); ?>digital-marketing-company-in-coimbatore">Digital Marketing</a></li>
                         <li><a href="<?php echo base_url(); ?>school-management-software">School Management Software</a></li>
