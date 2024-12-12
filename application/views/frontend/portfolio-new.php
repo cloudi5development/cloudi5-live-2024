@@ -31,10 +31,11 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/jquery.fancybox.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>asset/css/icon-font.css">
     <?php $this->load->view('frontend/fb-pixel-code'); ?>
 </head>
-<!-- Icon font-->
-<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>asset/css/icon-font.css">
+
+
 
 <body id="cont1">
     <?php include('header.php'); ?>
@@ -115,102 +116,48 @@
             <div class="row justify-content-center">
                 <div class="col-12 text-center portfolio-filters">
                     <button class="btn filter-btn active" data-filter="all">All</button>
-                    <button class="btn filter-btn" data-filter="web-design">Web Design</button>
-                    <button class="btn filter-btn" data-filter="web-development">Web Development</button>
-                    <button class="btn filter-btn" data-filter="mobile-app">Mobile App</button>
-                    <button class="btn filter-btn" data-filter="digital-marketing">Digital Marketing</button>
+                    <?php foreach ($category as $res_category) { ?>
+                    <button class="btn filter-btn"
+                        data-filter=".<?php echo strtolower(str_replace(' ', '_', $res_category->title)); ?>">
+                        <?php echo ucwords($res_category->title); ?>
+                    </button>
+                    <?php } ?>
                 </div>
+
             </div>
             <div class="row" id="portfolio-grid">
-                <div class="col-md-6" data-categories="web-design">
+                <?php foreach ($portfolio as $res_portfolio) { ?>
+                <div class="col-md-6"
+                    data-categories="<?php echo strtolower(str_replace(' ', '_', $res_portfolio->category)); ?>">
                     <a href="javascript:void(0);">
                         <div class="portfolio-card-container">
                             <div class="client-logo">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-logo.png"
-                                    class="client-logo-img" alt="Clients-Logo">
+                                <!-- <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-logo.png"
+                                    class="client-logo-img" alt="Clients-Logo"> -->
+                                    <img src="<?php echo base_url() . $res_portfolio->thumbnail; ?>" class="client-logo-img" alt="Clients-Logo">
+
                             </div>
                             <div class="client-img">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-bg-img.png"
-                                    class="portfolio-img" alt="Portfolio-Img">
+                                <!-- <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-bg-img.png"
+                                    class="portfolio-img" alt="Portfolio-Img"> -->
+                                    <img src="<?php echo base_url() . $res_portfolio->thumbnail_popup; ?>" class="portfolio-img" alt="Portfolio-Img">
+
                                 <div class="tag-details">
-                                    <a href="javascript:void(0);">Custom Software</a>
-                                    <a href="javascript:void(0);">eCommerce</a>
-                                    <a href="javascript:void(0);">Mobile App</a>
-                                    <a href="javascript:void(0);">Tech Capabilities</a>
+                                    <a><?php echo $res_portfolio->services; ?></a>
                                 </div>
                             </div>
-                            <h4 class="title">Delivering Exceptional Apartments & Villas with Unparalleled Quality in
-                                Coimbatore</h4>
+                            <h4>
+                                <a class="title"
+                                    href="<?php echo base_url() . 'portfolio/' . $res_portfolio->slug . '-' . $res_portfolio->id; ?>">
+                                    <?php echo ucwords($res_portfolio->title); ?></a>
+                            </h4>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 mt-lg-80 mt-sm-0" data-categories="web-development">
-                    <div class="portfolio-card-container">
-                        <a href="javascript:void(0);">
-                            <div class="client-logo">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-logo.png"
-                                    class="client-logo-img" alt="Clients-Logo">
-                            </div>
-                            <div class="client-img">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-bg.png"
-                                    class="portfolio-img" alt="Portfolio-Img">
-                                    <div class="tag-details">
-                                    <a href="javascript:void(0);">Custom Software</a>
-                                    <a href="javascript:void(0);">eCommerce</a>
-                                    <a href="javascript:void(0);">Mobile App</a>
-                                    <a href="javascript:void(0);">Tech Capabilities</a>
-                                </div>
-                            </div>
-                            <h4 class="title">Empowering India’s Automation with Fully Manufactured Pneumatic Actuators
-                                by Susin I-Tork</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6" data-categories="mobile-app">
-                    <div class="portfolio-card-container">
-                        <a href="javascript:void(0);">
-                            <div class="client-logo">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-logo.png"
-                                    class="client-logo-img" alt="Clients-Logo">
-                            </div>
-                            <div class="client-img">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-bg-img.png"
-                                    class="portfolio-img" alt="Portfolio-Img">
-                                    <div class="tag-details">
-                                    <a href="javascript:void(0);">Custom Software</a>
-                                    <a href="javascript:void(0);">eCommerce</a>
-                                    <a href="javascript:void(0);">Mobile App</a>
-                                    <a href="javascript:void(0);">Tech Capabilities</a>
-                                </div>
-                            </div>
-                            <h4 class="title">Delivering Exceptional Apartments & Villas with Unparalleled Quality in
-                                Coimbatore</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-lg-80 mt-sm-0" data-categories="web-design">
-                    <div class="portfolio-card-container">
-                        <a href="javascript:void(0);">
-                            <div class="client-logo">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-logo.png"
-                                    class="client-logo-img" alt="Clients-Logo">
-                            </div>
-                            <div class="client-img">
-                                <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-bg.png"
-                                    class="portfolio-img" alt="Portfolio-Img">
-                                <div class="tag-details">
-                                    <a href="javascript:void(0);">Custom Software</a>
-                                    <a href="javascript:void(0);">eCommerce</a>
-                                    <a href="javascript:void(0);">Mobile App</a>
-                                    <a href="javascript:void(0);">Tech Capabilities</a>
-                                </div>
-                            </div>
-                            <h4 class="title">Empowering India’s Automation with Fully Manufactured Pneumatic Actuators
-                                by Susin I-Tork</h4>
-                        </a>
-                    </div>
-                </div>
+                <?php } ?>
             </div>
+
+
         </div>
     </section>
 
@@ -219,11 +166,11 @@
 
     <?php include('footer.php'); ?>
     <script>
-        setTimeout(function () {
-            $(".alert").fadeOut("slow", function () {
-                $(".alert").remove();
-            });
-        }, 6000);
+    setTimeout(function() {
+        $(".alert").fadeOut("slow", function() {
+            $(".alert").remove();
+        });
+    }, 6000);
     </script>
     <script src="<?php echo base_url(); ?>asset/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>asset/js/jquery.fancybox.js"></script>
@@ -231,37 +178,44 @@
     <script src="<?php echo base_url(); ?>asset/js/script.js"></script>
 
     <script>
-        $(document).ready(function () {
-            setTimeout(function () {
-                $('.portfolio-card-container').each(function (index) {
-                    const card = $(this);
-                    setTimeout(function () {
-                        card.addClass('show');
-                    }, index * 100);
-                });
-            }, 100);
-            $('.filter-btn').on('click', function () {
-                $('.filter-btn').removeClass('active');
-                $(this).addClass('active');
-                const filterValue = $(this).data('filter');
-                $('#portfolio-grid > div').each(function (index) {
-                    const item = $(this);
-                    const card = item.find('.portfolio-card-container');
-                    const categories = item.data('categories').split(',');
-                    card.removeClass('show').addClass('hide-item');
-                    setTimeout(() => {
-                        if (filterValue === 'all' || categories.includes(filterValue)) {
-                            item.removeClass('hide');
-                            setTimeout(() => {
-                                card.removeClass('hide-item').addClass('show');
-                            }, index * 100);
-                        } else {
-                            item.addClass('hide');
-                        }
-                    }, 500);
-                });
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('.portfolio-card-container').each(function(index) {
+                const card = $(this);
+                setTimeout(function() {
+                    card.addClass('show');
+                }, index * 100);
+            });
+        }, 100);
+
+        $('.filter-btn').on('click', function() {
+            $('.filter-btn').removeClass('active');
+            $(this).addClass('active');
+            const filterValue = $(this).data('filter'); // e.g., ".web_design"
+            $('#portfolio-grid > div').each(function(index) {
+                const item = $(this);
+                const card = item.find('.portfolio-card-container');
+                const categories = item.data('categories').split(
+                    ' '); // Space-separated categories
+
+                console.log('Filter Value:', filterValue);
+                console.log('Categories:', categories);
+
+                card.removeClass('show').addClass('hide-item');
+                setTimeout(() => {
+                    if (filterValue === 'all' || categories.includes(filterValue
+                            .substring(1))) { // compare without the dot
+                        item.removeClass('hide');
+                        setTimeout(() => {
+                            card.removeClass('hide-item').addClass('show');
+                        }, index * 100);
+                    } else {
+                        item.addClass('hide');
+                    }
+                }, 500);
             });
         });
+    });
     </script>
 </body>
 

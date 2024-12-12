@@ -41,7 +41,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-md-3 label-control">Thumbnail<span class="required">*</span></label>
+											<label class="col-md-3 label-control">Logo</label>
 											<div class="col-md-9">
 												<input type="file" name="thumbnail" class="label-control form-control" value="" id="">
 											</div>
@@ -53,7 +53,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-md-3 label-control">Thumbnail Popup<span class="required">*</span></label>
+											<label class="col-md-3 label-control">Image<span class="required">*</span></label>
 											<div class="col-md-9">
 												<input type="file" name="thumbnail_popup" class="label-control form-control" value="" id="">
 											</div>

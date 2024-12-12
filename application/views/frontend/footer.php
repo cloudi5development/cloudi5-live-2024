@@ -46,7 +46,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                                 </div>
                                 <div class="customcol col-sm-6">
                                     <div class="form-group">
-                                        <input name="your_phone" class=" form-control input-lg" placeholder="Phone" value="<?php echo set_value('your_phone'); ?>">
+                                        <input name="your_phone" class=" form-control input-lg" placeholder="Phone" value="<?php echo set_value('your_phone'); ?>" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" />
                                         <?php echo form_error('your_phone', '<div class="error">', '</div>'); ?>
                                     </div>
                                 </div>
@@ -351,3 +351,15 @@ $footer_setting = $this->db->from('settings')->get()->row();
 
   gtag('config', 'AW-856568699');
 </script>
+
+<script>
+    $('#FormValidation').on('submit', function(e) {
+       
+        if ($(this).valid()) {
+            $('#submit-button').prop('disabled', true);
+            $('#submit-button').text('Submitting...'); 
+        }
+    });
+</script>
+
+

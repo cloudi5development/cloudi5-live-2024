@@ -252,9 +252,11 @@ class Frontend extends CI_Controller
 		$data['portfolio']	= $this->Portfolio_model->getAll();
 		$data['meta']       = $this->db->select('*')->where('page',	
         'portfolio')->get('meta_tags')->row();
+	
 		$data['settings']	= $this->settings;
 		$data['page_title'] = 'Portfolio';
 		$this->load->view('frontend/portfolio',$data);
+		
 	}
 
 	public function portfolio_by_slug_and_id($slug,$id)
@@ -374,10 +376,10 @@ class Frontend extends CI_Controller
 	public function contactform()
 	{
 		$this->form_validation->set_rules('contactname', 'Name', 'required');
-		$this->form_validation->set_rules('contactphone', 'Phone', 'required');
+		$this->form_validation->set_rules('contactphone', 'Phone');
 		$this->form_validation->set_rules('contactdescription', 'Message', 'required');
     	$this->form_validation->set_rules('g-recaptcha-response', 'recaptcha validation', 'required|callback_validate_captcha');
-        $this->form_validation->set_message('validate_captcha', 'Please check the the captcha form');
+       $this->form_validation->set_message('validate_captcha', 'Please check the the captcha form');
 		if ($this->form_validation->run() == TRUE)
 		{
 			$data['name']			= $this->input->post('contactname');
@@ -396,13 +398,13 @@ class Frontend extends CI_Controller
                 $admin_email			= $this->settings->email_id_1;
                 $subject				= 'Contact Enquiry From ' . ucwords($data['name']) .' | '. $this->settings->site_name;
                 $email_content			= $this->load->view('admin/emails/contact_mail', $data, true);
-                $this->myemail->send_client_mail($admin_email, $email_content, $subject);
+               $this->myemail->send_client_mail($admin_email, $email_content, $subject);
                 /*** Contact Ack Email **/
                 if ($this->input->post('contactemail') !='') {
                     $user_email			= $this->input->post('contactemail');
                     $subject1			= 'Welcome to '. $this->settings->site_name .'! Your Enquiry has been submitted';
                     $email_content1		= $this->load->view('admin/emails/acknowldge_mail', $data, true);
-                    $this->myemail->send_client_mail($user_email, $email_content1, $subject1, $admin_email);
+                $this->myemail->send_client_mail($user_email, $email_content1, $subject1, $admin_email);
                 }
             }
 			$this->session->set_userdata('success', '1');
@@ -810,7 +812,8 @@ class Frontend extends CI_Controller
 	}
 	#portfolio-new
 	public function portfolio_new()
-	{
+	{   $data['category']	= $this->Portfolio_model->getPortfolioCategory();
+		$data['portfolio']	= $this->Portfolio_model->getAll();
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'portfolio_new')->get('meta_tags')->row();
 		$data['page_title'] = 'portfolio New';

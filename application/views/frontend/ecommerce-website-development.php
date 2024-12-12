@@ -52,7 +52,7 @@
         -webkit-transform: scale(1) translateZ(0);
         transform: scale(1) translateZ(0);
     }
-    /* Only For Live to avoid Lines */
+
 </style>
 <body id="cont">
     <?php include 'redbg-header.php' ?>
@@ -1156,7 +1156,9 @@
                                     <input type="email" name="email" class="form-control" required id="email">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="phone" class="form-control" placeholder="Subject" id="phn-number">
+                                    <input type="text" name="phone" class="form-control" placeholder="Subject" id="phn-number" maxlength="10"
+                                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" />
+
                                 </div>
                                 <div class="form-group">
                                     <textarea name="message" class="form-control" cols="57" rows="9" required="" id="message"></textarea>
@@ -1167,7 +1169,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <button type="submit" class="btn btn-primary">Submit Now</button>
+                                        <button type="submit" class="btn btn-primary" id="submit-button">Submit Now</button>
                                     </div>
                                 </div>
                             </form>
@@ -1306,5 +1308,18 @@
         }
         setInterval(textmsg, 200);
     </script>
+
+
+      
+
+<script>
+    $('#FormValidation').on('submit', function(e) {
+        // Check if the form is valid before disabling the button
+        if ($(this).valid()) {
+            $('#submit-button').prop('disabled', true);
+            $('#submit-button').text('Submitting...'); // Change button text (optional)
+        }
+    });
+</script>
 </body>
 </html>

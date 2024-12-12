@@ -26,6 +26,7 @@
 	<meta name="email" content="info@cloudi5.com" />
 	<link rel="canonical" href="<?php echo base_url() . 'careers-details/' . strtolower($career_details->job_id) . '/' . $career_details->slug; ?>" />	
 	<?php $this->load->view('frontend/common-css'); ?>
+
 </head>
 
 <body id="cont1">
@@ -128,7 +129,7 @@
 												</div>
 												<div class="form-group">
 													<label>Phone<span class="red-text">*</span></label>
-													<input type="text" name="mobile" class="required form-control" placeholder="Phone *" value="<?php echo set_value('mobile'); ?>">
+													<input type="text" name="mobile" class="required form-control" placeholder="Phone *" value="<?php echo set_value('mobile'); ?>"  oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" />
 													<div class="red-text">
 														<?php echo form_error('mobile'); ?>
 													</div>
@@ -163,7 +164,7 @@
 										<div class="row">
 											<div class="col-md-12 col-sm-12">
 												<div class="form-group text-center">
-													<button type="submit" class="btn theme-btn btn-m">Apply Now</button>
+													<button type="submit" id="submit-button" class="btn theme-btn btn-m">Apply Now</button>
 												</div>
 											</div>
 										</div>
@@ -188,6 +189,17 @@
 		}, 6000);
 	</script>
 	<script src="<?php echo base_url(); ?>asset/js/bootstrap.min.js"></script>
+	<script>
+    $('#FormValidation').on('submit', function(e) {
+        // Check if the form is valid before disabling the button
+        if ($(this).valid()) {
+            $('#submit-button').prop('disabled', true);
+            $('#submit-button').text('Submitting...'); // Change button text (optional)
+        }
+    });
+</script>
+
+
 </body>
 
 </html>
