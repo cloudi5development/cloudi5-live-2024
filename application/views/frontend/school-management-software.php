@@ -54,7 +54,7 @@
                 </div>
             </div>
         </div> -->
-        
+
         <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
             alt="Web Development Company in Coimbatore" title="School Management ERP Software">
             <div class="inner-pattern"> <img
@@ -90,15 +90,86 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="column-title title-small">Online School Management Software</h2>
-                        <p>Cloudi5 School Management ERP Software is the most ingenious, affordable & scalable solution
-                            to connect students, educators and parents all under one roof.</p>
-                        <p class="mb-40">Our software is designed in such a way that it meets all the needs of managing
-                            the entire school operations at ease. The total data governing your everyday operations can
-                            be aggregated and be monitored in a single dashboard. The software can be customized
-                            according to your requirements and preferences. No more spending much time on daily
-                            attendance, home works, score and report generation.</p>
-                        <ul class="row marketing-list3">
+                        <div class="introduction-content-section">
+                            <h2 class="column-title title-small">Online School Management Software</h2>
+                            <p>Cloudi5 School Management ERP Software is the most ingenious, affordable & scalable solution
+                                to connect students, educators and parents all under one roof.</p>
+                            <p class="mb-40">Our software is designed in such a way that it meets all the needs of managing
+                                the entire school operations at ease. The total data governing your everyday operations can
+                                be aggregated and be monitored in a single dashboard. The software can be customized
+                                according to your requirements and preferences. No more spending much time on daily
+                                attendance, home works, score and report generation.</p>
+                        </div>
+                        <div class="school-school-card-sec-container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="school-card-sec">
+                                        <div class="school-card-icon-sec">
+                                            <div class="school-card-icon-wrapper">
+                                                <img
+                                                    src="<?php echo base_url(); ?>asset/images/school-management/icon-school-1.webp"
+                                                    class="school-card-icon" alt="school-card-icon">
+                                            </div>
+                                        </div>
+                                        <div class="school-card-sec-content">
+                                            <h3>Data Visualization of Institution's Performance</h3>
+                                            <p>Cloudi5 ERP Software is a paperless solution that can derive and generate all the reports periodically,
+                                                increasing overall performance and also provide insights through graphical representation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="school-card-sec">
+                                        <div class="school-card-icon-sec">
+                                            <div class="school-card-icon-wrapper">
+                                                <img
+                                                    src="<?php echo base_url(); ?>asset/images/school-management/icon-school-2.webp"
+                                                    class="school-card-icon" alt="school-card-icon">
+                                            </div>
+                                        </div>
+                                        <div class="school-card-sec-content">
+                                            <h3>Education Simplified</h3>
+                                            <p>Tracking student performance, student-teacher-parent collaboration,
+                                                easy online reporting and much more essential features make it a simple and effective online solution.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="school-card-sec">
+                                        <div class="school-card-icon-sec">
+                                            <div class="school-card-icon-wrapper">
+                                                <img
+                                                    src="<?php echo base_url(); ?>asset/images/school-management/icon-school-3.webp"
+                                                    class="school-card-icon" alt="school-card-icon">
+                                            </div>
+                                        </div>
+                                        <div class="school-card-sec-content">
+                                            <h3>Effective Time Management</h3>
+                                            <p>Now you get to save more time not only with the day-to-day operations
+                                                but also with organizing your accumulated applications.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="school-card-sec">
+                                        <div class="school-card-icon-sec">
+                                            <div class="school-card-icon-wrapper">
+                                                <img
+                                                    src="<?php echo base_url(); ?>asset/images/school-management/icon-school-4.webp"
+                                                    class="school-card-icon" alt="school-card-icon">
+                                            </div>
+                                        </div>
+                                        <div class="school-card-sec-content">
+                                            <h3>Tracking your inflows and outflows</h3>
+                                            <p>Your accountant gets a secured login with which the entire financial
+                                                transactions can be monitored, managed and accounted.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- <ul class="row marketing-list3">
                             <li class="col-md-6">
                                 <div class="equal-hight clearfix school-tabs">
                                     <div class="ico-block"><img
@@ -149,7 +220,7 @@
                                     </div>
                                 </div>
                             </li>
-                        </ul>
+                        </ul> -->
                         <div class="gap-15"></div>
                         <div class="row">
                         </div>
@@ -172,7 +243,7 @@
         <div id="about" class="about-area bg-gray default-padding pd-70 resp-pd-30">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 default info">
+                    <div class="col-lg-5 col-md-12 default info">
                         <h4>Why Cloudi5 School ERP?</h4>
                         <h2>Best School Management Software with Parent Login facility</h2>
                         <p>
@@ -200,9 +271,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 services-info">
+                    <div class="col-lg-7 col-md-12 services-info">
                         <div class="row">
-                            <div class="col-md-6 col-sm-6 equal-height school-sw">
+                            <div class="col-md-6 col-12 equal-height school-sw">
                                 <div class="item">
                                     <img src="<?php echo base_url(); ?>asset/images/icons/check-list.png">
                                     <h4>Attendance</h4>
@@ -211,7 +282,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 equal-height school-sw">
+                            <div class="col-md-6 col-12 equal-height school-sw">
                                 <div class="item">
                                     <img src="<?php echo base_url(); ?>asset/images/icons/sms1.png">
                                     <h4>SMS Notifications</h4>
@@ -220,7 +291,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 equal-height school-sw">
+                            <div class="col-md-6 col-12 equal-height school-sw">
                                 <div class="item">
                                     <img src="<?php echo base_url(); ?>asset/images/icons/download-center.png">
                                     <h4>Download Center</h4>
@@ -229,7 +300,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 equal-height school-sw">
+                            <div class="col-md-6 col-12 equal-height school-sw">
                                 <div class="item">
                                     <img src="<?php echo base_url(); ?>asset/images/icons/payment-method.png">
                                     <h4>Parent Pavilion</h4>

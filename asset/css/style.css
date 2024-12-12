@@ -3007,7 +3007,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .ts-facts-area-bg {
-  background-image: url(../images/school-mid-banner.png);
+  background-image: url(../images/cta-bg-new-img-1.png);
   padding: 60px 0;
   color: #fff;
   background-color: #121212;
@@ -9861,7 +9861,8 @@ a[href*="tel:"] {
 }
 
 .sc-but {
-  color: #f6b519;
+  /* color: #f6b519; */
+  color: #ff5722;
   font-size: 35px;
   margin-bottom: 10px;
 }
@@ -10114,7 +10115,8 @@ ul.marketing-list3 li a:hover {
 }
 
 .about-area .default.info h4 {
-  color: #ff2d36;
+  /* color: #ff2d36; */
+  color: #ff5722;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -10149,7 +10151,9 @@ ul.marketing-list3 li a:hover {
 }
 
 .about-area .bottom-info li {
-  display: block;
+  display: flex;
+  justify-content: start;
+  align-items: center;
   font-weight: 500;
   margin-bottom: 12px;
   text-transform: capitalize;
@@ -10162,14 +10166,15 @@ ul.marketing-list3 li a:hover {
   border-radius: 50%;
   color: #fff;
   float: left;
-  font-size: 12px;
-  height: 20px;
+  padding-top: 2px;
+  font-size: 15px;
+  height: 24px;
   line-height: 20px;
   margin-right: 15px;
   margin-top: 5px;
   position: relative;
   text-align: center;
-  width: 20px;
+  width: 24px;
   z-index: 1;
 }
 
@@ -16665,7 +16670,7 @@ em {
 
 .talk-content-area .talk-info h3 {
   font-size: 25px;
-  margin: 10px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .ecom-phn-circle {
@@ -24996,6 +25001,34 @@ round-circle {
   font-size: 18px;
 }
 
+@media (max-width: 1200px) {
+.school-sw{
+  height: 350px !important;
+}
+.banner-heading-ecom {
+  padding: 100px 0px !important;
+}
+.about-area .services-info .item {
+  height: 300px;
+}
+}
+
+@media (max-width: 991px) {
+  .column-title.title-small {
+    font-size: 36px;
+  }
+  .about-area .services-info .item {
+    margin-top: 50px;
+  }
+  #ecom-foot{
+    top:164px !important;
+  }
+  .school-card-sec {
+    height: 320px !important; 
+  }
+
+}
+
 @media (max-width: 426px) {
   .single-footer-widget .footer-contact-list .mob-phone {
     display: block !important;
@@ -25015,6 +25048,26 @@ round-circle {
   }
   .new-career-section .job-bottom-box .btn-container {
     justify-content: center !important;
+  }
+  .banner-heading-ecom {
+    padding: 220px 0px !important;
+  }
+  .talk-content-area {
+    margin: 30px !important;
+  }
+  .setup_inner .setup_item .round {
+    display: none;
+  }
+  .setup_inner .setup_item .line {
+   display: none !important;
+  }
+  .setup_inner .setup_item.flex-row-reverse .setup_content {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .setup_inner .setup_content {
+    text-align: center;
+    margin-top: 10px;
   }
 }
 .vertical-job-footer ul li {
@@ -25036,4 +25089,117 @@ round-circle {
 }
 .role-select select{
   width: 100%;
+}
+.introduction-content-section{
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+/* ----------------------- */
+.school-school-card-sec-container {
+  gap: 20px;
+  margin-top: 50px;
+}
+.school-card-sec-content p{
+  font-size: 16px !important;
+}
+
+.school-card-sec {
+  background-color: #ffffff;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); */
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%);
+  padding: 40px 20px 20px;
+  text-align: center;
+  position: relative;
+  margin: 50px 20px;
+  height: 230px;
+}
+
+.school-card-icon-sec {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.school-card-icon-wrapper {
+  width: 86px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ffffff; */
+  /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%); */
+  border-radius: 50%;
+}
+
+.school-card-icon-wrapper img {
+  width: 60px;
+  height: 60px;
+}
+
+.school-card-sec-content {
+  padding-top: 30px;
+}
+
+.school-card-icon{
+  transition: transform 0.5s ease;
+}
+
+.school-card-icon-wrapper:hover .school-card-icon{
+  /* transform: rotateY(360deg); */
+  transform: translateY(-6px);
+}
+
+
+.school-card-sec:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  /* background-color: #fff; */
+  border-radius: 8px 8px 0 0;
+  /* border-bottom: 1px solid 0 2px 20px 0 rgb(0 0 0 / 5%); */
+  border-bottom: 1px solid 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.school-card-sec:after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 46px;
+    /* background-color: #fff; */
+    border-radius: 0 0 40px 40px;
+    /* border-bottom: 1px solid #f9f0f0; */
+    border-bottom: 1px solid  0 2px 20px 0 rgb(0 0 0 / 5%);
+    z-index: 1;
+}
+
+.school-card-sec h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.school-card-sec p {
+  font-size: 14px;
+  color: #666;
 }

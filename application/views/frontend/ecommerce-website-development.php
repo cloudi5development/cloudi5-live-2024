@@ -1072,13 +1072,13 @@
                             <a href="#" class="analytices_logo wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/paypal-logo.png" alt="paypal"></a>
                         </div>
                         <div class="col-lg-3 col-sm-4 col-6">
-                            <a href="#" class="analytices_logo wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/stripe-logo.png" alt="stripe"></a>
+                            <a href="#" class="analytices_logo wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/stripe-new-logo-img.png" alt="stripe"></a>
                         </div>
                         <div class="col-lg-3 col-sm-4 col-6">
                             <a href="#" class="analytices_logo wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/razorpay-logo.png" alt="razorpay"></a>
                         </div>
                         <div class="col-lg-3 col-sm-4 col-6">
-                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/payu-logo.png" alt="payU"></a>
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/payU-new-logo-img.png" alt="payU"></a>
                         </div>
                         <div class="col-lg-3 col-sm-4 col-6">
                             <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/instamojo-logo.png" alt="instamojo"></a>
@@ -1087,10 +1087,27 @@
                             <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/google-analytics-logo.png" alt="google analytics"></a>
                         </div>
                         <div class="col-lg-3 col-sm-4 col-6">
-                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/mailgun-logo.png" alt="mailgun"></a>
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/mailgun-new-logo.png" alt="mailgun"></a>
                         </div>
                         <div class="col-lg-3 col-sm-4 col-6">
-                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/nexmo-logo.png" alt="nexmo"></a>
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/nexmo-new-logo.png" alt="nexmo"></a>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-6">
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/cc-avenue-logo-img.png" alt="nexmo"></a>
+                        </div>
+                      
+                        <div class="col-lg-3 col-sm-4 col-6">
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/phonepe-logo-img.png" alt="nexmo"></a>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-6">
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/whatsapp-logo-img.png" alt="nexmo"></a>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-6">
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/ship-Rocket-logo-img.png" alt="nexmo"></a>
+                        </div>
+                       
+                        <div class="col-lg-3 col-sm-4 col-6">
+                            <a href="#" class="analytices_logo wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"><img class="img-fluid" src="<?php echo base_url(); ?>asset/images/Delhivery_Logo-img.png" alt="nexmo"></a>
                         </div>
                     </div>
                 </div>
@@ -1104,34 +1121,34 @@
                     <div class="col-md-6 col-12">
                         <div class="faq-container">
                             <h4 class="question">What is the cost of developing a ecommerce website?</h4>
-                            The cost of ecommerce web development varies based on the specific requirements such as features built, products sold, and type of website customization you choose.
+                            <p> The cost of ecommerce web development varies based on the specific requirements such as features built, products sold, and type of website customization you choose.</p>
                         </div>
                     </div>
                     <!--end col-->
                     <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="faq-container">
                             <h4 class="question">What is the technology you use to develop eCommerce website?</h4>
-                            We use PHP-Laravel Framework with other updated latest tools to <strong>ecommerce web design and development</strong>
+                            <p> We use PHP-Laravel Framework with other updated latest tools to <strong>ecommerce web design and development</strong></p>
                         </div>
                     </div>
                     <!--end col-->
                     <div class="col-md-6 col-12 mt-4 pt-2">
                         <div class="faq-container">
                             <h4 class="question">Are you providing a web hosting service? If so, what is the cost?</h4>
-                            Yes, we do offer a web hosting service that is charged depending on the server you choose.
+                            <p> Yes, we do offer a web hosting service that is charged depending on the server you choose.</p>
                         </div>
                     </div>
                     <!--end col-->
                     <div class="col-md-6 col-12 mt-4 pt-2">
                         <div class="faq-container">
                             <h4 class="question">Is it possible to make redesign ecommerce website built by some other agency?</h4>
-                            Yes, we can work on the existing website if the previous agency has developed it using the PHP Framework technology as we do, else we recommend you redesign it with us.
+                            <p> Yes, we can work on the existing website if the previous agency has developed it using the PHP Framework technology as we do, else we recommend you redesign it with us.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-12 mt-4 pt-2">
                         <div class="faq-container">
-                            <h4 class="question">Where your company is located in India</h4>
-                           We are located in Coimbatore and we are one of the <a href="<?php echo base_url('ecommerce-website-development'); ?>">best ecommerce website development company in coimbatore</a>.
+                            <h4 class="question">Where your company is located in India?</h4>
+                           <p> We are located in Coimbatore and we are one of the <a href="<?php echo base_url('ecommerce-website-development'); ?>">best ecommerce website development company in coimbatore</a>.</p>
                         </div>
                     </div>
                     <!--end col-->
@@ -1188,7 +1205,7 @@
                             <p>Connect with our expert online and experience the power of our products.</p>
                             <div class="talk-info">
                                 <p class="font-bold">Feel Free To Contact Us</p>
-                                <h3 class="content-mobile ">
+                                <h3 class="content-mobile">
                                     <a href="tel:919159913344">
                                         <i class="icon icon-phone3">
                                             <div class="ecom-phn-circle" style="animation-delay: 0s"></div>
