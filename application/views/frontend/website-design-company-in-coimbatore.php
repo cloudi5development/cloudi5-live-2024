@@ -3,14 +3,14 @@
 
 <head>
     <title><?php if ($meta) {
-                echo $meta->title ? $meta->title : "Cloudi5 - Best Web Design Company in Coimbatore | Ecommerce Website";
-            } else {
-                echo "Cloudi5 - Best Web Design Company in Coimbatore | Ecommerce Website";
-            } ?></title>
+        echo $meta->title ? $meta->title : "Cloudi5 - Best Web Design Company in Coimbatore | Ecommerce Website";
+    } else {
+        echo "Cloudi5 - Best Web Design Company in Coimbatore | Ecommerce Website";
+    } ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo $meta ? $meta->description : "";  ?>">
-    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " ";  ?>">
+    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
+    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " "; ?>">
     <link rel="canonical" href="<?php echo base_url(); ?>website-design-company-in-coimbatore" />
 
     <meta property="og:type" content="website" />
@@ -190,13 +190,13 @@
                     <div class="principle-company-section pt-60 mt-60 mb-60">
                         <div class="principle-sketch-1">
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/ring-pattern.png"
-                                height="80" width="80" alt="pattern-img" class="banner-pattern-1" />
+                                height="55" width="55" alt="pattern-img" class="banner-pattern-1" />
                         </div>
                         <div class="principle-sketch-2">
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/solid-pattern.png"
-                                height="80" width="80" alt="pattern-img" class="" />
+                                height="55" width="55" alt="pattern-img" class="" />
                         </div>
-                        <div>
+                        <!-- <div>
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg"
                                 class="princi-pattern-1 move-horizontal" height="80" width="80" alt="priciple-img">
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg"
@@ -205,7 +205,7 @@
                                 class="princi-pattern-3 move-horizontal " height="80" width="80" alt="priciple-img">
                             <img src="<?php echo base_url(); ?>asset/images/webdesign-page-img/arrow-up-light.svg"
                                 class="princi-pattern-4 move-horizontal" height="80" width="80" alt="priciple-img">
-                        </div>
+                        </div> -->
                         <div class="row justify-content-evenly">
                             <div class="col-lg-6">
                                 <div class="principle-section-title mb-60">
@@ -322,9 +322,8 @@
                                         </path>
                                     </svg>
                                     <div class="btn-and-paragraph">
-                                        <p>Digital agencies can vary in size and specialization. Some may focus on
-                                            specific niches, such as healthcare or e-commerce, while others may offer a
-                                            comprehensive.</p>
+                                        <p>From understanding your needs to delivering tailored solutions, our
+                                            streamlined process ensures success every step of the way</p>
                                     </div>
                                 </div>
                             </div>
@@ -355,13 +354,14 @@
                                             height="70" width="70" alt="pattern" class="" />
                                     </div>
                                     <div class="our-process-content">
-                                        <h3>Discussions</h3>
-                                        <p> We collaborate with you to define your brand, goals, and success metrics.
-                                        </p>
+                                        <h3>Discussions - From Ideas to Insights</h3>
+                                        <p>We start with a deep dive into your vision and goals, brainstorming ideas
+                                            that resonate with your brand. Together, we set the direction for your
+                                            website. Collaboration is key at this stage. </p>
                                         <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Kick-off Meeting</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Requirement Gathering</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Market Research</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Kick-off Meeting</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Requirement Gathering</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Market Research</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -371,12 +371,14 @@
                                             height="80" width="80" alt="pattern" class="" />
                                     </div>
                                     <div class="our-process-content">
-                                        <h3>Wireframe</h3>
-                                        <p> We create a blueprint (wireframes) for smooth navigation before design.</p>
+                                        <h3>Wireframe - Your Digital Blueprint</h3>
+                                        <p>We craft a wireframe that maps out the layout and navigation. It’s the
+                                            foundation of your website, focusing on user experience. A clear structure
+                                            ensures everything fits perfectly.</p>
                                         <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Sketching Layouts</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>User Flow</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Feedback Loop</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Sketching Layouts</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>User Flow</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Feedback Loop</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -386,13 +388,14 @@
                                             height="60" width="60" alt="pattern" class="" />
                                     </div>
                                     <div class="our-process-content">
-                                        <h3>UI & Develop</h3>
-                                        <p>Our designers create a user-friendly & visually appealing interface. Skilled
-                                            developers bring it to life.</p>
+                                        <h3>UI & Develop - Design Meets Functionality</h3>
+                                        <p>Our designers create visually stunning UI, while developers build a seamless
+                                            and responsive website. Every element is optimized for performance. Your
+                                            website will look and work flawlessly.</p>
                                         <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Visual Style Guide</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>High-Fidelity Mockups</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Client Review</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Visual Style Guide</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>High-Fidelity Mockups</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Client Review</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -402,13 +405,14 @@
                                             height="80" width="80" alt="pattern" class="" />
                                     </div>
                                     <div class="our-process-content">
-                                        <h3>Product Delivery</h3>
-                                        <p> We ensure on-time launch with optimal performance through testing and your
-                                            feedback.</p>
+                                        <h3>Product Delivery - Your Vision, Our Reality</h3>
+                                        <p> After testing and fine-tuning, your website is ready to launch. We ensure a
+                                            hassle-free delivery process. Count on us for post-launch support to keep
+                                            things running smoothly.</p>
                                         <ul>
-                                            <li><i class="fi fi-rr-plus-small"></i>Quality Assurance</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Development</li>
-                                            <li><i class="fi fi-rr-plus-small"></i>Post-Launch Support</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Quality Assurance</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Development</li>
+                                            <li><i class="fi fi-rr-angle-double-small-right"></i>Post-Launch Support</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1207,7 +1211,7 @@
         <!-- On Scroll Animation End-->
         <!-- Google Tag Manager -->
         <script>
-            (function(w, d, s, l, i) {
+            (function (w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({
                     'gtm.start': new Date().getTime(),
@@ -1223,8 +1227,8 @@
             })(window, document, 'script', 'dataLayer', 'GTM-TTPGBC2');
 
 
-            $(document).ready(function() {
-                $(".accordion-single .header-area").on("click", function() {
+            $(document).ready(function () {
+                $(".accordion-single .header-area").on("click", function () {
                     var $accordionItem = $(this).closest(".accordion-single");
                     var $contentArea = $(this).next(".content-area");
 

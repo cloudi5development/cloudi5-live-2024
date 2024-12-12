@@ -829,7 +829,7 @@
 
 .our-process-content h3 {
   color: #000000;
-  font-size: 34px;
+  font-size: 30px;
 }
 .our-process-content p {
   font-size: 18px;
@@ -855,12 +855,12 @@
   display: flex;
   justify-content: start;
   gap: 6px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
-  margin: 26px 0;
+  margin: 10px 0;
 }
 .our-process-content ul li i {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 500;
 }
 .our-process-title .dash-and-paragraph {
