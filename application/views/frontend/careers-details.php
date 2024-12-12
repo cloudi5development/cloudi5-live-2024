@@ -31,6 +31,38 @@
 
 <body id="cont1" class="body-inner">
 	<?php include('header.php'); ?>
+
+	<div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
+         alt="Web Development Company in Coimbatore" title="Website Development">
+         <div class="inner-pattern"> <img
+               src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg"
+               alt="banner-pattern">
+         </div>
+         <div class="container banner-content">
+            <div class="row justify-content-center">
+               <div class="shape-wrapper">
+                  <div class="shape-tri-1">
+                     <img src="<?php echo base_url(); ?>asset/images/home/banner_shape02.png" alt="Shape-1">
+                  </div>
+                  <div class="shape-tri-3">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
+                  </div>
+                  <div class="shape-tri-4">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <div class="banner-tagline">
+                     <span> <img src="<?php echo base_url(); ?>asset/images/web-development/star.png"
+                           alt="Convert into Mockups">Shape the future with us!</span>
+                  </div>
+                  <h2 class="title"><?php echo $career_details->title; ?> Jobs </h2>
+				  <p class="fsz-20">
+				Unleash your potential and make an impact in a role that challenges and inspires you!</p>
+               </div>
+            </div>
+         </div>
+      </div>
 	<!-- <div class="banner-area about-banner resp-banner" id="banner-area" alt="Job Openings in Coimbatore">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -47,31 +79,6 @@
 		</div>
 	</div> -->
 
-	<div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
-		alt="Web Development Company in Coimbatore" title="Career Details">
-		<div class="inner-pattern"> <img
-				src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg"
-				alt="banner-pattern">
-		</div>
-		<div class="container banner-content">
-			<div class="row justify-content-center">
-				<div class="shape-wrapper">
-					<div class="shape-tri-1">
-						<img src="<?php echo base_url(); ?>asset/images/home/banner_shape02.png" alt="Shape-1">
-					</div>
-					<div class="shape-tri-3">
-						<img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
-					</div>
-					<div class="shape-tri-4">
-						<img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
-					</div>
-				</div>
-				<div class="col-md-12">
-					<h1 class="banner-title2 career-title"><?php echo $career_details->title; ?> Jobs </h1>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<?php if ($career_details) {  ?>
 		<section class="career-section">

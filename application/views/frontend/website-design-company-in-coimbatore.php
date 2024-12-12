@@ -83,7 +83,7 @@
                                 yawns.
                                 Professional, Polished, and Positively enchanting sites.
                             </p>
-                            <a href="javascript:void(0);" class="contact-btn web-design-btn">
+                            <a href="<?php echo base_url(); ?>contactus" class="contact-btn web-design-btn">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -1036,7 +1036,7 @@
                                         Ready to get started with <br>
                                         your new project today?
                                     </h2>
-                                    <a href="javascript:void(0);" class="contact-btn btn-cta">
+                                    <a href="<?php echo base_url(); ?>contactus" class="contact-btn btn-cta">
                                         <span></span>
                                         <span></span>
                                         <span></span>
