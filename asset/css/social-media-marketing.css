@@ -570,9 +570,9 @@
   font-size: 38px;
 }
 
-.icon-wrapper:hover img {
+/* .icon-wrapper:hover img {
   filter: brightness(0) invert(1);
-}
+} */
 
 .why-choose-card h6 {
   margin: 20px 0 10px;
@@ -755,8 +755,9 @@
   padding: 6px 18px 10px;
   margin: 0px 10px;
   width: 350px; */
-  height: 320px;
+  /* height: 320px; */
   margin-top: 40px;
+  
 }
 
 .card-content-wrapper:hover {
@@ -780,8 +781,7 @@
 
 /* ---------btn-hover----- */
 /* From Uiverse.io by vinodjangid07 */
-.service-icon {
-}
+
 .service-icon {
   transform: translateY(-14px);
   transition: all 3s ease;
@@ -863,11 +863,11 @@
   transform-origin: bottom;
 }
 
-.Btn:hover .svgContainer {
+/* .Btn:hover .svgContainer {
   border: 1px solid rgba(230, 230, 230, 0.466);
   background-color: rgba(204, 204, 204, 0.466) !important;
   backdrop-filter: blur(4px);
-}
+} */
 .card-text-wrapper {
   /* width: 320px;
   height: 340px; */
