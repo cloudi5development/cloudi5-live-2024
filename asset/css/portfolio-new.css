@@ -190,5 +190,30 @@
 }
 /* responsive end */
 
-
-
+.portfolio-home-page .portfolio-card-container .portfolio-img {
+  border-radius: 2%;
+}
+.portfolio-home-page .portfolio-card-container .title {
+  color: #000;
+}
+.portfolio-home-page .portfolio-card-container:hover .tag-details {
+  bottom: 17%;
+  border-radius: 2%;
+  background: rgb(13 38 76 / 61%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(44, 83, 142, 0.3);
+}
+.portfolio-home-page .portfolio-card-container .client-logo-img {
+  border: 1px solid #2736624f;
+}
+.portfolio-home-page #portfolio-grid {
+  gap: 40px 0px;
+}
+.portfolio-home-page .view-portfolio-button .btn-primary {
+  padding: 15px 30px;
+}
+.portfolio-home-page .portfolio-card-container .title {
+  font-size: 18px;
+}
