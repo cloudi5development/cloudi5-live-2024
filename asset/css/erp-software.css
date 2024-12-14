@@ -1,3 +1,7 @@
+.mt-20 {
+  margin-top: 20px;
+}
+
 .body-inner .common-inner-banner .inner-pattern img {
   position: absolute;
   opacity: 0.3;
@@ -134,7 +138,9 @@
     rgba(0, 0, 0, 0)
   );
 }
-
+.benefit-icon {
+  width: 34px;
+}
 .benefits-wrapper:nth-child(1) .content-inner-wrapper:after,
 .benefits-wrapper:nth-child(4) .content-inner-wrapper:after {
   left: 0;
@@ -221,25 +227,12 @@
     transform: translateY(-5px);
   }
 }
-
-.simplify-icon {
-  position: relative;
+.arrow-wrapper svg {
+  width: 160px;
+  display: flex;
+  align-items: end;
 }
 
-.simplify-icon::before {
-  position: absolute;
-  content: "\f215";
-  font-size: 20px;
-}
-.focus-icon {
-  position: relative;
-}
-
-.focus-icon::before {
-  position: absolute;
-  content: "\f784";
-  font-size: 20px;
-}
 
 /*----faq-section------- */
 .faq-section {
@@ -251,27 +244,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: #0b2359; */
   z-index: 2;
-  /* background: url(../images/webdesign-page-img/faq-bg-img.webp); */
 }
-.faq-pattern-1-wrapper {
-  position: absolute;
-  top: 56px;
-  left: 260px;
-}
+
 .faq-pattern-2-wrapper {
   position: absolute;
   top: -43%;
   left: 0%;
 }
-
-/* .text-shape-pattern{
-      position: absolute;
-      top:-8px;
-      right:263px;
-      z-index: 1;
-  } */
 .faq-title {
   margin-bottom: 80px;
   position: relative;

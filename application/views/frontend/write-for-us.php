@@ -4,10 +4,10 @@
 <head>
 
    <title><?php if ($meta) {
-      echo $meta->title ? $meta->title : "Write for Us - Cloudi5 Technologies Platform";
-   } else {
-      echo "Write for Us - Cloudi5 Technologies Platform";
-   } ?></title>
+               echo $meta->title ? $meta->title : "Write for Us - Cloudi5 Technologies Platform";
+            } else {
+               echo "Write for Us - Cloudi5 Technologies Platform";
+            } ?></title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description"
@@ -30,20 +30,17 @@
    <meta property="og:description"
       content="Become a contributor and share your insights on digital marketing, web design, SEO, and web development to reach a larger audience." />
    <meta property="og:url" content="<?php echo base_url(); ?>write-for-us" />
-   <?php include ('common-css.php') ?>
+   <?php include('common-css.php') ?>
    <?php $this->load->view('frontend/common-css'); ?>
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.carousel.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/swiper-bundle.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/write-for-us.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-brands">
-   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/flutter-app.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-thin-straight.css">
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/uicons-regular-rounded.css">
 
-   <link rel='stylesheet'
-      href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-
-   <link rel='stylesheet'
-      href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css'>
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -56,88 +53,9 @@
 
       <?php include 'header.php' ?>
 
-      <!-- <section class="write-for-us-home">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="swiper mySwiper">
-                  <div class="swiper-wrapper">
-                     <div class="swiper-slide">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/write-for-us-home-1.png"
-                           alt="Home-Img-1">
-                        <div class="bg-shadow-circle-1"></div>
-                        <div class="bg-shadow-circle-2"></div>
-                        <div class="slide-content">
-                           <h2 class="title">Collaborate and Share Your Knowledge</h2>
-                           <p class="description">Partner with us to publish high-quality content that informs and
-                              engages industry professionals.</p>
-                           <a href="javascript:void(0);" class="btn-write">
-                              <button class="contact-btn">
-                                 Get Started Now
-                                 <span class="first"></span>
-                                 <span class="second"></span>
-                                 <span class="third"></span>
-                                 <span class="fourth"></span>
-                              </button>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/write-for-us-home-2.png"
-                           alt="Home-Img-2">
-                        <div class="bg-shadow-circle-1"></div>
-                        <div class="bg-shadow-circle-2"></div>
-                        <div class="slide-content">
-                           <h2 class="title">Make Your Expertise Known</h2>
-                           <p class="description">Become a recognized thought leader by writing for our corporate blog
-                              and engaging with a broad audience.</p>
-                           <a href="javascript:void(0);" class="btn-write">
-                              <button class="contact-btn">
-                                 Get Started Now
-                                 <span class="first"></span>
-                                 <span class="second"></span>
-                                 <span class="third"></span>
-                                 <span class="fourth"></span>
-                              </button>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/write-for-us-home-3.png"
-                           alt="Home-Img-3">
-                        <div class="bg-shadow-circle-1"></div>
-                        <div class="bg-shadow-circle-2"></div>
-                        <div class="slide-content">
-                           <h2 class="title">Publish Your Expert Opinions</h2>
-                           <p class="description">Share your take on current trends, challenges, and opportunities in
-                              the corporate world with our readers.</p>
-                           <a href="javascript:void(0);" class="btn-write">
-                              <button class="contact-btn">
-                                 Get Started Now
-                                 <span class="first"></span>
-                                 <span class="second"></span>
-                                 <span class="third"></span>
-                                 <span class="fourth"></span>
-                              </button>
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-
       <section class="write-for-us-home">
-         <!-- <div class="circle-shape">
-            <img src="<?php echo base_url(); ?>asset/images/write-for-us/circle-2-img.png" alt="img">
-         </div>
-         <div class="arrow-shape">
-            <img src="<?php echo base_url(); ?>asset/images/write-for-us/arrow-up-img-1.png" alt="img">
-         </div> -->
          <div class="ball-pulse-effect">
             <div class="ball-shape">
-
             </div>
          </div>
          <div class="container">
@@ -170,6 +88,10 @@
             </div>
          </div>
       </section>
+
+      <!-- clients-logo section start-->
+      <?php include 'our-clients.php' ?>
+      <!-- clients-logo section end-->
 
       <section class="why-choose-us">
          <div class="container">
@@ -688,83 +610,6 @@
          </div>
       </section>
 
-      <!-- <section class="partners-section">
-         <div class="container">
-            <div class="row justify-center">
-               <div class="col-lg-5">
-                  <div class="partners-contents">
-                     <span class="sub-title">
-                        <img src="<?php echo base_url(); ?>asset/images/write-for-us/dots.png" alt="Sub-Heading-Design">
-                        Our Partners
-                     </span>
-                     <h2 class="partners-title">Collaborators Who Appreciate Us</h2>
-                     <p class="partners-desc">Together with our partners, we turn ambitious ideas into successful
-                        projects that make a difference.</p>
-
-                     <a href="javascript:void(0);" class="cont-btn">Contact Us<div class="icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" class="feather feather-arrow-right">
-                              <line x1="5" y1="12" x2="19" y2="12"></line>
-                              <polyline points="12 5 19 12 12 19"></polyline>
-                           </svg>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-lg-7">
-                  <div class="partners-img-list row justify-center">
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-1.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-2.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-3.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-4.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-5.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-6.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-7.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-8.svg" alt="">
-                        </div>
-                     </div>
-                     <div class="col-4">
-                        <div class="list-imgs bg-white text-center">
-                           <img src="<?php echo base_url(); ?>asset/images/write-for-us/pertner-log-4.svg" alt="">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-
       <section class="write-for-cta-section">
          <div class="container">
             <div class="row">
@@ -795,14 +640,10 @@
       </section>
 
       <section class="write-for-faq position-relative">
-         <!-- <div class="faq-shape">
-            <img src="<?php echo base_url(); ?>asset/images/write-for-us/faq-shape.svg" alt="img" class="">
-         </div> -->
          <div class="container position-relative">
             <div class="faqs-title text-center">
                <span class="sub-title">
-                  <img src="http://192.168.29.179/websites/cloudi5-live-2024/asset/images/write-for-us/dots.png"
-                     alt="Sub-Heading-Design">
+                  <img src="<?php echo base_url(); ?>asset/images/write-for-us/dots.png" alt="Sub-Heading-Design">
                   Faq</span>
                <h2 class="faq-title">
                   Have questions about becoming a contributor?
@@ -922,53 +763,58 @@
                <h2 class="contact-title">Submit Your Information <img
                      src="<?php echo base_url(); ?>asset/images/write-for-us/paper-plane.png" alt=""
                      class="paper-plane-img"></h2>
-               <form class="submit-form" id="FormValidation" action="<?php echo base_url('write_for_us_enquiry_form'); ?>" method="post" enctype="multipart/form-data">
+               <form class="submit-form" id="FormValidation"
+                  action="<?php echo base_url('write_for_us_enquiry_form'); ?>" method="post"
+                  enctype="multipart/form-data">
                   <div class="row">
-                  <input type="text" name="website" class="form-control" style="display:none;">
-                     <div class="col-md-4 form-group">
-                        <input type="text" class="form-control" id="firstName"  name="firstName" placeholder=" " required>
+                     <input type="text" name="website" class="form-control" style="display:none;">
+                     <div class="col-md-6 form-group">
                         <label for="firstName" class="form-label">First Name <span class="required">*</span></label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder=" "
+                           required>
                      </div>
-                     <div class="col-md-4 form-group">
-                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder=" " >
+                     <div class="col-md-6 form-group">
                         <label for="lastName" class="form-label">Last Name </label>
-                     </div>
-                     
-                     <div class="col-md-4 form-group">
-                        <input type="email" class="form-control" id="email"  name="email" placeholder=" " required>
-                        <label for="email" class="form-label">Email Address <span class="required">*</span></label>
-                     </div>
-                     <div class="col-md-4 form-group">
-                        <input type="text" class="form-control" id="number" name="number" placeholder=" " required>
-                        <label for="phone_number" class="form-label">Phone Number<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder=" ">
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-md-6 form-group">
-                        <input type="text" class="form-control" id="post_title" name="post_title" placeholder=" " required>
-                        <label for="post_title" class="form-label">Post Title<span class="required">*</span></label>
+                        <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder=" " required>
                      </div>
                      <div class="col-md-6 form-group">
-
+                        <label for="phone_number" class="form-label">Phone Number<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="number" name="number" placeholder=" " required>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6 form-group">
+                        <label for="post_title" class="form-label">Post Title<span class="required">*</span></label>
+                        <input type="text" class="form-control" id="post_title" name="post_title" placeholder=" "
+                           required>
+                     </div>
+                     <div class="col-md-6 form-group">
+                        <label for="customerStatus" class="form-label">Post Type <span class="required">*</span></label>
                         <select class="form-select" id="customerStatus" name="customerStatus" required>
                            <option value="" selected disabled hidden></option>
                            <option value="guest">Guest Post</option>
                            <option value="sponsored">Sponsored Post</option>
                         </select>
-                        <label for="customerStatus" class="form-label">Post Type <span class="required">*</span></label>
                      </div>
 
                   </div>
                   <div class="row justify-center">
                      <div class="col-md-12 form-group">
-                        <textarea class="form-control" id="post_summary" placeholder=" "name="post_summary" required></textarea>
                         <label for="bio" class="form-label">Post Summary <span class="required">*</span></label>
+                        <textarea class="form-control" id="post_summary" placeholder=" " name="post_summary"
+                           required></textarea>
                      </div>
                      <div class="one-column">
-                                       <div class="g-recaptcha" data-sitekey="6Lf0WYUUAAAAAMi0BjYIrf8I-9G5cS-kJ04d8MEL"></div>
-                                       <?php echo form_error('g-recaptcha-response', '<div class="error">', '</div>'); ?>
-                                    </div>
-                     
+                        <div class="g-recaptcha" data-sitekey="6Lf0WYUUAAAAAMi0BjYIrf8I-9G5cS-kJ04d8MEL"></div>
+                        <?php echo form_error('g-recaptcha-response', '<div class="error">', '</div>'); ?>
+                     </div>
+
                      <button type="submit" class="contact-btn">
                         <span></span>
                         <span></span>
@@ -1074,8 +920,8 @@
       <script src="<?php echo base_url(); ?>assets/js/jquery.validate.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/form-validation.js"></script>
       <script>
-         setTimeout(function () {
-            $(".alert").fadeOut("slow", function () {
+         setTimeout(function() {
+            $(".alert").fadeOut("slow", function() {
                $(".alert").remove();
             });
 
@@ -1087,11 +933,11 @@
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/swiper-bundle.min.js"></script>
 
       <script>
-         $(document).ready(function () {
+         $(document).ready(function() {
             $('.accordion-single:first-child .accordion-btn').addClass('active');
             $('.accordion-single:first-child .content-area').show();
 
-            $('.accordion-btn').on('click', function () {
+            $('.accordion-btn').on('click', function() {
                var $this = $(this);
                var $parent = $this.closest('.accordion-single');
                var $content = $parent.find('.content-area');
@@ -1108,10 +954,8 @@
             });
          });
       </script>
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-
+      <script src='https://www.google.com/recaptcha/api.js'></script>
    </div>
-
 </body>
 
 </html>

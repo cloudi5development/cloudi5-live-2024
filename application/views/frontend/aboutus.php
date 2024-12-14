@@ -4,10 +4,10 @@
 <head>
 
    <title><?php if ($meta) {
-      echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company |  Digital Marketing | Coimbatore";
-   } else {
-      echo "";
-   } ?></title>
+               echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company |  Digital Marketing | Coimbatore";
+            } else {
+               echo "";
+            } ?></title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
@@ -29,14 +29,15 @@
    <meta property="og:description"
       content="Cloudi5 is one of the best software development, web design, mobile app development, School ERP, Digital Marketing, SEO & SMO companies in Coimbatore, Tamil Nadu, India. Global custom software development company helps the client to build innovative software products and focused on the execution delivery and support." />
    <meta property="og:url" content="<?php echo base_url(); ?>aboutus" />
-   <?php include ('common-css.php') ?>
+   <?php include('common-css.php') ?>
    <?php $this->load->view('frontend/common-css'); ?>
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.carousel.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/design.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/owl.theme.default.min.css">
    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
-   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet">
    <?php $this->load->view('frontend/fb-pixel-code'); ?>
 </head>
 
@@ -52,7 +53,7 @@
 
       <?php include 'header.php' ?>
 
-      <div class="banner-area about-banner resp-banner" id="banner-area"
+      <!-- <div class="banner-area about-banner resp-banner" id="banner-area"
          alt="Web Development, ERP, CRM & Web Design Company in India" title="About Us">
          <div class="container">
             <div class="row justify-content-center">
@@ -68,7 +69,39 @@
                </div>
             </div>
          </div>
+      </div> -->
+
+      <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
+         alt="Web Development Company in Coimbatore" title="About Us">
+         <div class="inner-pattern"> <img
+               src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg"
+               alt="banner-pattern">
+         </div>
+         <div class="container banner-content">
+            <div class="row justify-content-center">
+               <div class="shape-wrapper">
+                  <div class="shape-tri-1">
+                     <img src="<?php echo base_url(); ?>asset/images/home/banner_shape02.png" alt="Shape-1">
+                  </div>
+                  <div class="shape-tri-3">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
+                  </div>
+                  <div class="shape-tri-4">
+                     <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
+                  </div>
+               </div>
+               <div class="col-md-10">
+                  <div class="banner-tagline">
+                     <span> <img src="<?php echo base_url(); ?>asset/images/web-development/star.png"
+                           alt="Convert into Mockups"> Empower Your Business with Innovative IT Solutions!</span>
+                  </div>
+                  <h2 class="title">Intelligent Web Design, Responsive Websites and <span>Strategic Digital
+                        Marketing</span> Solutions!</h2>
+               </div>
+            </div>
+         </div>
       </div>
+
       <section class="main-container wd-section" id="main-container">
          <div class="container">
             <div class="row">
@@ -320,23 +353,24 @@
                      </div>
                   </div>
 
-                  <!-- <div class="col-lg-3 col-md-6 zoom-effect-container">
+                  <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/new-our-team/swetha.png"
-                           alt="Swetha Profile" class="about-us-image">
+                        <img src="<?php echo base_url(); ?>asset/images/team/balaChandran-profile-team-head.png"
+                           alt="Bala Profile" class="about-us-image">
                         <div class="text-center ts-team-content">
-                           <h3 class="team-name">Swetha R</h3>
-                           <p class="team-designation">PHP Developer</p>
+                           <h3 class="team-name">Balachandran K </h3>
+                           <p class="team-designation">Team Head - Web Developer</p>
                         </div>
                      </div>
-                  </div> -->
+                  </div>
+
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/karthikeyan-profile-php-developer.png"
                            alt="Karthikeyan-s Profile" class="about-us-image">
                         <div class="text-center ts-team-content">
                            <h3 class="team-name">Karthikeyan S</h3>
-                           <p class="team-designation">Web Developer</p>
+                           <p class="team-designation">Team Lead - Web Developer</p>
                         </div>
                      </div>
                   </div>
@@ -380,16 +414,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/dinesh-profile-app-developer.png"
-                           alt="Dinesh Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Dinesh S</h3>
-                           <p class="team-designation">Team Lead - Mobile App Developer</p>
-                        </div>
-                     </div>
-                  </div>
+               
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/gowri-profile-ios-developer.png"
@@ -459,7 +484,7 @@
                            <p class="team-designation">Web Designer</p>
                         </div>
                      </div>
-                  </div>                 
+                  </div>
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/ramya-profile-digital-marketing.png"
@@ -470,16 +495,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/shiji-digital-marketing.png"
-                           alt="Shiji Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Shiji B</h3>
-                           <p class="team-designation">Digital Marketing Executive</p>
-                        </div>
-                     </div>
-                  </div>
+              
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/santhosh-digital-marketing.png"
@@ -494,7 +510,7 @@
             </div>
          </div>
          <!-- Cloudi5 Team End -->
-        
+
       </section>
 
       <?php include 'footer.php' ?>
@@ -506,8 +522,8 @@
       <script src="<?php echo base_url(); ?>assets/js/jquery.validate.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/form-validation.js"></script>
       <script>
-         setTimeout(function () {
-            $(".alert").fadeOut("slow", function () {
+         setTimeout(function() {
+            $(".alert").fadeOut("slow", function() {
                $(".alert").remove();
             });
 

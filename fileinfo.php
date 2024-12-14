@@ -16,3 +16,6 @@ CREATE TABLE `cloudi5_website`.`write_for_us` (
 
  
  ALTER TABLE `user_privilege` ADD `write_for_us_enquiry` VARCHAR(150) NULL DEFAULT NULL AFTER `enquiries`;
+
+ /********** 28-11-2023************** */
+ ALTER TABLE `blog` ADD `image_alt_tag` VARCHAR(255) NULL DEFAULT NULL AFTER `image`;

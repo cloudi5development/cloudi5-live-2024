@@ -27,24 +27,24 @@ class Frontend extends CI_Controller
 		$this->load->view('frontend/aboutus',$data);
 	}
 	#Website Design
-	public function website_design()
+	public function website_design_company_in_coimbatore()
 	{
 		$data['category']	= $this->Portfolio_model->getPortfolioCategory();
 		$data['portfolio']	= $this->Portfolio_model->getHomePortfolio();
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'web_design')->get('meta_tags')->row();
 		$data['page_title'] = 'Web Design';
-		$this->load->view('frontend/website-design',$data);
-	}
-	#Website Design Company in CBE
-	public function website_design_company_in_coimbatore()
-	{
-		$data['settings']	= $this->settings;
-		$data['page_title'] = 'Web Design';
 		$this->load->view('frontend/website-design-company-in-coimbatore',$data);
 	}
+	#Website Design Company in CBE
+	// public function website_design_company_in_coimbatore()
+	// {
+	// 	$data['settings']	= $this->settings;
+	// 	$data['page_title'] = 'Web Design';
+	// 	$this->load->view('frontend/website-design-company-in-coimbatore',$data);
+	// }
 	#Website Development
-	public function web_development()
+	public function web_development_company_in_coimbatore()
 	{
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'web_development')->get('meta_tags')->row();
@@ -798,8 +798,8 @@ class Frontend extends CI_Controller
 	public function flutter_app_development()
 	{
 		$data['settings']	= $this->settings;
-		$data['meta']       = $this->db->select('*')->where('page', 'android')->get('meta_tags')->row();
-		$data['page_title'] = 'Mobile App';
+		$data['meta']       = $this->db->select('*')->where('page', 'flutter_app_development')->get('meta_tags')->row();
+		$data['page_title'] = 'Flutter Mobile Application';
 		$this->load->view('frontend/flutter-app-development-company-in-coimbatore',$data);
 	}
 	#home-new
@@ -848,7 +848,14 @@ class Frontend extends CI_Controller
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'clients_logo')->get('meta_tags')->row();
 		$data['page_title'] = 'clients Logo';
-		$this->load->view('frontend/clients-logo',$data);
+		$this->load->view('frontend/our-clientele',$data);
+	}
+	public function portfolio_new_details()
+	{
+		$data['settings']	= $this->settings;
+		$data['meta']       = $this->db->select('*')->where('page', 'Portfolio_new_details')->get('meta_tags')->row();
+		$data['page_title'] = 'portfolio new details';
+		$this->load->view('frontend/portfolio-new-details',$data);
 	}
 
 	// public function submitinfo()
@@ -858,57 +865,54 @@ class Frontend extends CI_Controller
 	// 	$data['page_title'] = 'Submit Your Information';
 	// 	$this->load->view('frontend/write-for-us',$data);
 	// }
-	public function write_for_us_enquiry_form(){
-
+	public function write_for_us_enquiry_form()
+	{
+		$this->form_validation->set_rules('firstName', 'FirstName', 'required');
+		$this->form_validation->set_rules('lastName', 'LastName');
+		$this->form_validation->set_rules('email', 'Email', 'required');
+		$this->form_validation->set_rules('number', 'Phone', 'required');
+		$this->form_validation->set_rules('post_title', 'Post Title', 'required');
+		$this->form_validation->set_rules('customerStatus', 'Post Type', 'required');
+		$this->form_validation->set_rules('post_summary', 'Post Summary', 'required');
+		$this->form_validation->set_rules('g-recaptcha-response', 'recaptcha validation', 'required|callback_validate_captcha');
+		$this->form_validation->set_message('validate_captcha', 'Please check the the captcha form');
+		if ($this->form_validation->run() == TRUE)
 		{
-			$this->form_validation->set_rules('firstName', 'FirstName', 'required');
-			$this->form_validation->set_rules('lastName', 'LastName');
-			$this->form_validation->set_rules('email', 'Email', 'required');
-			$this->form_validation->set_rules('number', 'Phone', 'required');
-			$this->form_validation->set_rules('post_title', 'Post Title', 'required');
-			$this->form_validation->set_rules('customerStatus', 'Post Type', 'required');
-			$this->form_validation->set_rules('post_summary', 'Post Summary', 'required');
-			$this->form_validation->set_rules('g-recaptcha-response', 'recaptcha validation', 'required|callback_validate_captcha');
-			$this->form_validation->set_message('validate_captcha', 'Please check the the captcha form');
-			if ($this->form_validation->run() == TRUE)
-			{
-				$data['first_name']			= $this->input->post('firstName');
-				$data['last_name']	        = $this->input->post('lastName');
-				$data['email'] 			    = $this->input->post('email');
-				$data['phone_number'] 	    = $this->input->post('number');
-				$data['post_title']         = $this->input->post('post_title');
-				$data['post_type'] 	        = $this->input->post('customerStatus');
-				$data['post_summary'] 		= strip_tags($this->input->post('post_summary'));
-			    $data['ip'] 			= get_ip();
-				if ($this->input->post('website') == '') {
-					$this->db->insert('write_for_us', $data);
-					/** Email **/
-					$data['setting']		= $this->settings;
-					$admin_email			= $this->settings->email_id_1;
-					$subject				= 'Submit Your Information ' . ucwords($data['first_name']) .' | '. $this->settings->site_name;
-					$email_content			= $this->load->view('admin/emails/write_for_us_enquiry_mail', $data, true);
-					$this->myemail->send_client_mail($admin_email, $email_content, $subject);
-					/*** Contact Ack Email **/
-					if ($this->input->post('email') !='') {
-						$user_email			= $this->input->post('email');
-						$subject1			= 'Welcome to '. $this->settings->site_name .'! Your Information has been submitted';
-						$email_content1		= $this->load->view('admin/emails/acknowldge_mail', $data, true);
-						$this->myemail->send_client_mail($user_email, $email_content1, $subject1, $admin_email);
-					}
+			$data['first_name']			= $this->input->post('firstName');
+			$data['last_name']	        = $this->input->post('lastName');
+			$data['email'] 			    = $this->input->post('email');
+			$data['phone_number'] 	    = $this->input->post('number');
+			$data['post_title']         = $this->input->post('post_title');
+			$data['post_type'] 	        = $this->input->post('customerStatus');
+			$data['post_summary'] 		= strip_tags($this->input->post('post_summary'));
+		    $data['ip'] 			= get_ip();
+			if ($this->input->post('website') == '') {
+				$this->db->insert('write_for_us', $data);
+				/** Email **/
+				$data['setting']		= $this->settings;
+				$admin_email			= $this->settings->email_id_1;
+				$subject				= 'Write for us Enquiry From ' . ucwords($data['first_name']) .' | '. $this->settings->site_name;
+				$email_content			= $this->load->view('admin/emails/write_for_us_enquiry_mail', $data, true);
+				$this->myemail->send_client_mail($admin_email, $email_content, $subject);
+				/*** Contact Ack Email **/
+				if ($this->input->post('email') !='') {
+					$user_email			= $this->input->post('email');
+					$subject1			= 'Thank you for Contacting us - '. $this->settings->site_name;
+					$email_content1		= $this->load->view('admin/emails/acknowldge_mail', $data, true);
+					$this->myemail->send_client_mail($user_email, $email_content1, $subject1, $admin_email);
 				}
-				$this->session->set_userdata('success', '1');
-				$type = 'success';
-				$message = "Thank you for Contacting us.";
-				set_message($type, $message);
-				redirect('thank-you');
-			} else {
-				$type = 'error';
-				$message = "Please Fill All The Required Fields.";
-				set_message($type, $message);
-				$page_data['page_title'] = 'Contact Us';
-				$this->load->view('frontend/write-for-us',$page_data);
-			}		
+			}
+			$this->session->set_userdata('success', '1');
+			$type = 'success';
+			$message = "Thank you for Contacting us.";
+			set_message($type, $message);
+			redirect('thank-you');
+		} else {
+			$type = 'error';
+			$message = "Please Fill All The Required Fields.";
+			set_message($type, $message);
+			$page_data['page_title'] = 'Contact Us';
+			$this->load->view('frontend/write-for-us',$page_data);
 		}
-
 	}
 }

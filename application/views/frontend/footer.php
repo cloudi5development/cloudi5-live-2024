@@ -1,4 +1,4 @@
-<?php 
+<?php
 $footer_setting = $this->db->from('settings')->get()->row();
 ?>
 <div id="getstarted"></div>
@@ -26,7 +26,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         </a>
                     </div>
                     <ul class="list-unstyled address">
-                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br> <?php echo $footer_setting->address_2 .' '. $footer_setting->address_3; ?> <br><?php echo $footer_setting->city .' '. $footer_setting->pincode; ?>, <?php echo $footer_setting->state; ?>, India</li>
+                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br> <?php echo $footer_setting->address_2 . ' ' . $footer_setting->address_3; ?> <br><?php echo $footer_setting->city . ' ' . $footer_setting->pincode; ?>, <?php echo $footer_setting->state; ?>, India</li>
                     </ul>
                     <!--<div class="or"><span>OR</span></div>-->
                 </div>
@@ -92,7 +92,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
         <h3 class="text-center">Trusted By</h3><br>
         <div class="row">
             <div class="col-sm-12 owl-carousel owl-theme text-center partners" id="partners-carousel">
-                 <figure class="item partner-logo">
+                <figure class="item partner-logo">
                     <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="healthsy">
                 </figure>
                 <figure class="item partner-logo">
@@ -128,7 +128,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <figure class="item partner-logo">
                     <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/susin.jpg" alt="susin">
                 </figure>
-                 <figure class="item partner-logo">
+                <figure class="item partner-logo">
                     <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="vencar">
                 </figure>
                 <figure class="item partner-logo">
@@ -164,7 +164,7 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <figure class="item partner-logo">
                     <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/veda-networks.jpg" alt="veda networks">
                 </figure>
-                
+
                 <!--<figure class="item partner-logo last">-->
                 <!--    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/evecollections.png" alt="evecollections">-->
                 <!--</figure>-->
@@ -231,15 +231,15 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <div class="single-footer-widget">
                     <h3>Product & Services</h3>
                     <ul class="footer-services-list">
-                        <li><a href="<?php echo base_url(); ?>web-development">Web Development</a></li>
-                        <li><a href="<?php echo base_url(); ?>website-design">Web Design</a></li>
+                        <li><a href="<?php echo base_url(); ?>web-development-company-in-coimbatore">Web Development</a></li>
+                        <li><a href="<?php echo base_url(); ?>website-design-company-in-coimbatore">Web Design</a></li>
                         <li><a href="<?php echo base_url(); ?>mobile-application-development-android-app">Android App Development</a></li>
                         <li><a href="<?php echo base_url(); ?>digital-marketing-company-in-coimbatore">Digital Marketing</a></li>
                         <li><a href="<?php echo base_url(); ?>school-management-software">School Management Software</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <h3>Quick Links</h3>
                     <ul class="quick-links-list">
@@ -251,15 +251,18 @@ $footer_setting = $this->db->from('settings')->get()->row();
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <h3>Contacts</h3>
                     <ul class="footer-contact-list">
-                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br> <?php echo $footer_setting->address_2 .' '. $footer_setting->address_3; ?> <br><?php echo $footer_setting->city .' '. $footer_setting->pincode; ?>, <?php echo $footer_setting->state; ?>, India</li>
+                        <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br> <?php echo $footer_setting->address_2 . ' ' . $footer_setting->address_3; ?> <br><?php echo $footer_setting->city . ' ' . $footer_setting->pincode; ?>, <?php echo $footer_setting->state; ?>, India</li>
                         <li><span>Email:</span> <img src="<?php echo base_url(); ?>asset/images/footer-mail.png" alt="Mail Id"></li>
-                        <li><span>Sales:</span> <?php echo $footer_setting->mobile_2; ?></li>
-                        <li><span>Support:</span> <?php echo $footer_setting->mobile_1; ?></li>
-                        <li><span>Careers:</span> +91 95970 16798</li>
+                        <li><span class="web-phone d-block">Sales: <?php echo $footer_setting->mobile_2; ?></span> </li>
+                        <li><a href="tel:+919787467575" class="mob-phone d-none"><strong>Sales: </strong><?php echo $contact_setting->mobile_2; ?></a></li>
+                        <li><span class="web-phone d-block">Support: <?php echo $footer_setting->mobile_1; ?></span></li>
+                        <li><a href="tel:+919159913344" class="mob-phone d-none"><strong>Support:</strong><?php echo $contact_setting->mobile_1; ?></a></li>
+                        <li><span class="web-phone d-block"><strong>Careers:</strong> +91 95970 16798</span></li>
+                        <li><a href="tel:+919597016798" class="mob-phone d-none"><strong>Careers:</strong> +91 95970 16798</a></li>
                     </ul>
                 </div>
             </div>
@@ -345,10 +348,10 @@ $footer_setting = $this->db->from('settings')->get()->row();
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-856568699">
 </script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
+  gtag('config', 'AW-856568699');
+  gtag('js', new Date());
   gtag('config', 'AW-856568699');
 </script>
 
@@ -361,5 +364,3 @@ $footer_setting = $this->db->from('settings')->get()->row();
         }
     });
 </script>
-
-

@@ -11,12 +11,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " "; ?>">
-   <link rel="canonical" href="<?php echo base_url('web-development'); ?>" />
+   <link rel="canonical" href="<?php echo base_url('web-development-company-in-coimbatore'); ?>" />
    <meta property="og:type" content="website" />
    <meta property="og:title" content="Website Development Company in Coimbatore" />
    <meta property="og:description"
       content="Cloudi5 Technologies, a leading web development company in Coimbatore, offers innovative and customized website development solutions that stand out." />
-   <meta property="og:url" content="<?php echo base_url('web-development'); ?>" />
+   <meta property="og:url" content="<?php echo base_url('web-development-company-in-coimbatore'); ?>" />
    <meta name="robots" content="index,follow" />
    <meta name="language" content="english" />
    <meta name="Expires" content="never" />
@@ -69,89 +69,9 @@
          </div>
       </div>
 
-      <section class="clients-logo pt-50 pb-50">
-         <div class="container-fluid">
-            <div class="client-logo-details">
-               <div class="clients-title">
-                  <h6>Our Trusted Partner</h6>
-               </div>
-               <div class="marquee">
-                  <div class="marquee-content">
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11">
-                     </div>
-                     <!-- Duplicate items for seamless looping -->
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/mayflower.jpg" alt="Client 1">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/baps.jpg" alt="Client 2">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="Client 3">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/hookz.jpg" alt="Client 4">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/susin-1.jpg" alt="Client 5">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/ecom-365.jpg" alt="Client 6">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/falcon.jpg" alt="Client 7">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="Client 8">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="Client 9">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/metro.jpg" alt="Client 10">
-                     </div>
-                     <div class="marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/madhampatty.jpg" alt="Client 11">
-                     </div>
-                  </div>
-               </div>
-               <div class="clients-title-2">
-                  <h6>Almost 250+ Partner we have</h6>
-               </div>
-            </div>
-         </div>
-      </section>
+      <!-- clients-logo section start-->
+      <?php include 'our-clients.php' ?>
+      <!-- clients-logo section end-->
 
       <section class="wd-section pt-80 pb-80 section-sure">
          <div class="row">
@@ -166,7 +86,6 @@
                </div>
             </div>
             <div class="container d-flex section-intro p-0">
-
                <div class="col-md-6">
                   <div class="tagline">Who Are We, Really?</div>
                   <div class="title">
@@ -287,7 +206,7 @@
          </div>
       </div>
 
-      <section class="mCommerce padd50 ">
+      <section class="mCommerce padd50">
          <div class="container">
             <p class="aos-animate aos-init" data-aos="fade-up">
                <span class="tagline">We Build What You Need</spa>
@@ -472,7 +391,6 @@
       <section class="quote-area bg-overlay overlay-color" id="quote-area">
          <div class="container">
             <div class="row justify-content-center align-items-center">
-               <!-- <div class="col-lg-3"></div> -->
                <div class="shape-wrapper">
                   <div class="shape-review-1">
                      <img src="<?php echo base_url(); ?>asset/images/web-development/review-star.png" alt="Review">
@@ -491,9 +409,6 @@
                         Start the project
                      </a>
                   </div>
-                  <!-- <div class="feedback-image">
-                     <img src="<?php echo base_url(); ?>asset/images/web-development/girl-review.png" alt="Review">
-                  </div> -->
                </div>
                <div class="col-lg-1"></div>
                <div class="col-lg-6 align-self-center">
@@ -560,7 +475,6 @@
                         <div class="tech-name">HTML</div>
                      </div>
                   </div>
-
                   <!-- Magento -->
                   <div class="tech-card size-2">
                      <div class="tech-item">
@@ -568,30 +482,24 @@
                         <div class="tech-name">Laravel</div>
                      </div>
                   </div>
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/css.webp" alt="Css">
                         <div class="tech-name">CSS</div>
                      </div>
                   </div>
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/php.webp" alt="PHP">
                         <div class="tech-name">PHP</div>
                      </div>
                   </div>
-
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/js.webp" alt="JavaScript">
                         <div class="tech-name">JavaScript</div>
                      </div>
                   </div>
-
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/react.webp" alt="ReactJs">
@@ -605,8 +513,6 @@
                         <div class="tech-name">Bootstrap</div>
                      </div>
                   </div>
-
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/typescript.webp"
@@ -614,14 +520,12 @@
                         <div class="tech-name">Typescript</div>
                      </div>
                   </div>
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/jquery.webp" alt="Jquery">
                         <div class="tech-name">Jquery</div>
                      </div>
                   </div>
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/vue.webp" alt="Vue">
@@ -647,7 +551,6 @@
                         <div class="tech-name">Angular</div>
                      </div>
                   </div>
-
                   <div class="tech-card size-2">
                      <div class="tech-item">
                         <img src="<?php echo base_url(); ?>asset/images/web-development/tech/node.webp" alt="Node">
@@ -669,7 +572,6 @@
                   </div>
                </div>
             </div>
-
          </div>
       </section>
       <div class="wd-section pt-60 pb-60 section-hiring-timeline">
@@ -855,43 +757,6 @@
                      </div>
                   </div>
                </div>
-               <!-- <div class="portfolio-cards card-bg-clr-3">
-                  <div class="ellipse item1"></div>
-                  <div class="ellipse item2"></div>
-                  <div class="ellipse item3"></div>
-                  <div class="ellipse item4"></div>
-                  <div class="row align-items-center">
-                     <div class="col-lg-4">
-                        <div class="portfolio-content-container">
-                           <div class="portfolio-logo">
-                              <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-logo-1.png"
-                                 alt="susin-logo">
-                           </div>
-                           <h3>Susin Group of Industries</h3>
-                           <p>At Susingroup, trust and reliability are paramount values ingrained in our collective
-                              mission.</p>
-                        </div>
-                        <div class="portfolio-global-store">
-                           <a href="https://www.susingroup.com/" target="_blank">
-                              <span class="visit-link">
-                                 <span class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25px">
-                                       <path
-                                          d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z" />
-                                    </svg>
-                                 </span>
-                                 <span class="content">
-                                    <span>Website</span>
-                                 </span>
-                              </span>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="col-lg-8">
-                        <div class="portfolio-screens-3"></div>
-                     </div>
-                  </div>
-               </div> -->
             </div>
             <div class="portfolio-view-all-btn text-center">
                <div class="mob-intro-contact-btn"><a href="<?php echo base_url(); ?>portfolio" class="contact-btn">
@@ -1070,9 +935,9 @@
       <?php $this->load->view('frontend/common-js'); ?>
       <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/owl.carousel.min.js"></script>
       <script>
-         $(document).ready(function () {
+         $(document).ready(function() {
             // Add click event to the entire card
-            $('.card').click(function (e) {
+            $('.card').click(function(e) {
                // Prevent default behavior only if clicking on card but not on the collapse itself
                if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
                   e.preventDefault();
@@ -1083,12 +948,12 @@
                }
             });
 
-            $('.collapse').on('show.bs.collapse', function () {
+            $('.collapse').on('show.bs.collapse', function() {
                $(this).prev('.card-header').addClass('active');
-            }).on('hide.bs.collapse', function () {
+            }).on('hide.bs.collapse', function() {
                $(this).prev('.card-header').removeClass('active');
             });
-            $('.card').click(function (e) {
+            $('.card').click(function(e) {
                if (!$(e.target).hasClass('collapse') && !$(e.target).parents('.collapse').length) {
                   e.preventDefault();
                   const collapseElement = $(this).find('.collapse');
@@ -1098,16 +963,16 @@
                }
             });
             $('.collapse')
-               .on('show.bs.collapse', function () {
+               .on('show.bs.collapse', function() {
                   // Add active class
                   $(this).prev('.card-header').addClass('active');
                   // Ensure proper height
                   $(this).css('height', 'auto');
                })
-               .on('hide.bs.collapse', function () {
+               .on('hide.bs.collapse', function() {
                   $(this).prev('.card-header').removeClass('active');
                })
-               .on('shown.bs.collapse', function () {
+               .on('shown.bs.collapse', function() {
                   // After animation completes, ensure height is auto
                   $(this).css('height', 'auto');
                });

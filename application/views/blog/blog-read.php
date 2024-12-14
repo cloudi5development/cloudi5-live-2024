@@ -73,7 +73,8 @@
                                 <li>
                                     <div class="widget_social_link">
                                         <a target="_blank" class="share-twitter" data-bi-name="twitter" href="https://twitter.com/intent/tweet?original_referer=<?php echo base_url() . 'blog/' . $blog->slug . '-' . $blog->blog_id; ?>&amp;text=&amp;tw_p=tweetbutton&amp;url=<?php echo base_url() . 'blog/' . $blog->slug . '-' . $blog->blog_id; ?>">
-                                            <i class="fa fa-twitter"></i>
+                                        <img src="<?php echo base_url(); ?>asset/images/twitter"
+                                        alt="web design company in coimbatore">
                                         </a>
                                         <p>Share</p>
                                     </div>
@@ -197,9 +198,9 @@
                                             <?php } ?>
                                             <?php echo $blog->author_name; ?></a>
                                     </div>
-                                    <ul class="blog_meta_tags">
+                                    <!-- <ul class="blog_meta_tags">
                                         <li><span class="blog_bg_pink"><?php echo count($BlogCmtcnt); ?></span></li>
-                                    </ul>
+                                    </ul> -->
                                     <?php echo $blog->description; ?>
                                 </div>
                             </div>
@@ -249,13 +250,13 @@
                                         </div>
                                         <div class="blog_halfbox">
                                             <div class="blog_form_group">
-                                                <input type="text" name="mobile" class="form-control" placeholder="Enter Your Website" value="<?php echo set_value('mobile'); ?>">
+                                                <input type="text" name="mobile" class="form-control" placeholder="Enter Your Mobile Number*" value="<?php echo set_value('mobile'); ?>">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="blog_row">
                                         <div class="blog_form_group">
-                                            <textarea name="message" class="form-control" placeholder="Comment*" rows="5"> <?php echo set_value('message'); ?></textarea>
+                                            <textarea name="message" class="form-control" placeholder="Enter Your Message*" rows="5" value="<?php echo set_value('message'); ?>"></textarea>
                                         </div>
                                     </div>
                                     <div class="blog_row">
@@ -288,7 +289,8 @@
                                         <li>
                                             <div class="widget_social_link">
                                                 <a target="_blank" class="share-twitter" data-bi-name="twitter" href="https://twitter.com/intent/tweet?original_referer=<?php echo base_url() . 'blog/' . $blog->slug . '-' . $blog->blog_id; ?>&amp;text=&amp;tw_p=tweetbutton&amp;url=<?php echo base_url() . 'blog/' . $blog->slug . '-' . $blog->blog_id; ?>">
-                                                    <i class="fa fa-twitter"></i>
+                                                    <img src="<?php echo base_url(); ?>asset/images/twitter.svg"
+                                        alt="web design company in coimbatore">
                                                 </a>
                                                 <p>Share</p>
                                             </div>
