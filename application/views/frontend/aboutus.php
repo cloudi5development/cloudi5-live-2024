@@ -355,7 +355,7 @@
 
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/balaChandran-profile-team-head.png"
+                        <img src="<?php echo base_url(); ?>asset/images/team/balachandran-profile-team-head.png"
                            alt="Bala Profile" class="about-us-image">
                         <div class="text-center ts-team-content">
                            <h3 class="team-name">Balachandran K </h3>
