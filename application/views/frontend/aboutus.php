@@ -355,11 +355,22 @@
 
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
+                        <img src="<?php echo base_url(); ?>asset/images/team/balaChandran-profile-team-head.png"
+                           alt="Bala Profile" class="about-us-image">
+                        <div class="text-center ts-team-content">
+                           <h3 class="team-name">Balachandran K </h3>
+                           <p class="team-designation">Team Head - Web Developer</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 zoom-effect-container">
+                     <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/karthikeyan-profile-php-developer.png"
                            alt="Karthikeyan-s Profile" class="about-us-image">
                         <div class="text-center ts-team-content">
                            <h3 class="team-name">Karthikeyan S</h3>
-                           <p class="team-designation">Web Developer</p>
+                           <p class="team-designation">Team Lead - Web Developer</p>
                         </div>
                      </div>
                   </div>
@@ -403,16 +414,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/dinesh-profile-app-developer.png"
-                           alt="Dinesh Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Dinesh S</h3>
-                           <p class="team-designation">Team Lead - Mobile App Developer</p>
-                        </div>
-                     </div>
-                  </div>
+               
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/gowri-profile-ios-developer.png"
@@ -493,16 +495,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/shiji-digital-marketing.png"
-                           alt="Shiji Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Shiji B</h3>
-                           <p class="team-designation">Digital Marketing Executive</p>
-                        </div>
-                     </div>
-                  </div>
+              
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/santhosh-digital-marketing.png"

@@ -213,308 +213,145 @@
     </section>
     <!--Leading-social-media-ends -->
 
-     <!-- Social-media-platform-starts -->
-     <section>
-        <div class="social-media-platform">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="media-platform-title">
-                            <p>We Dominate for Your Brand's Success</p>
-                            <h2>Social Media Marketing Platforms </h2>
+    <section class="why-choose-tab-container">
+        <div class="container ">
+                <div class="why-choose-sec-heading">
+                    <div class="row">
+                    <div class="col-lg-6">
+                        <div>
+                            <h2>Why choose Cloudi5 for your Social Media Marketing?</h2>
                         </div>
 
                     </div>
-                    <div class="col-lg-12">
 
-                        <div class="media-platform-text">
-                            <p>Social media is the key to raising awareness of your brand and engaging with your audience.
-                                But keeping up with the changes can be tough.
-                                That's where Cloudi5 Technologies comes in.
-                                We're here to make social media work for you.</p>
-                            <div class="vector">
-                                <svg class="star" width="70" height="70" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M87.7075 38.9709C85.1725 38.9709 82.8325 39.9446 81.0775 41.4052C80.8825 41.5999 80.6875 41.6973 80.59 41.892C78.64 43.5473 64.6 48.6104 49.0975 48.9999L49 48.9025C62.455 36.0499 77.08 31.6683 77.08 31.6683C79.42 31.4736 81.6625 30.4999 83.515 28.7473C87.415 24.8525 87.415 18.4262 83.515 14.5315C79.615 10.6367 73.18 10.6367 69.28 14.5315C67.525 16.2841 66.55 18.6209 66.355 20.9578C66.355 21.1525 66.355 21.4446 66.355 21.6394C66.16 24.1709 59.8225 37.6078 49.0975 48.9025C49.585 30.4025 56.7025 17.063 56.7025 17.063C58.2625 15.3104 59.14 12.9736 59.14 10.442C59.14 4.79462 54.5575 0.315674 49 0.315674C43.4425 0.315674 38.9575 4.79462 38.9575 10.3446C38.9575 12.8762 39.9325 15.213 41.395 16.9657C41.59 17.1604 41.6875 17.3551 41.8825 17.4525C43.54 19.3025 48.61 33.3236 48.9025 48.8051L48.805 48.9025C36.0325 35.563 31.645 20.9578 31.645 20.9578C31.45 18.6209 30.475 16.3815 28.72 14.5315C24.82 10.6367 18.385 10.6367 14.485 14.5315C10.585 18.4262 10.585 24.8525 14.485 28.7473C16.24 30.4999 18.58 31.4736 20.92 31.6683C21.115 31.6683 21.4075 31.6683 21.6025 31.6683C24.1375 31.863 37.5925 38.192 48.9025 48.9025C30.3775 48.4157 17.02 41.3078 17.02 41.3078C15.265 39.7499 12.925 38.8736 10.39 38.8736C4.735 38.9709 0.25 43.4499 0.25 48.9999C0.25 54.5499 4.735 59.0288 10.2925 59.0288C12.8275 59.0288 15.1675 58.0551 16.9225 56.5946C17.1175 56.3999 17.3125 56.3025 17.41 56.1078C19.2625 54.4525 33.3025 49.3894 48.805 49.0973C35.4475 61.7551 20.92 66.1367 20.92 66.1367C18.58 66.3315 16.3375 67.3051 14.485 69.0578C10.585 72.9525 10.585 79.3788 14.485 83.2736C18.385 87.1683 24.82 87.1683 28.72 83.2736C30.475 81.5209 31.45 79.1841 31.645 76.8473C31.645 76.6525 31.645 76.3604 31.645 76.1657C31.9375 73.6341 38.275 60.2946 48.9025 48.9999H49C49 48.9999 49 48.9999 49.0975 48.9999C48.7075 67.5973 41.4925 81.0341 41.4925 81.0341C39.9325 82.7867 39.055 85.1236 39.055 87.6552C39.055 93.2051 43.54 97.6841 49.0975 97.6841C54.655 97.6841 59.14 93.2051 59.14 87.6552C59.14 85.1236 58.165 82.7867 56.7025 81.0341C56.5075 80.8394 56.41 80.6446 56.215 80.5473C54.5575 78.5999 49.4875 64.6762 49.195 49.0973C61.9675 62.5341 66.355 77.042 66.355 77.042C66.55 79.3788 67.525 81.6183 69.28 83.4683C73.18 87.363 79.615 87.363 83.515 83.4683C87.415 79.5736 87.415 73.1473 83.515 69.2525C81.76 67.4999 79.42 66.5262 77.08 66.3315C76.885 66.3315 76.5925 66.3315 76.3975 66.3315C73.765 66.0394 60.4075 59.7104 49.195 48.9999C67.72 49.4867 81.0775 56.5946 81.0775 56.5946C82.8325 58.1525 85.1725 59.0288 87.7075 59.0288C93.265 59.0288 97.75 54.5499 97.75 48.9999C97.75 43.4499 93.265 38.9709 87.7075 38.9709ZM49.0975 48.9999C49 48.9999 49 48.9999 49.0975 48.9999V48.9999Z"></path>
-                                </svg>
-                                <svg class="star-bg" width="250" height="200" viewBox="0 0 312 296" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M156 71.9034L108.883 3.35692L111.202 86.5183L32.7166 58.6381L83.494 124.503L3.54644 148L83.494 171.497L32.7166 237.362L111.202 209.482L108.883 292.643L156 224.097L203.117 292.643L200.798 209.482L279.403 237.362L228.504 171.497L308.454 148L228.504 124.503L279.403 58.6381L200.798 86.5175L203.117 3.35692L156 71.9034ZM204.211 0L201.838 85.0875L282.274 56.5589L230.191 123.956L312 148L230.191 172.044L282.274 239.441L201.838 210.912L204.211 296L156 225.862L107.789 296L110.162 210.912L29.8511 239.441L81.8094 172.044L0 148L81.8094 123.956L29.8511 56.5589L110.162 85.0875L107.789 0L156 70.138L204.211 0Z"></path>
-                                </svg>
+                    <div class="col-lg-6">
+                        <div class="why-choose-content">
+                            Dominate Social Media. Achieve Marketing Greatness with Cloudi5
+                            Experience the power of strategic social media marketing with Cloudi5.
+                            Our expert team will help you dominate social media platforms,
+                            achieve marketing greatness, and enhance your brand's online presence.
+                            Let's work together to create a winning social media strategy that drives engagement,
+                            boosts visibility, and delivers measurable results.
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
+                <div class="row mt-60">
+                    <div class="col-lg-4">
+                        <div class="why-choose-tab-buttons">
+                            <button class="why-choose-tab-button active">
+                                <span class="why-choose-button-background"></span>
+                                <span class="why-choose-button-text">Dedicated Account Management</span>
+                            </button>
+                            <button class="why-choose-tab-button">
+                                <span class="why-choose-button-background"></span>
+                                <span class="why-choose-button-text">Social Media Marketing Experts</span>
+                            </button>
+                            <button class="why-choose-tab-button">
+                                <span class="why-choose-button-background"></span>
+                                <span class="why-choose-button-text">Expert Content Creators</span>
+                            </button>
+                            <button class="why-choose-tab-button">
+                                <span class="why-choose-button-background"></span>
+                                <span class="why-choose-button-text">Growth-Focused Social Solutions</span>
+                            </button>
+                            <button class="why-choose-tab-button">
+                                <span class="why-choose-button-background"></span>
+                                <span class="why-choose-button-text">Data-Driven Approachs</span>
+                            </button>
+                            <button class="why-choose-tab-button">
+                                <span class="why-choose-button-background"></span>
+                                <span class="why-choose-button-text">Collaborative & Transparent Partnership</span>
+                            </button>
+                            <button class="why-choose-tab-button">
+                                <span class="why-choose-button-background"></span>
+                                <span class="why-choose-button-text">Paid Advertising Specialists</span>
+                            </button>
+                            
+                        </div>
+
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="why-choose-tab-content">
+                            <div class="why-choose-tab-section active">
+                                <h2>Dedicated Account Management</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/dedicated-account.jpg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                                <p class="mt-10">You'll never be just a number with us.
+                                        We assign a dedicated team of social media strategists to your account,
+                                        effectively becoming an extension of your marketing team.
+                                        They'll thoroughly explore your brand, audience, and goals,
+                                        ensuring a client-focused approach that prioritizes your success.
+                                        Regular communication and clear reporting keep you informed and
+                                        involved every step of the way.</p>
+                            </div>
+                            <div class="why-choose-tab-section">
+                                <h2>Social Media Marketing Experts</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/tab-social-img.jpg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                                <p>We understand social media inside out. Here at Cloudi5,
+                                        our team of Social Media Marketing Experts in Coimbatore are passionate
+                                        individuals who live and breathe the latest trends, algorithms, and best practices.
+                                        This expertise helps us create strategies that fit your industry and audience.
+                                        We know what works on different platforms, so we create engaging content that
+                                        starts conversations and builds communities.</p>
+                            </div>
+                            <div class="why-choose-tab-section">
+                                <h2>Expert Content Creators</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/dedicated-account.jpg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                                <p>Forget generic posts. Our in-house content creators are the secret weapon behind
+                                        our engaging social media strategies. They're a team of experts in creating compelling
+                                        content across all platforms, from stunning visuals and captivating videos to magnetic
+                                        copywriting that stops the scroll, sparks conversations, and drives action. We'll develop
+                                        a unique social media voice that connects with your audience and builds brand loyalty.</p>
+                            </div>
+                            <div class="why-choose-tab-section">
+                                <h2>Growth-Focused Social Solutions</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/dedicated-account.jpg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                                <p>Your business keeps growing, and so should your social media.
+                                        We offer scalable solutions that adapt to your changing needs and goals.
+                                        We'll be there every step of the way, continuously refining your strategy
+                                        to achieve your ever-evolving goals. Whether you're a startup looking to
+                                        establish a strong online presence or a well-established brand aiming to
+                                        expand your reach, we have the expertise to help you succeed.</p>
+                            </div>
+                            <div class="why-choose-tab-section">
+                                <h2>Data-Driven Approach</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/dedicated-account.jpg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                                <p>We don't just throw content out there and hope for the best. Our team is data-driven,
+                                        using advanced analytics tools to track key metrics and analyze performance.
+                                        These insights allow us to continuously optimize your campaigns for maximum reach, engagement,
+                                        and ultimately, a strong return on investment (ROI). We'll translate complex data into clear,
+                                        actionable insights, ensuring you see the value of your social media investment.</p>
+                            </div>
+                            <div class="why-choose-tab-section">
+                                <h2>Collaborative & Transparent Partnership</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/dedicated-account.jpg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                                <p>We believe in open communication and collaboration. Working closely with you,
+                                        we understand your vision and develop a social media strategy that aligns
+                                        with your marketing goals. You'll receive regular reports with clear,
+                                        actionable insights, ensuring transparency. Invested in your success,
+                                        our collaborative approach allows us to build a long-term partnership
+                                        for exceptional results.</p>
+                            </div>
+                            <div class="why-choose-tab-section">
+                                <h2>Paid Advertising Specialists</h2>
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/dedicated-account.jpg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                                <p>Organic reach on social media platforms is ever-changing.
+                                        Our team includes paid advertising specialists who can develop targeted
+                                        social media advertising campaigns to reach a wider audience, drive website traffic,
+                                        and generate leads. We'll manage your budget effectively and ensure you see a strong
+                                        return on your ad spend. We'll use powerful targeting options to make sure your ads reach
+                                        the right people who are likely to buy from you.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="social-media-card-wrapper">
-                    <div class="social-wrapper-1">
-                        <div class="row">
-
-                            <div class="col-lg-7">
-                                <div class="media-card-left">
-                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-left.png" alt="bg-pattern" class="" />
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper">
-                                    <div class="card-text-wrapper">
-                                        <div class="icon-wrapper">
-                                            <button class="Btn">
-                                                <span class="svgContainer">
-                                                    <svg viewBox="0 0 320 512"
-                                                        height="1.3em"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        class="svgIcon"
-                                                        fill="white">
-                                                        <path
-                                                            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path>
-                                                    </svg>
-                                                </span>
-                                                <span class="BG bg-1"></span>
-                                            </button>
-                                            <h2 class="text-center">Facebook</h2>
-                                        </div>
-                                        <p>Facebook is important for your brand, helping you reach more people, build a community, and stand out.
-                                            We specialize in maximizing your Facebook presence, making your page attractive and engaging.
-                                            We interact with your audience, ensuring everyone feels part of your brand's community.
-                                            Our targeted ads reach the right audience, and we use data-driven strategies and Meta Ads
-                                            to target your desired audience effectively. Whether you aim for brand awareness, lead generation,
-                                            or website traffic, we've got the right strategy for you.</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper">
-
-                                    <!-- <span class="btn-container">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-icon.webp" alt="pattern" class=" icon-1" />
-                                        </span> -->
-
-
-                                    <!-- <div class="social-icon-wrapper">
-                                        <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-icon.webp" alt="pattern" class="social-icon" />
-
-                                    </div> -->
-                                    <div class="card-text-wrapper">
-                                        <div class="icon-wrapper">
-                                            <button class="Btn">
-                                                <span class="svgContainer">
-                                                    <svg viewBox="0 0 320 512"
-                                                        height="1.3em"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        class="svgIcon"
-                                                        fill="white">
-                                                        <path
-                                                            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path>
-                                                    </svg>
-                                                </span>
-                                                <span class="BG bg-1"></span>
-                                            </button>
-                                            <h2 class="text-center">Facebook</h2>
-                                        </div>
-                                        <p>Facebook is important for your brand, helping you reach more people, build a community, and stand out.
-                                            We specialize in maximizing your Facebook presence, making your page attractive and engaging.
-                                            We interact with your audience, ensuring everyone feels part of your brand's community.
-                                            Our targeted ads reach the right audience, and we use data-driven strategies and Meta Ads
-                                            to target your desired audience effectively. Whether you aim for brand awareness, lead generation,
-                                            or website traffic, we've got the right strategy for you.</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper">
-                                    <!-- <div class="social-icon-wrapper">
-                                        <img src="<?php echo base_url(); ?>asset/images/smm-page/instagram-icon.webp" alt="pattern" class="social-icon" />
-
-                                    </div> -->
-                                    <div class="card-text-wrapper">
-                                        <div class="icon-wrapper">
-                                            <button class="Btn">
-                                                <!-- <span class="svgContainer">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                                        <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
-                                                            <stop offset="0" stop-color="#fd5"></stop>
-                                                            <stop offset=".328" stop-color="#ff543f"></stop>
-                                                            <stop offset=".348" stop-color="#fc5245"></stop>
-                                                            <stop offset=".504" stop-color="#e64771"></stop>
-                                                            <stop offset=".643" stop-color="#d53e91"></stop>
-                                                            <stop offset=".761" stop-color="#cc39a4"></stop>
-                                                            <stop offset=".841" stop-color="#c837ab"></stop>
-                                                        </radialGradient>
-                                                        <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
-                                                        <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
-                                                            <stop offset="0" stop-color="#4168c9"></stop>
-                                                            <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
-                                                        </radialGradient>
-                                                        <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
-                                                        <path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path>
-                                                        <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
-                                                        <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
-                                                    </svg>
-                                                </span> -->
-                                                <span class="svgContainer">
-                                                <img src="<?php echo base_url(); ?>asset/images/smm-page/instagram.svg" alt="pattern" class="social-icon" />
-                                                </span>
-                                                <span class="BG bg-2"></span>
-                                            </button>
-                                            <h2 class="text-center">Instagram</h2>
-                                        </div>
-                                        <p>Instagram is a powerful platform for businesses. Let us help you dominate Instagram.
-                                            We create a stunning profile, develop high-quality content, produce high-quality photos and videos,
-                                            and engage with your audience. We're experts at using hashtags and crafting captions that spark conversations. Leverage Instagram Reels and Stories with our campaigns. Additionally, we actively engage with your audience, respond to comments, and provide insights to improve your strategy.</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper">
-
-                                    <!-- <div class="social-icon-wrapper">
-                                        <img src="<?php echo base_url(); ?>asset/images/smm-page/linked-in-icon.png" alt="pattern" class="social-icon" />
-
-                                    </div> -->
-                                    <div class="card-text-wrapper">
-                                        <div class="icon-wrapper">
-                                            <button class="Btn">
-                                                <span class="svgContainer">
-                                                    <svg
-                                                        viewBox="0 0 448 512"
-                                                        height="1.6em"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        class="svgIcon"
-                                                        fill="white">
-                                                        <path
-                                                            d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path>
-                                                    </svg>
-                                                </span>
-                                                <span class="BG bg-3"></span>
-                                            </button>
-
-                                            <h2 class="text-center">LinkedIn</h2>
-                                        </div>
-                                        <p>LinkedIn is more than just another social platform; it's the go-to space for professional
-                                            networking and B2B marketing. We understand its importance in connecting with potential clients,
-                                            establishing industry authority, and generating leads. Our comprehensive LinkedIn strategy includes
-                                            Professional Profile Makeover, Content Creation, Networking Mastery, Lead Generation, Strategic Engagement,
-                                            Data & Analytics, and Community Management. Our goal is to help you maximize LinkedIn, ensuring your brand
-                                            stands out and flourishes in the professional environment.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper youtube-wrapper">
-                                    <div class="card-text-wrapper ">
-                                        <div class="icon-wrapper">
-                                            <button class="Btn">
-                                                <span class="svgContainer">
-                                                    <svg
-                                                        viewBox="0 0 576 512"
-                                                        fill="white"
-                                                        height="1.6em"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"></path>
-                                                    </svg>
-                                                </span>
-                                                <span class="BG bg-4"></span>
-                                            </button>
-
-                                            <h2 class="text-center">Youtube</h2>
-                                        </div>
-                                    </div>
-                                    <p>YouTube is more than just a video-sharing platform; it's essential for brand exposure and engagement.
-                                        At Cloudi5 Technologies, we specialize in optimizing your YouTube presence. We create a professional
-                                        channel that's easily searchable, ensuring your content reaches your target audience. From tutorials
-                                        to brand stories, our videos are designed to captivate and educate. We'll build a lively YouTube community
-                                        by actively engaging with comments, hosting live sessions, and uploading Shorts. Our focus on search
-                                        optimization, data-driven strategies, and staying updated with YouTube trends sets us apart,
-                                        ensuring your YouTube presence not only stands out but also drives real results.</p>
-                                </div>
-                            </div>
-
-
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper twitter-wrapper">
-                                    <div class="card-text-wrapper">
-                                        <div class="icon-wrapper">
-                                            <button class="Btn">
-                                                <span class="svgContainer">
-                                                    <svg
-                                                        viewBox="0 0 512 512"
-                                                        height="1.7em"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        class="svgIcon"
-                                                        fill="white">
-                                                        <path
-                                                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
-                                                    </svg>
-                                                </span>
-                                                <span class="BG bg-5"></span>
-                                            </button>
-
-
-                                            <h2 class="text-center">Twitter</h2>
-                                        </div>
-                                        <p>Twitter is a powerful platform for real-time engagement and brand promotion.
-                                            We'll help you make the most of Twitter by creating a compelling profile,
-                                            curating engaging content, and using relevant hashtags to increase visibility. Our team will actively engage with your audience, respond to queries, and participate in trending conversations to boost your brand's presence. Let us help you utilize the power of Twitter to connect with your audience and drive meaningful engagement.
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="card-content-wrapper">
-                                    <button class="Btn">
-                                        <span class="svgContainer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                                                <circle cx="24" cy="24" r="20" fill="#E60023"></circle>
-                                                <path fill="#FFF" d="M24.4439087,11.4161377c-8.6323242,0-13.2153931,5.7946167-13.2153931,12.1030884	c0,2.9338379,1.5615234,6.5853882,4.0599976,7.7484131c0.378418,0.1762085,0.581543,0.1000366,0.668457-0.2669067	c0.0668945-0.2784424,0.4038086-1.6369019,0.5553589-2.2684326c0.0484619-0.2015381,0.0246582-0.3746338-0.1384277-0.5731201	c-0.8269653-1.0030518-1.4884644-2.8461304-1.4884644-4.5645752c0-4.4115601,3.3399658-8.6799927,9.0299683-8.6799927	c4.9130859,0,8.3530884,3.3484497,8.3530884,8.1369019c0,5.4099731-2.7322998,9.1584473-6.2869263,9.1584473	c-1.9630737,0-3.4330444-1.6238403-2.9615479-3.6153564c0.5654297-2.3769531,1.6569214-4.9415283,1.6569214-6.6584473	c0-1.5354004-0.8230591-2.8169556-2.5299683-2.8169556c-2.006958,0-3.6184692,2.0753784-3.6184692,4.8569336	c0,1.7700195,0.5984497,2.9684448,0.5984497,2.9684448s-1.9822998,8.3815308-2.3453979,9.9415283	c-0.4019775,1.72229-0.2453003,4.1416016-0.0713501,5.7233887l0,0c0.4511108,0.1768799,0.9024048,0.3537598,1.3687744,0.4981079l0,0	c0.8168945-1.3278198,2.0349731-3.5056763,2.4864502-5.2422485c0.2438354-0.9361572,1.2468872-4.7546387,1.2468872-4.7546387	c0.6515503,1.2438965,2.5561523,2.296936,4.5831299,2.296936c6.0314941,0,10.378418-5.546936,10.378418-12.4400024	C36.7738647,16.3591919,31.3823242,11.4161377,24.4439087,11.4161377z"></path>
-                                            </svg>
-                                        </span>
-                                        <span class="BG bg-6"></span>
-                                    </button>
-                                    <div class="card-text-wrapper">
-                                        <h2 class="text-center">Pinterest</h2>
-                                        <p>LinkedIn is more than just another social platform; it's the go-to space for professional
-                                            networking and B2B marketing. We understand its importance in connecting with potential clients,
-                                            establishing industry authority, and generating leads. Our comprehensive LinkedIn strategy includes
-                                            Professional Profile Makeover, Content Creation, Networking Mastery, Lead Generation, Strategic Engagement,
-                                            Data & Analytics, and Community Management. Our goal is to help you maximize LinkedIn, ensuring your brand
-                                            stands out and flourishes in the professional environment.</p>
-                                    </div>
-                                </div>
-
-                            </div> -->
-
-
-
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
-
     </section>
-    <!-- Social-media-platform-ends -->
-
-
-
-
-
-
-
-
 
 
     <!-- Why-choose-us-starts -->
-    <section>
+    <!-- <section class="mt-60">
         <div class="why-choose-smm-sec">
             <div class="container">
                 <div class="row content-top-wrapper">
@@ -548,13 +385,13 @@
                                         </svg>
                                     </div>
 
-                                    <!-- <div class="icon-wrapper">
+                                    <div class="icon-wrapper">
                                     <div class="icon">
                                         <i class="fi fi-rr-portrait"></i>
                                         <img src="/api/placeholder/40/40" alt="Development Icon">
                                     </div>
                                     <div class="circle circle-item-1"></div>
-                                    </div> -->
+                                    </div>
                                     <h6>Dedicated Account <br> Management</h6>
                                     <p>You'll never be just a number with us.
                                         We assign a dedicated team of social media strategists to your account,
@@ -621,22 +458,7 @@
                                         expand your reach, we have the expertise to help you succeed.</p>
                                 </div>
                             </div>
-                            <!-- <div class=" col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-5">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox=" 0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-
-                                    <h6>Expert Content <br> Creators</h6>
-                                    <p>Forget generic posts. Our in-house content creators are the secret weapon behind
-                                        our engaging social media strategies. They're a team of experts in creating compelling
-                                        content across all platforms, from stunning visuals and captivating videos to magnetic
-                                        copywriting that stops the scroll, sparks conversations, and drives action. We'll develop
-                                        a unique social media voice that connects with your audience and builds brand loyalty.</p>
-                                </div>
-                            </div> -->
+                         
                             <div class="col-xl-4 col-lg-4 col-sm-6">
                                 <div class="why-choose-card wrapper-6">
                                     <div class="pattern-sec">
@@ -685,21 +507,7 @@
                                         the right people who are likely to buy from you.</p>
                                 </div>
                             </div>
-                            <!-- <div class="col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-9">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox=" 0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-                                    <h6>Expert Content <br> Creators</h6>
-                                    <p>Forget generic posts. Our in-house content creators are the secret weapon behind
-                                        our engaging social media strategies. They're a team of experts in creating compelling
-                                        content across all platforms, from stunning visuals and captivating videos to magnetic
-                                        copywriting that stops the scroll, sparks conversations, and drives action. We'll develop
-                                        a unique social media voice that connects with your audience and builds brand loyalty.</p>
-                                </div>
-                            </div> -->
+                          
                         </div>
                     </div>
 
@@ -708,10 +516,190 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!-- Why-choose-us-ends -->
 
-   
+
+
+
+
+    <!-- Social-media-platform-starts -->
+    <section>
+        <div class="social-media-platform">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="media-platform-title">
+                            <p>We Dominate for Your Brand's Success</p>
+                            <h2>Social Media Marketing Platforms </h2>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12">
+
+                        <div class="media-platform-text">
+                            <p>Social media is the key to raising awareness of your brand and engaging with your audience.
+                                But keeping up with the changes can be tough.
+                                That's where Cloudi5 Technologies comes in.
+                                We're here to make social media work for you.</p>
+                            <div class="vector">
+                                <svg class="star" width="70" height="70" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M87.7075 38.9709C85.1725 38.9709 82.8325 39.9446 81.0775 41.4052C80.8825 41.5999 80.6875 41.6973 80.59 41.892C78.64 43.5473 64.6 48.6104 49.0975 48.9999L49 48.9025C62.455 36.0499 77.08 31.6683 77.08 31.6683C79.42 31.4736 81.6625 30.4999 83.515 28.7473C87.415 24.8525 87.415 18.4262 83.515 14.5315C79.615 10.6367 73.18 10.6367 69.28 14.5315C67.525 16.2841 66.55 18.6209 66.355 20.9578C66.355 21.1525 66.355 21.4446 66.355 21.6394C66.16 24.1709 59.8225 37.6078 49.0975 48.9025C49.585 30.4025 56.7025 17.063 56.7025 17.063C58.2625 15.3104 59.14 12.9736 59.14 10.442C59.14 4.79462 54.5575 0.315674 49 0.315674C43.4425 0.315674 38.9575 4.79462 38.9575 10.3446C38.9575 12.8762 39.9325 15.213 41.395 16.9657C41.59 17.1604 41.6875 17.3551 41.8825 17.4525C43.54 19.3025 48.61 33.3236 48.9025 48.8051L48.805 48.9025C36.0325 35.563 31.645 20.9578 31.645 20.9578C31.45 18.6209 30.475 16.3815 28.72 14.5315C24.82 10.6367 18.385 10.6367 14.485 14.5315C10.585 18.4262 10.585 24.8525 14.485 28.7473C16.24 30.4999 18.58 31.4736 20.92 31.6683C21.115 31.6683 21.4075 31.6683 21.6025 31.6683C24.1375 31.863 37.5925 38.192 48.9025 48.9025C30.3775 48.4157 17.02 41.3078 17.02 41.3078C15.265 39.7499 12.925 38.8736 10.39 38.8736C4.735 38.9709 0.25 43.4499 0.25 48.9999C0.25 54.5499 4.735 59.0288 10.2925 59.0288C12.8275 59.0288 15.1675 58.0551 16.9225 56.5946C17.1175 56.3999 17.3125 56.3025 17.41 56.1078C19.2625 54.4525 33.3025 49.3894 48.805 49.0973C35.4475 61.7551 20.92 66.1367 20.92 66.1367C18.58 66.3315 16.3375 67.3051 14.485 69.0578C10.585 72.9525 10.585 79.3788 14.485 83.2736C18.385 87.1683 24.82 87.1683 28.72 83.2736C30.475 81.5209 31.45 79.1841 31.645 76.8473C31.645 76.6525 31.645 76.3604 31.645 76.1657C31.9375 73.6341 38.275 60.2946 48.9025 48.9999H49C49 48.9999 49 48.9999 49.0975 48.9999C48.7075 67.5973 41.4925 81.0341 41.4925 81.0341C39.9325 82.7867 39.055 85.1236 39.055 87.6552C39.055 93.2051 43.54 97.6841 49.0975 97.6841C54.655 97.6841 59.14 93.2051 59.14 87.6552C59.14 85.1236 58.165 82.7867 56.7025 81.0341C56.5075 80.8394 56.41 80.6446 56.215 80.5473C54.5575 78.5999 49.4875 64.6762 49.195 49.0973C61.9675 62.5341 66.355 77.042 66.355 77.042C66.55 79.3788 67.525 81.6183 69.28 83.4683C73.18 87.363 79.615 87.363 83.515 83.4683C87.415 79.5736 87.415 73.1473 83.515 69.2525C81.76 67.4999 79.42 66.5262 77.08 66.3315C76.885 66.3315 76.5925 66.3315 76.3975 66.3315C73.765 66.0394 60.4075 59.7104 49.195 48.9999C67.72 49.4867 81.0775 56.5946 81.0775 56.5946C82.8325 58.1525 85.1725 59.0288 87.7075 59.0288C93.265 59.0288 97.75 54.5499 97.75 48.9999C97.75 43.4499 93.265 38.9709 87.7075 38.9709ZM49.0975 48.9999C49 48.9999 49 48.9999 49.0975 48.9999V48.9999Z"></path>
+                                </svg>
+                                <svg class="star-bg" width="250" height="200" viewBox="0 0 312 296" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M156 71.9034L108.883 3.35692L111.202 86.5183L32.7166 58.6381L83.494 124.503L3.54644 148L83.494 171.497L32.7166 237.362L111.202 209.482L108.883 292.643L156 224.097L203.117 292.643L200.798 209.482L279.403 237.362L228.504 171.497L308.454 148L228.504 124.503L279.403 58.6381L200.798 86.5175L203.117 3.35692L156 71.9034ZM204.211 0L201.838 85.0875L282.274 56.5589L230.191 123.956L312 148L230.191 172.044L282.274 239.441L201.838 210.912L204.211 296L156 225.862L107.789 296L110.162 210.912L29.8511 239.441L81.8094 172.044L0 148L81.8094 123.956L29.8511 56.5589L110.162 85.0875L107.789 0L156 70.138L204.211 0Z"></path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-media-card-wrapper">
+                    <div class="social-wrapper-1">
+                        <div class="row">
+
+                            <div class="col-lg-7">
+                                <div class="media-card-left">
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="social-media-img" />
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="card-content-wrapper facebook-card">
+                                    <div class="card-text-wrapper">
+                                        <span class="card-title-sec">
+                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-icon-1.webp" alt="bg-pattern" class="icon-social-media" />
+                                            <h2>Facebook</h2>
+                                        </span>
+                                        <p>Facebook is important for your brand, helping you reach more people, build a community, and stand out.
+                                            We specialize in maximizing your Facebook presence, making your page attractive and engaging.
+                                            We interact with your audience, ensuring everyone feels part of your brand's community.
+                                            Our targeted ads reach the right audience, and we use data-driven strategies and Meta Ads
+                                            to target your desired audience effectively. Whether you aim for brand awareness, lead generation,
+                                            or website traffic, we've got the right strategy for you.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row mt-60">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="card-content-wrapper instagram-text">
+                                    <div class="card-text-wrapper">
+                                        <span class="card-title-sec">
+                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/instagram-icon-1.webp" alt="bg-pattern" class="icon-social-media" />
+                                            <h2>Instagram</h2>
+                                        </span>
+                                        <p>Instagram is a powerful platform for businesses. Let us help you dominate Instagram.
+                                            We create a stunning profile, develop high-quality content, produce high-quality photos and videos,
+                                            and engage with your audience. We're experts at using hashtags and crafting captions that spark conversations. Leverage Instagram Reels and Stories with our campaigns. Additionally,
+                                            we actively engage with your audience, respond to comments, and provide insights to improve your strategy.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7">
+                                <div class="media-card-left">
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/instagram-left.png" alt="bg-pattern" class="social-media-img instagram-card" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-60">
+
+                            <div class="col-lg-7">
+                                <div class="media-card-left">
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/linked-in-left.png" alt="bg-pattern" class="social-media-img" />
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="card-content-wrapper linked-in-card">
+                                    <div class="card-text-wrapper">
+                                        <span class="card-title-sec">
+                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/linked-in-icon-1.png" alt="bg-pattern" class="icon-social-media" />
+                                            <h2>LinkedIn</h2>
+                                        </span>
+                                        <p>LinkedIn is more than just another social platform; it's the go-to space for professional
+                                            networking and B2B marketing. We understand its importance in connecting with potential clients,
+                                            establishing industry authority, and generating leads. Our comprehensive LinkedIn strategy includes
+                                            Professional Profile Makeover, Content Creation, Networking Mastery, Lead Generation, Strategic Engagement,
+                                            Data & Analytics, and Community Management. Our goal is to help you maximize LinkedIn, ensuring your brand
+                                            stands out and flourishes in the professional environment.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row mt-60">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="card-content-wrapper twitter-text">
+                                    <div class="card-text-wrapper">
+                                        <span class="card-title-sec">
+                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/twitter-icon-1.webp" alt="bg-pattern" class="icon-social-media " />
+                                            <h2>Twitter</h2>
+                                        </span>
+                                        <p>Twitter is a powerful platform for real-time engagement and brand promotion.
+                                            We'll help you make the most of Twitter by creating a compelling profile,
+                                            curating engaging content, and using relevant hashtags to increase visibility.
+                                            Our team will actively engage with your audience, respond to queries, and participate in trending conversations to boost your brand's presence.
+                                            Let us help you utilize the power of Twitter to connect with your audience and drive meaningful engagement.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7">
+                                <div class="media-card-left">
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/twitter-left.png" alt="bg-pattern" class="social-media-img twitter-card" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-60">
+
+                            <div class="col-lg-7">
+                                <div class="media-card-left">
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/youtube-left.png" alt="bg-pattern" class="social-media-img" />
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="card-content-wrapper youtube-card">
+                                    <div class="card-text-wrapper">
+                                        <span class="card-title-sec">
+                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/youtube-icon-1.webp" alt="bg-pattern" class="icon-social-media" />
+                                            <h2>Youtube</h2>
+                                        </span>
+                                        <p>YouTube is more than just a video-sharing platform; it's essential for brand exposure and engagement.
+                                            At Cloudi5 Technologies, we specialize in optimizing your YouTube presence. We create a professional
+                                            channel that's easily searchable, ensuring your content reaches your target audience. From tutorials
+                                            to brand stories, our videos are designed to captivate and educate. We'll build a lively YouTube community
+                                            by actively engaging with comments, hosting live sessions, and uploading Shorts. Our focus on search
+                                            optimization, data-driven strategies, and staying updated with YouTube trends sets us apart,
+                                            ensuring your YouTube presence not only stands out but also drives real results.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- Social-media-platform-ends -->
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Social-media-services-starts -->
     <section>
@@ -1023,6 +1011,55 @@
                     $(".content-area").not($contentArea).slideUp();
                     $contentArea.slideDown();
                 }
+            });
+        });
+
+
+
+        const tabButtons = document.querySelectorAll(".why-choose-tab-button");
+        const tabSections = document.querySelectorAll(".why-choose-tab-section");
+        const buttonBackgrounds = document.querySelectorAll(
+            ".why-choose-button-background"
+        );
+
+        let currentIndex = 0;
+        let intervalId;
+
+        function startAutoSwitch() {
+            intervalId = setInterval(() => {
+                tabButtons[currentIndex].classList.remove("active");
+                tabSections[currentIndex].classList.remove("active");
+                buttonBackgrounds[currentIndex].style.width = "0";
+
+                currentIndex = (currentIndex + 1) % tabButtons.length;
+
+                tabButtons[currentIndex].classList.add("active");
+                tabSections[currentIndex].classList.add("active");
+                buttonBackgrounds[currentIndex].style.width = "100%";
+            }, 5000);
+        }
+
+        startAutoSwitch();
+
+        tabButtons.forEach((button, index) => {
+            button.addEventListener("click", () => {
+                // Stop the automatic tab switching
+                clearInterval(intervalId);
+
+                // Switch to the clicked tab
+                currentIndex = index;
+                tabButtons.forEach((btn, i) => {
+                    btn.classList.remove("active");
+                    tabSections[i].classList.remove("active");
+                    buttonBackgrounds[i].style.width = "0";
+                });
+
+                button.classList.add("active");
+                tabSections[index].classList.add("active");
+                buttonBackgrounds[index].style.width = "100%";
+
+                // Start the automatic tab switching again
+                startAutoSwitch();
             });
         });
     </script>
