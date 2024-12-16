@@ -258,9 +258,9 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br> <?php echo $footer_setting->address_2 . ' ' . $footer_setting->address_3; ?> <br><?php echo $footer_setting->city . ' ' . $footer_setting->pincode; ?>, <?php echo $footer_setting->state; ?>, India</li>
                         <li><span>Email:</span> <img src="<?php echo base_url(); ?>asset/images/footer-mail.png" alt="Mail Id"></li>
                         <li><span class="web-phone d-block">Sales: <?php echo $footer_setting->mobile_2; ?></span> </li>
-                        <li><a href="tel:+919787467575" class="mob-phone d-none"><strong>Sales: </strong><?php echo $contact_setting->mobile_2; ?></a></li>
+                        <li><a href="tel:+919787467575" class="mob-phone d-none"><strong>Sales: </strong><?php echo $footer_setting->mobile_2; ?></a></li>
                         <li><span class="web-phone d-block">Support: <?php echo $footer_setting->mobile_1; ?></span></li>
-                        <li><a href="tel:+919159913344" class="mob-phone d-none"><strong>Support:</strong><?php echo $contact_setting->mobile_1; ?></a></li>
+                        <li><a href="tel:+919159913344" class="mob-phone d-none"><strong>Support:</strong><?php echo $footer_setting->mobile_1; ?></a></li>
                         <li><span class="web-phone d-block"><strong>Careers:</strong> +91 95970 16798</span></li>
                         <li><a href="tel:+919597016798" class="mob-phone d-none"><strong>Careers:</strong> +91 95970 16798</a></li>
                     </ul>
