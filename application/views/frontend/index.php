@@ -29,7 +29,7 @@
    <link rel="icon" href="<?php echo base_url(); ?>asset/images/favicon.png">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/bootstrap.min.css">
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/custom-style.css">
-
+   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/portfolio-new.css">
 
    <!-- FontAwesome-->
    <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/font-awesome.min.css">
@@ -547,6 +547,126 @@
          <!-- Container end-->
       </section>
       <!-- Service end-->
+
+
+      <!-- Portfolio Section -->
+      <section class="portfolio-home-page">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="h4 lrg text-center"> Our <span class="theme-red-color">Portfolio </div><span
+                     class="red-border-line">&nbsp;</span>
+               </div>
+               <div class="col-lg-12 mt-50">
+                  <div class="row" id="portfolio-grid">
+                     <div class="col-md-6">
+                        <a href="<?php echo base_url(); ?>portfolio-new-details">
+                           <div class="portfolio-card-container">
+                              <div class="client-logo">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-logo.png"
+                                    class="client-logo-img" alt="Clients-Logo">
+                              </div>
+                              <div class="client-img">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/mayflower-bg-img-1.png"
+                                    class="portfolio-img" alt="Portfolio-Img">
+                                 <div class="tag-details">
+                                    <a href="javascript:void(0);">Custom Software</a>
+                                    <a href="javascript:void(0);">eCommerce</a>
+                                    <a href="javascript:void(0);">Mobile App</a>
+                                    <a href="javascript:void(0);">Tech Capabilities</a>
+                                 </div>
+                              </div>
+                              <a href="javascript:void(0);">
+                                 <h4 class="title">Delivering Exceptional Apartments & Villas with Unparalleled Quality
+                                    in
+                                    Coimbatore</h4>
+                              </a>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="portfolio-card-container">
+                           <a href="javascript:void(0);">
+                              <div class="client-logo">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/maloos-logo.png"
+                                    class="client-logo-img" alt="Clients-Logo">
+                              </div>
+                              <div class="client-img">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/maloos-bg.png"
+                                    class="portfolio-img" alt="Portfolio-Img">
+                                 <div class="tag-details">
+                                    <a href="javascript:void(0);">Custom Software</a>
+                                    <a href="javascript:void(0);">eCommerce</a>
+                                    <a href="javascript:void(0);">Mobile App</a>
+                                    <a href="javascript:void(0);">Tech Capabilities</a>
+                                 </div>
+                              </div>
+                              <a href="javascript:void(0);">
+                                 <h4 class="title">Maloo's Gourmet is a homegrown brand based in Coimbatore making
+                                    homemade pickles and thokku</h4>
+                              </a>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-md-6 mt-lg-80 mt-sm-0">
+                        <div class="portfolio-card-container">
+                           <a href="javascript:void(0);">
+                              <div class="client-logo">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-logo.png"
+                                    class="client-logo-img" alt="Clients-Logo">
+                              </div>
+                              <div class="client-img">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-bg-1.png"
+                                    class="portfolio-img" alt="Portfolio-Img">
+                                 <div class="tag-details">
+                                    <a href="javascript:void(0);">Custom Software</a>
+                                    <a href="javascript:void(0);">eCommerce</a>
+                                    <a href="javascript:void(0);">Mobile App</a>
+                                    <a href="javascript:void(0);">Tech Capabilities</a>
+                                 </div>
+                              </div>
+                              <a href="javascript:void(0);">
+                                 <h4 class="title">Empowering India’s Automation with Fully Manufactured Pneumatic
+                                    Actuators
+                                    by Susin I-Tork</h4>
+                              </a>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-md-6 mt-lg-80 mt-sm-0">
+                        <div class="portfolio-card-container">
+                           <a href="javascript:void(0);">
+                              <div class="client-logo">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-logo.png"
+                                    class="client-logo-img" alt="Clients-Logo">
+                              </div>
+                              <div class="client-img">
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-bg-1.png"
+                                    class="portfolio-img" alt="Portfolio-Img">
+                                 <div class="tag-details">
+                                    <a href="javascript:void(0);">Custom Software</a>
+                                    <a href="javascript:void(0);">eCommerce</a>
+                                    <a href="javascript:void(0);">Mobile App</a>
+                                    <a href="javascript:void(0);">Tech Capabilities</a>
+                                 </div>
+                              </div>
+                              <a href="javascript:void(0);">
+                                 <h4 class="title">Empowering India’s Automation with Fully Manufactured Pneumatic
+                                    Actuators
+                                    by Susin I-Tork</h4>
+                              </a>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="view-portfolio-button text-center mt-30">                
+                     <a class="btn btn-primary" href="<?php echo base_url(); ?>portfolio">View More</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
 
       <section class="projects-page-section" style="padding-top: 50px;">
          <div class="container">
