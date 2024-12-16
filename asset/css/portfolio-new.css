@@ -192,6 +192,7 @@
 
 .portfolio-home-page .portfolio-card-container .portfolio-img {
   border-radius: 2%;
+  background-color: #66339982;
 }
 .portfolio-home-page .portfolio-card-container .title {
   color: #000;
@@ -217,3 +218,4 @@
 .portfolio-home-page .portfolio-card-container .title {
   font-size: 18px;
 }
+

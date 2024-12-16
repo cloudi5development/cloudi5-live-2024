@@ -92,7 +92,7 @@
             "@type": "PostalAddress",
             "addressLocality": "Coimbatore",
             "addressRegion": "TN",
-            "streetAddress": "MK SQURE, Sivanandapuram",
+            "streetAddress": "MK SQURE, Ganapathy",
             "postalCode": "641036"
          },
          "openingHours": [
@@ -205,9 +205,13 @@
          </div>
 
       </div>
+      <!-- clients-logo mob-view section start-->
+      <section class="clients-mob-view d-none">
+         <?php include 'our-clients.php' ?>
+      </section>
+      <!-- clients-logo mob-view section end-->
 
       <!-- clients-logo section start-->
-      <!-- <?php include 'our-clients.php' ?> -->
       <section class="home-clients-list">
          <div class="container">
             <div class="row">
@@ -286,7 +290,7 @@
             <div class="row align-items-center mt-30">
                <div class="col-md-6">
                   <div>
-                     <p class="text-indent-30">Cloudi5 Technologies is the <strong>Best Web Designing and Development
+                     <p>Cloudi5 Technologies is the <strong>Best Web Designing and Development
                            Company in Coimbatore.</strong> We have over 8 years of experience in web design and
                         development, and we have a proven track record of success in creating beautiful, functional, and
                         user-friendly websites that meet the needs of our client. Our talented team can create digital
@@ -592,7 +596,7 @@
                                     class="client-logo-img" alt="Clients-Logo">
                               </div>
                               <div class="client-img">
-                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/maloos-bg.png"
+                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/ecom-365.png"
                                     class="portfolio-img" alt="Portfolio-Img">
                                  <div class="tag-details">
                                     <a href="javascript:void(0);">Custom Software</a>
@@ -608,62 +612,12 @@
                            </a>
                         </div>
                      </div>
-                     <div class="col-md-6 mt-lg-80 mt-sm-0">
-                        <div class="portfolio-card-container">
-                           <a href="javascript:void(0);">
-                              <div class="client-logo">
-                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-logo.png"
-                                    class="client-logo-img" alt="Clients-Logo">
-                              </div>
-                              <div class="client-img">
-                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-bg-1.png"
-                                    class="portfolio-img" alt="Portfolio-Img">
-                                 <div class="tag-details">
-                                    <a href="javascript:void(0);">Custom Software</a>
-                                    <a href="javascript:void(0);">eCommerce</a>
-                                    <a href="javascript:void(0);">Mobile App</a>
-                                    <a href="javascript:void(0);">Tech Capabilities</a>
-                                 </div>
-                              </div>
-                              <a href="javascript:void(0);">
-                                 <h4 class="title">Empowering India’s Automation with Fully Manufactured Pneumatic
-                                    Actuators
-                                    by Susin I-Tork</h4>
-                              </a>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="col-md-6 mt-lg-80 mt-sm-0">
-                        <div class="portfolio-card-container">
-                           <a href="javascript:void(0);">
-                              <div class="client-logo">
-                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-logo.png"
-                                    class="client-logo-img" alt="Clients-Logo">
-                              </div>
-                              <div class="client-img">
-                                 <img src="<?php echo base_url(); ?>asset/images/portfolio-new/susin-bg-1.png"
-                                    class="portfolio-img" alt="Portfolio-Img">
-                                 <div class="tag-details">
-                                    <a href="javascript:void(0);">Custom Software</a>
-                                    <a href="javascript:void(0);">eCommerce</a>
-                                    <a href="javascript:void(0);">Mobile App</a>
-                                    <a href="javascript:void(0);">Tech Capabilities</a>
-                                 </div>
-                              </div>
-                              <a href="javascript:void(0);">
-                                 <h4 class="title">Empowering India’s Automation with Fully Manufactured Pneumatic
-                                    Actuators
-                                    by Susin I-Tork</h4>
-                              </a>
-                           </a>
-                        </div>
-                     </div>
                   </div>
-                  <div class="view-portfolio-button text-center mt-30">                
+                  <div class="view-portfolio-button text-center mt-30">
                      <a class="btn btn-primary" href="<?php echo base_url(); ?>portfolio">View More</a>
+                  </div>
                </div>
             </div>
-         </div>
       </section>
 
 

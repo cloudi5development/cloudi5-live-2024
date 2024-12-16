@@ -42,38 +42,7 @@
 
     <?php include('header.php'); ?>
 
-    <!-- <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
-        alt="Web Development Company in Coimbatore" title="Website Development">
-        <div class="inner-pattern"> <img
-                src="<?php echo base_url(); ?>asset/images/home/svg/common-inner-banner-pattern.svg"
-                alt="banner-pattern">
-        </div>
-        <div class="container banner-content">
-            <div class="row justify-content-center">
-                <div class="shape-wrapper">
-                    <div class="shape-tri-1">
-                        <img src="<?php echo base_url(); ?>asset/images/home/banner_shape02.png" alt="Shape-1">
-                    </div>
-                    <div class="shape-tri-3">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-3">
-                    </div>
-                    <div class="shape-tri-4">
-                        <img src="<?php echo base_url(); ?>asset/images/web-development/bg-blue.webp" alt="Shape-4">
-                    </div>
-                </div>
-                <div class="col-md-10">
-                    <div class="banner-tagline">
-                        <span> <img src="<?php echo base_url(); ?>asset/images/web-development/star.png"
-                                alt="Convert into Mockups"> Transform Your Vision into Digital Success!</span>
-                    </div>
-                    <h2 class="title">Gear up your business returns with top-performing <span>Web Development</span>
-                        Company in Coimbatore!</h2>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <section class="portfolio-new-section">
+      <section class="portfolio-new-section">
         <div class="container">
             <div class="row justify-center">
                 <div class="col-lg-12 text-center">

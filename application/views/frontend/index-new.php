@@ -80,7 +80,7 @@
             "@type": "PostalAddress",
             "addressLocality": "Coimbatore",
             "addressRegion": "TN",
-            "streetAddress": "MK SQURE, Sivanandapuram",
+            "streetAddress": "MK SQURE, Ganapathy",
             "postalCode": "641036"
          },
          "openingHours": [
@@ -247,7 +247,7 @@
                         Friendly</span></div><span class="red-border-line">&nbsp;</span>
                </div>
                <div class="col-lg-6">
-                  <div class="text-indent-30">
+                  <div>
                      <p>Quality being an integral part of our work ethics, we are determined to present the best in
                         industry, consistently. Our team consists of highly performant professionals who are possessed
                         with vast experience in various areas of application development. Our passion for delivering

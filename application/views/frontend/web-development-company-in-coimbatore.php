@@ -670,11 +670,8 @@
                      <span></span>
                   </div>
                </div>
-
             </div>
-
          </div>
-
       </div>
       <!-- hiring-developers-start -->
 
@@ -994,10 +991,6 @@
                .appendTo('head');
          });
       </script>
-
    </div>
 </body>
-
-
-
 </html>

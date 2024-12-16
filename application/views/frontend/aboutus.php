@@ -4,10 +4,10 @@
 <head>
 
    <title><?php if ($meta) {
-               echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company |  Digital Marketing | Coimbatore";
-            } else {
-               echo "";
-            } ?></title>
+      echo $meta->title ? $meta->title : "Cloudi5 - Web Development Company |  Digital Marketing | Coimbatore";
+   } else {
+      echo "";
+   } ?></title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="description" content="<?php echo $meta ? $meta->description : ""; ?>">
@@ -53,24 +53,6 @@
 
       <?php include 'header.php' ?>
 
-      <!-- <div class="banner-area about-banner resp-banner" id="banner-area"
-         alt="Web Development, ERP, CRM & Web Design Company in India" title="About Us">
-         <div class="container">
-            <div class="row justify-content-center">
-               <div class="col">
-                  <div class="banner-heading">
-                     <h1 class="banner-title2">Intelligent Web Design, Responsive Websites and Strategic Digital
-                        Marketing Solutions</h1>
-                     <ol class="breadcrumb">
-                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                        <li>About Us</li>
-                     </ol>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-
       <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
          alt="Web Development Company in Coimbatore" title="About Us">
          <div class="inner-pattern"> <img
@@ -101,6 +83,10 @@
             </div>
          </div>
       </div>
+
+      <!-- clients-logo section start-->
+      <?php include 'our-clients.php' ?>
+      <!-- clients-logo section end-->
 
       <section class="main-container wd-section" id="main-container">
          <div class="container">
@@ -145,7 +131,7 @@
                   <div class="col-lg-3 col-md-3">
                      <div class="ts-facts-bg"><span class="facts-icon"><i class="icon icon-deal"></i></span>
                         <div class="ts-facts-content">
-                           <h4 class="ts-facts-num"><span class="counterUp">335</span></h4>
+                           <h4 class="ts-facts-num"><span class="counterUp">500</span></h4>
                            <p class="facts-desc">Successful Projects</p>
                         </div>
                      </div>
@@ -153,7 +139,7 @@
                   <div class="col-lg-3 col-md-3">
                      <div class="ts-facts-bg"><span class="facts-icon"><i class="icon icon-consult"></i></span>
                         <div class="ts-facts-content">
-                           <h4 class="ts-facts-num"><span class="counterUp">200</span></h4>
+                           <h4 class="ts-facts-num"><span class="counterUp">450</span></h4>
                            <p class="facts-desc">Clients</p>
                         </div>
                      </div>
@@ -169,7 +155,7 @@
                   <div class="col-lg-3 col-md-3">
                      <div class="ts-facts-bg"><span class="facts-icon"><i class="icon icon-business"></i></span>
                         <div class="ts-facts-content">
-                           <h4 class="ts-facts-num"><span class="counterUp">15</span></h4>
+                           <h4 class="ts-facts-num"><span class="counterUp">25</span></h4>
                            <p class="facts-desc">On-Going Projects</p>
                         </div>
                      </div>
@@ -286,10 +272,6 @@
                         <div class="success-img">
                            <img src="<?php echo base_url(); ?>asset/images/team/ceo-pavithran.png" alt="CEO Pavithran">
                         </div>
-                        <div class="success-img-1">
-                           <img src="<?php echo base_url(); ?>asset/images/cloudi5-logo.png" alt="cloudi5 logo">
-                        </div>
-
                      </div>
                   </div>
                   <div class="col-lg-7 pr">
@@ -414,7 +396,7 @@
                         </div>
                      </div>
                   </div>
-               
+
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/gowri-profile-ios-developer.png"
@@ -495,7 +477,7 @@
                         </div>
                      </div>
                   </div>
-              
+
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
                      <div class="image-card">
                         <img src="<?php echo base_url(); ?>asset/images/team/santhosh-digital-marketing.png"
@@ -522,8 +504,8 @@
       <script src="<?php echo base_url(); ?>assets/js/jquery.validate.js"></script>
       <script src="<?php echo base_url(); ?>assets/js/form-validation.js"></script>
       <script>
-         setTimeout(function() {
-            $(".alert").fadeOut("slow", function() {
+         setTimeout(function () {
+            $(".alert").fadeOut("slow", function () {
                $(".alert").remove();
             });
 

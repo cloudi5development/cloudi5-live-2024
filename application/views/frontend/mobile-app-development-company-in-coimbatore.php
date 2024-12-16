@@ -446,7 +446,6 @@
                             </figure> <span class="head">App Store Ranking</span>
                         </div>
                     </li>
-
                     <li>
                         <div class="ins-suite-services-list mob-li-bg3">
                             <figure> <span class="upimg"><img
@@ -707,11 +706,8 @@
                             </svg>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
         <section class="portfolio-new-design">

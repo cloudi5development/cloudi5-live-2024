@@ -59,6 +59,20 @@
                             <img src="<?php echo base_url(); ?>asset/images/clientele/mayflower.png" alt="mayflower"
                                 class="img-fluid">
                         </div>
+                        <div class="col-6 col-md-3 col-lg-3 client-logo">
+                            <img src="<?php echo base_url(); ?>asset/images/clientele/baps.png" alt="baps"
+                                class="img-fluid">
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-3 client-logo">
+                            <img src="<?php echo base_url(); ?>asset/images/clientele/madhampatty.png" alt="madhampatty"
+                                class="img-fluid">
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-3 client-logo">
+                            <img src="<?php echo base_url(); ?>asset/images/clientele/susin.png" alt="susin"
+                                class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-6 col-md-6 col-lg-3 col-sm-6 client-logo">
                             <img src="<?php echo base_url(); ?>asset/images/clientele/svhv-school.png" alt="svhv-school"
                                 class="img-fluid">
@@ -71,22 +85,9 @@
                             <img src="<?php echo base_url(); ?>asset/images/clientele/metro.png" alt="metro"
                                 class="img-fluid">
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-md-3 col-lg-3 client-logo">
-                            <img src="<?php echo base_url(); ?>asset/images/clientele/baps.png" alt="baps"
-                                class="img-fluid">
-                        </div>
-                        <div class="col-6 col-md-3 col-lg-3 client-logo">
-                            <img src="<?php echo base_url(); ?>asset/images/clientele/madhampatty.png" alt="madhampatty"
-                                class="img-fluid">
-                        </div>
+
                         <div class="col-6 col-md-3 col-lg-3 client-logo">
                             <img src="<?php echo base_url(); ?>asset/images/clientele/hookz.png" alt="hookz"
-                                class="img-fluid">
-                        </div>
-                        <div class="col-6 col-md-3 col-lg-3 client-logo">
-                            <img src="<?php echo base_url(); ?>asset/images/clientele/susin.png" alt="susin"
                                 class="img-fluid">
                         </div>
                     </div>

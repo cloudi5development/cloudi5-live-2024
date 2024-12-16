@@ -39,8 +39,9 @@
 
 <body>
     <div class="body-inner flutter-app-development-page">
+        <!-- header start-->
         <?php include 'header.php' ?>
-
+        <!-- header end -->
         <div class="banner-area overlay about-banner resp-banner common-inner-banner" id="banner-area"
             alt="Web Development Company in Coimbatore" title="Flutter App Development">
             <div class="inner-pattern"> <img
@@ -124,8 +125,6 @@
             </div>
         </section>
         <!-- flutter-intro-section-1-end -->
-
-
 
         <section class="pt-80 pb-80 flutter-dev-process">
             <div class="container">
@@ -281,8 +280,7 @@
             </div>
         </section>
 
-        <!-- 
-        flutter-services-start -->
+        <!-- flutter-services-start -->
         <section class="pt-80 pb-80 flutter-services">
             <div class="container">
                 <div class="row">
@@ -449,7 +447,6 @@
                                     alt="arrow">Cross-Platform Future</li>
                             <li><img src="<?php echo base_url(); ?>asset/images/flutter-app-development/globe.svg"
                                     alt="globe">Open-Source & Scalable</li>
-
                         </ul>
                     </div>
                     <div class="col-md-none col-lg-4">
@@ -466,13 +463,9 @@
             </div>
         </section>
 
-
         <section class="flutter-team pt-60 pb-60">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <!-- <div class="background-flutter">
-                        <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/pat.png" alt="spark">
-                    </div> -->
                     <div class="col-md-12 col-lg-10">
                         <h2 class="section-title-wd mb-0 text-center">Hire Cloudi5's <span class="grad-text">Elite
                                 Flutter</span> Development Team</h2>
@@ -571,7 +564,6 @@
                                         alt="quality" class="main-image" data-section="04">
                                     <img src="<?php echo base_url(); ?>asset/images/flutter-app-development/vision.png"
                                         alt="vision" class="main-image" data-section="05">
-
                                     <!-- Orange Accent Bars -->
 
                                 </div>
@@ -609,7 +601,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section class="portfolio-new-design">
@@ -752,9 +743,7 @@
                 </div>
             </div>
         </section>
-
-
-        <!-- faq start -->
+       <!-- faq start -->
         <section class="faq-section-wd pt-60 pb-60">
             <div class="faq-section container">
                 <div class="row faq-tab">
@@ -886,7 +875,6 @@
         </section>
         <!-- faq end -->
 
-        <!--Testimonial-->
         <!-- web-dev cta -->
         <section class="wd-section flutter-section-cta">
             <div class="container">
@@ -1028,7 +1016,6 @@
                         activate(item.dataset.section);
                     });
                 });
-
                 // Set initial active state
                 activate('01');
             });

@@ -9842,9 +9842,9 @@ a[href*="tel:"] {
 
 .whats_app {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   width: 60px;
-  left: 22px;
+  right: 5px;
   z-index: 99999;
 }
 
@@ -24795,6 +24795,14 @@ round-circle {
   .resp-banner {
     height: 450px !important;
   }
+  .clients-mob-view{
+    display: block !important;
+    padding: 0px;
+  }
+  .home-clients-list{
+    display: none;
+  }
+
 }
 @media (max-width: 767px) {
   .common-inner-banner .banner-tagline {
@@ -25244,4 +25252,13 @@ round-circle {
 .school-card-sec p {
   font-size: 14px;
   color: #666;
+}
+.header-sub-dropdown ul{
+  left: 190px;
+  top: 0;
+}
+.header-sub-dropdown a{
+  padding-left: 0px !important;
+  color: #fff !important;
+  cursor: pointer;
 }

@@ -32,7 +32,8 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br>
                             <?php echo $footer_setting->address_2 . ' ' . $footer_setting->address_3; ?>
                             <br><?php echo $footer_setting->city . ' ' . $footer_setting->pincode; ?>,
-                            <?php echo $footer_setting->state; ?>, India</li>
+                            <?php echo $footer_setting->state; ?>, India
+                        </li>
                     </ul>
                     <div class="or"><span>OR</span></div>
                 </div>
@@ -213,6 +214,8 @@ $footer_setting = $this->db->from('settings')->get()->row();
                                 Marketing</a></li>
                         <li><a href="<?php echo base_url(); ?>school-management-software">School Management Software</a>
                         </li>
+                        <li><a href="<?php echo base_url(); ?>ecommerce-website-development">Multi Vendor Ecommerce
+                                Website</a></li>
                     </ul>
                 </div>
             </div>
@@ -235,7 +238,8 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         <li><span>Address :</span> <?php echo $footer_setting->address_1; ?><br>
                             <?php echo $footer_setting->address_2 . ' ' . $footer_setting->address_3; ?>
                             <br><?php echo $footer_setting->city . ' ' . $footer_setting->pincode; ?>,
-                            <?php echo $footer_setting->state; ?>, India</li>
+                            <?php echo $footer_setting->state; ?>, India
+                        </li>
                         <li><span>Email:</span> <img src="<?php echo base_url(); ?>asset/images/footer-mail.png"
                                 alt="Mail Id"></li>
                         <li><span>Sales:</span> <?php echo $footer_setting->mobile_2; ?></li>

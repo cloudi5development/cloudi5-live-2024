@@ -93,7 +93,7 @@
                 "@type": "PostalAddress",
                 "addressLocality": "Coimbatore",
                 "addressRegion": "TN",
-                "streetAddress": "MK SQURE, Sivanandapuram",
+                "streetAddress": "MK SQURE, Ganapathy",
                 "postalCode": "641036"
             },
             "openingHours": [
@@ -355,7 +355,7 @@
 
                     <div class="col-md-6">
                         <div>
-                            <p class="text-indent-30">Cloudi5 Technologies is the <strong>Best Web Designing and
+                            <p>Cloudi5 Technologies is the <strong>Best Web Designing and
                                     Development Company in Coimbatore.</strong> We have over 8 years of experience in
                                 web design and development, and we have a proven track record of success in creating
                                 beautiful, functional, and user-friendly websites that meet the needs of our client. Our

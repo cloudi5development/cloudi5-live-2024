@@ -25,7 +25,7 @@
                   </li>
                   <li class="hide-mob last"><span class="info-icon"><i class="icon icon-map-marker2"></i></span>
                      <div class="info-wrapper">
-                        <p class="info-title">MK SQURE, Sivanandapuram, Coimbatore</p>
+                        <p class="info-title">MK SQURE, Ganapathy, Coimbatore</p>
                      </div>
                   </li>
                </ul>

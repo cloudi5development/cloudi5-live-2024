@@ -535,7 +535,7 @@
 "@type": "PostalAddress",
 "addressLocality": "Madurai",
 "addressRegion": "TN",
-"streetAddress": "MK SQURE, Sivanandapuram",
+"streetAddress": "MK SQURE, Ganapathy",
 "postalCode": "641036"
 },
 "openingHours": [

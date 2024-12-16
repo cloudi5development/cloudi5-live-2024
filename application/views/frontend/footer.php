@@ -87,108 +87,15 @@ $footer_setting = $this->db->from('settings')->get()->row();
         </div>
     </section>
 </footer>
-<section class="clients-area content-desktop" id="clients-area">
-    <div class="container">
-        <h3 class="text-center">Trusted By</h3><br>
-        <div class="row">
-            <div class="col-sm-12 owl-carousel owl-theme text-center partners" id="partners-carousel">
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/healthsy.jpg" alt="healthsy">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/cognex.jpg" alt="Cognex">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/ecc.jpg" alt="EC Concept">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/skilledia.jpg" alt="skilledia">
-                </figure>
-                <figure class="item partner-logo last">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/dreamspoon.jpg" alt="dreamspoon">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/tryzone.jpg" alt="tryzone">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/aalayam.jpg" alt="aalayam">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/rockrealty.jpg" alt="rockrealty">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/study-help.jpg" alt="study-help">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/techsolve.jpg" alt="techsolve">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/blueway.jpg" alt="blueway">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/susin.jpg" alt="susin">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/vencar.jpg" alt="vencar">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/missiva.jpg" alt="missiva">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/toi.jpg" alt="toi">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/sanviha.jpg" alt="sanviha">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/xpert.jpg" alt="xpert">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/laglaze.jpg" alt="laglaze">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/vishaha.jpg" alt="vishaha">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/taras.jpg" alt="taras">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/incredible.jpg" alt="incredible">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/maloos.jpg" alt="maloos">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/mdm.jpg" alt="mdm">
-                </figure>
-                <figure class="item partner-logo">
-                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/veda-networks.jpg" alt="veda networks">
-                </figure>
 
-                <!--<figure class="item partner-logo last">-->
-                <!--    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/evecollections.png" alt="evecollections">-->
-                <!--</figure>-->
-                <!--<figure class="item partner-logo last">-->
-                <!--    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/lrmoverseas.png" alt="lrmoverseas">-->
-                <!--</figure>-->
-                <!--<figure class="item partner-logo">-->
-                <!--    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/intechgroups.png" alt="intechgroups Institute Website Design">-->
-                <!--</figure>-->
-                <!--<figure class="item partner-logo last">-->
-                <!--    <img class="img-fluid" src="<?php echo base_url(); ?>asset/images/clients/dezignmedia.png" alt="dezignmedia">-->
-                <!--</figure>-->
-            </div>
-        </div>
-    </div>
-</section>
 <section class="pre-footer">
     <div class="footer-top">
         <div class="footer-top-bg row">
             <div class="col-sm-4 footer-box"><i class="icon icon-phone3"></i>
                 <div class="footer-box-content">
-                    <h3>Call Us</h3>
-                    <p>Support: <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_1); ?>" class="tel btns callus"><?php echo $footer_setting->mobile_1; ?></a></p>
+                    <h3>Call Us</h3>                    
                     <p>Sales: <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_2); ?>" class="tel btns callus"><?php echo $footer_setting->mobile_2; ?></a></p>
+                    <p>Support: <a href="tel:<?php echo str_replace(' ', '', $footer_setting->mobile_1); ?>" class="tel btns callus"><?php echo $footer_setting->mobile_1; ?></a></p>
                 </div>
             </div>
             <div class="col-sm-4 footer-box"><i class="icon icon-envelope"></i>
@@ -202,10 +109,10 @@ $footer_setting = $this->db->from('settings')->get()->row();
                     <h3>Follow Us</h3>
                     <div class="Social-Footer">
                         <ul class="icons-ul">
+                        <li class="linkedin"><a href="<?php echo $footer_setting->linkedin; ?>" rel="nofollow" target="_blank"><span class="fa fa-linkedin hvr-icon-up"></span></a></li>
                             <li class="facebook"><a href="<?php echo $footer_setting->facebook; ?>" rel="nofollow" target="_blank"><span class="fa fa-facebook hvr-icon-up"></span></a></li>
                             <li class="twitter"><a href="<?php echo $footer_setting->twitter; ?>" rel="nofollow" target="_blank"><img src="https://www.cloudi5.com/asset/images/twitter-white-logo.png" style="height:13px;"></a></li>
                             <li class="instagram"><a href="<?php echo $footer_setting->instagram; ?>" rel="nofollow" target="_blank"><span class="fa fa-instagram hvr-icon-up"></span></a></li>
-                            <li class="linkedin"><a href="<?php echo $footer_setting->linkedin; ?>" rel="nofollow" target="_blank"><span class="fa fa-linkedin hvr-icon-up"></span></a></li>
                             <li class="pinterest"><a href="<?php echo $footer_setting->pinterest; ?>" rel="nofollow" target="_blank"><span class="fa fa-pinterest hvr-icon-up"></span></a></li>
                             <li class="youtube"><a href="<?php echo $footer_setting->youtube; ?>" rel="nofollow" target="_blank"><span class="fa fa-youtube hvr-icon-up"></span></a></li>
                             <li class="thread"><a href="<?php echo $footer_setting->google_plus; ?>" rel="nofollow" target="_blank"><span class=""><img src="<?php echo base_url(); ?>asset/images/thread-icon.png" /></span></a></li>
@@ -236,6 +143,8 @@ $footer_setting = $this->db->from('settings')->get()->row();
                         <li><a href="<?php echo base_url(); ?>mobile-application-development-android-app">Android App Development</a></li>
                         <li><a href="<?php echo base_url(); ?>digital-marketing-company-in-coimbatore">Digital Marketing</a></li>
                         <li><a href="<?php echo base_url(); ?>school-management-software">School Management Software</a></li>
+                        <li><a href="<?php echo base_url(); ?>ecommerce-website-development">Multi Vendor Ecommerce Website</a></li>
+
                     </ul>
                 </div>
             </div>

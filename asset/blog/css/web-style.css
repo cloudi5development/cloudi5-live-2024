@@ -1049,9 +1049,9 @@ ul.marketing-list li:last-child:after {
   .footer-top .footer-box {
     padding: 17px 5px 11px !important;
   }
-  .footer-top .footer-box .footer-box-content {
+  /* .footer-top .footer-box .footer-box-content {
     margin-left: 64px !important;
-  }
+  } */
   .Social-Footer li.pinterest,
   .Social-Footer li.thread,
   .Social-Footer li.youtube {
@@ -3345,6 +3345,10 @@ p.panel-title {
 .footer-top .footer-box {
   padding: 17px 45px 11px;
   min-height: 120px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 }
 .footer-top .footer-box i {
   float: left;
@@ -3357,9 +3361,9 @@ p.panel-title {
   line-height: 51px;
   border-radius: 100%;
 }
-.footer-top .footer-box .footer-box-content {
+/* .footer-top .footer-box .footer-box-content {
   margin-left: 90px;
-}
+} */
 .footer-top .footer-box .footer-box-content h3 {
   margin-top: 6px;
   margin-bottom: 2px;
@@ -7281,9 +7285,9 @@ a[href*="tel:"] {
 }
 .whats_app {
   position: fixed;
-  bottom: 20px;
-  width: 45px;
-  left: 22px;
+  bottom: 100px;
+  width: 60px;
+  right: 25px;
   z-index: 99999;
 }
 .error {
@@ -8205,4 +8209,13 @@ span.pull-right.job-type {
 .blog_post_style2_content ol li a strong,
 .blog_post_style2_content ol li strong a {
   color: #e87107 !important;
+}
+.header-sub-dropdown ul{
+  left: 190px;
+  top: 0;
+}
+.header-sub-dropdown a{
+  padding-left: 0px !important;
+  color: #fff !important;
+  cursor: pointer;
 }
