@@ -135,7 +135,6 @@
                             <div>
                                 Cloudi5 Technologies, a leading social media marketing agency in Coimbatore, is dedicated to transforming your brand's online presence from ordinary to extraordinary.We don't just blend into the noise - we make your brand the melody everyone wants to hear.
                             </div>
-
                         </div>
                         <div class="dash-and-paragraph dash-1">
                             <div>
@@ -145,7 +144,6 @@
                             <div>
                                 Our team of data-driven experts combines strategic insights with creative magic to create targeted ads that connect with your audience. We go deep to understand your brand's DNA and target market, ensuring that every post, story, and ad sparks genuine connections.
                             </div>
-
                         </div>
                         <div class="dash-and-paragraph dash-2">
                             <div>
@@ -155,7 +153,6 @@
                             <div>
                                 Think of us as your social media fairy godmothers. While we can't promise a magical transformation like a fairy tale, we can guarantee a social media presence that's enchanting, engaging, and delivers real results.
                             </div>
-
                         </div>
                         <div class="dash-and-paragraph dash-2">
                             <div>
@@ -165,49 +162,14 @@
                             <div>
                                 Transparency and collaboration are at the core of our approach. We believe in keeping you informed every step of the way, ensuring that your social media journey is as fun and rewarding as unwrapping a present on your birthday.
                             </div>
-
                         </div>
 
                     </div>
                     <div class="col-lg-5 col-md-12 col-sm-12  right-leading-container">
                         <div class="container">
-                            <!-- <div class="orbit-container">
-                                <div class="circle-wrapper email">
-
-                                    <div>
-                                        <img src="<?php echo base_url(); ?>asset/images/smm-page/email-icon.png" alt="marketing-strategy" class="marketing-strategy-img" />
-                                    </div>
-                                    <div class="circle-content">Profile<br> Optimization</div>
-
-                                </div>
-                                <div class="circle-wrapper seo">
-
-                                    <div> <img src="<?php echo base_url(); ?>asset/images/smm-page/advertising.png" alt="advertising-img" class="advertising-img" /></div>
-                                    <div class="circle-content">Advertising</div>
-                                </div>
-                                <div class="circle-wrapper strategy">
-
-                                    <div>
-                                        <img src="<?php echo base_url(); ?>asset/images/smm-page/measuring.png" alt="measuring-img" class="measuring-img" />
-                                    </div>
-                                    <div class="circle-content">Measuring</div>
-                                </div>
-                                <div class="circle-wrapper dot1">
-                                    <div>
-                                        <img src="<?php echo base_url(); ?>asset/images/smm-page/icon-posting.png" alt="posting-img" class="posting-img" />
-                                    </div>
-                                    <div class="circle-content">Posting</div>
-                                </div>
-                                <div class="circle-wrapper dot2">
-                                    <div>
-                                        <img src="<?php echo base_url(); ?>asset/images/smm-page/engaging.png" alt="engaging-img" class="engaging-img" />
-                                    </div>
-                                    <div class="circle-content">Engaging</div>
-                                </div>
-                            </div> -->
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/social-media-main-2.png" alt="bg-pattern" class="smm-leading-right-img move-y" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/social-media-main3.png" alt="bg-pattern" class="smm-leading-right-img move-y" />
                             <div>
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/bg-img-6.jpg" alt="bg-pattern" class="smm-leading-pattern" />
+                                <img src="<?php echo base_url(); ?>asset/images/smm-page/bg-img-6.jpg" alt="bg-pattern" class="smm-leading-pattern" />
                             </div>
                         </div>
                     </div>
@@ -219,15 +181,15 @@
     <!--Leading-social-media-ends -->
 
     <section class="why-choose-tab-container">
-        <div class="container ">
+
+        <div class=" heading-container mt-20">
             <div class="why-choose-sec-heading">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div>
-                            <h2 class="common_h4">Why choose Cloudi5 for your <span class="grad-text"> Social Media Marketing?</span></h2>
+                            <h2 class="common_h4 text-center mt-20">Why choose Cloudi5 for your <span class="grad-text"> Social Media Marketing?</span></h2>
                         </div>
                     </div>
-
                     <div class="col-lg-6 col-md-12">
                         <div class="why-choose-content">
                             Dominate Social Media. Achieve Marketing Greatness with Cloudi5
@@ -241,10 +203,11 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="row mt-60">
+        <div class="row why-choose-left-wrapper">
             <div class="col-lg-6 col-md-12 why-choose-left-section">
+                <div>
+                    <img src="<?php echo base_url(); ?>asset/images/smm-page/why-choose-pattern-1.png" alt="dedicated-account-img" class="why-choose-pattern-1 spin">
+                </div>
                 <div class="why-choose-tab-buttons">
                     <button class="why-choose-tab-button active">
                         <span class="why-choose-button-background"></span>
@@ -274,15 +237,12 @@
                         <span class="why-choose-button-background"></span>
                         <span class="why-choose-button-text">Paid Advertising Specialists</span>
                     </button>
-
                 </div>
-
             </div>
-            <div class="col-lg-6 col-md-12 why-choose-tab-content">
-
-                <div class="why-choose-tab-section active card-one">
+            <div class="col-lg-5 col-md-12 why-choose-tab-content">
+                <div class="why-choose-tab-section active ">
                     <h3 class="text-center">Dedicated Account Management</h3>
-                    <img src="<?php echo base_url(); ?>asset/images/smm-page/dedicated-account-img.png" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                    <img src="<?php echo base_url(); ?>asset/images/smm-page/account-management.svg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
                     <p class="mt-10">You'll never be just a number with us.
                         We assign a dedicated team of social media strategists to your account,
                         effectively becoming an extension of your marketing team.
@@ -291,7 +251,7 @@
                         Regular communication and clear reporting keep you informed and
                         involved every step of the way.</p>
                 </div>
-                <div class="why-choose-tab-section card-two">
+                <div class="why-choose-tab-section ">
                     <h3 class="text-center">Social Media Marketing Experts</h3>
                     <img src="<?php echo base_url(); ?>asset/images/smm-page/marketing-expert.png" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
                     <p>We understand social media inside out. Here at Cloudi5,
@@ -301,18 +261,18 @@
                         We know what works on different platforms, so we create engaging content that
                         starts conversations and builds communities.</p>
                 </div>
-                <div class="why-choose-tab-section card-three">
+                <div class="why-choose-tab-section ">
                     <h3 class="text-center">Expert Content Creators</h3>
-                    <img src="<?php echo base_url(); ?>asset/images/smm-page/content-creator-img.png" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                    <img src="<?php echo base_url(); ?>asset/images/smm-page/Content creator.svg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
                     <p>Forget generic posts. Our in-house content creators are the secret weapon behind
                         our engaging social media strategies. They're a team of experts in creating compelling
                         content across all platforms, from stunning visuals and captivating videos to magnetic
                         copywriting that stops the scroll, sparks conversations, and drives action. We'll develop
                         a unique social media voice that connects with your audience and builds brand loyalty.</p>
                 </div>
-                <div class="why-choose-tab-section card-four">
+                <div class="why-choose-tab-section ">
                     <h3 class="text-center">Growth-Focused Social Solutions</h3>
-                    <img src="<?php echo base_url(); ?>asset/images/smm-page/growth-focused.png" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                    <img src="<?php echo base_url(); ?>asset/images/smm-page/growth-focused.svg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
                     <p>Your business keeps growing, and so should your social media.
                         We offer scalable solutions that adapt to your changing needs and goals.
                         We'll be there every step of the way, continuously refining your strategy
@@ -320,18 +280,18 @@
                         establish a strong online presence or a well-established brand aiming to
                         expand your reach, we have the expertise to help you succeed.</p>
                 </div>
-                <div class="why-choose-tab-section card-five">
+                <div class="why-choose-tab-section ">
                     <h3 class="text-center">Data-Driven Approach</h3>
-                    <img src="<?php echo base_url(); ?>asset/images/smm-page/data-driven.png" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                    <img src="<?php echo base_url(); ?>asset/images/smm-page/data-driven.svg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
                     <p>We don't just throw content out there and hope for the best. Our team is data-driven,
                         using advanced analytics tools to track key metrics and analyze performance.
                         These insights allow us to continuously optimize your campaigns for maximum reach, engagement,
                         and ultimately, a strong return on investment (ROI). We'll translate complex data into clear,
                         actionable insights, ensuring you see the value of your social media investment.</p>
                 </div>
-                <div class="why-choose-tab-section card-six">
+                <div class="why-choose-tab-section ">
                     <h3 class="text-center">Collaborative & Transparent Partnership</h3>
-                    <img src="<?php echo base_url(); ?>asset/images/smm-page/collaborative.png" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                    <img src="<?php echo base_url(); ?>asset/images/smm-page/collaborative-team.svg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
                     <p>We believe in open communication and collaboration. Working closely with you,
                         we understand your vision and develop a social media strategy that aligns
                         with your marketing goals. You'll receive regular reports with clear,
@@ -339,9 +299,9 @@
                         our collaborative approach allows us to build a long-term partnership
                         for exceptional results.</p>
                 </div>
-                <div class="why-choose-tab-section card-seven">
+                <div class="why-choose-tab-section ">
                     <h3 class="text-center">Paid Advertising Specialists</h3>
-                    <img src="<?php echo base_url(); ?>asset/images/smm-page/paid-advertising.png" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
+                    <img src="<?php echo base_url(); ?>asset/images/smm-page/advertising.svg" alt="dedicated-account-img" class="why-choose-tab-img mt-10">
                     <p>Organic reach on social media platforms is ever-changing.
                         Our team includes paid advertising specialists who can develop targeted
                         social media advertising campaigns to reach a wider audience, drive website traffic,
@@ -349,200 +309,22 @@
                         return on your ad spend. We'll use powerful targeting options to make sure your ads reach
                         the right people who are likely to buy from you.</p>
                 </div>
-
             </div>
         </div>
-
     </section>
-
-
-    <!-- Why-choose-us-starts -->
-    <!-- <section class="mt-60">
-        <div class="why-choose-smm-sec">
-            <div class="container">
-                <div class="row content-top-wrapper">
-                    <div class="col-lg-6">
-                        <div class="why-choose-title">
-                            <h2>Why choose Cloudi5 for your Social Media Marketing?</h2>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="why-choose-content ">
-                            Dominate Social Media. Achieve Marketing Greatness with Cloudi5
-                            Experience the power of strategic social media marketing with Cloudi5.
-                            Our expert team will help you dominate social media platforms,
-                            achieve marketing greatness, and enhance your brand's online presence.
-                            Let's work together to create a winning social media strategy that drives engagement,
-                            boosts visibility, and delivers measurable results.
-                        </div>
-                    </div>
-
-
-
-                    <div class="card-container mt-20">
-                        <div class="row g-4">
-                            <div class="col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-1">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox="0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-
-                                    <div class="icon-wrapper">
-                                    <div class="icon">
-                                        <i class="fi fi-rr-portrait"></i>
-                                        <img src="/api/placeholder/40/40" alt="Development Icon">
-                                    </div>
-                                    <div class="circle circle-item-1"></div>
-                                    </div>
-                                    <h6>Dedicated Account <br> Management</h6>
-                                    <p>You'll never be just a number with us.
-                                        We assign a dedicated team of social media strategists to your account,
-                                        effectively becoming an extension of your marketing team.
-                                        They'll thoroughly explore your brand, audience, and goals,
-                                        ensuring a client-focused approach that prioritizes your success.
-                                        Regular communication and clear reporting keep you informed and
-                                        involved every step of the way.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-2">
-
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox="0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-                                    <h6>Social Media Marketing <br> Experts</h6>
-                                    <p>We understand social media inside out. Here at Cloudi5,
-                                        our team of Social Media Marketing Experts in Coimbatore are passionate
-                                        individuals who live and breathe the latest trends, algorithms, and best practices.
-                                        This expertise helps us create strategies that fit your industry and audience.
-                                        We know what works on different platforms, so we create engaging content that
-                                        starts conversations and builds communities.</p>
-                                </div>
-
-
-
-
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-3">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox=" 0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-                                    <h6>Expert Content <br> Creators</h6>
-                                    <p>Forget generic posts. Our in-house content creators are the secret weapon behind
-                                        our engaging social media strategies. They're a team of experts in creating compelling
-                                        content across all platforms, from stunning visuals and captivating videos to magnetic
-                                        copywriting that stops the scroll, sparks conversations, and drives action. We'll develop
-                                        a unique social media voice that connects with your audience and builds brand loyalty.</p>
-                                </div>
-
-
-                            </div>
-
-                            <div class="col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-4">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox=" 0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-                                    <h6>Growth-Focused Social <br> Solutions</h6>
-                                    <p>Your business keeps growing, and so should your social media.
-                                        We offer scalable solutions that adapt to your changing needs and goals.
-                                        We'll be there every step of the way, continuously refining your strategy
-                                        to achieve your ever-evolving goals. Whether you're a startup looking to
-                                        establish a strong online presence or a well-established brand aiming to
-                                        expand your reach, we have the expertise to help you succeed.</p>
-                                </div>
-                            </div>
-                         
-                            <div class="col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-6">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox=" 0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-                                    <h6>Data-Driven <br> Approach</h6>
-                                    <p>We don't just throw content out there and hope for the best. Our team is data-driven,
-                                        using advanced analytics tools to track key metrics and analyze performance.
-                                        These insights allow us to continuously optimize your campaigns for maximum reach, engagement,
-                                        and ultimately, a strong return on investment (ROI). We'll translate complex data into clear,
-                                        actionable insights, ensuring you see the value of your social media investment.</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-sm-6">
-                                <div class="why-choose-card wrapper-7">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox=" 0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-                                    <h6>Collaborative & Transparent <br> Partnership</h6>
-                                    <p>We believe in open communication and collaboration. Working closely with you,
-                                        we understand your vision and develop a social media strategy that aligns
-                                        with your marketing goals. You'll receive regular reports with clear,
-                                        actionable insights, ensuring transparency. Invested in your success,
-                                        our collaborative approach allows us to build a long-term partnership
-                                        for exceptional results.</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-sm-6">
-
-                                <div class="why-choose-card wrapper-8">
-                                    <div class="pattern-sec">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="85" height="90" viewBox=" 0 0 105 121">
-                                            <path d="M89.5878 -9.19809L90 -8.59758L90.4122 -9.19809L117.267 -48.3197L115.945 -0.858616L115.925 -0.129375L116.612 -0.373528L161.416 -16.2858L132.406 21.3044L131.96 21.8831L132.661 22.0895L178.229 35.5L132.661 48.9105L131.96 49.1169L132.406 49.6956L161.416 87.2858L116.612 71.3735L115.925 71.1294L115.945 71.8586L117.267 119.32L90.4122 80.1981L90 79.5976L89.5878 80.1981L62.7327 119.32L64.0546 71.8586L64.075 71.129L63.3873 71.3736L18.6534 87.2858L47.5939 49.6952L48.0394 49.1166L47.3389 48.9105L1.77101 35.5L47.3389 22.0895L48.0394 21.8834L47.5939 21.3048L18.6534 -16.2858L63.3873 -0.373611L64.075 -0.12899L64.0546 -0.858616L62.7327 -48.3197L89.5878 -9.19809Z"></path>
-                                        </svg>
-                                    </div>
-                                    <h6>Paid Advertising <br> Specialists</h6>
-                                    <p>Organic reach on social media platforms is ever-changing.
-                                        Our team includes paid advertising specialists who can develop targeted
-                                        social media advertising campaigns to reach a wider audience, drive website traffic,
-                                        and generate leads. We'll manage your budget effectively and ensure you see a strong
-                                        return on your ad spend. We'll use powerful targeting options to make sure your ads reach
-                                        the right people who are likely to buy from you.</p>
-                                </div>
-                            </div>
-                          
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-    </section> -->
-    <!-- Why-choose-us-ends -->
-
-
-
-
-
     <!-- Social-media-platform-starts -->
+
     <section>
         <div class="social-media-platform">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <div class="media-platform-title">
+                        <div class="media-platform-title mt-20">
                             <p>We Dominate for Your Brand's Success</p>
                             <h2>Social Media Marketing Platforms </h2>
                         </div>
-
                     </div>
                     <div class="col-lg-12 col-md-12">
-
                         <div class="media-platform-text">
                             <p>Social media is the key to raising awareness of your brand and engaging with your audience.
                                 But keeping up with the changes can be tough.
@@ -555,21 +337,19 @@
                                 <svg class="star-bg" width="250" height="200" viewBox="0 0 312 296" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M156 71.9034L108.883 3.35692L111.202 86.5183L32.7166 58.6381L83.494 124.503L3.54644 148L83.494 171.497L32.7166 237.362L111.202 209.482L108.883 292.643L156 224.097L203.117 292.643L200.798 209.482L279.403 237.362L228.504 171.497L308.454 148L228.504 124.503L279.403 58.6381L200.798 86.5175L203.117 3.35692L156 71.9034ZM204.211 0L201.838 85.0875L282.274 56.5589L230.191 123.956L312 148L230.191 172.044L282.274 239.441L201.838 210.912L204.211 296L156 225.862L107.789 296L110.162 210.912L29.8511 239.441L81.8094 172.044L0 148L81.8094 123.956L29.8511 56.5589L110.162 85.0875L107.789 0L156 70.138L204.211 0Z"></path>
                                 </svg>
-
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="social-media-card-wrapper">
                     <div class="social-wrapper-1">
-                        <div class="row">
-
-                            <div class="col-lg-7 col-md-12">
+                        <div class="row ml-40">
+                            <div class="col-lg-4 col-md-12">
                                 <div class="media-card-left">
-                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="social-media-img" />
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img-1.png" alt="bg-pattern" class="social-media-img facebook-img" />
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="card-content-wrapper facebook-card">
                                     <div class="card-text-wrapper">
                                         <span class="card-title-sec">
@@ -584,11 +364,10 @@
                                             or website traffic, we've got the right strategy for you.</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-                        <div class="row mt-60">
-                            <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="row mt-60 ml-40">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
                                 <div class="card-content-wrapper instagram-text">
                                     <div class="card-text-wrapper">
                                         <span class="card-title-sec">
@@ -602,22 +381,20 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-lg-7 col-md-12">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="media-card-left">
-                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/instagram-img.png" alt="bg-pattern" class="social-media-img instagram-card" />
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/social-instagram.png" alt="bg-pattern" class="social-media-img instagram-card" />
                                 </div>
                             </div>
                         </div>
 
-                        <div class="row mt-60">
-
-                            <div class="col-lg-7 col-md-12">
+                        <div class="row mt-60 ml-40">
+                            <div class="col-lg-4 col-md-12">
                                 <div class="media-card-left">
-                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/linked-in-img.png" alt="bg-pattern" class="social-media-img" />
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/social-linked-in.png" alt="bg-pattern" class="social-media-img linked-in-img" />
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="card-content-wrapper linked-in-card">
                                     <div class="card-text-wrapper">
                                         <span class="card-title-sec">
@@ -632,11 +409,9 @@
                                             stands out and flourishes in the professional environment.</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
-                        <div class="row mt-60">
+                        <div class="row mt-60 ml-40">
                             <div class="col-lg-5 col-md-12 col-sm-12">
                                 <div class="card-content-wrapper twitter-text">
                                     <div class="card-text-wrapper">
@@ -652,25 +427,23 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-lg-7 col-md-12">
                                 <div class="media-card-left">
-                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/twitter-img.png" alt="twitter-img" class="social-media-img twitter-card" />
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/social-twitter.png" alt="twitter-img" class="social-media-img twitter-card" />
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-60">
-
-                            <div class="col-lg-7 col-md-12">
+                        <div class="row mt-60 ml-40">
+                            <div class="col-lg-4 col-md-12">
                                 <div class="media-card-left">
-                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/youtube-img.png" alt="youtube-img" class="social-media-img" />
+                                    <img src="<?php echo base_url(); ?>asset/images/smm-page/social-youtube-img.png" alt="youtube-img" class="social-media-img youtube-img" />
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="card-content-wrapper youtube-card">
                                     <div class="card-text-wrapper">
                                         <span class="card-title-sec">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/youtube-icon-1.webp" alt="bg-pattern" class="icon-social-media" />
+                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/youtube-icon-1.webp" alt="bg-pattern" class="icon-social-media " />
                                             <h2>Youtube</h2>
                                         </span>
                                         <p>YouTube is more than just a video-sharing platform; it's essential for brand exposure and engagement.
@@ -682,137 +455,16 @@
                                             ensuring your YouTube presence not only stands out but also drives real results.</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         </div>
 
     </section>
     <!-- Social-media-platform-ends -->
-
-
-    <!-- <section>
-        <div class="container media-service-card-container">
-            <div class="media-service-heading">
-                <h2 class="common_h4">
-                    Our Social Media <span class="grad-text"> Marketing Services</span>
-                </h2>
-            </div>
-
-
-            <div class="row mt-20">
-                <div class="col-4">
-                    <div class="media-service-card">
-                        <div class="media-service-card-icon">
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="" />
-                        </div>
-                        <h3 class="media-service-card-title">Social Media Management</h3>
-                        <div class="media-service-card-content fadeInRight">
-                            <p>
-                                Don't get overwhelmed by the daily tasks of social media.
-                                Cloudi5's SMM experts become an extension of your team, 
-                                handling everything from content scheduling and posting to engaging your
-                                audience and managing comments. We'll free up your time to focus on what matters most -
-                                running your business - while ensuring your social media presence stays active and successful.
-                            </p>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="media-service-card">
-                        <div class="media-service-card-icon">
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="" />
-                        </div>
-                        <h3 class="media-service-card-title">Social Media Optimization</h3>
-                        <div class="media-service-card-content fadeInRight">
-                            <p>
-                                Seeing rather her you not esteem men settle genius excuse. Deal
-                                say over you age devonshire Comparison new ham melancholy son
-                                themselves instrument out reasonably.We don't just post we analyze and optimize.
-                                Our data-driven approach to SMO involves a deep exploration into your social media performance.
-                                We analyze key metrics, audience insights, and current trends to refine your strategy for maximum impact. 
-                                Think of it as constantly testing the soil and sunlight in your social media garden to ensure your content
-                                flourishes and reaches the right audience.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="media-service-card">
-                        <div class="media-service-card-icon">
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="" />
-                        </div>
-                        <h3 class="media-service-card-title">Content Creation</h3>
-                        <div class="media-service-card-content fadeInRight">
-                            <p>
-                            Forget stock photos and generic captions! Cloudi5's 
-                            creative team is here to create engaging content that connects with your audience. 
-                            We'll develop a unique content mix that includes eye-catching visuals, compelling captions,
-                            and strategic posting schedules. From stunning Instagram stories to informative blog posts,
-                            our content will stop the scroll, spark conversations, and keep your audience coming back for more.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="row mt-100">
-                <div class="col-4">
-                    <div class="media-service-card">
-                        <div class="media-service-card-icon">
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="" />
-                        </div>
-                        <h3 class="media-service-card-title">Advanced Business Intelligence</h3>
-                        <div class="media-service-card-content fadeInRight">
-                            <p>
-                                Seeing rather her you not esteem men settle genius excuse. Deal
-                                say over you age devonshire Comparison new ham melancholy son
-                                themselves instrument out reasonably.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="media-service-card">
-                        <div class="media-service-card-icon">
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="" />
-                        </div>
-                        <h3 class="media-service-card-title">Advanced Business Intelligence</h3>
-                        <div class="media-service-card-content fadeInRight">
-                            <p>
-                                Seeing rather her you not esteem men settle genius excuse. Deal
-                                say over you age devonshire Comparison new ham melancholy son
-                                themselves instrument out reasonably.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="media-service-card">
-                        <div class="media-service-card-icon">
-                            <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img.png" alt="bg-pattern" class="" />
-                        </div>
-                        <h3 class="media-service-card-title">Advanced Business Intelligence</h3>
-                        <div class="media-service-card-content fadeInRight">
-                            <p>
-                                Seeing rather her you not esteem men settle genius excuse. Deal
-                                say over you age devonshire Comparison new ham melancholy son
-                                themselves instrument out reasonably.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
 
     <section>
         <div class="media-service-card-container container">
@@ -825,12 +477,11 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row mt-20">
+            <div class="row mt-40">
                 <div class="col-lg-4 col-md-6">
-                    <div class="media-service-card">
+                    <div class="media-service-card card-one">
                         <div class="media-service-card-content">
-                        <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-1.png" alt="smm-service-icon" class="service-icon" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-1.png" alt="smm-service-icon" class="service-icon" />
                             <h3>Social Media Management</h3>
                             <p>Don't get overwhelmed by the daily tasks of social media.
                                 Cloudi5's SMM experts become an extension of your team, handling
@@ -839,29 +490,29 @@
                                 on what matters most - running your business - while ensuring your
                                 social media presence stays active and successful.</p>
                         </div>
-                        <div class="media-service-card-icon">
+                        <!-- <div class="media-service-card-icon">
                             <i class="fi fi-rr-arrow-small-right"></i>
-                        </div>
+                        </div> -->
                         <div class="media-service-card-number">01</div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="media-service-card">
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="media-service-card card-two">
                         <div class="media-service-card-content">
-                        <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-2.png" alt="optimization-service-icon" class="service-icon" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-2.png" alt="optimization-service-icon" class="service-icon" />
                             <h3>Social Media Optimization</h3>
                             <p>We don't just post we analyze and optimize. Our data-driven approach to SMO involves a deep exploration into your social media performance. We analyze key metrics, audience insights, and current trends to refine your strategy for maximum impact. Think of it as constantly testing the soil and sunlight in your social media garden to ensure your content flourishes and reaches the right audience.</p>
                         </div>
-                        <div class="media-service-card-icon">
+                        <!-- <div class="media-service-card-icon">
                             <i class="fi fi-rr-arrow-small-right"></i>
-                        </div>
+                        </div> -->
                         <div class="media-service-card-number">02</div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="media-service-card">
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="media-service-card card-three">
                         <div class="media-service-card-content">
-                        <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-3.png" alt="content-creation-service-icon" class="service-icon" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-3.png" alt="content-creation-service-icon" class="service-icon" />
                             <h3>Content Creation</h3>
                             <p>Forget stock photos and generic captions!
                                 Cloudi5's creative team is here to create engaging content
@@ -871,18 +522,16 @@
                                 informative blog posts, our content will stop the scroll, spark
                                 conversations, and keep your audience coming back for more.</p>
                         </div>
-                        <div class="media-service-card-icon">
+                        <!-- <div class="media-service-card-icon">
                             <i class="fi fi-rr-arrow-small-right"></i>
-                        </div>
+                        </div> -->
                         <div class="media-service-card-number">03</div>
                     </div>
                 </div>
-            <!-- </div>
-            <div class="row mt-100"> -->
-                <div class="col-lg-4 col-md-6 mt-100">
-                    <div class="media-service-card">
+                <div class="col-lg-4 col-md-6 mt-100  ">
+                    <div class="media-service-card card-four">
                         <div class="media-service-card-content">
-                        <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-4.png" alt="Paid-Advertising-service-icon" class="service-icon" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-4.png" alt="Paid-Advertising-service-icon" class="service-icon" />
                             <h3>Paid Advertising & Promotion</h3>
                             <p>Our paid advertising specialists are experts in creating effective ad campaigns
                                 that align with your specific goals. Whether you want to increase brand awareness,
@@ -890,16 +539,16 @@
                                 to ensure your ads reach the users most likely to convert.
                                 Consider us your secret weapon for maximizing ROI from your social media efforts.</p>
                         </div>
-                        <div class="media-service-card-icon">
+                        <!-- <div class="media-service-card-icon">
                             <i class="fi fi-rr-arrow-small-right"></i>
-                        </div>
+                        </div> -->
                         <div class="media-service-card-number">04</div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-100">
-                    <div class="media-service-card">
+                <div class="col-lg-4 col-md-6 mt-100 ">
+                    <div class="media-service-card card-five">
                         <div class="media-service-card-content">
-                        <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-5.png" alt="Influencer-Marketing-service-icon" class="service-icon" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-5.png" alt="Influencer-Marketing-service-icon" class="service-icon" />
                             <h3>Influencer Marketing</h3>
                             <p>Partner with the perfect brand ambassadors.
                                 Cloudi5 can help you identify and connect with relevant influencers
@@ -908,16 +557,16 @@
                                 influence, we build brand trust naturally. Our strategic partnerships ensure authentic
                                 representation, reaching a wider audience and building credibility.</p>
                         </div>
-                        <div class="media-service-card-icon">
+                        <!-- <div class="media-service-card-icon">
                             <i class="fi fi-rr-arrow-small-right"></i>
-                        </div>
+                        </div> -->
                         <div class="media-service-card-number">05</div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-100">
-                    <div class="media-service-card">
+                <div class="col-lg-4 col-md-6 mt-100 ">
+                    <div class="media-service-card card-six">
                         <div class="media-service-card-content">
-                        <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-6.png" alt="Community-service-icon" class="service-icon" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-6.png" alt="Community-service-icon" class="service-icon" />
                             <h3>Social Media Analytics & Reporting</h3>
                             <p>We go beyond likes and shares. Cloudi5 provides comprehensive social
                                 media analytics and reporting that goes beyond vanity metrics.
@@ -925,189 +574,31 @@
                                 These insights allow us to continuously optimize your campaigns and ensure your social media
                                 presence delivers measurable results that contribute to your overall business goals.</p>
                         </div>
-                        <div class="media-service-card-icon">
+                        <!-- <div class="media-service-card-icon ">
                             <i class="fi fi-rr-arrow-small-right"></i>
-                        </div>
+                        </div> -->
                         <div class="media-service-card-number">06</div>
                     </div>
                 </div>
-            <!-- </div>
-            <div class="row mt-100"> -->
-                <div class="col-lg-4 col-md-6 mt-100">
-                    <div class="media-service-card">
+                <div class="col-lg-4 col-md-6 mt-100 ">
+                    <div class="media-service-card card-seven">
                         <div class="media-service-card-content">
-                        <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-7.png" alt="Community-service-icon" class="service-icon" />
+                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-7.png" alt="Community-service-icon" class="service-icon" />
                             <h3>Community Management</h3>
                             <p>Building relationships is key. Our dedicated community managers cultivate
                                 meaningful connections with your audience. We'll actively respond to comments
                                 and messages, answer questions, and address concerns. By nurturing a vibrant
                                 online community, we transform followers into brand advocates who are enthusiastic about your brand and eager to share it with others.</p>
                         </div>
-                        <div class="media-service-card-icon">
+                        <!-- <div class="media-service-card-icon">
                             <i class="fi fi-rr-arrow-small-right"></i>
-                        </div>
+                        </div> -->
                         <div class="media-service-card-number">07</div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
-
-    <!-- <section>
-        <div class="container service-container">
-            <div class="media-service-top-section">
-                <button class="media-service-tab-btn active">Section 1</button>
-                <button class="media-service-tab-btn">Section 2</button>
-                <button class="media-service-tab-btn">Section 3</button>
-            </div>
-            <div class="service-sections-container">
-                <div class="service-section">
-                    <h2>Section 1</h2>
-                    <p>Content for Section 1 goes here...</p>
-                   
-                </div>
-                <div class="service-section">
-                    <h2>Section 2</h2>
-                    <p>Content for Section 2 goes here...</p>
-                   
-                </div>
-                <div class="service-section">
-                    <h2>Section 3</h2>
-                    <p>Content for Section 3 goes here...</p>
-                   
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-
-
-
-    <!-- Social-media-services-starts -->
-    <!-- <section>
-        <div class="Social-media-marketing-service mt-60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="social-service-title">
-                            <h2>Our Social Media Marketing Services</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="social-service-card-wrapper">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                    <div class="service-card-wrapper card-wrapper-1">
-                                        <div class="service-text-wrapper">
-                                            <h3>Social Media Management</h3>
-                                            <p>Don't get overwhelmed by the daily tasks of social media. Cloudi5's SMM experts become an extension of your team, handling everything from content scheduling and posting to engaging your audience and managing comments. We'll free up your time to focus on what matters most - running your business - while ensuring your social media presence stays active and successful.</p>
-                                        </div>
-                                        <div class="consulting consult-item-1">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-1.png" alt="smm-service-icon" class="service-icon" />
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                    <div class="service-card-wrapper card-wrapper-2">
-                                        <div class="service-text-wrapper">
-                                            <h3>Social Media Optimization</h3>
-                                            <p>We don't just post we analyze and optimize. Our data-driven approach to SMO involves a deep exploration into your social media performance. We analyze key metrics, audience insights, and current trends to refine your strategy for maximum impact. Think of it as constantly testing the soil and sunlight in your social media garden to ensure your content flourishes and reaches the right audience.</p>
-                                        </div>
-
-                                        <div class="consulting consult-item-2">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-2.png" alt="optimization-service-icon" class="service-icon" />
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                    <div class="service-card-wrapper card-wrapper-3">
-                                        <div class="service-text-wrapper">
-                                            <h3>Content Creation</h3>
-                                            <p>Forget stock photos and generic captions! Cloudi5's creative team is here to create engaging content that connects with your audience. We'll develop a unique content mix that includes eye-catching visuals, compelling captions, and strategic posting schedules. From stunning Instagram stories to informative blog posts, our content will stop the scroll, spark conversations, and keep your audience coming back for more.</p>
-                                        </div>
-
-                                        <div class="consulting consult-item-3">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-3.png" alt="content-creation-service-icon" class="service-icon" />
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                    <div class="service-card-wrapper card-wrapper-4">
-                                        <div class="service-text-wrapper">
-                                            <h3>Paid Advertising & Promotion</h3>
-                                            <p>Our paid advertising specialists are experts in creating effective ad campaigns that align with your specific goals. Whether you want to increase brand awareness, generate leads, or drive website traffic, we'll utilize powerful targeting options to ensure your ads reach the users most likely to convert. Consider us your secret weapon for maximizing ROI from your social media efforts.</p>
-                                        </div>
-
-                                        <div class="consulting consult-item-4">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-4.png" alt="Paid-Advertising-service-icon" class="service-icon" />
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                    <div class="service-card-wrapper card-wrapper-5">
-                                        <div class="service-text-wrapper">
-                                            <h3>Influencer Marketing</h3>
-                                            <p>Partner with the perfect brand ambassadors. Cloudi5 can help you identify and connect with relevant influencers in your industry. We collaborate with influencers to enhance your brand message, extending it to new demographics. By using their established audience and social influence, we build brand trust naturally. Our strategic partnerships ensure authentic representation, reaching a wider audience and building credibility.</p>
-                                        </div>
-
-                                        <div class="consulting consult-item-5">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-5.png" alt="Influencer-Marketing-service-icon" class="service-icon" />
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                    <div class="service-card-wrapper card-wrapper-6">
-                                        <div class="service-text-wrapper">
-                                            <h3>Social Media Analytics & Reporting</h3>
-                                            <p>We go beyond likes and shares. Cloudi5 provides comprehensive social media analytics and reporting that goes beyond vanity metrics. We analyze data to provide actionable insights on what's working and what can be improved. These insights allow us to continuously optimize your campaigns and ensure your social media presence delivers measurable results that contribute to your overall business goals.</p>
-                                        </div>
-
-                                        <div class="consulting consult-item-6">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-6.png" alt="Reporting-service-icon" class="service-icon" />
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                    <div class="service-card-wrapper card-wrapper-7">
-                                        <div class="service-text-wrapper">
-                                            <h3>Community Management</h3>
-                                            <p>Building relationships is key. Our dedicated community managers cultivate meaningful connections with your audience. We'll actively respond to comments and messages, answer questions, and address concerns. By nurturing a vibrant online community, we transform followers into brand advocates who are enthusiastic about your brand and eager to share it with others.</p>
-                                        </div>
-
-                                        <div class="consulting consult-item-7">
-                                            <img src="<?php echo base_url(); ?>asset/images/smm-page/service-media-7.png" alt="Community-service-icon" class="service-icon" />
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section> -->
-    <!-- Social-media-services-ends-->
-
     <!-- FAQ-section-starts -->
     <section>
         <div class="faq-section">
@@ -1221,17 +712,6 @@
     </section>
     <!-- FAQ-section-ends -->
 
-
-
-
-    <!--Leading-social-media-end-->
-
-
-
-
-
-
-
     <!-- Footer -->
     <?php $this->load->view('frontend/footer'); ?>
     <!-- Footer end-->
@@ -1322,25 +802,25 @@
         });
 
 
-        const cards = document.querySelectorAll(".media-service-card");
+        // const cards = document.querySelectorAll(".media-service-card");
 
-        cards.forEach((card) => {
-            card.addEventListener("mouseover", () => {
-                cards.forEach((c) => {
-                    if (c !== card) {
-                        c.style.width = "300px";
-                    } else {
-                        c.style.width = "350px";
-                    }
-                });
-            });
+        // cards.forEach((card) => {
+        //    card.addEventListener("mouseover", () => {
+        //       cards.forEach((c) => {
+        //           if (c !== card) {
+        //              c.style.width = "300px";
+        //          } else {
+        //              c.style.width = "350px";
+        //          }
+        //      });
+        //  });
 
-            card.addEventListener("mouseout", () => {
-                cards.forEach((c) => {
-                    c.style.width = "300px";
-                });
-            });
-        });
+        // card.addEventListener("mouseout", () => {
+        //     cards.forEach((c) => {
+        //          c.style.width = "300px";
+        //      });
+        //  });
+        //});
     </script>
     <!-- On Scroll Animation End-->
     <!-- Template custom-->
