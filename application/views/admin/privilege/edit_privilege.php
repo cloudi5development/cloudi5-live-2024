@@ -58,6 +58,8 @@
 											</tr>
 											<?php 
 											$rights_portfolio		= json_decode($edit_data->portfolio, TRUE);
+											$rights_teams		= json_decode($edit_data->teams, TRUE);
+											$rights_clients		= json_decode($edit_data->clients, TRUE);
 											$rights_blog			= json_decode($edit_data->blog, TRUE);
 											$rights_category		= json_decode($edit_data->category, TRUE);
 											$rights_comments		= json_decode($edit_data->comments, TRUE);
@@ -88,6 +90,43 @@
 												</td>
 												<td class="selectAll"></td>
 											</tr>
+											<tr>
+												<th>Teams</th>
+												<td class="selectAll">
+													<input type="checkbox" class="checkbox" name="privilege[teams][add]" value="1" <?php if(!empty($rights_teams['add'])){ if($rights_teams['add']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[teams][edit]" value="1" <?php if(!empty($rights_teams['edit'])){ if($rights_teams['edit']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[teams][view]" value="1" <?php if(!empty($rights_teams['view'])){ if($rights_teams['view']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[teams][delete]" value="1" <?php if(!empty($rights_teams['delete'])){ if($rights_teams['delete']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll"></td>
+											</tr>
+
+											<tr>
+												<th>Clients</th>
+												<td class="selectAll">
+													<input type="checkbox" class="checkbox" name="privilege[clients][add]" value="1" <?php if(!empty($rights_clients['add'])){ if($rights_clients['add']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[clients][edit]" value="1" <?php if(!empty($rights_clients['edit'])){ if($rights_clients['edit']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[clients][view]" value="1" <?php if(!empty($rights_clients['view'])){ if($rights_clients['view']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[clients][delete]" value="1" <?php if(!empty($rights_clients['delete'])){ if($rights_clients['delete']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll"></td>
+											</tr>
+
+
+									
+				
 											<tr>
 												<th>Blog Category </th>
 												<td class="selectAll">

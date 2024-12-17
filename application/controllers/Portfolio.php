@@ -100,12 +100,12 @@ class Portfolio extends CI_Controller
 
 		if (!empty($_FILES['thumbnail']['name']))
 		{
-			$data['thumbnail'] = $upload_folder . date('his') . '_'. str_replace(' ','_',$_FILES['thumbnail']['name']);
+			$data['thumbnail'] = $upload_folder . date('his') . '-'. str_replace(' ','-',$_FILES['thumbnail']['name']);
 			move_uploaded_file($_FILES["thumbnail"]["tmp_name"], $data['thumbnail']);
 		}
 		if (!empty($_FILES['thumbnail_popup']['name']))
 		{
-			$data['thumbnail_popup'] = $upload_folder . date('his') . '_'. str_replace(' ','_',$_FILES['thumbnail_popup']['name']);
+			$data['thumbnail_popup'] = $upload_folder . date('his') . '-'. str_replace(' ','-',$_FILES['thumbnail_popup']['name']);
 			move_uploaded_file($_FILES["thumbnail_popup"]["tmp_name"], $data['thumbnail_popup']);
 		}
 		$portfolio_id				= $this->Portfolio_model->insert($data);
@@ -116,7 +116,7 @@ class Portfolio extends CI_Controller
 		for($i=0; $i< count($portfolio_image); $i++) {
 			if (!empty($_FILES['image']['name'][$i]))
 			{
-				$image['image']	= $upload_folder . date('his') . '_'. str_replace(' ','_',$_FILES['image']['name'][$i]);
+				$image['image']	= $upload_folder . date('his') . '-'. str_replace(' ','-',$_FILES['image']['name'][$i]);
 				move_uploaded_file($_FILES["image"]["tmp_name"][$i], $image['image']);
 			} 
 			else
@@ -172,13 +172,13 @@ class Portfolio extends CI_Controller
 		if (!empty($_FILES['thumbnail']['name']))
 		{
 			//if(!empty($portfolio->thumbnail)){ unlink($portfolio->thumbnail); }
-			$data['thumbnail'] = $upload_folder . date('his') . '_'. str_replace(' ','_',$_FILES['thumbnail']['name']);
+			$data['thumbnail'] = $upload_folder . date('his') . '-'. str_replace(' ','-',$_FILES['thumbnail']['name']);
 			move_uploaded_file($_FILES["thumbnail"]["tmp_name"], $data['thumbnail']);
 		}
 		if (!empty($_FILES['thumbnail_popup']['name']))
 		{
 			//if(!empty($portfolio->thumbnail_popup)){ unlink($portfolio->thumbnail_popup); }
-			$data['thumbnail_popup'] = $upload_folder . date('his') . '_'. str_replace(' ','_',$_FILES['thumbnail_popup']['name']);
+			$data['thumbnail_popup'] = $upload_folder . date('his') . '-'. str_replace(' ','-',$_FILES['thumbnail_popup']['name']);
 			move_uploaded_file($_FILES["thumbnail_popup"]["tmp_name"], $data['thumbnail_popup']);
 		}
 		
@@ -192,7 +192,7 @@ class Portfolio extends CI_Controller
 				if (!empty($_FILES['image']['name'][$i]))
 				{
 					if(!empty($image->image)){ unlink($image->image); }
-					$imageData['image'] = $upload_folder . date('his') . '_'. str_replace(' ','_',$_FILES['image']['name'][$i]);
+					$imageData['image'] = $upload_folder . date('his') . '-'. str_replace(' ','_',$_FILES['image']['name'][$i]);
 					move_uploaded_file($_FILES["image"]["tmp_name"][$i], $imageData['image']);
 
 					$this->Portfolio_model->updateImage($imageData, $image_id[$i]);

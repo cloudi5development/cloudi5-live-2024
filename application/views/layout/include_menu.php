@@ -17,13 +17,36 @@
 			</li>
 		<?php }
 			} 			
-			$portfolioAccess = json_decode($getpermission->portfolio, TRUE);
-			if(!empty($portfolioAccess)){
-				if (array_key_exists('view' , $portfolioAccess))
+			$teamAccess = json_decode($getpermission->teams, TRUE);
+			if(!empty($teamAccess)){
+				if (array_key_exists('view' , $teamAccess))
 				{ 
 		?>	
+			<li class="<?php if ($page_title == 'Teams' || $page_title == 'Add Teams' || $page_title == 'Edit Teams') echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>Teams"><i class="fa fa-users"></i><span data-i18n="nav.dash.main" class="menu-title">Teams</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li>
+		<?php }
+			} 			
+			$teamAccess = json_decode($getpermission->teams, TRUE);
+			if(!empty($teamAccess)){
+				if (array_key_exists('view' , $teamAccess))
+				{ 
+		?>	
+
+            <li class="<?php if ($page_title == 'Clients' || $page_title == 'Add Clients' || $page_title == 'Edit Clients') echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>Clients"><i class="fas fa-user-tie"></i><span data-i18n="nav.dash.main" class="menu-title">Clients</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li>
+		<?php }
+			} 			
+			$clientAccess = json_decode($getpermission->teams, TRUE);
+			if(!empty($clientAccess)){
+				if (array_key_exists('view' , $clientAccess))
+				{ 
+		?>	
+
+
 			<li class="<?php if ($page_title == 'Portfolio' || $page_title == 'Add Portfolio' || $page_title == 'Edit Portfolio') echo 'active'; ?> nav-item">
-				<a href="<?php echo base_url();?>portfolio/lists"><i class="icon-database"></i><span data-i18n="nav.dash.main" class="menu-title">Portfolio</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+				<a href="<?php echo base_url();?>portfolio/lists"><i class="fa-solid fa-user-group"></i><span data-i18n="nav.dash.main" class="menu-title">Portfolio</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
 			</li>
 		<?php }
 			} 			
@@ -213,8 +236,15 @@
 		<ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
 			<li class="<?php if ($page_title == 'Dashboard') echo 'active'; ?> nav-item"><a href="<?php echo base_url();?>accesspanel/dashboard"><i class="icon-home3"></i><span data-i18n="nav.dash.main" class="menu-title">Dashboard</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
 			</li>
+			
 			<li class="<?php if ($page_title == 'Portfolio' || $page_title == 'Add Portfolio' || $page_title == 'Edit Portfolio') echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url();?>portfolio/lists"><i class="icon-database"></i><span data-i18n="nav.dash.main" class="menu-title">Portfolio</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li> 
+			<li class="<?php if ($page_title == 'Teams' || $page_title == 'Add Teams' || $page_title == 'Edit Teams') echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>Teams"><i class="fa fa-users"></i><span data-i18n="nav.dash.main" class="menu-title">Teams</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li> 
+			<li class="<?php if ($page_title == 'Clients' || $page_title == 'Add Clients' || $page_title == 'Edit Clients') echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>Clients">   <i class="fas fa-user-tie"></i><span data-i18n="nav.dash.main" class="menu-title">Clients</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
 			</li> 
 			<li class="<?php if ($page_title == 'Category' || $page_title == 'Add Category' || $page_title == 'Edit Category') echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url();?>category/"><i class="icon-pencil22"></i><span data-i18n="nav.dash.main" class="menu-title">Blog Category</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
