@@ -142,6 +142,17 @@ class Privilege extends CI_Controller
 			}else{
 				$data['portfolio'] 	= '';
 			}
+			if(!empty($privilege['teams'])){
+				$data['teams'] 	= json_encode($privilege['teams']);
+			}else{
+				$data['teams'] 	= '';
+			}
+			if(!empty($privilege['clients'])){
+				$data['clients'] 	= json_encode($privilege['clients']);
+			}else{
+				$data['clients'] 	= '';
+			}
+
 			if(!empty($privilege['meta_pages'])){
 				$data['meta_pages']	= json_encode($privilege['meta_pages']);
 			}else{
@@ -241,6 +252,17 @@ class Privilege extends CI_Controller
 			$data['portfolio'] 	= json_encode($privilege['portfolio']);
 		}else{
 			$data['portfolio'] 	= '';
+		}
+		
+		if(!empty($privilege['teams'])){
+			$data['teams'] 	= json_encode($privilege['teams']);
+		}else{
+			$data['teams'] 	= '';
+		}
+		if(!empty($privilege['clients'])){
+			$data['clients'] 	= json_encode($privilege['clients']);
+		}else{
+			$data['clients'] 	= '';
 		}
 		if(!empty($privilege['meta_pages'])){
 			$data['meta_pages']	= json_encode($privilege['meta_pages']);

@@ -73,6 +73,37 @@
 												<td></td>
 											</tr>
 											<tr>
+												<th class="selectAll">Teams</th>
+												<td class="selectAll">
+													<input type="checkbox" class="checkbox" name="privilege[teams][add]" value="1">
+												</td>
+												<td>
+													<input class="checkbox" type="checkbox" name="privilege[teams][edit]" value="1">
+												</td>
+												<td>
+													<input class="checkbox" type="checkbox" name="privilege[teams][view]" value="1"></td>
+												<td>
+													<input class="checkbox" type="checkbox" name="privilege[teams][delete]" value="1">
+												</td>
+												<td></td>
+											</tr>
+
+											<tr>
+												<th class="selectAll">Clients</th>
+												<td class="selectAll">
+													<input type="checkbox" class="checkbox" name="privilege[clients][add]" value="1">
+												</td>
+												<td>
+													<input class="checkbox" type="checkbox" name="privilege[clients][edit]" value="1">
+												</td>
+												<td>
+													<input class="checkbox" type="checkbox" name="privilege[clients][view]" value="1"></td>
+												<td>
+													<input class="checkbox" type="checkbox" name="privilege[clients][delete]" value="1">
+												</td>
+												<td></td>
+											</tr>
+											<tr>
 												<th class="selectAll">Blog Category</th>
 												<td class="selectAll">
 													<input type="checkbox" class="checkbox" name="privilege[category][add]" value="1">
