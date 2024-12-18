@@ -127,8 +127,8 @@
 .ml-20{
   margin-left: 20px;
 }
-.ml-40{
-  margin-left: 40px;
+.ml-60{
+  margin-left: 60px;
 }
 .mt-100{
   margin-top: 100px;
@@ -366,15 +366,12 @@
   font-size: 16px;
   margin: 10px 0;
 }
-
 .icon-list-type {
   width: 22px;
 }
-
 .left-leading-container {
   padding-right: 70px;
 }
-
 .circle-round-2 {
   position: absolute;
   top: 222px;
@@ -647,7 +644,11 @@
 }
 
 /* ----why-choose-tab-concept---- */
+.why-choose-content{
+  font-size: 16px !important;
+  margin: 20px 0;
 
+}
 .heading-container{
   background-color: #0b2359;
   color: #ffffff;
@@ -786,7 +787,8 @@
  
 }
 .card-three{
-  background-color: #f5e1df;
+  
+  background-color: #d5e2ed;
 }
 .card-four{
   background-color: #def8f5;
@@ -799,7 +801,7 @@
 
 }
 .card-seven{
-  background-color: #d5e2ed;
+  background-color: #fff2e0;
    
 }
 
@@ -1014,7 +1016,11 @@
   height: 40px;
   transition: transform 0.5s ease;
 }
-
+.service-icon{
+  width: 60px;
+  margin-top: 10px;
+  transition: transform 3s ease;
+}
 .media-service-card-number {
   position: absolute;
   top: 20px;

@@ -118,25 +118,170 @@
     <!-- ***** Welcome Area End ***** -->
 
     <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center">Best <span class="grad-text"> ERP Company</span> in Coimbatore</h2>
+                </div>
+                <div class="col-lg-7 mt-20">
+                    <p class="mt-20">Cloudi5 is a top<span class="text-red"> ERP Software Company in Coimbatore</span>
+                        focused on helping your business succeed. Our Enterprise Resource Planning (ERP) Systems are like a
+                        center nervous system of your company. They bring together important functions like finance,HR,inventory and supply
+                        chain into one system. This makes your operations smoother, helps you make better decisions and improves how different
+                        parts of your business work together.</p>
+                    <p>We know that every business is different. That's why we don't just sell software;we build partnerships.
+                        Our Expert consultants take the time understand your unique needs and goals. Then, they set up and connect
+                        the best ERP System for your company, making sure it fits perfectly. Cloudi5 is committed to your long term success.
+                        We offer ongoing support to help you get the most out of your ERP investment and grow sustainably. </p>
+
+                    <a href="javascript:void(0);" class="contact-btn ">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Get A Free Quote
+                    </a>
+                </div>
+                <div class="col-lg-5">
+                    <div class="erp-img-container">
+                        <div class="erp-img-circle">
+                            <div class="erp-img-content">
+                                <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-1.png"
+                                    alt="Step 1" class="step-image step1">
+                                <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-2.png"
+                                    alt="Step 2" class="step-image step2  active ">
+                                <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-3.png"
+                                    alt="Step 3" class="step-image step3">
+                                <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-4.png"
+                                    alt="Step 4" class="step-image step4">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="why-need-erp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-center">Why Every Company Need <span class="grad-text">ERP Software?</span></h2>
+                    </div>
+                </div>
+                <div class="row tabs mt-40">
+                    <div class="col-lg-3">
+                        <div class="card-tab active tab-1" data-target="get-more-done">
+                            <!-- <div class="card-tab-icon">
+                                <img src="seo-icon.png" alt="Icon" />
+                            </div> -->
+                            <div class="card-tab-content">
+                                <h3>Get More Done in Less Time</h3>
+                            </div>
+                           
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card-tab tab-2" data-target="better-choice">
+                            <!-- <div class="card-tab-icon">
+                                <img src="seo-icon.png" alt="Icon" />
+                            </div> -->
+                            <div class="card-tab-content">
+                                <h3 class="text-center" >Makes Better Choices</h3>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card-tab tab-3" data-target="reduce-mistakes">
+                            <!-- <div class="card-tab-icon">
+                                <img src="seo-icon.png" alt="Icon" />
+                            </div> -->
+                            <div class="card-tab-content">
+                                <h3 class="text-center">Reduced Mistakes</h3>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card-tab tab-4" data-target="teams-work">
+                            <!-- <div class="card-tab-icon">
+                                <img src="seo-icon.png" alt="Icon" />
+                            </div> -->
+                            <div class="card-tab-content">
+                                <h3>Teams Work Together Better</h3>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8 text-center mt-20">
+                        <div class="content-container">
+                            <div class="tab-content active mt-20" id="get-more-done">
+                                <h3>Get More Done in Less Time</h3>
+                                <p>Automate routine tasks, optimize workflows and eliminate data barries.
+                                    Cloudi5's ERP Solutions Enables your team to focus on high value activities
+                                    that drie growth. </p>
+                                    <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-1.png"
+                                    alt="Step 1" class="tab-image">
+                            </div>
+                            <div class="tab-content  mt-20" id="better-choice">
+                                <h3>Makes Better Choices </h3>
+                                <p>Gain real-time visibility into critical business matrics across all department.
+                                    Cloudi5's ERP ensured informed decision making based on accurate and centralized data.
+                                </p>
+                                <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-2.png"
+                                alt="Step 2" class="tab-image ">
+                            </div>
+                            <div class="tab-content  mt-20 " id="reduce-mistakes">
+                                <h3>Reduced Mistakes</h3>
+                                <p>Maintain data consistency and reduced risk of manual errors. Cloudi5's ERP 
+                                    ensures trust in your data,leading to relable reporting and financial control. </p>
+                                    <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-3.png"
+                                    alt="Step 3" class="tab-image">
+                            </div>
+                            <div class="tab-content  mt-20" id="teams-work">
+                                <h3>Teams Work Together Better</h3>
+                                <p>Break down departmental barriers and facilitate seamless information sharing.
+                                    Cloudi5's ERP enables teams to work together effectively, enhancing project  
+                                    execution and customer satisfaction.  </p>
+                                    <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-software-4.png"
+                                    alt="Step 4" class="tab-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
         <div class="benefits-of-erp-software">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="benefits-erp-title">
-                            <h2>The Benefits of ERP Software</h2>
+                        <div class="benefits-erp-title mt-20">
+                            <h2 class="text-center">The Benefits of <span class="grad-text"> ERP Software</span></h2>
                         </div>
-                    </div>
-                    <div class="col-lg-6 arrow-wrapper">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
-                        
-                            <path
-                                d="M20 50 Q 60 10, 150 50 L140 40 M150 50 L140 60"
-                                fill="none"
-                                stroke="#000066"
-                                stroke-linecap="round"
-                                stroke-linejoin="round">
-                              
-                                <animate
+                        <div class="col-lg-12">
+                            <p class="text-center mt-20">Enterprise Resource Planning (ERP) software offers a powerful solution
+                                for businesses seeking efficiency and agility. By integrating critical
+                                business functions into a single,
+                                centralized platform, ERP can transform your operations and drive growth.</p>
+                        </div>
+                        <!-- <div class="col-lg-6 arrow-wrapper">
+                   
+                        <svg class="WhyChooseOneclick_arrow_doodle__kVl3Z" width="144" height="70" viewBox="0 0 174 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="WhyChooseOneclick_squiggle__RhH_X" stroke="#2F3293" stroke-miterlimit="1" stroke-width="5" d="M59.9564 19.8419C60.5802 19.9621 61.2028 20.2025 61.8242 20.4428C65.1788 21.5246 69.091 22.7267 71.9793 24.8902C75.7665 27.7748 77.2305 31.0198 77.198 34.265C77.1487 38.8323 73.7797 43.5193 69.1631 46.404C64.5886 49.2886 58.8603 50.491 54.2461 48.6881C51.0838 47.4862 48.3855 44.8419 46.9143 40.2746C45.2172 35.1063 46.6054 30.1784 49.597 25.8515C50.7196 24.1688 52.0705 22.7267 53.5585 21.2844C51.6006 20.9238 49.6234 20.5628 47.6186 20.2022C41.0549 19.2407 34.1559 19.0001 27.5393 19.3606C18.7868 19.7212 10.4142 21.5248 2.32522 24.8902C1.57762 25.1306 0.721862 24.7698 0.414168 24.0486C0.10768 23.3275 2.75337 23.5676 3.50098 23.207C11.9084 19.7215 18.3205 16.7164 27.4166 16.3558C34.2256 16.1154 41.3241 16.2366 48.079 17.3183C50.877 17.7991 53.6235 18.2796 56.3386 18.8806C59.9011 16.1161 63.859 13.9524 67.2244 12.6303C89.7377 4.21684 120.054 15.1539 140.454 25.9712C141.168 26.3318 141.44 27.1739 141.062 27.895C140.684 28.6162 139.798 28.8566 139.084 28.496C119.339 18.0392 90.0478 7.22142 68.2581 15.3945C65.6956 16.3561 62.7545 17.9188 59.9564 19.8419ZM57.0429 22.126C58.329 22.3664 59.6066 22.7263 60.8807 23.207C63.9552 24.2888 67.5682 25.2501 70.2136 27.1732C73.073 29.3366 74.2954 31.7414 74.2713 34.1453C74.2317 37.9914 71.335 41.5967 67.6007 43.8804C63.8254 46.2842 59.1211 47.4864 55.3122 45.9239C52.8602 44.9624 50.8374 42.9186 49.6968 39.433C48.2989 35.1061 49.5393 31.0203 52.0044 27.5347C53.3758 25.4914 55.1235 23.6885 57.0429 22.126Z" fill="none"></path>
+                            <path class="WhyChooseOneclick_squiggle__RhH_X" stroke="#2F3293" stroke-miterlimit="1" stroke-width="5" d="M140.677 27.4116C140.253 26.8107 139.618 26.2097 138.982 25.6087C137.76 24.4068 136.464 23.3248 135.782 22.3633C131.577 16.5941 126.607 9.62312 124.403 2.77214C124.154 2.05099 124.576 1.20964 125.345 0.969254C126.113 0.728867 126.939 1.08921 127.188 1.93056C129.303 8.42096 134.117 15.0323 138.152 20.6813C138.89 21.6428 140.452 22.9643 141.705 24.1662C142.767 25.2479 143.615 26.3299 143.922 27.4116C144.139 28.0126 143.898 29.0943 142.545 29.8155C140.627 30.777 135.3 31.6191 134.784 31.7393C129.561 32.9412 124.964 34.1429 121.666 38.7102C121.192 39.3112 120.274 39.4311 119.622 39.0705C118.969 38.5898 118.825 37.628 119.301 37.027C123.061 31.8587 128.208 30.1763 134.163 28.8542C134.543 28.8542 137.726 28.3734 139.939 27.6522C140.178 27.5321 140.442 27.5318 140.677 27.4116Z" fill="none"></path>
+                            <animate
                                     attributeName="stroke-dasharray"
                                     from="300 300"
                                     to="300 0"
@@ -154,24 +299,10 @@
                                     values="3;8;15"
                                     dur="2s"
                                     repeatCount="indefinite" />
-                            </path>
-                        </svg> -->
-                        <!-- <svg class="WhyChooseOneclick_arrow_doodle__kVl3Z" width="144" height="70" viewBox="0 0 174 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="WhyChooseOneclick_squiggle__RhH_X" stroke="#2F3293" stroke-miterlimit="1" stroke-width="5" d="M59.9564 19.8419C60.5802 19.9621 61.2028 20.2025 61.8242 20.4428C65.1788 21.5246 69.091 22.7267 71.9793 24.8902C75.7665 27.7748 77.2305 31.0198 77.198 34.265C77.1487 38.8323 73.7797 43.5193 69.1631 46.404C64.5886 49.2886 58.8603 50.491 54.2461 48.6881C51.0838 47.4862 48.3855 44.8419 46.9143 40.2746C45.2172 35.1063 46.6054 30.1784 49.597 25.8515C50.7196 24.1688 52.0705 22.7267 53.5585 21.2844C51.6006 20.9238 49.6234 20.5628 47.6186 20.2022C41.0549 19.2407 34.1559 19.0001 27.5393 19.3606C18.7868 19.7212 10.4142 21.5248 2.32522 24.8902C1.57762 25.1306 0.721862 24.7698 0.414168 24.0486C0.10768 23.3275 2.75337 23.5676 3.50098 23.207C11.9084 19.7215 18.3205 16.7164 27.4166 16.3558C34.2256 16.1154 41.3241 16.2366 48.079 17.3183C50.877 17.7991 53.6235 18.2796 56.3386 18.8806C59.9011 16.1161 63.859 13.9524 67.2244 12.6303C89.7377 4.21684 120.054 15.1539 140.454 25.9712C141.168 26.3318 141.44 27.1739 141.062 27.895C140.684 28.6162 139.798 28.8566 139.084 28.496C119.339 18.0392 90.0478 7.22142 68.2581 15.3945C65.6956 16.3561 62.7545 17.9188 59.9564 19.8419ZM57.0429 22.126C58.329 22.3664 59.6066 22.7263 60.8807 23.207C63.9552 24.2888 67.5682 25.2501 70.2136 27.1732C73.073 29.3366 74.2954 31.7414 74.2713 34.1453C74.2317 37.9914 71.335 41.5967 67.6007 43.8804C63.8254 46.2842 59.1211 47.4864 55.3122 45.9239C52.8602 44.9624 50.8374 42.9186 49.6968 39.433C48.2989 35.1061 49.5393 31.0203 52.0044 27.5347C53.3758 25.4914 55.1235 23.6885 57.0429 22.126Z" fill="none"></path>
-                            <path class="WhyChooseOneclick_squiggle__RhH_X" stroke="#2F3293" stroke-miterlimit="1" stroke-width="5" d="M140.677 27.4116C140.253 26.8107 139.618 26.2097 138.982 25.6087C137.76 24.4068 136.464 23.3248 135.782 22.3633C131.577 16.5941 126.607 9.62312 124.403 2.77214C124.154 2.05099 124.576 1.20964 125.345 0.969254C126.113 0.728867 126.939 1.08921 127.188 1.93056C129.303 8.42096 134.117 15.0323 138.152 20.6813C138.89 21.6428 140.452 22.9643 141.705 24.1662C142.767 25.2479 143.615 26.3299 143.922 27.4116C144.139 28.0126 143.898 29.0943 142.545 29.8155C140.627 30.777 135.3 31.6191 134.784 31.7393C129.561 32.9412 124.964 34.1429 121.666 38.7102C121.192 39.3112 120.274 39.4311 119.622 39.0705C118.969 38.5898 118.825 37.628 119.301 37.027C123.061 31.8587 128.208 30.1763 134.163 28.8542C134.543 28.8542 137.726 28.3734 139.939 27.6522C140.178 27.5321 140.442 27.5318 140.677 27.4116Z" fill="none"></path>
-                        </svg> -->
-
+                        </svg>
+                    </div> -->
                     </div>
-                    <div class="col-lg-6">
-                        <p>Enterprise Resource Planning (ERP) software offers a powerful solution
-                            for businesses seeking efficiency and agility. By integrating critical
-                            business functions into a single,
-                            centralized platform, ERP can transform your operations and drive growth.</p>
-                    </div>
-
-
                 </div>
-
                 <div class="row mt-20">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="benefits-wrapper">
@@ -188,9 +319,7 @@
                                         ERP streamlines operations and boosts efficiency.</p>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="benefits-wrapper">
@@ -199,19 +328,14 @@
                                     <span class="icon-wrapper focus-icon">
                                         <img src="<?php echo base_url(); ?>asset/images/erp-software/focus-icon-1.png"
                                             alt="focus-icon" class="benefit-icon">
-
                                     </span>
                                 </div>
                                 <div class="benefits-content">
                                     <h4>Automate & Focus</h4>
                                     <p>ERP automates repetitive tasks, freeing your team to focus on strategic thinking and innovation.</p>
                                 </div>
-
-
                             </div>
-
                         </div>
-
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="benefits-wrapper">
@@ -227,12 +351,8 @@
                                     <p>ERP provides a complete view of customer data,
                                         helping personalize service and boost satisfaction for business growth.</p>
                                 </div>
-
-
                             </div>
-
                         </div>
-
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="benefits-wrapper">
@@ -248,12 +368,8 @@
                                     <p>ERP systems are scalable, allowing you to easily add features
                                         and adapt as your business grows.</p>
                                 </div>
-
-
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -261,6 +377,106 @@
         </div>
     </section>
 
+    <section>
+        <div class="erp-solution-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-center">Why Choose <span class="grad-text">ERP Solutions from Cloudi5?</span></h2>
+                    </div>
+
+                    <div class="col-lg-7 mt-20">
+                        <div class="erp-solution-container">
+                            <div class="erp-solution-content">
+                                <p>
+                                    Take control of your business with Cloudi5's customizable and scalable ERP
+                                    Solution in Coimbatore, Offering real-time data and streamlined operations
+                                </p>
+                                <img src="<?php echo base_url(); ?>asset/images/erp-software/erp-solution-img.png"
+                                    alt="simplify-icon" class="erp-solutions-img">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mt-20">
+                        <div class="erp-solution-list-container">
+                            <ul id="erp-solution-animated-list">
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i
+                                                class="fi fi-rr-customize icon-1"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>Customization</h4>
+                                    </div>
+                                </li>
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i class="fi fi-rr-data-transfer icon-2"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>All-in-One Platform</h4>
+                                    </div>
+                                </li>
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i class="fi fi-rr-investment icon-3"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>Cost Effective</h4>
+                                    </div>
+                                </li>
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i class="fi fi-rr-scale icon-4"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>Scalability</h4>
+                                    </div>
+                                </li>
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i class="fi fi-rr-back-up icon-5"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>Data Visualization</h4>
+                                    </div>
+                                </li>
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i class="fi fi-rr-shield-check icon-6"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>Security</h4>
+                                    </div>
+                                </li>
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i class="fi fi-rr-graduation-cap icon-7"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>School ERP option</h4>
+                                    </div>
+                                </li>
+                                <li class="erp-content-wrapper">
+                                    <div class="erp-icon-sec">
+                                        <span> <i class="fi fi-rr-lightbulb-dollar icon-8"></i></span>
+                                    </div>
+                                    <div class="erp-content">
+                                        <h4>Paperless Solution</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
 
 
 
@@ -422,6 +638,42 @@
                     $(".content-area").not($contentArea).slideUp();
                     $contentArea.slideDown();
                 }
+            });
+        });
+
+        const progressCircle = document.querySelector(".erp-img-circle");
+        const stepImages = document.querySelectorAll(".step-image");
+        let currentStep = 1;
+
+        function updateProgress() {
+            stepImages.forEach((image) => {
+                image.classList.remove("active");
+            });
+            document.querySelector(`.step${currentStep}`).classList.add("active");
+        }
+
+        function advanceStep() {
+            currentStep++;
+            if (currentStep > 4) {
+                currentStep = 1;
+            }
+            updateProgress();
+        }
+
+        setInterval(advanceStep, 3000);
+
+        const tabs = document.querySelectorAll(".card-tab");
+        const contents = document.querySelectorAll(".tab-content");
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener("click", () => {
+                const targetId = tab.dataset.target;
+
+                tabs.forEach((t) => t.classList.remove("active"));
+                contents.forEach((c) => c.classList.remove("active"));
+
+                tab.classList.add("active");
+                document.getElementById(targetId).classList.add("active");
             });
         });
     </script>

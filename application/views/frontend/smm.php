@@ -343,7 +343,7 @@
                 </div>
                 <div class="social-media-card-wrapper">
                     <div class="social-wrapper-1">
-                        <div class="row ml-40">
+                        <div class="row ml-60">
                             <div class="col-lg-4 col-md-12">
                                 <div class="media-card-left">
                                     <img src="<?php echo base_url(); ?>asset/images/smm-page/facebook-social-img-1.png" alt="bg-pattern" class="social-media-img facebook-img" />
@@ -366,7 +366,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-60 ml-40">
+                        <div class="row mt-60 ml-60">
                             <div class="col-lg-6 col-md-12 col-sm-12">
                                 <div class="card-content-wrapper instagram-text">
                                     <div class="card-text-wrapper">
@@ -388,7 +388,7 @@
                             </div>
                         </div>
 
-                        <div class="row mt-60 ml-40">
+                        <div class="row mt-60 ml-60">
                             <div class="col-lg-4 col-md-12">
                                 <div class="media-card-left">
                                     <img src="<?php echo base_url(); ?>asset/images/smm-page/social-linked-in.png" alt="bg-pattern" class="social-media-img linked-in-img" />
@@ -411,7 +411,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-60 ml-40">
+                        <div class="row mt-60 ml-60">
                             <div class="col-lg-5 col-md-12 col-sm-12">
                                 <div class="card-content-wrapper twitter-text">
                                     <div class="card-text-wrapper">
@@ -433,7 +433,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-60 ml-40">
+                        <div class="row mt-60 ml-60">
                             <div class="col-lg-4 col-md-12">
                                 <div class="media-card-left">
                                     <img src="<?php echo base_url(); ?>asset/images/smm-page/social-youtube-img.png" alt="youtube-img" class="social-media-img youtube-img" />
@@ -490,9 +490,6 @@
                                 on what matters most - running your business - while ensuring your
                                 social media presence stays active and successful.</p>
                         </div>
-                        <!-- <div class="media-service-card-icon">
-                            <i class="fi fi-rr-arrow-small-right"></i>
-                        </div> -->
                         <div class="media-service-card-number">01</div>
                     </div>
                 </div>
