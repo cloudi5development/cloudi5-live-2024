@@ -262,6 +262,20 @@
 												<td class="selectAll">
 													
 												</td>
+											</tr><tr>
+												<th> Pages</th>
+												<td class="selectAll">
+													<input type="checkbox" class="checkbox" name="privilege[pages][add]" value="1">
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[pages][edit]" value="1">
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[pages][view]" value="1">
+												</td>
+												<td class="selectAll">
+													
+												</td>
 											</tr>
 											<tr>
 												<th>Site Settings</th>

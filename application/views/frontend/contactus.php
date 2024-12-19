@@ -179,9 +179,10 @@ $contact_setting = $this->db->from('settings')->get()->row();
                               <?php echo form_error('businessname', '<div class="error">', '</div>'); ?>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20 mb-0">
-                              <input type="number" class="form-input" id="phone" placeholder=" " name="contactphone" value="<?php echo set_value('contactphone'); ?>">
+                              <input type="number" class="form-input" id="phone" placeholder=" " name="contactphone" value="<?php echo set_value('your_phone'); ?>" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" /> 
                               <label for="phone" class="floating-label">Phone Number <span
                                     class="required"></span></label>
+                                   
                               <?php echo form_error('contactphone', '<div class="error">', '</div>'); ?>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 form-group mt-20 mb-0">

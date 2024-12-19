@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
-    <title>eCommerce Website Development Company in Coimbatore, India</title>
+
+<title><?php if ($meta) {
+                echo $meta->title ? $meta->title : "eCommerce Website Development Company in Coimbatore, India<";
+            } else {
+                echo "eCommerce Website Development Company in Coimbatore, India<";
+            } ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Cloudi5 is the best ecommerce website development company in Coimbatore, India. We develop customized multivendor eCommerce solutions for all size businesses.">
-    <meta name="keywords" content="eCommerce Website, ecommerce website development, multi vendor ecommerce site, Multivendor ecommerce platform, multivendor marketplace software">
+    <meta name="description" content="<?php echo $meta ? $meta->description : "Cloudi5 is the best ecommerce website development company in Coimbatore, India. We develop customized multivendor eCommerce solutions for all size businesses."; ?>">
+    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : " eCommerce Website, ecommerce website development, multi vendor ecommerce site, Multivendor ecommerce platform, multivendor marketplace software"; ?>">
+   
     <meta name="robots" content="index,follow" />
     <meta name="language" content="english" />
     <meta name="Expires" content="never" />

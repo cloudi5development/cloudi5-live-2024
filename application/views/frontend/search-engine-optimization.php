@@ -3,9 +3,18 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Top SEO Services in Coimbatore | Best SEO Company | Cloudi5</title>
-    <meta name="description" content="Boost your website's visibility with top-notch SEO services in Coimbatore from Cloudi5. Drive organic traffic, increase leads, and experience the difference!" />
-    <meta name="keywords" content="seo, search engine optimization, seo & marketing, seo services, seo digital marketing, seo company, seo agency, seo specialist, seo expert, seo company in coimbatore, seo service in coimbatore, seo agency in coimbatore" />
+    <title><?php if ($meta) {
+                echo $meta->title ? $meta->title : "Top SEO Services in Coimbatore | Best SEO Company | Cloudi5";
+            } else {
+                echo "Top SEO Services in Coimbatore | Best SEO Company | Cloudi5";
+            } ?></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<?php echo $meta ? $meta->description : "Boost your website's visibility with top-notch SEO services in Coimbatore from Cloudi5. Drive organic traffic, increase leads, and experience the difference!"; ?>">
+    <meta name="keywords" content="<?php echo $meta ? $meta->keyword : "seo, search engine optimization, seo & marketing, seo services, seo digital marketing, seo company, seo agency, seo specialist, seo expert, seo company in coimbatore, seo service in coimbatore, seo agency in coimbatore "; ?>">
+    
+
+   
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Top SEO Services in Coimbatore | Best SEO Company | Cloudi5" />
     <meta property="og:description"

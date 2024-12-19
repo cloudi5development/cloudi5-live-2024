@@ -19,7 +19,8 @@ class Meta_pages extends CI_Controller
     public function index()
     {
         $data['save_meta_tags']	    = base_url('settings/store_meta');
-		$data['pages']				= array('home','about_us','careers','web_design','web_development','android','digital_marketing','school_software','blog','contact_us', 'portfolio');
+		$data['pages']				= array('home','about_us','careers','web_design','web_development','android','digital_marketing','school_software','blog','contact_us','portfolio',
+       'our_clientale','write_for_us','flutter_app_development','ios_app_development','search_engine_optimization','multi_vendor_ecommerce');
 		$data['access']				= $this->access;
 		$this->page_data->show_data('Meta Tags','meta_pages/list',$data,'meta_pages','view');
     }

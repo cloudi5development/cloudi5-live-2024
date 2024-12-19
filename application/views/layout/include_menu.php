@@ -169,6 +169,16 @@
 			<li class="<?php if ($page_title == 'Users' || $page_title == 'Add User' || $page_title == 'Edit User') echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url();?>users/"><i class="icon-users2"></i><span data-i18n="nav.dash.main" class="menu-title">Users</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
 			</li>
+			<li class="<?php if ($page_title == 'Pages' || $page_title == 'Add Pages' || $page_title == 'Edit Pages') echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>Pages/"><i class="fa-solid fa-page"></i></i><span data-i18n="nav.dash.main" class="menu-title">Pages</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li>
+		<?php }
+			} 			
+			$clientAccess = json_decode($getpermission->teams, TRUE);
+			if(!empty($clientAccess)){
+				if (array_key_exists('view' , $clientAccess))
+				{ 
+		?>	
 		<?php }
 			}
 			$metaAccess = json_decode($getpermission->meta_pages, TRUE);
@@ -182,6 +192,8 @@
 		<?php }
 			} 	
 		?>
+		
+		
 		<?php
 			$profileAccess		= json_decode($getpermission->profile, TRUE);
 			$privilegeAccess	= json_decode($getpermission->privilege, TRUE);
@@ -225,6 +237,7 @@
 				?>
 				</ul>
 			</li>
+			
 		<?php 
 			}
 		?>
@@ -294,6 +307,9 @@
 			</li>
 			<li class="<?php if ($page_title == 'Meta Tags' ) echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url();?>meta_pages/"><i class="icon-move"></i><span data-i18n="nav.dash.main" class="menu-title">Mets Tags</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
+			</li>
+			<li class="<?php if ($page_title == 'pages' ) echo 'active'; ?> nav-item">
+				<a href="<?php echo base_url();?>pages/"> <i class="fa fa-file-alt"></i> <span data-i18n="nav.dash.main" class="menu-title">Pages</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>
 			</li>
 			<li class="<?php if ($page_title == 'Site Map' ) echo 'active'; ?> nav-item">
 				<a href="<?php echo base_url('settings/siteMapPage');?>"><i class="icon-sitemap"></i><span data-i18n="nav.dash.main" class="menu-title">Site Map</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2"></span></a>

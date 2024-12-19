@@ -8,7 +8,7 @@ class Clients_model extends MY_Model
 
 	public function getAll()
 	{
-		return $this->db->order_by('name', 'asc')->where('status', 'Active')->get($this->_table_name)->result();
+		return $this->db->order_by('id', 'asc')->where('status', 'Active')->get($this->_table_name)->result();
 	}
 
 
@@ -91,4 +91,19 @@ class Clients_model extends MY_Model
 		$this->_get_datatables_query();
 		return $this->db->count_all_results();
 	}
+	public function getAllTeams()
+  	{
+	
+		return $this->db->order_by('priority', 'asc')->where('status', '1')->get($this->_table_name)->result();
+  	}
+	  public function getLogo()
+    {
+		return $this->db
+					->order_by('priority', 'asc')
+					->where('is_show_in_home', '1')
+					->where('status', '1')
+					->get($this->_table_name)
+					->result();
+    }
+
 }

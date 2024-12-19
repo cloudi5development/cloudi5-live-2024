@@ -144,7 +144,6 @@ class Clients extends CI_Controller
 		}
 		
 		$this->Clients_model->update($data, $id);
-		;
 		$type = 'success';
 		$message = 'Data Updated Successfully';
 		set_message($type, $message);

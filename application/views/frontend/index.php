@@ -220,57 +220,15 @@
                </div>
             </div>
             <div class="row logos-list">
+            <?php foreach ($clients as $our_client) { ?>
                <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/mayflower.png" alt="mayflower"
-                     class="img-fluid client-img">
+                  
+                     <img src="<?php echo base_url() . $our_client->image; ?>" class="img-fluid" alt="<?php echo $our_client->image_alt_tag ?>">
+                           
                </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/bannari.png" alt="baps"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/missiva.png" alt="missiva"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/ecom-365.png" alt="ecom-365"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/vencar.png" alt="vencar"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/madhampatty.png" alt="madhampatty"
-                     class="img-fluid client-img">
-               </div>
+               <?php } ?>
             </div>
-            <div class="row logos-list">
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/susin.png" alt="susin"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/falcon.png" alt="falcon"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/maloos.png" alt="maloos"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/metro.png" alt="metro"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/hookz.png" alt="hookz"
-                     class="img-fluid client-img">
-               </div>
-               <div class="col-lg-2 col-sm-6 col-md-4">
-                  <img src="<?php echo base_url(); ?>asset/images/clients-logo/stanes.png" alt="stanes"
-                     class="img-fluid client-img">
-               </div>
-            </div>
+            
          </div>
       </section>
       <!-- clients-logo section end-->
@@ -563,6 +521,7 @@
                </div>
                <div class="col-lg-12 mt-50">
                   <div class="row" id="portfolio-grid">
+                     
                      <div class="col-md-6">
                         <a href="<?php echo base_url(); ?>portfolio-new-details">
                            <div class="portfolio-card-container">

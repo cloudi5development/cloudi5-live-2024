@@ -6,42 +6,12 @@
             </div>
             <div class="new-marquee">
                 <div class="new-marquee-content">
+                <?php foreach ($clients as $our_client) { ?>
                     <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/mayflower.png" alt="Client 1">
+
+                        <img src="<?php echo base_url() . $our_client->image; ?>"  alt="<?php echo $our_client->image_alt_tag ?>">
                     </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/baps.png" alt="Client 2">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/missiva.png" alt="Client 3">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/ecom-365.png" alt="Client 6">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/susin.png" alt="Client 5">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/falcon.png" alt="Client 7">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/vencar.png" alt="Client 8">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/hookz.png" alt="Client 4">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/maloos.png" alt="Client 9">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/metro.png" alt="Client 10">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/madhampatty.png" alt="Client 11">
-                    </div>
-                    <div class="new-marquee-item">
-                        <img src="<?php echo base_url(); ?>asset/images/clients/clients-new/stanes.png" alt="Client 12">
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
             <div class="new-clients-title-2">

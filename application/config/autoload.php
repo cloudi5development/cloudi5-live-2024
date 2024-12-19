@@ -153,5 +153,6 @@ $autoload['model'] = array(
 'Users_model',
 'Write_for_us_enquiry_model',
 'Teams_model',
-'Clients_model'
+'Clients_model',
+'Pages_model'
 );

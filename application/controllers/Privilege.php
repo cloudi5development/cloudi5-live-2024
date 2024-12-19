@@ -158,6 +158,11 @@ class Privilege extends CI_Controller
 			}else{
 				$data['meta_pages']	= '';
 			}
+			if(!empty($privilege['pages'])){
+				$data['pages']	= json_encode($privilege['pages']);
+			}else{
+				$data['pages']	= '';
+			}
 			if(!empty($privilege['settings'])){
 				$data['settings']	= json_encode($privilege['settings']);
 			}else{
@@ -268,6 +273,11 @@ class Privilege extends CI_Controller
 			$data['meta_pages']	= json_encode($privilege['meta_pages']);
 		}else{
 			$data['meta_pages']	= '';
+		}
+		if(!empty($privilege['pages'])){
+			$data['pages']	= json_encode($privilege['pages']);
+		}else{
+			$data['pages']	= '';
 		}
 		if(!empty($privilege['settings'])){
 			$data['settings']	= json_encode($privilege['settings']);

@@ -183,13 +183,21 @@ $footer_setting = $this->db->from('settings')->get()->row();
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <p>Copyright © <?php echo date("Y"); ?> Cloudi5 Technologies. All Rights Reserved.</p>
                 </div>
+           
                 <div class="col-lg-6 col-md-6 col-sm-6 text-right">
-                    <p>
-                        <a href="<?php echo base_url('terms'); ?>">Terms and Conditions</a> |
+             
+                    
+                     <p>
+                     <?php foreach ($pages as $footer_page) { ?>
+                        <!-- <a href="<?php echo base_url('terms'); ?>">Terms and Conditions</a> |
                         <a href="<?php echo base_url('privacy-policy'); ?>">Privacy Policy</a> |
-                        <a href="<?php echo base_url('cancellation-policy'); ?>">Cancellation Policy</a> | <a href="<?php echo base_url('refund-policy'); ?>">Refund Policy</a>
+                        <a href="<?php echo base_url('cancellation-policy'); ?>">Cancellation Policy</a> | 
+                        <a href="<?php echo base_url('refund-policy'); ?>">Refund Policy</a> -->
+                        <a href="<?php echo base_url($footer_page->slug); ?>"><?php echo $footer_page->title; ?></a>| 
+                        <?php } ?>
                     </p>
-                </div>
+
+            
             </div>
         </div>
     </div>

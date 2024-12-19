@@ -785,7 +785,7 @@
                      </div>
                      <div class="col-md-6 form-group">
                         <label for="phone_number" class="form-label">Phone Number<span class="required">*</span></label>
-                        <input type="text" class="form-control" id="number" name="number" placeholder=" " required>
+                        <input type="text" class="form-control" id="number" name="number" placeholder=" "value="<?php echo set_value('your_phone'); ?>" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)"   required/>
                      </div>
                   </div>
                   <div class="row">

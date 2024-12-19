@@ -13,8 +13,12 @@ class Frontend extends CI_Controller
 	{
 		$data['category']	= $this->Portfolio_model->getPortfolioCategory();
 		$data['portfolio']	= $this->Portfolio_model->getHomePortfolio();
+		$data['portfolios']	= $this->Portfolio_model->getAll();
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['meta']       = $this->db->select('*')->where('page', 'Home')->get('meta_tags')->row();
 		$data['settings']	= $this->settings;
+		$data['pages']	= $this->Pages_model->getFooter();
+		//print_r($data['pages']);die;
 		$data['page_title'] = 'Home';
 		$this->load->view('frontend/index',$data);
 	}
@@ -23,6 +27,8 @@ class Frontend extends CI_Controller
 	{
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'about_us')->get('meta_tags')->row();
+		$data['clients']	= $this->Clients_model->getLogo();
+		$data['teams']	= $this->Teams_model->getAllTeams();
 		$data['page_title'] = 'About US';
 		$this->load->view('frontend/aboutus',$data);
 	}
@@ -31,6 +37,7 @@ class Frontend extends CI_Controller
 	{
 		$data['category']	= $this->Portfolio_model->getPortfolioCategory();
 		$data['portfolio']	= $this->Portfolio_model->getHomePortfolio();
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['settings']	= $this->settings;
 		$data['meta']       = $this->db->select('*')->where('page', 'web_design')->get('meta_tags')->row();
 		$data['page_title'] = 'Web Design';
@@ -47,6 +54,7 @@ class Frontend extends CI_Controller
 	public function web_development_company_in_coimbatore()
 	{
 		$data['settings']	= $this->settings;
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['meta']       = $this->db->select('*')->where('page', 'web_development')->get('meta_tags')->row();
 		$data['page_title'] = 'Web Development';
 		$this->load->view('frontend/web-development-company-in-coimbatore',$data);
@@ -55,6 +63,7 @@ class Frontend extends CI_Controller
 	public function mobile_application_development_android_app()
 	{
 		$data['settings']	= $this->settings;
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['meta']       = $this->db->select('*')->where('page', 'android')->get('meta_tags')->row();
 		$data['page_title'] = 'Mobile App';
 		$this->load->view('frontend/mobile-app-development-company-in-coimbatore',$data);
@@ -63,6 +72,7 @@ class Frontend extends CI_Controller
 	public function digital_marketing_service()
 	{
 		$data['settings']	= $this->settings;
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['meta']       = $this->db->select('*')->where('page',	
         'digital_marketing')->get('meta_tags')->row();
 		$data['page_title'] = 'Digital Marketing';
@@ -105,6 +115,9 @@ class Frontend extends CI_Controller
 	public function ecommerce_website_development()
 	{
 		$data['settings']	= $this->settings;
+		$data['clients']	= $this->Clients_model->getLogo();
+		$data['meta']       = $this->db->select('*')->where('page', 'multi_vendor_ecommerce')->get('meta_tags')->row();
+
 		$data['page_title'] = 'Multi-vendor ecommerce website';
 		$this->load->view('frontend/ecommerce-website-development',$data);
 	}
@@ -125,6 +138,7 @@ class Frontend extends CI_Controller
 	{
 		$data['settings']	= $this->settings;
 		$data['page_title'] = 'Search Engine Optimization';
+		$data['meta']       = $this->db->select('*')->where('page', 'search_engine_optimization')->get('meta_tags')->row();
 		$this->load->view('frontend/search-engine-optimization',$data);
 	}
 	#SEM
@@ -217,6 +231,7 @@ class Frontend extends CI_Controller
 	public function privacy_policy()
 	{
 		$data['settings']	= $this->settings;
+		$data['pages']	= $this->Pages_model->getFooter();
 		$data['page_title'] = 'Privacy Policy';
 		$this->load->view('frontend/privacy-policy',$data);
 	}
@@ -225,6 +240,7 @@ class Frontend extends CI_Controller
 	public function terms()
 	{
 		$data['settings']	= $this->settings;
+		$data['pages']	= $this->Pages_model->getFooter();
 		$data['page_title'] = 'Terms and Conditions';
 		$this->load->view('frontend/terms',$data);
 	}
@@ -234,6 +250,7 @@ class Frontend extends CI_Controller
 	{
 		$data['settings']	= $this->settings;
 		$data['page_title'] = 'Cancellation Policy';
+		$data['pages']	= $this->Pages_model->getFooter();
 		$this->load->view('frontend/cancellation-policy',$data);
 	}
 
@@ -241,6 +258,7 @@ class Frontend extends CI_Controller
 	public function refund_policy()
 	{
 		$data['settings']	= $this->settings;
+		$data['pages']	= $this->Pages_model->getFooter();
 		$data['page_title'] = 'Refund Policy';
 		$this->load->view('frontend/refund-policy',$data);
 	}
@@ -790,6 +808,7 @@ class Frontend extends CI_Controller
 	public function write_for_us()
 	{
 		$data['settings']	= $this->settings;
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['meta']       = $this->db->select('*')->where('page', 'write_for_us')->get('meta_tags')->row();
 		$data['page_title'] = 'Write for Us';
 		$this->load->view('frontend/write-for-us',$data);
@@ -798,6 +817,7 @@ class Frontend extends CI_Controller
 	public function flutter_app_development()
 	{
 		$data['settings']	= $this->settings;
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['meta']       = $this->db->select('*')->where('page', 'flutter_app_development')->get('meta_tags')->row();
 		$data['page_title'] = 'Flutter Mobile Application';
 		$this->load->view('frontend/flutter-app-development-company-in-coimbatore',$data);
@@ -831,6 +851,7 @@ class Frontend extends CI_Controller
 	public function ios_app_development()
 	{
 		$data['settings']	= $this->settings;
+		$data['clients']	= $this->Clients_model->getLogo();
 		$data['meta']       = $this->db->select('*')->where('page', 'ios_app_development')->get('meta_tags')->row();
 		$data['page_title'] = 'IOS App development';
 		$this->load->view('frontend/ios-app-development-company-in-coimbatore',$data);
@@ -846,7 +867,8 @@ class Frontend extends CI_Controller
 	public function clients_logo()
 	{
 		$data['settings']	= $this->settings;
-		$data['meta']       = $this->db->select('*')->where('page', 'clients_logo')->get('meta_tags')->row();
+		$data['meta']       = $this->db->select('*')->where('page', 'our_clientale')->get('meta_tags')->row();
+		$data['clients']	= $this->Clients_model->getAllTeams();
 		$data['page_title'] = 'clients Logo';
 		$this->load->view('frontend/our-clientele',$data);
 	}

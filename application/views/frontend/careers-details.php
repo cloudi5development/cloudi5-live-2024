@@ -184,9 +184,9 @@
 														</div>
 													</div>
 												</div>
-												<div class="form-group">
+												<div class="form-group col-md-6">04
 													<label>Phone<span class="red-text">*</span></label>
-													<input type="text" name="mobile" class="required form-control" placeholder="Phone *" value="<?php echo set_value('mobile'); ?>"  oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" />
+													<input type="text" name="mobile" class="required form-control" placeholder="Phone *" value="<?php echo set_value('your_phone'); ?>" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" /> 
 													<div class="red-text">
 														<?php echo form_error('mobile'); ?>
 													</div>

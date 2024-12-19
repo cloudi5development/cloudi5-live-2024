@@ -1,14 +1,14 @@
 <?php
-class Teams_model extends MY_Model
+class Pages_model extends MY_Model
 {
 
-	public $_table_name 	= 'teams';
+	public $_table_name 	= 'pages';
 	public $_order_by 		= 'id';
 	public $_primary_key	= 'id';
 
 	public function getAll()
 	{
-		return $this->db->order_by('name', 'asc')->where('status', 'Active')->get($this->_table_name)->result();
+		return $this->db->order_by('id', 'asc')->where('is_active', '1')->get($this->_table_name)->result();
 	}
 
 
@@ -42,13 +42,13 @@ class Teams_model extends MY_Model
 
 
 
-	var $column_order = array(Null, 'name', 'department', 'designation', 'priority', 'status');
-	var $column_search = array('name', 'department', 'designation', 'priority', 'status');
+	var $column_order = array(Null, 'title', 'priority', 'is_active');
+	var $column_search = array('title', 'priority', 'is_active');
 	var $order = array('id' => 'ASC');
 
 	private function _get_datatables_query($filter = [])
 	{
-		$this->db->from('teams');
+		$this->db->from('pages');
 
 		$i = 0;
 		foreach ($this->column_search as $item) {
@@ -91,10 +91,15 @@ class Teams_model extends MY_Model
 		$this->_get_datatables_query();
 		return $this->db->count_all_results();
 	}
-	public function getAllTeams()
-  	{
-	
-		return $this->db->order_by('priority', 'asc')->where('status', '1')->get($this->_table_name)->result();
-  	}
-	
+    public function getFooter()
+    {
+		return $this->db
+					->order_by('priority', 'asc')
+					->where('show_in_footer', '1')
+					->where('is_active', '1')
+					->get($this->_table_name)
+					->result();
+    }
+
+
 }

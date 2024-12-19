@@ -96,7 +96,8 @@ class Settings extends CI_Controller
         #Save Meta Tags
     public function store_meta()
     {
-        $pages				= array('home','about_us','careers','web_design','web_development','android','digital_marketing','school_software','blog','contact_us', 'portfolio');
+        $pages				= array('home','about_us','careers','web_design','web_development','android','digital_marketing','school_software','blog','contact_us', 'portfolio',
+		'our_clientale','write_for_us','flutter_app_development','ios_app_development','search_engine_optimization','multi_vendor_ecommerce');
         
         foreach($pages as $page){
             $meta = $this->db->select('*')->from('meta_tags')->where('page',$page)->get()->row();

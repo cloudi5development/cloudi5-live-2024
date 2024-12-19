@@ -313,182 +313,31 @@
                         Websites and result-driven digital marketing experts.</h2>
                   </div>
                </div>
+              
                <div class="row">
+               <?php foreach ($teams as $our_team) { ?>
                   <div class="col-lg-3 col-md-6 zoom-effect-container">
+                
                      <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/manikandan-profile-cto.png"
-                           alt="Manikandan Profile" class="about-us-image">
+                        <!-- <img src="<?php echo base_url(); ?>asset/images/team/manikandan-profile-cto.png"
+                           alt="Manikandan Profile" class="about-us-image"> -->
+                           <img src="<?php echo base_url() . $our_team->image; ?>" class="about-us-image" alt="<?php echo $our_team->image_alt_tag ?>">
                         <div class="text-center ts-team-content">
-                           <h3 class="team-name">Manikandan K</h3>
-                           <p class="team-designation">Chief Technology Officer</p>
+                           <h3 class="team-name">
+                           <?php echo $our_team->name; ?></h3>
+                          
+                           <h4 class="team-department"><?php echo $our_team->department ?></h4>
+                           <p class="team-designation"><?php echo $our_team->designation; ?></p>
                         </div>
                      </div>
+                   
                   </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/aarthi-profile-coo.png"
-                           alt="Aarthi Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Aarthi R</h3>
-                           <p class="team-designation">Chief Operating Officer</p>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/balachandran-profile-team-head.png"
-                           alt="Bala Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Balachandran K </h3>
-                           <p class="team-designation">Team Head - Web Developer</p>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/karthikeyan-profile-php-developer.png"
-                           alt="Karthikeyan-s Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Karthikeyan S</h3>
-                           <p class="team-designation">Team Lead - Web Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/dhilip-profile-php-developer.png"
-                           alt="Dhilip Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Dhilipkumar M</h3>
-                           <p class="team-designation">Web Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/shreeram-profile-php-developer.png"
-                           alt="Shreeram Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Shreeram V</h3>
-                           <p class="team-designation">Web Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/venkatesh-profile-php-developer.png"
-                           alt="Venkatesh Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Venkatesh Krishna E</h3>
-                           <p class="team-designation">Web Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/karthik-profile-php-developer.png"
-                           alt="karthik Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Karthik K</h3>
-                           <p class="team-designation">Web Developer</p>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/gowri-profile-ios-developer.png"
-                           alt="Gowri Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Gowrisankari M</h3>
-                           <p class="team-designation">iOS Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/nijith-profile-android-developer.png"
-                           alt="Nigith Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Nigith Pastine K</h3>
-                           <p class="team-designation">Android Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/uma-profile-app-developer.png"
-                           alt="Uma Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Uma Nanthini N</h3>
-                           <p class="team-designation">App Developer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/madhu-profile-web-designer.png"
-                           alt="Senior Webdesigner Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Madhumitha K</h3>
-                           <p class="team-designation">Team Lead - Web Designer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/rashika-profile-web-designer.png"
-                           alt="Rashika Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Rashika K V</h3>
-                           <p class="team-designation">Web Designer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/arunkumar-profile-web-designer.png"
-                           alt="Arunkumar Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Arunkumar P</h3>
-                           <p class="team-designation">Web Designer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/sangeetha-profile-web-designer.png"
-                           alt="Sangeetha Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Sangeetha R</h3>
-                           <p class="team-designation">Web Designer</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/ramya-profile-digital-marketing.png"
-                           alt="Ramya Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Ramya G</h3>
-                           <p class="team-designation">Team Lead - Digital Marketing</p>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 zoom-effect-container">
-                     <div class="image-card">
-                        <img src="<?php echo base_url(); ?>asset/images/team/santhosh-digital-marketing.png"
-                           alt="Santhosh Profile" class="about-us-image">
-                        <div class="text-center ts-team-content">
-                           <h3 class="team-name">Santhosh B</h3>
-                           <p class="team-designation">Digital Marketing Executive</p>
-                        </div>
-                     </div>
-                  </div>
+                
+                  <?php } ?>
+                
+         
                </div>
+              
             </div>
          </div>
          <!-- Cloudi5 Team End -->

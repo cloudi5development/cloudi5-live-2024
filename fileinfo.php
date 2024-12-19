@@ -1,3 +1,20 @@
+/********** 19-12-2024************** */
+CREATE TABLE `cloudi5_website`.`pages` (
+ `id` BIGINT(20) NOT NULL AUTO_INCREMENT , `title` VARCHAR(191) NOT NULL , 
+`slug` VARCHAR(191) NOT NULL , `content` LONGTEXT NULL DEFAULT NULL , `priority` INT(11) NOT NULL DEFAULT '1' , 
+`show_in_footer` INT(11) NOT NULL DEFAULT '0' , `meta_title` VARCHAR(70) NULL DEFAULT NULL ,
+`meta_keyword` TEXT NULL DEFAULT NULL , `meta_desc` TEXT NULL DEFAULT NULL ,
+`is_active` TINYINT(3) NOT NULL DEFAULT '1' , `created_at` TIMESTAMP NULL DEFAULT NULL , 
+`updated_at` TIMESTAMP NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+/********** 19-12-2024************** */
+
+ALTER TABLE `user_privilege` ADD `pages` VARCHAR(150) NULL DEFAULT NULL AFTER `meta_pages`;
+
+/********** 18-12-2024************** */
+
+ALTER TABLE `meta_tags` CHANGE `page` `page` VARCHAR(190) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;
+
 /********** 16-12-2024************** */
 
 ALTER TABLE `user_privilege` ADD `clients` VARCHAR(255) NULL DEFAULT NULL AFTER `teams`;

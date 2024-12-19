@@ -2,12 +2,14 @@
 <html lang="en-US">
 
 <head>
-
-    <title><?php if ($meta) {
-      echo $meta->title ? $meta->title : "iOS App Development Company in Coimbatore";
-   } else {
-      echo "iOS App Development Company in Coimbatore";
-   } ?></title>
+    <title>
+        <?php if ($meta) {
+                echo $meta->title ? $meta->title : "iOS App Development Company in Coimbatore";
+            } else {
+                echo "iOS App Development Company in Coimbatore";
+            } 
+        ?>
+   </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"

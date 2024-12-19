@@ -71,6 +71,7 @@
 											$rights_privilege		= json_decode($edit_data->privilege, TRUE);
 											$rights_subscribe		= json_decode($edit_data->subscribe, TRUE);
 											$rights_meta_pages		= json_decode($edit_data->meta_pages, TRUE);
+											$rights_pages		= json_decode($edit_data->pages, TRUE);
 											$rights_settings		= json_decode($edit_data->settings, TRUE);
 											?>
 											
@@ -283,6 +284,21 @@
 												</td>
 												<td class="selectAll">
 													<input class="checkbox" type="checkbox" name="privilege[meta_pages][view]" value="1" <?php if(!empty($rights_meta_pages['view'])){ if($rights_meta_pages['view']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													
+												</td>
+											</tr>
+											<tr>
+												<th>Pages</th>
+												<td class="selectAll">
+													<input type="checkbox" class="checkbox" name="privilege[pages][add]" value="1" <?php if(!empty($rights_pages['add'])){ if($rights_pages['add']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[pages][edit]" value="1" <?php if(!empty($rights_pages['edit'])){ if($rights_pages['edit']==1) echo 'checked'; } ?>>
+												</td>
+												<td class="selectAll">
+													<input class="checkbox" type="checkbox" name="privilege[pages][view]" value="1" <?php if(!empty($rights_pages['view'])){ if($rights_pages['view']==1) echo 'checked'; } ?>>
 												</td>
 												<td class="selectAll">
 													

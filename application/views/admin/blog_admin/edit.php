@@ -152,12 +152,89 @@
 </div>
 <!-- JS Content Start -->
 <?php $this->load->view('layout/common_js'); ?>
-<script src="//cdn.ckeditor.com/4.10.1/standard/ckeditor.js"></script>
-<script type="text/javascript">	
-$(document).ready(function(){
-	CKEDITOR.replace('description'); 
-});
+<script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/super-build/ckeditor.js"></script>
 
+<script>
+$(document).ready(function() {
+    CKEDITOR.ClassicEditor.create(document.getElementById("description"), {
+        toolbar: {
+            items: [
+                'bold', 'italic', 'strikethrough', 'underline', 'subscript', 'superscript', '|',
+                'bulletedList', 'numberedList', 'todoList', '|',
+                'outdent', 'indent', '|',
+                'undo', 'redo', 'fontColor', 'fontBackgroundColor', '|',
+                'alignment', '|',
+                'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'htmlEmbed', '|',
+                'specialCharacters', 'horizontalLine', 'pageBreak', '|'
+            ],
+            shouldNotGroupWhenFull: true
+        },
+        list: {
+            properties: {
+                styles: true,
+                startIndex: true,
+                reversed: true
+            }
+        },
+        placeholder: 'Enter Description',
+        htmlSupport: {
+            allow: [{
+                name: /.*/,
+                attributes: true,
+                classes: true,
+                styles: true
+            }]
+        },
+        htmlEmbed: {
+            showPreviews: true
+        },
+        link: {
+            decorators: {
+                addTargetToExternalLinks: true,
+                defaultProtocol: 'https://',
+                toggleDownloadable: {
+                    mode: 'manual',
+                    label: 'Downloadable',
+                    attributes: {
+                        download: 'file'
+                    }
+                }
+            }
+        },
+        mention: {
+            feeds: [{
+                marker: '@',
+                feed: [
+                    '@apple', '@bears', '@brownie', '@cake', '@cake', '@candy',
+                    '@canes', '@chocolate', '@cookie', '@cotton', '@cream',
+                    '@cupcake', '@danish', '@donut', '@dragée', '@fruitcake',
+                    '@gingerbread', '@gummi', '@ice', '@jelly-o',
+                    '@liquorice', '@macaroon', '@marzipan', '@oat', '@pie', '@plum',
+                    '@pudding', '@sesame', '@snaps', '@soufflé',
+                    '@sugar', '@sweet', '@topping', '@wafer'
+                ],
+                minimumCharacters: 1
+            }]
+        },
+        removePlugins: [
+            'CKBox',
+            'CKFinder',
+            'EasyImage',
+            'RealTimeCollaborativeComments',
+            'RealTimeCollaborativeTrackChanges',
+            'RealTimeCollaborativeRevisionHistory',
+            'PresenceList',
+            'Comments',
+            'TrackChanges',
+            'TrackChangesData',
+            'RevisionHistory',
+            'Pagination',
+            'WProofreader',
+            'MathType'
+        ]
+    });
+});
+</script>
 
 </script>
 <!-- JS Content End -->
